@@ -19,11 +19,13 @@ public class PopUpManager : MonoBehaviour
     [SerializeField]
     private PostPopup popupPrefab;
     [SerializeField]
-    private Transform parent;
+    private Transform feedParent;
+    [SerializeField]
+    private Transform popupParent;
     [SerializeField]
     private ScrollRect scrollRect;
     [SerializeField]
-    private ReadPopup readPopup;
+    private ChatPopup chatPopup;
     [SerializeField]
     private VerticalLayoutGroup layoutGroup;
     [SerializeField]
@@ -31,8 +33,16 @@ public class PopUpManager : MonoBehaviour
     private QuestionPhase phase;
     private PostData currentPostPopupData;
 
+    [SerializeField]
+    private Dictionary<string, ChatPopup> chatPopUpDic;
+    [SerializeField]
+    private Dictionary<string, BasePopUp> popUpDic;
+
+    [SerializeField]
+    private List<BasePopUp> allPopUpList;
     public QuestionPhase Phase => phase;
     public  PostData CurrentPostPopupData => currentPostPopupData;
+    public ChatDataDetail currentChatData;
 
     public void SetPhase(QuestionPhase phase)
     {
@@ -41,16 +51,23 @@ public class PopUpManager : MonoBehaviour
 
     public void Awake()
     {
+        chatPopUpDic = new Dictionary<string, ChatPopup>();
+        popUpDic = new Dictionary<string, BasePopUp>();
         data = new FeedData();
-        var jsonTextFile = Resources.Load<TextAsset>("Feed/Class1");
-        print(jsonTextFile);
-        data = JsonUtility.FromJson<FeedData>(jsonTextFile.ToString());
+        data = JsonUtility.FromJson<FeedData>(ReadFile("Feed/Class1").ToString());
+        OpenChat("Route1/story1-14");
     }
+
+    public TextAsset ReadFile(string fileName)
+    {
+        return Resources.Load<TextAsset>("Feed/Class1");
+    }
+
     private void Start()
     {
         foreach (var postData in data.PostData)
         {
-            var popup = Instantiate(popupPrefab, parent);
+            var popup = Instantiate(popupPrefab, feedParent);
             popup.gameObject.SetActive(true);
             popup.Initialized(postData, this);
         }
@@ -75,18 +92,63 @@ public class PopUpManager : MonoBehaviour
         }
     }
 
+    public void OpenChat(string path)
+    {
+        ChatData newData = ReadChatData($"Feed/Story1/{path}");
+        string id = newData.ID;
+        if (chatPopUpDic.ContainsKey(id))
+        {
+            foreach(BasePopUp popUp in chatPopUpDic.Values)
+            {
+                popUp.gameObject.SetActive(false);
+            }
+
+            chatPopUpDic[id].gameObject.SetActive(true);
+            StartCoroutine(chatPopUpDic[id].ShowChat(newData));
+
+        }
+        else
+        {
+            ChatPopup popup = Instantiate(chatPopup, popupParent);
+            popup.SetManager(this);
+            popup.gameObject.SetActive(true);
+            chatPopUpDic[id] = popup;
+            popUpDic[id] = popup;
+            StartCoroutine(popup.ShowChat(newData));
+        }
+    }
+
+    public ChatData ReadChatData(string path)
+    {
+        ChatData data = new ChatData();
+        print(path);
+        var jsonTextFile = Resources.Load<TextAsset>(path);
+
+        return data = JsonUtility.FromJson<ChatData>(jsonTextFile.ToString());
+
+        //StartCoroutine(ShowChat());
+
+    }
+
     public void click()
     {
-        readPopup.gameObject.SetActive(true);
-        readPopup.Initialized(currentPostPopupData,this);
-        StartCoroutine(CountToStartQuestion());
+        /* if ()
+             ChatPopup popup = Instantiate<chatPopup,>();*/
+        OpenChat(currentPostPopupData.TaskType);
+        //chatPopup.gameObject.SetActive(true);
+        //chatPopup.ReadData(currentPostPopupData.TaskType);
+        //chatPopup.Initialized(currentPostPopupData,this);
+        //StartCoroutine(CountToStartQuestion());
+
+        
+
         //currentPostPopupData.IsTask = false;
     }
     public void Confirm()
     {
         currentPostPopupData.IsTask = false;
         question.gameObject.SetActive(false);
-        readPopup.gameObject.SetActive(false);
+        chatPopup.gameObject.SetActive(false);
     }
 
     private IEnumerator CountToStartQuestion()
@@ -101,6 +163,42 @@ public class PopUpManager : MonoBehaviour
         layoutGroup.enabled = false;
         yield return new WaitForEndOfFrame();
         layoutGroup.enabled = true;
+    }
+
+    public BasePopUp FindPopup(string id)
+    {
+        foreach(var popUp in allPopUpList)
+        {
+            if(id == popUp.ID)
+            {
+                return popUp;
+            }
+        }
+
+        return null;
+    }
+
+    public void CreatePopup(string id)
+    {
+        if (chatPopUpDic.ContainsKey(id))
+        {
+            foreach (BasePopUp popUp in popUpDic.Values)
+            {
+                popUp.gameObject.SetActive(false);
+            }
+
+            popUpDic[id].gameObject.SetActive(true);
+
+        }
+        else
+        {
+            print(id);
+            print(FindPopup(id).ID+"");
+            BasePopUp popup = Instantiate(FindPopup(id), popupParent);
+            popup.SetManager(this);
+            popup.gameObject.SetActive(true);
+            popUpDic[id] = popup;
+        }
     }
 
 }

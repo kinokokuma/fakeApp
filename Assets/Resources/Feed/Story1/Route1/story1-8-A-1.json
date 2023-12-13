@@ -1,0 +1,33 @@
+{
+    
+    "ID": "chat-04",
+    "ChatName": "ซี",
+    "Icon": [
+        "Image/Story1/profileC"
+    ],
+    "DataDetail": [
+        
+        {
+            "ID": "chat-04",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "โอนแล้วนะ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "ซี",
+            "Icon": "Image/Story1/profileC",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "โอเคๆเดี๋ยวเราคอยเช็คของให้นะ",
+            "PostImage": "",
+            "LinkToPageName": "Route1/story1-9",
+            "LinkType": "chat",
+            "FileName": "Route1/story1-9"
+        }
+    ]
+}

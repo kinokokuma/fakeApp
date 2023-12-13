@@ -1,0 +1,90 @@
+{
+    "ID" : "chat-01",
+    "ChatName":"แก๊งเด็กหลังห้อง นัดเทียว",
+    "Icon":[
+        "Image/Story1/profileJ",
+        "Image/Story1/profileP"
+    ],
+    "DataDetail" :[
+    {
+        "ID" : "chat-01",
+       "OnwerName" : "จอม",
+       "Icon" : "Image/Story1/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 3,
+       "Content" : "หยุดยาวนี้ไปเที่ยวกันไหม",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "ภู",
+       "Icon" : "Image/Story1/profileP",
+       "ChatType" : "Normal",
+       "DelayTime" : 3,
+       "Content" : " ที่ไหนหยุดยาวนี้ไปเที่ยวกัน\nไหมที่ไหนหยุดยาวนี้ไปเที่ยวกันไหมที่ไหนหยุดยาวนี้ไปเที่ยวกันไหมที่ไหนหยุดยาวนี้ไปเที่ยวกันไหมที่ไหนหยุดยาวนี้ไปเที่ยวกันไหมที่ไหนหยุดยาวนี้ไปเที่ยวกันไหมที่ไหนหยุดยาวนี้ไปเที่ยวกันไหม ที่ไหน หยุดยาวนี้ไปเที่ยวกันไหม ที่ไหน หยุดยาวนี้ไปเที่ยวกันไหม ที่ไหน หยุดยาวนี้ไปเที่ยวกันไหม ที่ไหน หยุดยาวนี้ไปเที่ยวกันไหม ที่ไหน หยุดยาวนี้ไปเที่ยวกันไหม ที่ไหน หยุดยาวนี้ไปเที่ยวกันไหม ที่ไหน หยุดยาวนี้ไปเที่ยวกันไหม",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "ภู",
+       "Icon" : "Image/Story1/profileP",
+       "ChatType" : "Normal",
+       "DelayTime" : 3,
+       "Content" : "ที่ไหน",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "จอม",
+       "Icon" : "Image/Story1/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 3,
+       "Content" : "ยังไม่รู้หาเพื่อน มาถามก่อนว่ามีใครไปไหม",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "ภู",
+       "Icon" : "Image/Story1/profileP",
+       "ChatType" : "Normal",
+       "DelayTime" : 3,
+       "Content" : "เรื่องเที่ยวต้องถามคนนี้เลย {Player} ไปไหนดี",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+        "OnwerName" : "my",
+        "Icon" : "",
+        "ChatType" : "Normal",
+        "DelayTime" : 2,
+        "Content" : "ไป{0}ไหม",
+        "Choice" : [
+            {   "ID" : "001",
+                "Path": "เขาใหญ่",
+                "LinkType": "chat",
+                "FileName": "Route1/story1-2"
+            },
+            {   "ID" : "001",
+                "Path": "เกาะล้าน",
+                "LinkType": "chat",
+                "FileName": "Route1/story1-2"
+            },
+            {   "ID" : "001",
+                "Path": "กาญจนบุรี",
+                "LinkType": "chat",
+                "FileName": "Route1/story1-2"
+            }
+        ],
+        "PostImage" : "",
+
+        "LinkToPageName" : "Route1/story1-2",
+        "LinkType": "",
+        "FileName": ""
+    }
+    ]
+}

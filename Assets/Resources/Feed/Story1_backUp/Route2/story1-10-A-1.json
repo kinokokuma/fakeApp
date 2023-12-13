@@ -1,0 +1,36 @@
+{
+    "DataDetail" :[
+    {
+       "ID" : "chat-02",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ของดูรุปสินค้าหน่อยค่ะ ช่วยชูสองนิ้วคู่กับกระเป๋าด้วยค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-02",
+       "OnwerName" : "BAGSHOP",
+       "Icon" : "Image/Story1/Bagshop",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ลูกค้าครับ5555 ได้ครับ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-02",
+       "OnwerName" : "BAGSHOP",
+       "Icon" : "Image/Story1/Bagshop",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "",
+       "PostImage" : "Image/Story1/showbag",
+       "LinkToPageName" : "",
+       "LinkType": "chat",
+       "FileName": "Route2/story1-11-A"
+   }
+    ]
+}

@@ -59,12 +59,16 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\Script\Core\BasePopUp.cs" />
+    <Compile Include="Assets\Script\Core\ImageManager.cs" />
+    <Compile Include="Assets\Script\ChatObject\ChatObjectBase.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Script\Core\TimeRecord.cs" />
+    <Compile Include="Assets\Script\PopUp\ChatPopup.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\Script\Core\MonoSingleton.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Script\ChatObject\ChatChoice.cs" />
     <Compile Include="Assets\Script\PopUp\PostPopup.cs" />
     <Compile Include="Assets\Script\PopUp\ReadPopup.cs" />
     <Compile Include="Assets\Script\Core\PopUpManager.cs" />
@@ -81,8 +85,10 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\Script\PopUp\S1\BagWebPopup.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Script\PopUp\CommentPopUp.cs" />
+    <Compile Include="Assets\Script\ChatObject\ChatNormal.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
@@ -94,9 +100,17 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Script\LevelOfConfidentButton.cs" />
+    <Compile Include="Assets\Script\Core\ChatData.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\Script\Core\ChatData.cs" />
+    <Compile Include="Assets\Script\PopUp\S1\Group1Popup.cs" />
+    <Compile Include="Assets\Script\PopUp\S1\Group2Popup.cs" />
+    <Compile Include="Assets\Script\PopUp\S1\bank1Popup.cs" />
+    <Compile Include="Assets\Script\PopUp\S1\Bank2Popup.cs" />
+    <Compile Include="Assets\Script\PopUp\S1\Group4Popup.cs" />
+    <Compile Include="Assets\Script\PopUp\S1\Group5Popup.cs" />
+    <Compile Include="Assets\Script\PopUp\S1\Page1Popup.cs" />
+    <Compile Include="Assets\Script\PopUp\S1\FakePosePopup.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

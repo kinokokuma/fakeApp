@@ -91,13 +91,11 @@ public class PostPopup : BasePopUp
 
         if (click != null)
         {
-            print("yyyy");
             click.onClick.AddListener(json.click);
         }
 
         StartCoroutine(json.UpdateLayoutGroup());
         StartCoroutine(UpdateLayoutGroup(layout, 2));
-        print(postData);
     }
 
     public void ShowAllText(GameObject button)

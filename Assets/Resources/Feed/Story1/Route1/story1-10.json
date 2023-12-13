@@ -1,0 +1,44 @@
+{"ID": "chat-03",
+"ChatName": "ForyoBag",
+"Icon": [
+    "Image/Story1/ForYouBAG"
+],
+    "DataDetail": [
+        {
+            "ID": "chat-03",
+            "OnwerName": "ForyouBAG",
+            "Icon": "Image/Story1/ForYouBAG",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "5000 ครับ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-03",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 0,
+            "Content": "",
+            "Choice": [
+                {
+                    "ID": "001",
+                    "Path": "BAGSHOP 5900",
+                    "LinkType": "chat",
+                    "FileName": "Route1/story1-10-A"
+                },
+                {
+                    "ID": "001",
+                    "Path": "ForyouBAG 5000",
+                    "LinkType": "chat",
+                    "FileName": "Route1/story1-10-B"
+                }
+            ],
+            "PostImage": "",
+            "LinkToPageName": "",
+            "LinkType": "",
+            "FileName": ""
+        }
+    ]
+}

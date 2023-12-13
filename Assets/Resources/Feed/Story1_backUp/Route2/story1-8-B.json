@@ -1,0 +1,86 @@
+{
+    "DataDetail" :[
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "มันเป็นชื่อบัญชีบุคคล โดนหลอกรึเปล่า",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "แต่เป็นเอกสารของกรมศุลนะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เราว่าเดี๋ยวเราไปดูที่กรมศุลดีกว่า",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เธอไม่โอนล่ะมันง่ายกว่านะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ไม่เป็นไร",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ไปดูว่าเขาคิดเงินที่เก็บเราถูกไหม",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เราว่ามันแพงเกิน",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "โอเคๆ",
+       "PostImage" : "",
+       "LinkToPageName" : "Route2/story1-9",
+       "LinkType": "chat",
+       "FileName": "Route2/story1-9"
+   }
+    ]
+}

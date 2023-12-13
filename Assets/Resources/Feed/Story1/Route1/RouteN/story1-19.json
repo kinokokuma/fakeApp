@@ -1,0 +1,40 @@
+{"ID": "chat-01",
+"ChatName": "แก๊งเด็กหลังห้อง นัดเทียว",
+"Icon": [
+    "Image/Story1/profileJ",
+    "Image/Story1/profileP"
+],
+    "DataDetail": [
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 2,
+            "Content": "ไม่ได้โอน {0}",
+            "Choice": [
+                {
+                    "ID": "001",
+                    "Path": "ลายน้ำในภาพไม่ใช่ชื่อร้าน",
+                    "LinkType": "chat",
+                "FileName": "Route1/RouteN/story1-19-1"
+                },
+                {
+                    "ID": "001",
+                    "Path": "แม่ค้าเร่งให้ซื้อเลยรำคาญ",
+                    "LinkType": "chat",
+                    "FileName": "Route1/RouteN/story1-19-1"
+                },
+                {
+                    "ID": "001",
+                    "Path": "ราคาแพง"
+                    ,"LinkType": "chat",
+                    "FileName": "Route1/RouteN/story1-19-1"
+                }
+            ],
+            "PostImage": "",
+            "LinkToPageName": ""
+        }
+       
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "DataDetail" :[
+    {
+       "ID" : "chat-05",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "รับค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : "Route2/RouteN/story1-15-2",
+       "LinkType": "bank",
+       "FileName": "bank-1"
+   }
+    ]
+}

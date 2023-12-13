@@ -8,11 +8,10 @@ using UnityEngine.UI;
 
 public class TimeRecord : MonoSingleton<TimeRecord>
 {
-    private string csv_name = "Observer_";
+    private string csv_name = "Story1_";
     private int taskNumber = 1;
     private string id = "1";
     private List<string[]> rowData = new List<string[]>();
-    private string testType = "PreTest";
 
     public PopUpManager manager;
 
@@ -47,14 +46,12 @@ public class TimeRecord : MonoSingleton<TimeRecord>
         List<string[]> rowData = new List<string[]>();
 
         // Creating First row of titles manually..
-        string[] rowDataTemp = new string[9];
+        string[] rowDataTemp = new string[5];
         rowDataTemp[0] = "Date";
-        rowDataTemp[1] = "TimeFromStart";
-        rowDataTemp[2] = "TaskNumber";
-        rowDataTemp[3] = "PostID";
-        rowDataTemp[4] = "ClickTarget";
-        rowDataTemp[5] = "QuestionType";
-        rowDataTemp[6] = "TestType";
+        rowDataTemp[1] = "TimeFromStartQuestTion";
+        rowDataTemp[2] = "ID";
+        rowDataTemp[3] = "AnsTime";
+        rowDataTemp[4] = "Ans";
         rowData.Add(rowDataTemp);
 
         string[][] output = new string[rowData.Count][];
@@ -81,9 +78,9 @@ public class TimeRecord : MonoSingleton<TimeRecord>
 
     }
 
-    private string[] rowDataTemp = new string[7];
+    private string[] rowDataTemp = new string[5];
 
-    public void SaveRecord(string clickTarget)
+    public void SaveRecord(string ID, string Ans, float startTime)
     {
         rowData = new List<string[]>();
 
@@ -93,12 +90,10 @@ public class TimeRecord : MonoSingleton<TimeRecord>
         long unixTime = ((DateTimeOffset)serverTime).ToUnixTimeMilliseconds();
 
         rowDataTemp[0] = unixTime.ToString();
-        rowDataTemp[1] = Time.time.ToString();
-        rowDataTemp[2] = taskNumber.ToString();
-        rowDataTemp[3] = manager.CurrentPostPopupData.ID;
-        rowDataTemp[4] = clickTarget;
-        rowDataTemp[5] = manager.Phase.ToString();
-        rowDataTemp[6] = testType;
+        rowDataTemp[1] = startTime.ToString();
+        rowDataTemp[2] = ID.ToString();
+        rowDataTemp[3] = (Time.time - startTime).ToString();
+        rowDataTemp[4] = Ans;
         rowData.Add(rowDataTemp);
 
         string[][] output = new string[rowData.Count][];
@@ -125,7 +120,10 @@ public class TimeRecord : MonoSingleton<TimeRecord>
 
     }
 
-
+    void Update()
+    {
+      
+    }
 
 
     // Following method is used to retrive the relative path as device platform
