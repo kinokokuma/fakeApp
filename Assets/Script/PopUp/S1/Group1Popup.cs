@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,10 +10,22 @@ public class Group1Popup : BasePopUp
     [SerializeField]
     private Button button;
     private int index = 0;
+    private float startTime;
 
     void Start()
     {
-        button.onClick.AddListener(() => Page1.SetActive(true));
+        startTime = Time.time;
+        button.onClick.AddListener(() => {
+            Page1.SetActive(true);
+            TimeRecord.Instance.SaveRecord("Group-1", "กดเพื่อโพสต์", startTime);
+            startTime = Time.time;
+        }
+        );
+    }
+
+    public void saveChoiceRecord(string comment)
+    {
+        TimeRecord.Instance.SaveRecord("Group-1", comment, startTime);
     }
 
     public void ShowPose(GameObject pose)

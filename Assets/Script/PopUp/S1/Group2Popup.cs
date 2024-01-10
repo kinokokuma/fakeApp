@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,7 +8,7 @@ public class Group2Popup : BasePopUp
     public GameObject comment;
     public GameObject page1;
     public GameObject go;
-
+    private float startTime;
     void Start()
     {
         StartCoroutine(Run(comment));
@@ -17,6 +17,7 @@ public class Group2Popup : BasePopUp
     private IEnumerator Run(GameObject obj)
     {
         yield return new WaitForSeconds(5);
+        startTime = Time.time;
         obj.SetActive(true);
     }
 
@@ -26,9 +27,15 @@ public class Group2Popup : BasePopUp
         StartCoroutine(Run(go));
     }
 
+    public void save(string comment)
+    {
+        TimeRecord.Instance.SaveRecord("group-2", comment, startTime);
+    }
+
     public void chatClick1()
     {
         manager.OpenChat(name);
         gameObject.SetActive(false);
+
     }
 }

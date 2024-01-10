@@ -27,37 +27,27 @@
             "PostImage": "",
             "LinkToPageName": ""
         },
+
         {
-            "ID": "chat-01",
-            "OnwerName": "ภู",
-            "Icon": "Image/Story1/profileP",
-            "ChatType": "Normal",
-            "DelayTime" : 3,
-            "Content": "",
-            "PostImage": "Image/Story1/LinkBagGroup",
-            "LinkToPageName": ""
-        },
-        {
-            "ID": "chat-01",
-            "OnwerName": "ภู",
-            "Icon": "Image/Story1/profileP",
-            "ChatType": "Normal",
-            "DelayTime" : 3,
-            "Content": "กลุ่มรวมคนขายกระเป๋า",
-            "PostImage": "",
-            "LinkToPageName": ""
-        },
-        {
-            "ID": "chat-01",
-            "OnwerName": "my",
-            "Icon": "",
-            "ChatType": "Normal",
-            "DelayTime" : 3,
-            "Content": "ขอบใจนะ",
-            "PostImage": "",
-            "LinkToPageName": "facebook group bag",
-            "LinkType": "group",
-            "FileName": "group-1"
-        }
+            "ID" : "chat-01",
+           "OnwerName" : "ภู",
+           "Icon" : "Image/Story1/profileP",
+           "ChatType" : "Normal",
+           "DelayTime" : 1,
+           "Content" : "กลุ่มรวมคนขายกระเป๋า",
+           "PostImage" : "",
+           "LinkToPageName" : ""
+       },
+       {
+        "ID" : "chat-01",
+       "OnwerName" : "ภู",
+       "Icon" : "Image/Story1/profileP",
+       "ChatType" : "Button",
+       "DelayTime" : 1,
+       "Content" : "",
+       "PostImage" : "Image/Story1/LinkBagGroup",
+       "LinkType": "group",
+       "FileName": "group-1"
+    }
     ]
 }

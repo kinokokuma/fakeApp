@@ -449,6 +449,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5359204422703629362}
+        m_TargetAssemblyTypeName: Group2Popup, Assembly-CSharp
+        m_MethodName: save
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\u0E41\u0E0A\u0E17\u0E01\u0E31\u0E1A\u0E23\u0E49\u0E32\u0E19\u0E17\u0E35\u0E481"
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &592304589314242306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,6 +1080,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5359204422703629362}
+        m_TargetAssemblyTypeName: Group2Popup, Assembly-CSharp
+        m_MethodName: save
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\u0E14\u0E39\u0E40\u0E1E\u0E08\u0E23\u0E49\u0E32\u0E19\u0E17\u0E35\u0E481"
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &592304590012735639
@@ -1782,7 +1806,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 752, y: 752}
+  m_SizeDelta: {x: 752, y: 712}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2869364536310623571
 CanvasRenderer:
@@ -1848,7 +1872,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5359204422703629364}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1914,6 +1938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: group-2
+  startTime: 0
   name: Route1/story1-6
   comment: {fileID: 592304589501194201}
   page1: {fileID: 592304589455480555}

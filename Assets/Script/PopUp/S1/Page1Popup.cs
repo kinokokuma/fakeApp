@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,6 +11,7 @@ public class Page1Popup : BasePopUp
     public void chatClick1()
     {
         manager.OpenChat(name);
+        TimeRecord.Instance.SaveRecord(ID, "กลับแชท", startTime);
         gameObject.SetActive(false);
     }
 
@@ -18,7 +19,9 @@ public class Page1Popup : BasePopUp
     {
         if ((int)chatParent.anchoredPosition.y >= - 20)
         {
+            startTime = Time.time;
             next.gameObject.SetActive(true);
+
         }
     }
 }

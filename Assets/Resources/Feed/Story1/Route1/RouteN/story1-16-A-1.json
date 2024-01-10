@@ -1,4 +1,5 @@
-{"ID": "chat-01",
+{
+    "ID": "chat-01",
 "ChatName": "แก๊งเด็กหลังห้อง นัดเทียว",
 "Icon": [
     "Image/Story1/profileJ",
@@ -25,19 +26,19 @@
             "Choice": [
                 {
                     "ID": "001",
-                    "Path": "ร้านนี้ไม่โกงแน่นอน ร้านชื่อ BAGSHOP ",
+                    "Path": "ร้านนี้ไม่โกง\nแน่นอน ร้านชื่อ BAGSHOP ",
                     "LinkType": "chat",
                     "FileName": "Route1/RouteN/story1-18"
                 },
                 {
                     "ID": "001",
-                    "Path": "BAGSHOP ร้านนี้ส่งไวมาก",
+                    "Path": "BAGSHOP ร้านนี้ส่งไว\nมาก",
                     "LinkType": "chat",
                     "FileName": "Route1/RouteN/story1-18"
                 },
                 {
                     "ID": "001",
-                    "Path": "BAGSHOP ร้านนี้ดีหมดเลย พูดจาดี ส่งไว",
+                    "Path": "BAGSHOP ร้านนี้ดีหมด\nเลย พูดจาดี ส่งไว",
                     "LinkType": "chat",
                     "FileName": "Route1/RouteN/story1-18"
                 }

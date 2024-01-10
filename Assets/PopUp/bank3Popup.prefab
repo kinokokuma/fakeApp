@@ -132,6 +132,18 @@ MonoBehaviour:
           m_StringArgument: Route1/story1-8-A
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5158671736488722397}
+        m_TargetAssemblyTypeName: BasePopUp, Assembly-CSharp
+        m_MethodName: save
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\u0E15\u0E48\u0E2D\u0E44\u0E1B"
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3019953096193910918
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,6 +274,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Route1/story1-8-A
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5158671736488722397}
+        m_TargetAssemblyTypeName: BasePopUp, Assembly-CSharp
+        m_MethodName: save
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19"
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &3019953096741185634
@@ -515,6 +539,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5158671736488722397}
+        m_TargetAssemblyTypeName: BasePopUp, Assembly-CSharp
+        m_MethodName: save
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\u0E42\u0E2D\u0E19\u0E40\u0E07\u0E34\u0E19"
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &3019953097011593933
@@ -779,6 +815,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Route1/story1-12-B
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5158671736488722397}
+        m_TargetAssemblyTypeName: BasePopUp, Assembly-CSharp
+        m_MethodName: save
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\u0E01\u0E25\u0E31\u0E1A\u0E41\u0E0A\u0E17"
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &3019953097176078920
@@ -1239,6 +1287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: bank-3
+  startTime: 0
   bank: {fileID: 6946115381254170709}
   home: {fileID: 3019953097386523119}
 --- !u!1 &6946115381254170709

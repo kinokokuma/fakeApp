@@ -5,12 +5,17 @@ using UnityEngine;
 public class BasePopUp : MonoBehaviour
 {
     public string ID;
-
+    public float startTime;
     protected PopUpManager manager;
 
     public void SetManager(PopUpManager manager)
     {
         this.manager = manager;
+    }
+
+    public void save(string comment)
+    {
+        TimeRecord.Instance.SaveRecord(ID, comment, startTime);
     }
 
     protected IEnumerator UpdateLayoutGroup(GameObject reloadObject, int count = 1)

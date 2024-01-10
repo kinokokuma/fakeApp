@@ -31,6 +31,8 @@ public class ChatNormal : ChatObjectBase
     private HorizontalLayoutGroup layOutGroup;
     [SerializeField]
     private GameObject guildLineTag;
+    [SerializeField]
+    private TMP_Text time;
 
     public override void Initialized(ChatDataDetail data, ChatPopup chatPopup, PopUpManager manager)
     {
@@ -85,7 +87,16 @@ public class ChatNormal : ChatObjectBase
         {
             postImage.gameObject.SetActive(true);
             postImage.sprite = ImageManager.Instance.LoadImage(data.PostImage);
-            postImageRatio.aspectRatio = postImage.sprite.texture.width / postImage.sprite.texture.height;
+
+            if ((float)postImage.sprite.texture.width / postImage.sprite.texture.height > 0)
+            {
+                postImageRatio.aspectRatio = (float)postImage.sprite.texture.width / postImage.sprite.texture.height;
+            }
+
+            if (data.PostImage == "Image/Like")
+            {
+                postImage.rectTransform.sizeDelta = postImage.rectTransform.sizeDelta / 3.0f;
+            }
         }
         else
         {
@@ -99,6 +110,14 @@ public class ChatNormal : ChatObjectBase
             guildLineTag.SetActive(true);
         }
 
+        if (data.ChatType == "Time")
+        {
+            icon.gameObject.SetActive(false);
+            contentParent.gameObject.SetActive(false);
+            postImage.gameObject.SetActive(false);
+            time.gameObject.SetActive(true);
+            time.text = data.Content;
+        }
         //StartCoroutine(UpdateLayoutGroup(,2));
     }
 

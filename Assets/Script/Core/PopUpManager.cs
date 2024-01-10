@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,6 +14,7 @@ public enum QuestionPhase
 public class PopUpManager : MonoBehaviour
 {
     // Start is called before the first frame update
+    public GameObject allChat;
     [SerializeField]
     private FeedData data;
     [SerializeField]
@@ -22,6 +23,8 @@ public class PopUpManager : MonoBehaviour
     private Transform feedParent;
     [SerializeField]
     private Transform popupParent;
+    [SerializeField]
+    private Transform chatParent;
     [SerializeField]
     private ScrollRect scrollRect;
     [SerializeField]
@@ -39,10 +42,21 @@ public class PopUpManager : MonoBehaviour
     private Dictionary<string, BasePopUp> popUpDic;
 
     [SerializeField]
+    private Transform goToChatParent;
+    public GoToChatButton chatButton;
+    public List<GoToChatButton> allChatButtonList;
+    [SerializeField]
     private List<BasePopUp> allPopUpList;
     public QuestionPhase Phase => phase;
     public  PostData CurrentPostPopupData => currentPostPopupData;
     public ChatDataDetail currentChatData;
+    public string NextFileName;
+    public string NextChatID;
+    public RectTransform GotoChatGuildLine;
+    [SerializeField]
+    private RectTransform bottomChat;
+    public GameObject startObj;
+    public float timeToClickChat;
 
     public void SetPhase(QuestionPhase phase)
     {
@@ -55,7 +69,21 @@ public class PopUpManager : MonoBehaviour
         popUpDic = new Dictionary<string, BasePopUp>();
         data = new FeedData();
         data = JsonUtility.FromJson<FeedData>(ReadFile("Feed/Class1").ToString());
-        OpenChat("Route1/story1-14");
+        // OpenChat("story1-1");
+        timeToClickChat = Time.time;
+        StartCoroutine(StartChatStory());
+    }
+
+    IEnumerator StartChatStory()
+    {
+        OpenChat("storyc");
+        while (NextFileName != "")
+        {
+
+        }
+        yield return new WaitForEndOfFrame();
+        OpenChat("story1-1");
+        startObj.SetActive(false);
     }
 
     public TextAsset ReadFile(string fileName)
@@ -95,6 +123,7 @@ public class PopUpManager : MonoBehaviour
     public void OpenChat(string path)
     {
         ChatData newData = ReadChatData($"Feed/Story1/{path}");
+        print(newData.ID);
         string id = newData.ID;
         if (chatPopUpDic.ContainsKey(id))
         {
@@ -104,18 +133,55 @@ public class PopUpManager : MonoBehaviour
             }
 
             chatPopUpDic[id].gameObject.SetActive(true);
+            StopCoroutine(chatPopUpDic[id].ShowChat(newData));
             StartCoroutine(chatPopUpDic[id].ShowChat(newData));
 
         }
         else
         {
-            ChatPopup popup = Instantiate(chatPopup, popupParent);
+            foreach (BasePopUp popUp in chatPopUpDic.Values)
+            {
+                popUp.gameObject.SetActive(false);
+            }
+
+            ChatPopup popup = Instantiate(chatPopup, chatParent);
             popup.SetManager(this);
             popup.gameObject.SetActive(true);
             chatPopUpDic[id] = popup;
             popUpDic[id] = popup;
             StartCoroutine(popup.ShowChat(newData));
+
+            GoToChatButton butt = Instantiate(chatButton, goToChatParent);
+            butt.gameObject.SetActive(true);
+            butt.Initialized(newData, this);
+            allChatButtonList.Add(butt);
         }
+    }
+
+    public void ShowAllChat( )
+    {
+        timeToClickChat = Time.time;
+        ChatData data = ReadChatData($"Feed/Story1/{NextFileName}");
+        allChat.SetActive(true);
+        foreach (var button in allChatButtonList)
+        {
+            if(button.ID == data.ID)
+            {
+                button.button.interactable = true;
+                GotoChatGuildLine.gameObject.SetActive(true);
+                GotoChatGuildLine.position = new Vector2(GotoChatGuildLine.position.x, button.t.position.y);
+            }
+            else
+            {
+                button.button.interactable = false;
+            }
+        }
+    }
+
+    public void HindAllChat( )
+    {
+        allChat.SetActive(false);
+        GotoChatGuildLine.gameObject.SetActive(false);
     }
 
     public ChatData ReadChatData(string path)

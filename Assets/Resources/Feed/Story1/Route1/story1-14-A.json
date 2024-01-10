@@ -1,6 +1,19 @@
-{
+{"ID": "chat-05",
+"ChatName": "monobag",
+"Icon": [
+    "Image/Story1/monobag"
+],
     "DataDetail" :[
-    {
+        {
+            "ID": "chat-04",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Time",
+            "DelayTime": 0,
+            "Content": "7 เม.ย. 2024 16:52",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },{
        "ID" : "chat-05",
        "OnwerName" : "my",
        "Icon" : "",
@@ -69,8 +82,8 @@
     },
     {
        "ID" : "chat-05",
-       "OnwerName" : "Monobag",
-       "Icon" : "Image/Story1/Monobag",
+       "OnwerName" : "monobag",
+       "Icon" : "Image/Story1/monobag",
        "ChatType" : "Normal",
        "DelayTime" : 1,
        "Content" : "ลูกค้ารับกี่ใบคะ",

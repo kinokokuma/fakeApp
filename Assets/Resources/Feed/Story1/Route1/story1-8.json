@@ -7,6 +7,16 @@
     "DataDetail": [
         {
             "ID": "chat-04",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Time",
+            "DelayTime": 0,
+            "Content": "7 เม.ย. 2024 16:35",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
             "OnwerName": "ซี",
             "Icon": "Image/Story1/profileC",
             "ChatType": "Normal",

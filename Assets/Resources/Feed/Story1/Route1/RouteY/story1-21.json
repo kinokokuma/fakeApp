@@ -22,20 +22,20 @@
             "Icon": "Image/Story1/profileP",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": "",
-            "PostImage": "Image/Story1/cybertiplink",
+            "Content": "เพจ Cyber tip แนะนำมา",
+            "PostImage": "",
             "LinkToPageName": ""
         },
         {
             "ID": "chat-01",
             "OnwerName": "ภู",
             "Icon": "Image/Story1/profileP",
-            "ChatType": "Normal",
+            "ChatType": "Button",
             "DelayTime": 1,
-            "Content": "เพจ Cyber tip แนะนำมา",
-            "PostImage": "",
+            "Content": "",
+            "PostImage": "Image/Story1/cybertiplink",
             "LinkToPageName": "",
-            "LinkType": "page",
+            "LinkType": "group",
             "FileName": "page-2"
         }
     ]

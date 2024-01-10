@@ -75,7 +75,7 @@
             "Content": "",
             "ChoiceImage": [
                 {
-                    "ID": "001",
+                    "ID": "question_108",
                     "CanClick": true,
                     "Path": "Image/Story1/bag1",
                     "LinkType": "chat",

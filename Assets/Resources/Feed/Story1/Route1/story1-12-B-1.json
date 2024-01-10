@@ -1,5 +1,5 @@
 {"ID": "chat-03",
-"ChatName": "ForyoBag",
+"ChatName": "ForyouBag",
 "Icon": [
     "Image/Story1/ForYouBAG"
 ],
@@ -45,7 +45,7 @@
             "PostImage": "",
             "LinkToPageName": "",
             "LinkType": "chat",
-            "FileName": "Route1/story1-13"
+            "FileName": "Route1/story1-13-B"
         }
     ]
 }

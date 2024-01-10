@@ -15,14 +15,14 @@
                 {
                     "ID": "001",
                     "CanClick": true,
-                    "Path": "Image/Story1/prawnthai5",
+                    "Path": "Image/Story1/prawnthai6-1",
                     "LinkType": "chat",
                     "FileName": "Route1/story1-12-A-1"
                 },
                 {
                     "ID": "001",
                     "CanClick": false,
-                    "Path": "Image/Story1/prawnthai4"
+                    "Path": "Image/Story1/prawnthai5"
                 },
                 {
                     "ID": "001",
@@ -65,7 +65,7 @@
                     "Path": "Image/Story1/bag8"
                 }
             ],
-            "PostImage": "Image/Story1/prawnthai5",
+            "PostImage": "Image/Story1/prawnthai6-1",
             "LinkToPageName": ""
         }
     ]

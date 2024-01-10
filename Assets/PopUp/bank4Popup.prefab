@@ -216,6 +216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: bank-4
+  startTime: 0
   bank: {fileID: 622050358473894037}
   home: {fileID: 4696550677695297839}
 --- !u!1 &4696550676932131644
@@ -348,6 +349,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3410122388043759389}
+        m_TargetAssemblyTypeName: BasePopUp, Assembly-CSharp
+        m_MethodName: save
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\u0E42\u0E2D\u0E19\u0E40\u0E07\u0E34\u0E19"
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &4696550676999497890
@@ -601,6 +614,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Route1/RouteY/story1-15-A-2
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3410122388043759389}
+        m_TargetAssemblyTypeName: BasePopUp, Assembly-CSharp
+        m_MethodName: save
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\u0E01\u0E25\u0E31\u0E1A\u0E41\u0E0A\u0E17"
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &4696550677265121805
@@ -1230,6 +1255,18 @@ MonoBehaviour:
           m_StringArgument: Route1/story1-8-A
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3410122388043759389}
+        m_TargetAssemblyTypeName: BasePopUp, Assembly-CSharp
+        m_MethodName: save
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\u0E16\u0E31\u0E14\u0E44\u0E1B"
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4696550678629132358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,6 +1399,18 @@ MonoBehaviour:
           m_StringArgument: Route1/story1-8-A
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3410122388043759389}
+        m_TargetAssemblyTypeName: BasePopUp, Assembly-CSharp
+        m_MethodName: save
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19"
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &9142618951637184487
 GameObject:
   m_ObjectHideFlags: 0
@@ -1492,6 +1541,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Route1/story1-8-A
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3410122388043759389}
+        m_TargetAssemblyTypeName: BasePopUp, Assembly-CSharp
+        m_MethodName: save
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19\u0E42\u0E2D\u0E19\u0E40\u0E07\u0E34\u0E19"
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &9142618951956844998
@@ -1746,5 +1807,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Route1/RouteN/story1-16-A-1
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3410122388043759389}
+        m_TargetAssemblyTypeName: BasePopUp, Assembly-CSharp
+        m_MethodName: save
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\u0E44\u0E21\u0E48\u0E42\u0E2D\u0E19\u0E40\u0E07\u0E34\u0E19"
           m_BoolArgument: 0
         m_CallState: 2

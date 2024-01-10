@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -40,37 +40,34 @@ public class ChatPopup : BasePopUp
     private GameObject reloadObj;
     [SerializeField]
     private RectTransform bottomChat;
-
     [SerializeField]
     public List<ChatObjectBase> chatObject;
-
+    public GameObject allChatGuildlind;
     private bool isReload;
-    [SerializeField]
-    private string ChatID = "";
+
     private List<ChatChoice> choiceList = new List<ChatChoice>();
     private float timeToShowQuestion;
     private bool isFirstTime = true;
     private int oldIndex = 0;
-
+    public GameObject textGuild;
+    public GameObject imageGuild;
+    public GameObject blockText;
+    public GameObject gopageButton;
     public void Start()
     {
-        chatObject = new List<ChatObjectBase>();
+        allChatButton.interactable = false;
+           chatObject = new List<ChatObjectBase>();
         allChatButton.onClick.AddListener(ShowChatList);
+        allChatGuildlind.SetActive(false);
         //ReadData();
     }
 
     private void ShowChatList()
     {
-        allChatObject.SetActive(!allChatObject.active);
-
-        if (allChatObject.active)
-        {
-            bottomChat.sizeDelta = new Vector2(635, bottomChat.sizeDelta.y);
-        }
-        else
-        {
-            bottomChat.sizeDelta = new Vector2(1024, bottomChat.sizeDelta.y);
-        }
+        TimeRecord.Instance.SaveRecord(ID, $"เปิดแชททั้งหมด", manager.timeToClickChat);
+        manager.ShowAllChat();
+        allChatButton.interactable = false;
+        allChatGuildlind.SetActive(false);
     }
 
 
@@ -81,12 +78,11 @@ public class ChatPopup : BasePopUp
         chatIndex = 0;
         this.data = data;
         int contextCharecterIndex = 0;
-
+        ID = data.ID;
         if (isFirstTime)
         {
             print("xxxxxx");
             headerName.text = data.ChatName;
-            print(data.Icon[0]);
             print(data.ChatName);
             if (data.Icon.Length >=2)
             {
@@ -114,7 +110,7 @@ public class ChatPopup : BasePopUp
                         for (int i = 0; i < data.DataDetail[chatIndex].ChoiceImage.Length; i++)
                         {
                             timeToShowQuestion = Time.time;
-
+                            imageGuild.SetActive(true);
                             ChatChoice choice = Instantiate(imageChoice, imageChoiceParent);
                             choice.gameObject.SetActive(true);
                             choice.InitializedImage(i, ChoiceType.Image, data.DataDetail[chatIndex].ChoiceImage[i]);
@@ -130,10 +126,11 @@ public class ChatPopup : BasePopUp
                 {
                     if (data.DataDetail[chatIndex].Choice.Length > 0)
                     {
+                        CreateLike();
                         for (int i = 0; i < data.DataDetail[chatIndex].Choice.Length; i++)
                         {
                             timeToShowQuestion = Time.time;
-
+                            textGuild.SetActive(true);
                             ChatChoice choice = Instantiate(imageChoice, imageChoiceParent);
                             choice.gameObject.SetActive(true);
                             choice.InitializedText(i, ChoiceType.String, data.DataDetail[chatIndex].Choice[i]);
@@ -168,7 +165,7 @@ public class ChatPopup : BasePopUp
                             chat.gameObject.transform.SetParent(chatParent);
                             oldIndex = chatIndex;
                             userInputText.text = string.Empty;
-                            Reload();
+                            //Reload();
                         }
                     }
                     else
@@ -179,43 +176,87 @@ public class ChatPopup : BasePopUp
                         chatObject.Add(chat);
                         oldIndex = chatIndex;
                         oldIndex = chatIndex;
-                        Reload();
+                        //Reload();
                     }
 
                 }
                 StartCoroutine(UpdateLayoutGroup(reloadObj));
-                Reload();
+                //Reload();
 
 
 
 
 
             }
-                yield return new WaitForSeconds(data.DataDetail[chatIndex++].DelayTime);
+            if (haveQuestion) break;
+
+            yield return new WaitForSeconds(data.DataDetail[chatIndex++].DelayTime);
+
+            
+
         }
+
+        yield return new WaitForSeconds(5);
 
         if (!haveQuestion && data.DataDetail[chatIndex-1].ChatType == "Normal")
         {
+            manager.NextFileName = data.DataDetail[data.DataDetail.Length - 1].FileName;
             if (data.DataDetail[chatIndex - 1].LinkType == "chat")
             {
-                manager.OpenChat(data.DataDetail[data.DataDetail.Length - 1].FileName);
+                ChatData newData = manager.ReadChatData($"Feed/Story1/{data.DataDetail[data.DataDetail.Length - 1].FileName}");
+                print("check ID : "+ID + " " + newData.ID);
+                if (newData.ID != ID)
+                {
+                    manager.timeToClickChat = Time.time;
+                    allChatButton.interactable = true;
+                    allChatGuildlind.SetActive(true);
+                    manager.NextChatID = data.DataDetail[data.DataDetail.Length - 1].ID;
+                }
+                else
+                {
+                    print(data.DataDetail[data.DataDetail.Length - 1].FileName);
+                    manager.OpenChat(data.DataDetail[data.DataDetail.Length - 1].FileName);
+                }
             }
             else
             {
-                manager.CreatePopup(data.DataDetail[data.DataDetail.Length - 1].FileName);
+                gopageButton.SetActive(true);
             }
+
+            if(data.DataDetail[chatIndex - 1].ID == "block")
+            {
+                blockText.SetActive(true);
+                bottomChat.gameObject.SetActive(false);
+            }
+
         }
     }
-    int countLoad = 0;
 
-    private void Reload()
+
+    public void CreateLike()
     {
-      /*  print((int)chatParent.sizeDelta.y + " sizr " + (int)chatParent.anchoredPosition.y);
-        if ((int)chatParent.sizeDelta.y >= (int)chatParent.anchoredPosition.y)
-        {
-            chatParent.anchoredPosition = new Vector2(chatParent.anchoredPosition.x, chatParent.sizeDelta.y);
-        }*/
+        ChatObjectBase chat = Instantiate(chatobject);
+        chat.gameObject.SetActive(true);
+
+        ChatDataDetail dataDetail = new ChatDataDetail();
+        chatObject.Add(chat);
+        dataDetail.OnwerName = "my";
+        dataDetail.Icon = string.Empty;
+        dataDetail.Content = "";
+        dataDetail.PostImage = "Image/Like";
+
+
+        chat.Initialized(dataDetail, this, manager);
+        chatObject.Add(chat);
+        chat.gameObject.transform.SetParent(chatParent);
     }
+
+    public void OnclickOgpage()
+    {
+        gopageButton.SetActive(false);
+        manager.CreatePopup(data.DataDetail[data.DataDetail.Length - 1].FileName);
+    }
+    int countLoad = 0;
 
     private void LateUpdate()
     {
@@ -228,16 +269,27 @@ public class ChatPopup : BasePopUp
         {
             chatParent.pivot = new Vector2(chatParent.pivot.x, 0);
         }
-       /* if (isReload)
+        /* if (isReload)
+         {
+             chatParent.anchoredPosition = new Vector2(chatParent.anchoredPosition.x, chatParent.sizeDelta.y);
+             countLoad++;
+             //if (countLoad > 4)
+             {
+                 isReload = false;
+                 countLoad = 0;
+             }
+         }*/
+        if (manager != null)
         {
-            chatParent.anchoredPosition = new Vector2(chatParent.anchoredPosition.x, chatParent.sizeDelta.y);
-            countLoad++;
-            //if (countLoad > 4)
+            if (manager.allChat.active)
             {
-                isReload = false;
-                countLoad = 0;
+                bottomChat.sizeDelta = new Vector2(635, bottomChat.sizeDelta.y);
             }
-        }*/
+            else
+            {
+                bottomChat.sizeDelta = new Vector2(1024, bottomChat.sizeDelta.y);
+            }
+        }
     }
 
     private void OnClickTextChoice(ChoiceText choiceText, ChatDataDetail data)
@@ -281,7 +333,9 @@ public class ChatPopup : BasePopUp
 
     private void HintChoice()
     {
-        foreach(var choice in choiceList)
+        imageGuild.SetActive(false);
+        textGuild.SetActive(false);
+        foreach (var choice in choiceList)
         {
             choice.gameObject.SetActive(false);
         }
@@ -315,6 +369,7 @@ public class ChatPopup : BasePopUp
         }
         Canvas.ForceUpdateCanvases();
         manager.OpenChat(choiceImage.FileName);
+        manager.NextFileName = choiceImage.FileName;
         StartCoroutine(UpdateLayoutGroup(reloadObj));
     }
 

@@ -52,7 +52,6 @@ public class ChatChoice : MonoBehaviour
     {
         this.dataText = data;
         this.index = index;
-        print(text);
         text.text = data.Path;
     }
 }

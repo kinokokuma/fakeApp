@@ -1,5 +1,5 @@
 {"ID": "chat-03",
-"ChatName": "ForyoBag",
+"ChatName": "ForyouBag",
 "Icon": [
     "Image/Story1/ForYouBAG"
 ],
@@ -30,7 +30,7 @@
             "Icon": "Image/Story1/ForYouBAG",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": "โอนเงินค่าสินค้าได้ที่ ธนาคารกรุงไทย 036-8-456732 ชื่อบัญชี : ForyouBAG ครับ",
+            "Content": "โอนเงินค่าสินค้าได้ที่ ธนาคารกุ้งไทย 036-8-456732 ชื่อบัญชี : ForyouBAG ครับ",
             "PostImage": "",
             "LinkToPageName": "ไปหน้าแอปธนาคาร",
             "LinkType": "bank",

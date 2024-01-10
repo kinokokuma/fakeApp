@@ -43,16 +43,6 @@
             "DelayTime": 1,
             "Content": "ร้านจริงมันต้อง Monobag อ่ะ",
             "PostImage": "",
-            "LinkToPageName": ""
-        },
-        {
-            "ID": "chat-01",
-            "OnwerName": "ภู",
-            "Icon": "Image/Story1/profileP",
-            "ChatType": "Normal",
-            "DelayTime": 1,
-            "Content": "ร้านจริงมันต้อง Monobag อ่ะ",
-            "PostImage": "",
             "LinkToPageName": "",
             "LinkType": "chat",
             "FileName": "Route1/RouteY/story1-19-1"
