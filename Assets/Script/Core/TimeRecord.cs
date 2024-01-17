@@ -69,8 +69,7 @@ public class TimeRecord : MonoSingleton<TimeRecord>
         for (int index = 0; index < length; index++)
             sb.AppendLine(string.Join(delimiter, output[index]));
 
-
-        string filePath = Application.dataPath + "/CSV/" + csv_name + "test" + ".csv";
+        string filePath = Application.dataPath + "/CSV/" + UserData.Story + "_" + UserData.Solution+ "_" + UserData.UserID + ".csv";
 
         StreamWriter outStream = System.IO.File.CreateText(filePath);
         outStream.Write(sb);
@@ -111,8 +110,8 @@ public class TimeRecord : MonoSingleton<TimeRecord>
         for (int index = 0; index < length; index++)
             sb.AppendLine(string.Join(delimiter, output[index]));
 
-
-        string filePath = Application.dataPath + "/CSV/" + csv_name + "test" + ".csv";
+        print(UserData.Story + " " + UserData.Solution+ "_" + " " + UserData.UserID);
+        string filePath = Application.dataPath + "/CSV/" + UserData.Story+"_"+UserData.Solution+ "_" + UserData.UserID + ".csv";
 
         StreamWriter outStream = System.IO.File.AppendText(filePath);
         outStream.Write(sb);
@@ -130,13 +129,13 @@ public class TimeRecord : MonoSingleton<TimeRecord>
     private string getPath()
     {
 #if UNITY_EDITOR
-        return Application.dataPath + "/CSV/" + csv_name + "test" + ".csv";
+        return Application.dataPath + "/CSV/" + UserData.Story + "_" + UserData.Solution+ "_" + UserData.UserID + ".csv";
 #elif UNITY_ANDROID
-        return Application.persistentDataPath + "/Saved_data.csv";
+        return Application.persistentDataPath  + "/CSV/" + UserData.Story + "_" + UserData.Solution+ "_" + UserData.UserID + ".csv";
 #elif UNITY_IPHONE
-        return Application.persistentDataPath + "/"+"Saved_data.csv";
+        return Application.persistentDataPath  + "/CSV/" + UserData.Story + "_" + UserData.Solution+ "_" + UserData.UserID + ".csv";
 #else
-        return "/"+"Saved_data.csv";
+        return  "/CSV/" + UserData.Story + "_" + UserData.Solution+ "_" + UserData.UserID + ".csv";
 #endif
         Debug.Log("get path leido");
     }

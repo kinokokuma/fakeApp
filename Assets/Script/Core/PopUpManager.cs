@@ -76,13 +76,14 @@ public class PopUpManager : MonoBehaviour
 
     IEnumerator StartChatStory()
     {
-        OpenChat("storyc");
+        OpenChat("storyc",true);
         while (NextFileName != "")
         {
 
         }
         yield return new WaitForEndOfFrame();
         OpenChat("story1-1");
+
         startObj.SetActive(false);
     }
 
@@ -120,11 +121,12 @@ public class PopUpManager : MonoBehaviour
         }
     }
 
-    public void OpenChat(string path)
+    public void OpenChat(string path,bool muteSound = false)
     {
         ChatData newData = ReadChatData($"Feed/Story1/{path}");
         print(newData.ID);
         string id = newData.ID;
+
         if (chatPopUpDic.ContainsKey(id))
         {
             foreach(BasePopUp popUp in chatPopUpDic.Values)
@@ -133,8 +135,8 @@ public class PopUpManager : MonoBehaviour
             }
 
             chatPopUpDic[id].gameObject.SetActive(true);
-            StopCoroutine(chatPopUpDic[id].ShowChat(newData));
-            StartCoroutine(chatPopUpDic[id].ShowChat(newData));
+            StopCoroutine(chatPopUpDic[id].ShowChat(newData, muteSound));
+            StartCoroutine(chatPopUpDic[id].ShowChat(newData, muteSound));
 
         }
         else
@@ -149,7 +151,7 @@ public class PopUpManager : MonoBehaviour
             popup.gameObject.SetActive(true);
             chatPopUpDic[id] = popup;
             popUpDic[id] = popup;
-            StartCoroutine(popup.ShowChat(newData));
+            StartCoroutine(popup.ShowChat(newData,muteSound));
 
             GoToChatButton butt = Instantiate(chatButton, goToChatParent);
             butt.gameObject.SetActive(true);

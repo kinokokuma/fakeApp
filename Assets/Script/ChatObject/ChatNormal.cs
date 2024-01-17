@@ -34,9 +34,9 @@ public class ChatNormal : ChatObjectBase
     [SerializeField]
     private TMP_Text time;
 
-    public override void Initialized(ChatDataDetail data, ChatPopup chatPopup, PopUpManager manager)
+    public override void Initialized(ChatDataDetail data, ChatPopup chatPopup, PopUpManager manager, bool muteSound)
     {
-        base.Initialized(data, chatPopup, manager);
+        base.Initialized(data, chatPopup, manager, muteSound);
         if (data.Icon != string.Empty)
         {
             iconMask.color = new Color32(255,255,255,255);
@@ -47,12 +47,33 @@ public class ChatNormal : ChatObjectBase
         {
             iconMask.color = new Color32(255, 255, 255, 0);
         }
-        
-        if(data.OnwerName == "my")
+
+        if (data.ChatType == "Time")
+        {
+            icon.gameObject.SetActive(false);
+            contentParent.gameObject.SetActive(false);
+            postImage.gameObject.SetActive(false);
+            time.gameObject.SetActive(true);
+            time.text = data.Content;
+            muteSound = true;
+        }
+
+        if (data.OnwerName == "my")
         {
             //content.alignment = TextAlignmentOptions.MidlineRight;
             layOutGroup.childAlignment = TextAnchor.UpperRight;
             contentParent.color = new Color32(85, 144, 255,255);
+            if (!muteSound)
+            {
+                SoundManager.Instance.PlaySound(SoundID.chatPop, 0.5f);
+            }
+        }
+        else
+        {
+            if (!muteSound)
+            {
+                SoundManager.Instance.PlaySound(SoundID.chatPop);
+            }
         }
 
         if(data.Content == string.Empty)
@@ -70,7 +91,8 @@ public class ChatNormal : ChatObjectBase
             {
                 contentSize.horizontalFit = ContentSizeFitter.FitMode.Unconstrained;
             }
-            content.text = data.Content;
+            string text = data.Content.Replace("{Player}", UserData.UserName);
+            content.text = text;
         }
 
         if(data.OnwerName != string.Empty && data.OnwerName!="my")
@@ -110,14 +132,6 @@ public class ChatNormal : ChatObjectBase
             guildLineTag.SetActive(true);
         }
 
-        if (data.ChatType == "Time")
-        {
-            icon.gameObject.SetActive(false);
-            contentParent.gameObject.SetActive(false);
-            postImage.gameObject.SetActive(false);
-            time.gameObject.SetActive(true);
-            time.text = data.Content;
-        }
         //StartCoroutine(UpdateLayoutGroup(,2));
     }
 

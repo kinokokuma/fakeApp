@@ -72,7 +72,7 @@ public class ChatPopup : BasePopUp
 
 
 
-    public IEnumerator ShowChat(ChatData data)
+    public IEnumerator ShowChat(ChatData data,bool muteSound)
     {
         oldIndex = 0;
         chatIndex = 0;
@@ -160,7 +160,7 @@ public class ChatPopup : BasePopUp
 
                             ChatObjectBase chat = Instantiate(chatobject);
                             chat.gameObject.SetActive(true);
-                            chat.Initialized(data.DataDetail[chatIndex], this, manager);
+                            chat.Initialized(data.DataDetail[chatIndex], this, manager, muteSound);
                             chatObject.Add(chat);
                             chat.gameObject.transform.SetParent(chatParent);
                             oldIndex = chatIndex;
@@ -172,7 +172,8 @@ public class ChatPopup : BasePopUp
                     {
                         ChatObjectBase chat = Instantiate(chatobject, chatParent);
                         chat.gameObject.SetActive(true);
-                        chat.Initialized(data.DataDetail[chatIndex], this, manager);
+
+                        chat.Initialized(data.DataDetail[chatIndex], this, manager, muteSound);
                         chatObject.Add(chat);
                         oldIndex = chatIndex;
                         oldIndex = chatIndex;
@@ -211,6 +212,10 @@ public class ChatPopup : BasePopUp
                     allChatButton.interactable = true;
                     allChatGuildlind.SetActive(true);
                     manager.NextChatID = data.DataDetail[data.DataDetail.Length - 1].ID;
+                    if (!muteSound)
+                    {
+                        SoundManager.Instance.PlaySound(SoundID.newChat);
+                    }
                 }
                 else
                 {
@@ -302,6 +307,7 @@ public class ChatPopup : BasePopUp
         dataDetail.OnwerName = "my";
         dataDetail.Icon = string.Empty;
         dataDetail.Content = data.Content.Replace("{0}", choiceText.Path);
+
         dataDetail.PostImage = string.Empty;
         dataDetail.LinkType = choiceText.LinkType;
         dataDetail.FileName = choiceText.FileName;
