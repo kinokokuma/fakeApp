@@ -1861,9 +1861,9 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Solution
+    - m_Text: Game_S
       m_Image: {fileID: 0}
-    - m_Text: No Solution
+    - m_Text: Game_NS
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1964,7 +1964,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Solution
+  m_text: Game_S
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 961e4199e883bfa4083730538a0e1719, type: 2}
   m_sharedMaterial: {fileID: 796241788375675253, guid: 961e4199e883bfa4083730538a0e1719, type: 2}
@@ -2520,7 +2520,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Solution
+  m_text: Game
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 961e4199e883bfa4083730538a0e1719, type: 2}
   m_sharedMaterial: {fileID: 796241788375675253, guid: 961e4199e883bfa4083730538a0e1719, type: 2}
@@ -4907,7 +4907,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1193022003}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.8666667
+  m_Size: 0.6666667
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

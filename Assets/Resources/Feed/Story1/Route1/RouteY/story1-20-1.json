@@ -82,7 +82,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": "ใช่",
+            "Content": "ใช่ ดีนะที่ไม่ได้โอนให้มันไป",
             "PostImage": "",
             "LinkToPageName": ""
         },
@@ -92,7 +92,18 @@
             "Icon": "Image/Story1/profileP",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": "เสียทั้งเวลาเสียทั้งเงิน",
+            "Content": "ก็ยังดีที่ไม่เสียเยอะไปมากกว่านั้น",
+            "PostImage": "",
+            "LinkToPageName": ""
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ภู",
+            "Icon": "Image/Story1/profileP",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ฟาดเคราะห์ไป",
             "PostImage": "",
             "LinkToPageName": "",
             "LinkType": "chat",

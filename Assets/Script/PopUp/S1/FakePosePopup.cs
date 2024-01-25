@@ -25,4 +25,10 @@ public class FakePosePopup : BasePopUp
         manager.OpenChat("Route1/story1-15-A");
         gameObject.SetActive(false);
     }
+    public void chatClick2()
+    {
+        TimeRecord.Instance.SaveRecord(ID, "กลับแชท", startTime);
+        manager.OpenChat("Route1/story1-15-B");
+        gameObject.SetActive(false);
+    }
 }

@@ -37,16 +37,6 @@
         },
         {
             "ID": "chat-01",
-            "OnwerName": "ภู",
-            "Icon": "Image/Story1/profileP",
-            "ChatType": "Normal",
-            "DelayTime": 1,
-            "Content": "เป็นอะไร",
-            "PostImage": "",
-            "LinkToPageName": ""
-        },
-        {
-            "ID": "chat-01",
             "OnwerName": "จอม",
             "Icon": "Image/Story1/profileJ",
             "ChatType": "Normal",

@@ -1,10 +1,41 @@
-{"ID": "chat-01",
-"ChatName": "แก๊งเด็กหลังห้อง นัดเทียว",
-"Icon": [
-    "Image/Story1/profileJ",
-    "Image/Story1/profileP"
-],
+{
+    "ID": "chat-01",
+    "ChatName": "แก๊งเด็กหลังห้อง นัดเทียว",
+    "Icon": [
+        "Image/Story1/profileJ",
+        "Image/Story1/profileP"
+    ],
     "DataDetail": [
+        {
+            "ID": "chat-01",
+            "OnwerName": "จอม",
+            "Icon": "Image/Story1/profileJ",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ทำไมช่วงนี้เจอแต่คนจ้องจะมาหลอก",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "จอม",
+            "Icon": "Image/Story1/profileJ",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "พวกเราดวงตกป่ะเนี่ย",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ภู",
+            "Icon": "Image/Story1/profileP",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ดวงไม่ได้ตกหรอก เราประมาทกันเอง",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
         {
             "ID": "chat-01",
             "OnwerName": "ภู",
@@ -14,7 +45,7 @@
             "Content": "ลองไปโหลดแอปนี้ดูไหม",
             "PostImage": "",
             "LinkToPageName": ""
-        }        ,
+        },
         {
             "ID": "chat-01",
             "OnwerName": "ภู",

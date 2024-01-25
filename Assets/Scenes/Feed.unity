@@ -1994,6 +1994,8 @@ MonoBehaviour:
   - {fileID: 7305832453354148026, guid: 1bd6160d7110cc74aaf7fa1952e26ec8, type: 3}
   - {fileID: 2437248735100423391, guid: 87e4e95e89759e1459580bbf137984c4, type: 3}
   - {fileID: 4515211285149226330, guid: 18a28a75987ecf844aac46df7c5c46cb, type: 3}
+  - {fileID: 3889014037291029859, guid: 139409c7ec7a8d24ca7cea674b491a22, type: 3}
+  - {fileID: 5202627443795395686, guid: ad67a4237dccbbd4c8fb5cf5bc99a2b8, type: 3}
   currentChatData:
     ID: 
     OnwerName: 
