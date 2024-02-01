@@ -1,0 +1,50 @@
+{"ID": "chat-05",
+"ChatName": "monobag",
+"Icon": [
+    "Image/Story1/monobag"
+],
+    "DataDetail": [
+        {
+            "ID": "chat-05",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ขอดูสินค้าหน่อยค่ะ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-05",
+            "OnwerName": "monobag",
+            "Icon": "Image/Story1/monobag",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "",
+            "PostImage": "Image/Story1/bag10",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-05",
+            "OnwerName": "monobag",
+            "Icon": "Image/Story1/monobag",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "",
+            "PostImage": "Image/Story1/bag11",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-05",
+            "OnwerName": "monobag",
+            "Icon": "Image/Story1/monobag",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "",
+            "PostImage": "Image/Story1/bag12",
+            "LinkToPageName": "",
+            "LinkType": "chat",
+            "FileName": "Route2/story1-15-A"
+        }
+    ]
+}

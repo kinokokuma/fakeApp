@@ -1979,23 +1979,34 @@ MonoBehaviour:
   chatButton: {fileID: 99608975}
   allChatButtonList: []
   allPopUpList:
-  - {fileID: 3707683113198057397, guid: 61cf812080bc3fb4080e816927315d67, type: 3}
   - {fileID: 2251560496357805356, guid: fb7aec650aa7ea644980ff511f000113, type: 3}
   - {fileID: 5359204422703629362, guid: 87cd954bb2792714db16e9616416875b, type: 3}
   - {fileID: 5703241878451862594, guid: a16e2ceabf0c6ea4fbd004e436c8cd64, type: 3}
+  - {fileID: 4919851996229331279, guid: 6f7c72024400c354cb79e87c6d39aba1, type: 3}
+  - {fileID: 5284826534204519752, guid: 2f66d85a97e9795478da24bfc7845633, type: 3}
+  - {fileID: 4515211285149226330, guid: 18a28a75987ecf844aac46df7c5c46cb, type: 3}
+  - {fileID: 4808143110890553222, guid: ac44623d8ad8f094d8a1a1c46d3f3fb5, type: 3}
+  - {fileID: 3707683113198057397, guid: 61cf812080bc3fb4080e816927315d67, type: 3}
   - {fileID: 8760231894361171743, guid: 777ee21f511bd8548917956de49d16a3, type: 3}
   - {fileID: 7222495337880342283, guid: 8503d8ae803d4c6459865edb221a585a, type: 3}
+  - {fileID: 8380003243957940265, guid: 71d63c361912c1e4ea7ac922328f9406, type: 3}
   - {fileID: 5158671736488722397, guid: 28eac9d9ff6c3374abb812e1dd7abf71, type: 3}
-  - {fileID: 4919851996229331279, guid: 6f7c72024400c354cb79e87c6d39aba1, type: 3}
+  - {fileID: 8593138189582330886, guid: b1db574527c86c94895327d3f46721e3, type: 3}
   - {fileID: 3410122388043759389, guid: 7421d5b71cd0a8d4788a5ce73b110ac3, type: 3}
-  - {fileID: 7620364390943044226, guid: 28b798371ccf5db4ab23017a0be65a13, type: 3}
-  - {fileID: 7116881838814229963, guid: 844da101a152ef9488784b167a304dff, type: 3}
-  - {fileID: 6986565829514000762, guid: 2b26160f282046745adb9b12aa146a4b, type: 3}
-  - {fileID: 7305832453354148026, guid: 1bd6160d7110cc74aaf7fa1952e26ec8, type: 3}
-  - {fileID: 2437248735100423391, guid: 87e4e95e89759e1459580bbf137984c4, type: 3}
-  - {fileID: 4515211285149226330, guid: 18a28a75987ecf844aac46df7c5c46cb, type: 3}
+  - {fileID: 2144087711326203620, guid: e676b4283d90fe04f8f44d0702fcddb6, type: 3}
   - {fileID: 3889014037291029859, guid: 139409c7ec7a8d24ca7cea674b491a22, type: 3}
+  - {fileID: 860681222747229088, guid: 26ab6b26ad5271e42a701a3c644f5777, type: 3}
+  - {fileID: 7035593661751382423, guid: 429ec223b69e4da4b95f9e3ae76de6a9, type: 3}
+  - {fileID: 7305832453354148026, guid: 1bd6160d7110cc74aaf7fa1952e26ec8, type: 3}
+  - {fileID: 8735029134451789233, guid: a4ec0899b97a54f438b49d626cba9c4e, type: 3}
   - {fileID: 5202627443795395686, guid: ad67a4237dccbbd4c8fb5cf5bc99a2b8, type: 3}
+  - {fileID: 7116881838814229963, guid: 844da101a152ef9488784b167a304dff, type: 3}
+  - {fileID: 4580273098027742525, guid: 36f28e0e5c540d54ba19eecad80e46dd, type: 3}
+  - {fileID: 6986565829514000762, guid: 2b26160f282046745adb9b12aa146a4b, type: 3}
+  - {fileID: 7580962365669446005, guid: bd0ba1281d31fcc4581577272602eba7, type: 3}
+  - {fileID: 7620364390943044226, guid: 28b798371ccf5db4ab23017a0be65a13, type: 3}
+  - {fileID: 2437248735100423391, guid: 87e4e95e89759e1459580bbf137984c4, type: 3}
+  - {fileID: 8223738347440492562, guid: 83fbc6cdd9790e04a9287a6512e73483, type: 3}
   currentChatData:
     ID: 
     OnwerName: 
@@ -6128,6 +6139,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4089669621969524167, guid: db137bc573b816c4483088e9504a985e, type: 3}
+      propertyPath: m_margin.w
+      value: 11.456757
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089669621969524167, guid: db137bc573b816c4483088e9504a985e, type: 3}
+      propertyPath: m_lineSpacing
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089669621969524167, guid: db137bc573b816c4483088e9504a985e, type: 3}
+      propertyPath: m_overflowMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089669621969524167, guid: db137bc573b816c4483088e9504a985e, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 1024
+      objectReference: {fileID: 0}
     - target: {fileID: 4089669621969524168, guid: db137bc573b816c4483088e9504a985e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -6322,7 +6349,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5497506782626319936, guid: db137bc573b816c4483088e9504a985e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.049999237
+      value: -0.05
       objectReference: {fileID: 0}
     - target: {fileID: 6132560493271025628, guid: db137bc573b816c4483088e9504a985e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -6447,6 +6474,24 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4089669620632870556, guid: db137bc573b816c4483088e9504a985e, type: 3}
   m_PrefabInstance: {fileID: 1354469907}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1354469909 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4089669621985172825, guid: db137bc573b816c4483088e9504a985e, type: 3}
+  m_PrefabInstance: {fileID: 1354469907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1354469910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354469909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 1
 --- !u!1 &1368595312
 GameObject:
   m_ObjectHideFlags: 0

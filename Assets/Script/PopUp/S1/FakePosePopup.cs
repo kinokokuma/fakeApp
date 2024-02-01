@@ -5,6 +5,7 @@ using UnityEngine;
 public class FakePosePopup : BasePopUp
 {
     // Start is called before the first frame update
+    public string route = "Route1";
     public GameObject comment;
     void Start()
     {
@@ -22,13 +23,13 @@ public class FakePosePopup : BasePopUp
     public void chatClick1()
     {
         TimeRecord.Instance.SaveRecord(ID, "กลับแชท", startTime);
-        manager.OpenChat("Route1/story1-15-A");
+        manager.OpenChat($"{route}/story1-15-A");
         gameObject.SetActive(false);
     }
     public void chatClick2()
     {
         TimeRecord.Instance.SaveRecord(ID, "กลับแชท", startTime);
-        manager.OpenChat("Route1/story1-15-B");
+        manager.OpenChat($"{route}/story1-15-B");
         gameObject.SetActive(false);
     }
 }

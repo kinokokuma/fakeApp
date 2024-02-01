@@ -1,0 +1,23 @@
+{"ID": "chat-01",
+"ChatName": "แก๊งเด็กหลังห้อง นัดเทียว",
+"Icon": [
+    "Image/Story1/profileJ",
+    "Image/Story1/profileP"
+],
+    "DataDetail": [
+        
+        {
+            "ID": "chat-01",
+            "OnwerName": "จอม",
+            "Icon": "Image/Story1/profileJ",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เก่งมากเพื่อน",
+            "PostImage": "",
+            "LinkToPageName": "",
+            "LinkType": "chat",
+            "FileName": "Route2/RouteN/story1-20"
+            
+        }
+    ]
+}

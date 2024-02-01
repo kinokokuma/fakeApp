@@ -1,0 +1,51 @@
+{"ID": "chat-01",
+"ChatName": "แก๊งเด็กหลังห้อง นัดเทียว",
+"Icon": [
+    "Image/Story1/profileJ",
+    "Image/Story1/profileP"
+],
+    "DataDetail": [
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ได้กระเป๋าให้แม่แล้วววว",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 2,
+            "Content": "",
+            "Choice": [
+                {
+                    "ID": "001",
+                    "Path": "ร้านนี้ไม่โกงแน่นอน ร้านชื่อ BAGSHOP ",
+                    "LinkType": "chat",
+                    "FileName": "Route2/RouteN/story1-18"
+                },
+                {
+                    "ID": "001",
+                    "Path": "BAGSHOP ร้านนี้ส่งไวมาก",
+                    "LinkType": "chat",
+                    "FileName": "Route2/RouteN/story1-18"
+                },
+                {
+                    "ID": "001",
+                    "Path": "BAGSHOP ร้านนี้ดีหมดเลย พูดจาดี ส่งไว",
+                    "LinkType": "chat",
+                    "FileName": "Route2/RouteN/story1-18"
+                }
+            ],
+            "PostImage": "",
+            "LinkToPageName": "",
+            "LinkType": "",
+            "FileName": ""
+        }
+    ]
+}

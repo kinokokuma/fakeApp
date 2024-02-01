@@ -5,17 +5,18 @@ using UnityEngine.UI;
 
 public class SelectShopPopup : BasePopUp
 {
+    public string route = "Route1";
     public Button go1;
     public Button go2;
     // Start is called before the first frame update
     void Start()
     {
         startTime = Time.time;
-        go1.onClick.AddListener(() => { back("Route1/story1-10-A");
+        go1.onClick.AddListener(() => { back($"{route}/story1-10-A");
             save("Select BagShop");
         });
         go2.onClick.AddListener(() => {
-            back("Route1/story1-10-B");
+            back($"{route}/story1-10-B");
             save("Select ForyouBag");
         });
     }

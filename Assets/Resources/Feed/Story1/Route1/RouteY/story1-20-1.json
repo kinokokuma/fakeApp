@@ -1,10 +1,9 @@
-{
-    "ID": "chat-01",
-    "ChatName": "แก๊งเด็กหลังห้อง นัดเทียว",
-    "Icon": [
-        "Image/Story1/profileJ",
-        "Image/Story1/profileP"
-    ],
+{"ID": "chat-01",
+"ChatName": "แก๊งเด็กหลังห้อง นัดเทียว",
+"Icon": [
+    "Image/Story1/profileJ",
+    "Image/Story1/profileP"
+],
     "DataDetail": [
         {
             "ID": "chat-01",
@@ -33,16 +32,6 @@
             "ChatType": "Normal",
             "DelayTime": 1,
             "Content": "โดนแฟนบล็อคไปแล้วอ่ะ <sprite=1><sprite=1>",
-            "PostImage": "",
-            "LinkToPageName": ""
-        },
-        {
-            "ID": "chat-01",
-            "OnwerName": "ภู",
-            "Icon": "Image/Story1/profileP",
-            "ChatType": "Normal",
-            "DelayTime": 1,
-            "Content": "เป็นอะไร",
             "PostImage": "",
             "LinkToPageName": ""
         },
@@ -82,7 +71,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": "ใช่ ดีนะที่ไม่ได้โอนให้มันไป",
+            "Content": "ใช่",
             "PostImage": "",
             "LinkToPageName": ""
         },
@@ -92,18 +81,7 @@
             "Icon": "Image/Story1/profileP",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": "ก็ยังดีที่ไม่เสียเยอะไปมากกว่านั้น",
-            "PostImage": "",
-            "LinkToPageName": ""
-
-        },
-        {
-            "ID": "chat-01",
-            "OnwerName": "ภู",
-            "Icon": "Image/Story1/profileP",
-            "ChatType": "Normal",
-            "DelayTime": 1,
-            "Content": "ฟาดเคราะห์ไป",
+            "Content": "เสียทั้งเวลาเสียทั้งเงิน",
             "PostImage": "",
             "LinkToPageName": "",
             "LinkType": "chat",

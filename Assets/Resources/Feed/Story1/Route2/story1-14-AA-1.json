@@ -1,0 +1,52 @@
+{"ID": "chat-05",
+"ChatName": "monobag",
+"Icon": [
+    "Image/Story1/monobag"
+],
+    "DataDetail" :[
+    
+    {
+       "ID" : "chat-05",
+       "OnwerName" : "monobag",
+       "Icon" : "Image/Story1/monobag",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ลูกค้ารับกี่ใบคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-05",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "สองใบค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+    },
+    {
+        "ID" : "chat-05",
+        "OnwerName" : "my",
+        "Icon" : "",
+        "ChatType" : "Normal",
+        "DelayTime" : 2,
+        "Content" : "",
+        "Choice" : [
+            {   "ID" : "001",
+                "Path": "ขอดูสินค้า",
+                "LinkType": "chat",
+                "FileName": "Route2/story1-14-A-1"
+            },
+            {   "ID" : "001",
+                "Path": "ดูโพสต์อีกครั้ง",
+                "LinkType": "group",
+                "FileName": "group-fake-2"
+            }
+        ],
+        "PostImage" : "",
+
+        "LinkToPageName" : ""
+    }
+    ]
+}

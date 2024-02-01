@@ -26,19 +26,19 @@
             "Choice": [
                 {
                     "ID": "001",
-                    "Path": "ร้านนี้ไม่โกงแน่นอน ร้านชื่อ ForyouBAG ",
+                    "Path": "ร้านนี้ไม่โกง\nแน่นอน ร้านชื่อ ForyouBAG ",
                     "LinkType": "chat",
                     "FileName": "Route1/RouteY/story1-17-B"
                 },
                 {
                     "ID": "001",
-                    "Path": "ForyouBAG ร้านนี้ส่งไวมาก",
+                    "Path": "ForyouBAG ร้านนี้ส่งไว\nมาก",
                     "LinkType": "chat",
                     "FileName": "Route1/RouteY/story1-17-B"
                 },
                 {
                     "ID": "001",
-                    "Path": "ForyouBAG ร้านนี้ดีหมดเลย พูดจาดี ส่งไว",
+                    "Path": "ForyouBAG ร้านนี้ดีหมด\nเลย พูดจาดี ส่งไว",
                     "LinkType": "chat",
                     "FileName": "Route1/RouteY/story1-17-B"
                 }
