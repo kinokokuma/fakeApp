@@ -31,7 +31,7 @@ public class Group1Popup : BasePopUp
     public void ShowPose(GameObject pose)
     {
         pose.SetActive(true);
-        StartCoroutine(Back());
+
 
     }
 
@@ -43,10 +43,11 @@ public class Group1Popup : BasePopUp
         }
     }
 
-    public IEnumerator Back()
+    public void Back()
     {
-        yield return new WaitForSeconds(5);
-        manager.OpenChat("Route1/story1-4");
+
+        //manager.OpenChat("Route1/story1-4");
+        manager.CreatePopup("oldchat");
         gameObject.SetActive(false);
         index++;
     }

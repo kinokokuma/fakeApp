@@ -43,15 +43,16 @@
         "DelayTime" : 2,
         "Content" : "{0}",
         "Choice" : [
-            {   "ID" : "001",
-                "Path": "ขอดูสินค้า",
-                "LinkType": "chat",
-                "FileName": "Route1/story1-10-A-1"
-            },
+            
             {   "ID" : "001",
                 "Path": "ดูคอมเม้นท์ ในเพจ ",
                 "LinkType": "page",
                 "FileName": "page-1-A"
+            },
+            {   "ID" : "001",
+            "Path": "ขอดูสินค้า",
+            "LinkType": "chat",
+            "FileName": "Route1/story1-10-A-1"
             }
         ],
         "PostImage" : "",

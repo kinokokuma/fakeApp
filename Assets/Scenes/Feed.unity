@@ -2007,6 +2007,7 @@ MonoBehaviour:
   - {fileID: 7620364390943044226, guid: 28b798371ccf5db4ab23017a0be65a13, type: 3}
   - {fileID: 2437248735100423391, guid: 87e4e95e89759e1459580bbf137984c4, type: 3}
   - {fileID: 8223738347440492562, guid: 83fbc6cdd9790e04a9287a6512e73483, type: 3}
+  - {fileID: 3274681600154432728, guid: 93598b461c529e64ba552956137586e9, type: 3}
   currentChatData:
     ID: 
     OnwerName: 
@@ -6349,7 +6350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5497506782626319936, guid: db137bc573b816c4483088e9504a985e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.05
+      value: -0.049999237
       objectReference: {fileID: 0}
     - target: {fileID: 6132560493271025628, guid: db137bc573b816c4483088e9504a985e, type: 3}
       propertyPath: m_AnchorMax.y

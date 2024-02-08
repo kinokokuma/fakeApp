@@ -73,6 +73,7 @@
      <Compile Include="Assets\Script\PopUp\ReadPopup.cs" />
      <Compile Include="Assets\Script\Core\PopUpManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\Script\PopUp\S1\OldStoryChat.cs" />
      <Compile Include="Assets\Script\PopUp\S1\Group1Popup.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\Script\Setup\UserData.cs" />

@@ -10,6 +10,8 @@ public class ChatPopup : BasePopUp
     private const int chatSizeOffset = 285;
     private ChatData data;
     private int chatIndex;
+    private string[] emoji = { "<sprite=0>", "<sprite=1>", "<sprite=2>", "<sprite=3>", "<sprite=4>", "<sprite=5>" };
+
     [SerializeField]
     private Button allChatButton;
     [SerializeField]
@@ -196,6 +198,11 @@ public class ChatPopup : BasePopUp
             
 
         }
+
+        yield return new WaitForEndOfFrame();
+       // Canvas.ForceUpdateCanvases();
+        Canvas.ForceUpdateCanvases();
+        StartCoroutine(UpdateLayoutGroup(reloadObj,2));
 
         yield return new WaitForSeconds(5);
 

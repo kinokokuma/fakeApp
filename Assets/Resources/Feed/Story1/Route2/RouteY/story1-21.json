@@ -51,7 +51,7 @@
             "OnwerName": "ภู",
             "Icon": "Image/Story1/profileP",
             "ChatType": "Normal",
-            "DelayTime": 1,
+            "DelayTime": 5,
             "Content": "เพจ Cyber tip แนะนำมา",
             "PostImage": "",
             "LinkToPageName": ""
@@ -61,7 +61,7 @@
             "OnwerName": "ภู",
             "Icon": "Image/Story1/profileP",
             "ChatType": "Button",
-            "DelayTime": 1,
+            "DelayTime": 5,
             "Content": "",
             "PostImage": "Image/Story1/cybertiplink",
             "LinkToPageName": "",
