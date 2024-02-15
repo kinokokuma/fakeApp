@@ -54,7 +54,8 @@ public class ChatPopup : BasePopUp
     public GameObject textGuild;
     public GameObject imageGuild;
     public GameObject blockText;
-    public GameObject gopageButton;
+    public Image header;
+    public Image headerImage;
     public void Start()
     {
         allChatButton.interactable = false;
@@ -96,6 +97,14 @@ public class ChatPopup : BasePopUp
                 headerIcon[1].sprite = ImageManager.Instance.LoadImage(data.Icon[0]);
                 headerIconMask[0].gameObject.SetActive(false);
             }
+
+            if(data.Header != null)
+            {
+                headerImage.sprite = ImageManager.Instance.LoadImage(data.Header);
+                header.gameObject.SetActive(true);
+
+            }
+
             isFirstTime = false;
         }
 
@@ -230,9 +239,19 @@ public class ChatPopup : BasePopUp
                     manager.OpenChat(data.DataDetail[data.DataDetail.Length - 1].FileName);
                 }
             }
+            else if (!haveQuestion && data.DataDetail[chatIndex - 1].LinkType == "SP1")
+            {
+                manager.SP1Button.SetActive(true);
+                Button b = manager.SP1Button.GetComponent<Button>();
+                b.onClick.RemoveAllListeners();
+                b.onClick.AddListener(() => manager.OnclickOgpage(manager.SP1Button, (data.DataDetail[data.DataDetail.Length - 1].FileName)));
+            }
             else
             {
-                gopageButton.SetActive(true);
+                manager.gopageButton.SetActive(true);
+                Button b = manager.gopageButton.GetComponent<Button>();
+                b.onClick.RemoveAllListeners();
+                b.onClick.AddListener(() => manager.OnclickOgpage(manager.gopageButton, (data.DataDetail[data.DataDetail.Length - 1].FileName)));
             }
 
             if(data.DataDetail[chatIndex - 1].ID == "block")
@@ -263,11 +282,7 @@ public class ChatPopup : BasePopUp
         chat.gameObject.transform.SetParent(chatParent);
     }
 
-    public void OnclickOgpage()
-    {
-        gopageButton.SetActive(false);
-        manager.CreatePopup(data.DataDetail[data.DataDetail.Length - 1].FileName);
-    }
+    
     int countLoad = 0;
 
     private void LateUpdate()

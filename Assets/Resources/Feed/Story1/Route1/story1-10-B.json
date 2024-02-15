@@ -45,12 +45,12 @@
             {   "ID" : "001",
                 "Path": "ดูคอมเม้นท์ ในเพจ ",
                 "LinkType": "page",
-                "FileName": "page-1-A"
+                "FileName": "page-1-B"
             },
             {   "ID" : "001",
             "Path": "ขอดูสินค้า",
             "LinkType": "chat",
-            "FileName": "Route1/story1-10-A-1"
+            "FileName": "Route1/story1-10-B-1"
             }
         ],
         "PostImage" : "",

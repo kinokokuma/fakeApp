@@ -8,6 +8,7 @@ public class ChatData
     public string ID;
     public string ChatName;
     public string[] Icon;
+    public string Header;
     public ChatDataDetail[] DataDetail;
 
 }

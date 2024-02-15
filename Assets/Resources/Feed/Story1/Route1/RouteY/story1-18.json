@@ -31,7 +31,7 @@
             "Icon": "Image/Story1/profileJ",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": "{player}โอนเงินซื้อกระเป๋าไปรึยัง",
+            "Content": "{Player}โอนเงินซื้อกระเป๋าไปรึยัง",
             "PostImage": "",
             "LinkToPageName": ""
         },

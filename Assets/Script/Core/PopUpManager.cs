@@ -57,6 +57,8 @@ public class PopUpManager : MonoBehaviour
     private RectTransform bottomChat;
     public GameObject startObj;
     public float timeToClickChat;
+    public GameObject gopageButton;
+    public GameObject SP1Button;
 
     public void SetPhase(QuestionPhase phase)
     {
@@ -85,6 +87,12 @@ public class PopUpManager : MonoBehaviour
         OpenChat("story1-1");
 
         startObj.SetActive(false);
+    }
+
+    public void OnclickOgpage(GameObject obj, string data)
+    {
+        obj.SetActive(false);
+        CreatePopup(data);
     }
 
     public TextAsset ReadFile(string fileName)

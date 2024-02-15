@@ -3,7 +3,7 @@
     "ChatName": "ForyouBag",
     "Icon": [
         "Image/Story1/ForYouBAG"
-    ],
+    ],"Header":"Image/Story1/Head2",
     "DataDetail": [
         {
             "ID": "chat-04",
