@@ -12,6 +12,9 @@ public class Group1Popup : BasePopUp
     private int index = 0;
     private float startTime;
 
+    public GameObject[] male;
+    public GameObject[] female;
+    public GameObject[] backbutt;
     void Start()
     {
         startTime = Time.time;
@@ -21,6 +24,29 @@ public class Group1Popup : BasePopUp
             startTime = Time.time;
         }
         );
+
+        if(UserData.UserSex == "ชาย")
+        {
+            foreach (GameObject obj in male)
+            {
+                obj.SetActive(true);
+            }
+            foreach (GameObject obj in female)
+            {
+                obj.SetActive(false);
+            }
+        }
+        else
+        {
+            foreach (GameObject obj in male)
+            {
+                obj.SetActive(false);
+            }
+            foreach (GameObject obj in female)
+            {
+                obj.SetActive(true);
+            }
+        }
     }
 
     public void saveChoiceRecord(string comment)
@@ -31,8 +57,22 @@ public class Group1Popup : BasePopUp
     public void ShowPose(GameObject pose)
     {
         pose.SetActive(true);
+        StartCoroutine(CountToshowBack());
+    }
 
+    IEnumerator CountToshowBack()
+    {
+        yield return new WaitForSeconds(3);
 
+        foreach (GameObject obj in backbutt)
+        {
+            obj.SetActive(true);
+        }
+    }
+
+    public void SaveIndex(int index)
+    {
+        UserData.Story1PostIndex = index;
     }
 
     public void update()

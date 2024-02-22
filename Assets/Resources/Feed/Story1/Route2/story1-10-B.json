@@ -40,7 +40,7 @@
         "Icon" : "",
         "ChatType" : "Normal",
         "DelayTime" : 2,
-        "Content" : "{0}",
+        "Content" : "",
         "Choice" : [
             {   "ID" : "001",
                 "Path": "ดูคอมเม้นท์ ในเพจ ",

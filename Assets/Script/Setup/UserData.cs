@@ -12,6 +12,8 @@ public class UserData : MonoBehaviour
     public static string UserName;
     public static string UserSex;
 
+    public static int Story1PostIndex;
+
     public Button next;
     public TMP_InputField inputID;
     public TMP_Dropdown dropdownStory;
@@ -51,6 +53,6 @@ public class UserData : MonoBehaviour
         }
         UserName = inputName.text;
         UserSex = dropdownSex.captionText.text;
-        print(UserData.Story + " " + UserData.Solution + " " + UserData.UserID);
+        print(UserData.Story + " " + UserData.Solution + " " + UserData.UserID + " " + UserData.UserSex);
     }
 }

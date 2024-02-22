@@ -31,7 +31,7 @@
        "Icon" : "Image/Story1/profileC",
        "ChatType" : "Normal",
        "DelayTime" : 0,
-       "Content" : "รักมากๆนะครับ",
+       "Content" : "รักมากๆนะคะ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -272,7 +272,7 @@
        "Icon" : "Image/Story1/profileC",
        "ChatType" : "Normal",
        "DelayTime" : 0,
-       "Content" : "037-7-456245 ธ.กรุงไทย นายสุรชัย แก้วกล้า / นางสาวชล ชลกาล",
+       "Content" : "037-7-456245 ธ.กุ้งไทย ชล ชลกาล",
        "PostImage" : "",
        "LinkToPageName" : ""
    },{
@@ -311,7 +311,7 @@
        "Icon" : "",
        "ChatType" : "Normal",
        "DelayTime" : 0,
-       "Content" : "คืนทางนี้นะ 037-7-566234 ธ.กรุงไทย นางสาว*************",
+       "Content" : "คืนทางนี้นะ 037-7-566234 ธ.กรุงไทย จรินทร ศรประสงค์",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -392,46 +392,6 @@
        "ChatType" : "Normal",
        "DelayTime" : 0,
        "Content" : "เดี๋ยวฝนตกแดดออก",
-       "PostImage" : "",
-       "LinkToPageName" : ""
-   },
-   {
-       "ID" : "chat-04",
-       "OnwerName" : "my",
-       "Icon" : "",
-       "ChatType" : "Normal",
-       "DelayTime" : 0,
-       "Content" : "ทำอะไรอยู่",
-       "PostImage" : "",
-       "LinkToPageName" : ""
-   },
-   {
-       "ID" : "chat-04",
-       "OnwerName" : "ซี",
-       "Icon" : "Image/Story1/profileC",
-       "ChatType" : "Normal",
-       "DelayTime" : 0,
-       "Content" : "กำลังจะเข้าเรียนตอนบ่าย",
-       "PostImage" : "",
-       "LinkToPageName" : ""
-   },
-   {
-       "ID" : "chat-04",
-       "OnwerName" : "ซี",
-       "Icon" : "Image/Story1/profileC",
-       "ChatType" : "Normal",
-       "DelayTime" : 0,
-       "Content" : "เธอล่ะ",
-       "PostImage" : "",
-       "LinkToPageName" : ""
-   },
-   {
-       "ID" : "chat-04",
-       "OnwerName" : "ซี",
-       "Icon" : "Image/Story1/profileC",
-       "ChatType" : "Normal",
-       "DelayTime" : 0,
-       "Content" : "เธอล่ะ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },

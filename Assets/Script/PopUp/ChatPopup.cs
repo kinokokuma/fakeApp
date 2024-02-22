@@ -159,6 +159,11 @@ public class ChatPopup : BasePopUp
 
                     if (data.DataDetail[chatIndex].OnwerName == "my" && data.DataDetail[chatIndex].DelayTime !=0)
                     {
+                        if(UserData.UserSex == "ชาย")
+                        {
+                            data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("ค่ะ", "ครับ");
+                            data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("คะ", "ครับ");
+                        }
 
                         if (oldIndex != chatIndex || oldIndex == 0)
                         {
@@ -181,6 +186,11 @@ public class ChatPopup : BasePopUp
                     }
                     else
                     {
+                        if (data.DataDetail[chatIndex].OnwerName == "ซี" && UserData.UserSex == "หญิง")
+                        {
+                            data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("ค่ะ", "ครับ");
+                            data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("คะ", "ครับ");
+                        }
                         ChatObjectBase chat = Instantiate(chatobject, chatParent);
                         chat.gameObject.SetActive(true);
 

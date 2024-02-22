@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 public class OpenPage : MonoBehaviour
 {
     
+    public void OpenTutorial(GameObject obj)
+    {
+        obj.SetActive(true);
+    }
+
     public void OpenScene(int index)
     {
         SceneManager.LoadScene(index);

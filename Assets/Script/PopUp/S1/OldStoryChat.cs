@@ -1,13 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class OldStoryChat : BasePopUp
 {
     public GameObject read;
     public GameObject next;
+    public TMP_Text text;
     void Start()
     {
+        if (UserData.UserSex == "ชาย")
+        {
+            text.text += "ครับ";
+        }
+        else
+        {
+            text.text += "คะ";
+        }
         StartCoroutine(count());
     }
 
