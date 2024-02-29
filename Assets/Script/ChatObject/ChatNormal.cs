@@ -53,15 +53,7 @@ public class ChatNormal : ChatObjectBase
             iconMask.color = new Color32(255, 255, 255, 0);
         }
 
-        if (data.ChatType == "Time")
-        {
-            icon.gameObject.SetActive(false);
-            contentParent.gameObject.SetActive(false);
-            postImage.gameObject.SetActive(false);
-            time.gameObject.SetActive(true);
-            time.text = data.Content;
-            muteSound = true;
-        }
+        
 
         if (data.OnwerName == "my")
         {
@@ -109,6 +101,15 @@ public class ChatNormal : ChatObjectBase
             {
                 URLImageRatio.aspectRatio = (float)URLImage.sprite.texture.width / URLImage.sprite.texture.height;
             }
+        }
+        else if (data.ChatType == "Time")
+        {
+            icon.gameObject.SetActive(false);
+            contentParent.gameObject.SetActive(false);
+            postImage.gameObject.SetActive(false);
+            time.gameObject.SetActive(true);
+            time.text = data.Content;
+            muteSound = true;
         }
         else
         {

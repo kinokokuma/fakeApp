@@ -1,31 +1,20 @@
-{"ID": "chat-01",
-"ChatName": "แก๊งเด็กหลังห้อง นัดเทียว",
+{"ID": "chat-05",
+"ChatName": "monobag",
 "Icon": [
-    "Image/Story1/profileJ",
-    "Image/Story1/profileP"
+    "Image/Story1/monobag"
 ],
     "DataDetail": [
         {
-            "ID": "chat-01",
-            "OnwerName": "my",
-            "Icon": "",
-            "ChatType": "Normal",
-            "DelayTime": 1,
-            "Content": "โกงแน่นนอน โดนบล๊อคไปละ",
-            "PostImage": "",
-            "LinkToPageName": ""
-        },
-        {
-            "ID": "chat-01",
-            "OnwerName": "จอม",
+            "ID": "block",
+            "OnwerName": "monobag",
             "Icon": "Image/Story1/profileJ",
             "ChatType": "Normal",
-            "DelayTime": 1,
-            "Content": "ขอโทษ นึกว่าร้านเดียวกัน",
-            "PostImage": "",
+            "DelayTime": 5,
+            "Content": "",
+            "PostImage": "Image/Like",
             "LinkToPageName": "",
             "LinkType": "chat",
-            "FileName": "Route1/RouteY/story1-20"
+            "FileName": "Route1/RouteY/story1-19-2"
         }
     ]
 }
