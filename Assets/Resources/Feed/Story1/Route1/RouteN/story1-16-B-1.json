@@ -22,7 +22,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 2,
-            "Content": "",
+            "Content": "{0}",
             "Choice": [
                 {
                     "ID": "001",

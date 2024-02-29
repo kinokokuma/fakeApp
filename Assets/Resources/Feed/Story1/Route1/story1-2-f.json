@@ -42,7 +42,7 @@
             "Icon": "Image/Story1/profileP",
             "ChatType": "Button",
             "DelayTime": 1,
-            "Content": "",
+            "Content": "ลองไปดูเว็บของแบรนด์รึยัง เผื่อเขาผลิตเพิ่ม www.katespade.com",
             "PostImage": "Image/Story1/LinkKatespade",
             "LinkToPageName": "ไปเว็ป www.katespade.com",
             "LinkType": "web",

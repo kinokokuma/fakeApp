@@ -23,7 +23,16 @@ public class bank1Popup : BasePopUp
 
     public void save(string comment)
     {
-        TimeRecord.Instance.SaveRecord(ID, comment, startTime);
+        if (comment == "ไม่โอนเงิน" || comment == "โอนเงิน")
+        {
+
+            TimeRecord.Instance.SaveRecord(ID, comment, startTime, true);
+        }
+        else
+        {
+            TimeRecord.Instance.SaveRecord(ID, comment, startTime, false);
+        }
+        
     }
 
     IEnumerator open()

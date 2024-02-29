@@ -1,14 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Group5Popup : BasePopUp
 {
     public GameObject end;
-
+    public Button[] fake;
+    public Button[] real;
     void Start()
     {
         startTime = Time.time;
+
+        foreach (Button butt in fake)
+        {
+            butt.onClick.AddListener(() => save("กดลิ้งค์ปลอม", true));
+        }
+
+        foreach (Button butt in real)
+        {
+            butt.onClick.AddListener(() => save("กดลิ้งค์จริง", true));
+        }
     }
 
     public void CommentClick1(GameObject obj)

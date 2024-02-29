@@ -38,6 +38,7 @@ public class ChoiceImage
     public string Path;
     public string LinkType;
     public string FileName;
+    public bool IsSignificant;
 }
 
 [System.Serializable]
@@ -47,6 +48,6 @@ public class ChoiceText
     public string Path;
     public string LinkType;
     public string FileName;
-
+        public bool IsSignificant;
 }
 

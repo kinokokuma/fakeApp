@@ -34,6 +34,11 @@ public class ChatNormal : ChatObjectBase
     [SerializeField]
     private TMP_Text time;
 
+    public GameObject textImage;
+    public TMP_Text URLText;
+    public Image URLImage;
+    public AspectRatioFitter URLImageRatio;
+
     public override void Initialized(ChatDataDetail data, ChatPopup chatPopup, PopUpManager manager, bool muteSound)
     {
         base.Initialized(data, chatPopup, manager, muteSound);
@@ -76,24 +81,7 @@ public class ChatNormal : ChatObjectBase
             }
         }
 
-        if(data.Content == string.Empty)
-        {
-            contentParent.gameObject.SetActive(false);
-        }
-        else
-        {
-            
-            if (data.Content.Length < 45)
-            {
-                contentSize.horizontalFit = ContentSizeFitter.FitMode.PreferredSize;
-            }
-            else
-            {
-                contentSize.horizontalFit = ContentSizeFitter.FitMode.Unconstrained;
-            }
-            string text = data.Content.Replace("{Player}", UserData.UserName);
-            content.text = text;
-        }
+      
 
         if(data.OnwerName != string.Empty && data.OnwerName!="my")
         {
@@ -105,31 +93,63 @@ public class ChatNormal : ChatObjectBase
             nameParent.SetActive(false);
         }
 
-        if(data.PostImage != string.Empty)
-        {
-            postImage.gameObject.SetActive(true);
-            postImage.sprite = ImageManager.Instance.LoadImage(data.PostImage);
-
-            if ((float)postImage.sprite.texture.width / postImage.sprite.texture.height > 0)
-            {
-                postImageRatio.aspectRatio = (float)postImage.sprite.texture.width / postImage.sprite.texture.height;
-            }
-
-            if (data.PostImage == "Image/Like")
-            {
-                postImage.rectTransform.sizeDelta = postImage.rectTransform.sizeDelta / 3.0f;
-            }
-        }
-        else
-        {
-            postImage.gameObject.SetActive(false);
-        }
+      
 
         if(data.ChatType == "Button")
         {
             button.enabled = true;
             button.onClick.AddListener(() => ChatButton());
             guildLineTag.SetActive(true);
+            postImage.gameObject.SetActive(false);
+            contentParent.gameObject.SetActive(false);
+            textImage.SetActive(true);
+            URLText.text = data.Content;
+            URLImage.sprite = ImageManager.Instance.LoadImage(data.PostImage);
+            if ((float)URLImage.sprite.texture.width / URLImage.sprite.texture.height > 0)
+            {
+                URLImageRatio.aspectRatio = (float)URLImage.sprite.texture.width / URLImage.sprite.texture.height;
+            }
+        }
+        else
+        {
+            if (data.PostImage != string.Empty)
+            {
+                postImage.gameObject.SetActive(true);
+                postImage.sprite = ImageManager.Instance.LoadImage(data.PostImage);
+
+                if ((float)postImage.sprite.texture.width / postImage.sprite.texture.height > 0)
+                {
+                    postImageRatio.aspectRatio = (float)postImage.sprite.texture.width / postImage.sprite.texture.height;
+                }
+
+                if (data.PostImage == "Image/Like")
+                {
+                    postImage.rectTransform.sizeDelta = postImage.rectTransform.sizeDelta / 3.0f;
+                }
+            }
+            else
+            {
+                postImage.gameObject.SetActive(false);
+            }
+
+            if (data.Content == string.Empty)
+            {
+                contentParent.gameObject.SetActive(false);
+            }
+            else
+            {
+                contentParent.gameObject.SetActive(true);
+                if (data.Content.Length < 45)
+                {
+                    contentSize.horizontalFit = ContentSizeFitter.FitMode.PreferredSize;
+                }
+                else
+                {
+                    contentSize.horizontalFit = ContentSizeFitter.FitMode.Unconstrained;
+                }
+                string text = data.Content.Replace("{Player}", UserData.UserName);
+                content.text = text;
+            }
         }
 
         //StartCoroutine(UpdateLayoutGroup(,2));

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 using TMPro;
+using System.Text.RegularExpressions;
 
 public class ChatPopup : BasePopUp
 {
@@ -67,7 +68,7 @@ public class ChatPopup : BasePopUp
 
     private void ShowChatList()
     {
-        TimeRecord.Instance.SaveRecord(ID, $"เปิดแชททั้งหมด", manager.timeToClickChat);
+        TimeRecord.Instance.SaveRecord(ID, $"เปิดแชททั้งหมด", manager.timeToClickChat, false);
         manager.ShowAllChat();
         allChatButton.interactable = false;
         allChatGuildlind.SetActive(false);
@@ -167,9 +168,48 @@ public class ChatPopup : BasePopUp
 
                         if (oldIndex != chatIndex || oldIndex == 0)
                         {
-                            for (contextCharecterIndex = 0; contextCharecterIndex < data.DataDetail[chatIndex].Content.Length; contextCharecterIndex++)
+                            string inputString = data.DataDetail[chatIndex].Content.Replace("<sprite=0>", "๑");
+                            inputString = inputString.Replace("<sprite=1>", "๒");
+                            inputString = inputString.Replace("<sprite=2>", "๓");
+                            inputString = inputString.Replace("<sprite=3>", "๔");
+                            inputString = inputString.Replace("<sprite=4>", "๕");
+                            inputString = inputString.Replace("<sprite=5>", "๖");
+                            inputString = inputString.Replace("<sprite=6>", "๗");
+
+                            for (contextCharecterIndex = 0; contextCharecterIndex < inputString.Length; contextCharecterIndex++)
                             {
-                                userInputText.text += data.DataDetail[chatIndex].Content[contextCharecterIndex];
+                                if (inputString[contextCharecterIndex] == '๑')
+                                {
+                                    userInputText.text += "<sprite=0>";
+                                }
+                                else if(inputString[contextCharecterIndex] == '๒')
+                                {
+                                    userInputText.text += "<sprite=1>";
+                                }
+                                else if (inputString[contextCharecterIndex] == '๓')
+                                {
+                                    userInputText.text += "<sprite=2>";
+                                }
+                                else if (inputString[contextCharecterIndex] == '๔')
+                                {
+                                    userInputText.text += "<sprite=3>";
+                                }
+                                else if (inputString[contextCharecterIndex] == '๕')
+                                {
+                                    userInputText.text += "<sprite=4>";
+                                }
+                                else if (inputString[contextCharecterIndex] == '๖')
+                                {
+                                    userInputText.text += "<sprite=5>";
+                                }
+                                else if (inputString[contextCharecterIndex] == '๗')
+                                {
+                                    userInputText.text += "<sprite=6>";
+                                }
+                                else
+                                {
+                                    userInputText.text += inputString[contextCharecterIndex];
+                                }
                                 yield return new WaitForSeconds(0.05f);
                             }
                             
@@ -344,7 +384,7 @@ public class ChatPopup : BasePopUp
         dataDetail.LinkType = choiceText.LinkType;
         dataDetail.FileName = choiceText.FileName;
 
-        TimeRecord.Instance.SaveRecord(choiceText.ID, choiceText.Path, timeToShowQuestion);
+        TimeRecord.Instance.SaveRecord(choiceText.ID, choiceText.Path, timeToShowQuestion, choiceText.IsSignificant);
 
         chat.Initialized(dataDetail, this, manager);
         QuestionObject.gameObject.SetActive(false);
@@ -395,7 +435,7 @@ public class ChatPopup : BasePopUp
         chat.Initialized(dataDetail, this, manager);
         QuestionObject.gameObject.SetActive(false);
 
-        TimeRecord.Instance.SaveRecord(choiceImage.ID, Path.GetFileName(choiceImage.Path), timeToShowQuestion);
+        TimeRecord.Instance.SaveRecord(choiceImage.ID, Path.GetFileName(choiceImage.Path), timeToShowQuestion, choiceImage.IsSignificant);
 
         chatIndex = 0;
 

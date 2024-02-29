@@ -36,13 +36,15 @@
                     "ID": "001",
                     "Path": "ซื้อสินค้า",
                     "LinkType": "chat",
-                    "FileName": "Route2/RouteY/story1-15-B-1"
+                    "FileName": "Route2/RouteY/story1-15-B-1",
+                    "IsSignificant" : true
                 },
                 {
                     "ID": "001",
                     "Path": "ไม่ซื้อสินค้า",
                     "LinkType": "chat",
-                    "FileName": "Route2/RouteN/story1-15-BB"
+                    "FileName": "Route2/RouteN/story1-15-BB",
+                    "IsSignificant" : true
                 }
             ],
             "PostImage": "",

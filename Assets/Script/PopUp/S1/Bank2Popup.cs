@@ -37,7 +37,7 @@ public class Bank2Popup : BasePopUp
     public void back(string name)
     {
         manager.OpenChat(name);
-        TimeRecord.Instance.SaveRecord(ID, "กลับแชท", startTime);
+        TimeRecord.Instance.SaveRecord(ID, "กลับแชท", startTime, false);
         gameObject.SetActive(false);
     }
 }

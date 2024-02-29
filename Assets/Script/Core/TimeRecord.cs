@@ -46,12 +46,13 @@ public class TimeRecord : MonoSingleton<TimeRecord>
         List<string[]> rowData = new List<string[]>();
 
         // Creating First row of titles manually..
-        string[] rowDataTemp = new string[5];
+        string[] rowDataTemp = new string[6];
         rowDataTemp[0] = "Date";
         rowDataTemp[1] = "TimeFromStartQuestTion";
         rowDataTemp[2] = "ID";
         rowDataTemp[3] = "AnsTime";
         rowDataTemp[4] = "Ans";
+        rowDataTemp[5] = "IsSignificant";
         rowData.Add(rowDataTemp);
 
         string[][] output = new string[rowData.Count][];
@@ -77,9 +78,9 @@ public class TimeRecord : MonoSingleton<TimeRecord>
 
     }
 
-    private string[] rowDataTemp = new string[5];
+    private string[] rowDataTemp = new string[6];
 
-    public void SaveRecord(string ID, string Ans, float startTime)
+    public void SaveRecord(string ID, string Ans, float startTime,bool isSignificant =false)
     {
         rowData = new List<string[]>();
 
@@ -92,7 +93,8 @@ public class TimeRecord : MonoSingleton<TimeRecord>
         rowDataTemp[1] = startTime.ToString();
         rowDataTemp[2] = ID.ToString();
         rowDataTemp[3] = (Time.time - startTime).ToString();
-        rowDataTemp[4] = Ans;
+        rowDataTemp[4] = Ans.Replace("\n"," ");
+        rowDataTemp[5] = isSignificant.ToString();
         rowData.Add(rowDataTemp);
 
         string[][] output = new string[rowData.Count][];

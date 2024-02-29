@@ -242,7 +242,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: page-1-B
-  name: Route1/story1-10-B-1
+  startTime: 0
+  name: Route1/story1-11-B
   chatParent: {fileID: 6986565830001452810}
   next: {fileID: 6986565829986536779}
 --- !u!1 &6986565829661488824

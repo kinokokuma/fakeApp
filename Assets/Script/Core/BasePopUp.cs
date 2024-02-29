@@ -12,9 +12,9 @@ public class BasePopUp : MonoBehaviour
         this.manager = manager;
     }
 
-    public void save(string comment)
+    public void save(string comment, bool isSignificant =false)
     {
-        TimeRecord.Instance.SaveRecord(ID, comment, startTime);
+        TimeRecord.Instance.SaveRecord(ID, comment, startTime,isSignificant);
     }
 
     protected IEnumerator UpdateLayoutGroup(GameObject reloadObject, int count = 1)

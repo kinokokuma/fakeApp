@@ -14,11 +14,11 @@ public class SelectShopPopup : BasePopUp
     {
         startTime = Time.time;
         go1.onClick.AddListener(() => { back($"{route}/story1-10-A");
-            save("Select BagShop");
+            save("Select BagShop",true);
         });
         go2.onClick.AddListener(() => {
             back($"{route}/story1-10-B");
-            save("Select ForyouBag");
+            save("Select ForyouBag", true);
         });
     }
 
