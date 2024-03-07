@@ -1,0 +1,93 @@
+{"ID": "chat-01",
+"ChatName": "แก๊งเด็กหลังห้อง นัดเทียว",
+"Icon": [
+    "Image/Story1/profileJ",
+    "Image/Story1/profileP"
+],
+    "DataDetail": [
+        {
+            "ID": "chat-01",
+            "OnwerName": "จอม",
+            "Icon": "Image/Story1/profileJ",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เดี๋ยวต้องไปอุดหนุน\nบ้างแหละ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "จอม",
+            "Icon": "Image/Story1/profileJ",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "มีรุ่นหายากที่อยากได้ ร้านนั้นจะมีไหม",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ไม่รู้เหมือนกัน แต่เห็นบอกว่า\nมีรุ่นหายากเยอะ",
+            "PostImage": "",
+            "LinkToPageName": ""
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ลองทักไปถามร้านดู",
+            "PostImage": "",
+            "LinkToPageName": ""
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "จอม",
+            "Icon": "Image/Story1/profileJ",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "@ภู เอากระเป๋ารุ่นอะไรไหม จะได้ถามให้",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ภู",
+            "Icon": "Image/Story1/profileP",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ถ้าซื้อให้ก็มีที่อยากได้อยู่ 5555",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "จอม",
+            "Icon": "Image/Story1/profileJ",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "โอเคเลิกคุย 5555",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "จอม",
+            "Icon": "Image/Story1/profileJ",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " แล้วกระเป๋าที่สั่งด้วยกัน\nถึงไหนแล้ว",
+            "PostImage": "",
+            "LinkToPageName": "",
+            "LinkType": "chat",
+            "FileName": "Route1/RouteY/story1-19-2"
+        }
+    ]
+}

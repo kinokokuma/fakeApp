@@ -1,0 +1,72 @@
+{"ID": "chat-03",
+"ChatName": "ForyouBag",
+"Icon": [
+    "Image/Story1/ForYouBAG"
+],
+    "DataDetail": [
+        {
+            "ID": "chat-03",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 2,
+            "Content": "",
+            "ChoiceImage": [
+                {
+                    "ID": "001",
+                    "CanClick": true,
+                    "Path": "Image/Story1/prawnthai6-2",
+                    "LinkType": "chat",
+                "FileName": "Route1/story1-12-B-1"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/Story1/prawnthai5"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/Story1/bag1"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/Story1/bag2"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/Story1/bag3"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/Story1/bag4"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/Story1/bag5"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/Story1/bag6"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/Story1/bag7"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/Story1/bag8"
+                }
+            ],
+            "PostImage": "Image/Story1/prawnthai6-2",
+            "LinkToPageName": ""
+        }
+    ]
+}

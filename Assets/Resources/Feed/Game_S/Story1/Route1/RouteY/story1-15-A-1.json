@@ -1,0 +1,20 @@
+{"ID": "chat-05",
+"ChatName": "monobag",
+"Icon": [
+    "Image/Story1/monobag"
+],
+    "DataDetail": [
+        {
+            "ID": "chat-05",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "รับค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "Route1/RouteY/story1-15-2",
+            "LinkType": "bank",
+            "FileName": "bank-4"
+        }
+    ]
+}

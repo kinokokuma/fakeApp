@@ -12,11 +12,11 @@ public class OldStoryChat : BasePopUp
     {
         if (UserData.UserSex == "ชาย")
         {
-            text.text += "ครับ";
+            text.text += "คะ";
         }
         else
         {
-            text.text += "คะ";
+            text.text += "ครับ";
         }
         StartCoroutine(count());
     }

@@ -1,0 +1,40 @@
+{"ID": "chat-03",
+"ChatName": "ForyouBag",
+"Icon": [
+    "Image/Story1/ForYouBAG"
+],
+    "DataDetail": [
+        {
+            "ID": "chat-03",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "โอเคค่ะ รับค่ะ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-03",
+            "OnwerName": "ForyouBAG",
+            "Icon": "Image/Story1/ForYouBAG",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ขอสรุปยอดนะครับสินค้าราคา 5000 บาท ค่าส่ง 60 บาทนะครับรวมยอด 5060 บาทครับ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-03",
+            "OnwerName": "ForyouBAG",
+            "Icon": "Image/Story1/ForYouBAG",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "โอนเงินค่าสินค้าได้ที่ ธนาคารกุ้งไทย 036-8-456732 ชื่อบัญชี : ForyouBAG ครับ",
+            "PostImage": "",
+            "LinkToPageName": "ไปหน้าแอปธนาคาร",
+            "LinkType": "bank",
+            "FileName": "bank-3-2"
+        }
+    ]
+}

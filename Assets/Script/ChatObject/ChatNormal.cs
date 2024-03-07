@@ -89,7 +89,7 @@ public class ChatNormal : ChatObjectBase
 
         if(data.ChatType == "Button")
         {
-            button.enabled = true;
+            button.enabled = data.ChatType == "Button-N"? false:true;
             button.onClick.AddListener(() => ChatButton());
             guildLineTag.SetActive(true);
             postImage.gameObject.SetActive(false);
@@ -99,7 +99,20 @@ public class ChatNormal : ChatObjectBase
             URLImage.sprite = ImageManager.Instance.LoadImage(data.PostImage);
             if ((float)URLImage.sprite.texture.width / URLImage.sprite.texture.height > 0)
             {
-                URLImageRatio.aspectRatio = (float)URLImage.sprite.texture.width / URLImage.sprite.texture.height;
+
+                print((float)URLImage.sprite.texture.width / (float)URLImage.sprite.texture.height);
+                URLImageRatio.aspectRatio = (float)URLImage.sprite.texture.width / (float)URLImage.sprite.texture.height;
+            }
+        }
+        else if (data.ChatType == "Button-N")
+        {
+            textImage.SetActive(true);
+            URLText.text = data.Content;
+            URLImage.sprite = ImageManager.Instance.LoadImage(data.PostImage);
+            if ((float)URLImage.sprite.texture.width / URLImage.sprite.texture.height > 0)
+            {
+                print((float)URLImage.sprite.texture.width / (float)URLImage.sprite.texture.height);
+                URLImageRatio.aspectRatio = (float)URLImage.sprite.texture.width / (float)URLImage.sprite.texture.height;
             }
         }
         else if (data.ChatType == "Time")

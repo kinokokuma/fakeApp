@@ -1,0 +1,241 @@
+{
+    "ID": "chat-04",
+    "ChatName": "ซี",
+    "Icon": [
+        "Image/Story1/profileC"
+    ],
+    "DataDetail": [
+        {
+            "ID": "chat-04",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Time",
+            "DelayTime": 0,
+            "Content": "7 เม.ย. 2024 16:35",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "ซี",
+            "Icon": "Image/Story1/profileC",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เธอของที่เราซื้อให้มันติดอยู่ที่\nกรมศุลกากร",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "อ้าวแล้วเราต้องทำยังไง",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "ซี",
+            "Icon": "Image/Story1/profileC",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ต้องโอนเงินไปให้เขาแล้วจะจัดส่งให้\nตามปกติ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "ซี",
+            "Icon": "Image/Story1/profileC",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "แต่คงต้องรบกวนเธอโอนเงินก่อนนะ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "ซี",
+            "Icon": "Image/Story1/profileC",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ของอยู่ทางฝั่งไทยเธอน่าจะจัดการได้ง่าย\nกว่า",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ถ้าเราไม่โอนล่ะ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "ซี",
+            "Icon": "Image/Story1/profileC",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ของน่าจะตีกลับนะ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เท่าไรอ่ะ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "ซี",
+            "Icon": "Image/Story1/profileC",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "3000",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ทำไมแพงจัง ปล่อยตีกลับดีกว่าไหม",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "ซี",
+            "Icon": "Image/Story1/profileC",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "แต่เราก็ไม่แน่ใจเพราะมีข่าวว่ากรมศุลยึด\nของเยอะมาก",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "ซี",
+            "Icon": "Image/Story1/profileC",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "จู่ๆก็มีเมลส่งมาให้ เราส่งพวกเสื้อแบรนด์\nเนม กับน้ำหอมไปเยอะมาก",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "ซี",
+            "Icon": "Image/Story1/profileC",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "น่าจะแพงเพราะเป็นแบรนด์เนม",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "ซี",
+            "Icon": "Image/Story1/profileC",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "มีของขวัญแม่เธอด้วยเราตั้งใจซื้อ เธอโอน\nให้เราก่อนเดี๋ยวเราโอนคืนนะ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ครั้งที่แล้วก็ยังไม่ได้คืนเราเลย",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "ซี",
+            "Icon": "Image/Story1/profileC",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เดี๋ยวรวมโอนคืนให้หมดเลย",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "แล้วเราต้องโอนไปทางไหนอ่ะ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "ซี",
+            "Icon": "Image/Story1/profileC",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เดี๋ยวเราส่งเอกสารให้นะ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "ซี",
+            "Icon": "Image/Story1/profileC",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เธอจะได้ไม่ต้องไปที่กรมศุล สะดวกดีด้วย",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "โอเค",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "ซี",
+            "Icon": "Image/Story1/profileC",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "",
+            "PostImage": "Image/Story1/vat",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-04",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "โอเคเดี๋ยวเราโอนให้",
+            "PostImage": "",
+            "LinkToPageName": "เด้งไปหน้าแอปธนาคาร",
+            "LinkType": "bank",
+            "FileName": "bank-1"
+        }
+    ]
+}

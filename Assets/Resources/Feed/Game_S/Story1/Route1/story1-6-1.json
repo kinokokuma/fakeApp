@@ -1,0 +1,22 @@
+{
+    "ID": "chat-02",
+    "ChatName": "BAGSHOP",
+    "Icon": [
+        "Image/Story1/Bagshop"
+    ],
+    "DataDetail": [
+        
+            {
+                "ID": "chat-02",
+                "OnwerName": "my",
+                "Icon": "",
+                "ChatType": "Normal",
+                "DelayTime": 5,
+                "Content": "กระเป๋าใบนี้ที่ร้านขายราคาเท่าไรคะ",
+                "PostImage": "",
+                "LinkToPageName": "กลับไปหน้าคอมเม้นโพสต์เฟสบุ๊คก่อนหน้าแบบออโต้",
+                "LinkType": "group",
+                "FileName": "group-3"
+            }
+    ]
+}

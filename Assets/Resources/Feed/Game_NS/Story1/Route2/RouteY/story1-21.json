@@ -1,0 +1,74 @@
+{
+    "ID": "chat-01",
+    "ChatName": "แก๊งเด็กหลังห้อง นัดเทียว",
+    "Icon": [
+        "Image/Story1/profileJ",
+        "Image/Story1/profileP"
+    ],
+    "DataDetail": [
+        {
+            "ID": "chat-01",
+            "OnwerName": "ภู",
+            "Icon": "Image/Story1/profileP",
+            "ChatType": "Button-N",
+            "DelayTime": 5,
+            "Content": "www.facebook.com/Cybertip",
+            "PostImage": "Image/Story1/cybertiplink",
+            "LinkToPageName": "www.facebook.com/Cybertip",
+            "LinkType": "group",
+            "FileName": "page-2"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "จอม",
+            "Icon": "Image/Story1/profileJ",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "อันนี้คืออะไรทำไมจู่ๆก็ส่งมา",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ภู",
+            "Icon": "Image/Story1/profileP",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "บังเอิญเจอในเพจ Cyber tip มันเป็นแอปที่คอยใช้เช็คว่า\nร้านไหนโกงบ้าง",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ภู",
+            "Icon": "Image/Story1/profileP",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เห็นช่วงนี้ซื้อของออนไลน์กันบ่อย อย่างน้อยจะได้ช่วยเราตรวจสอบพวกร้านค้าได้ ใช้เลขบัญชีหรือชื่อบัญชีเสิร์ทไปก็เจอเลย",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ภู",
+            "Icon": "Image/Story1/profileP",
+            "ChatType": "Normal",
+            "DelayTime": 5,
+            "Content": "ลองไปโหลดแอปนี้ดูดิ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ภู",
+            "Icon": "Image/Story1/profileP",
+            "ChatType": "Button",
+            "DelayTime": 5,
+            "Content": "www.facebook.com/Cybertip",
+            "PostImage": "Image/Story1/cybertiplink",
+            "LinkToPageName": "www.facebook.com/Cybertip",
+            "LinkType": "group",
+            "FileName": "page-2"
+        }
+    ]
+}

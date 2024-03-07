@@ -1,0 +1,69 @@
+{
+    "ID": "chat-04",
+    "ChatName": "ซี",
+    "Icon": [
+        "Image/Story1/profileC"
+    ],
+    "DataDetail" :[
+        {
+            "ID": "chat-04",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Time",
+            "DelayTime": 0,
+            "Content": "7 เม.ย. 2024 16:02",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "",
+       "PostImage" : "Image/Story1/sticker5",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ว่าไง <sprite=5>",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-04",
+        "OnwerName" : "my",
+        "Icon" : "",
+        "ChatType" : "Normal",
+        "DelayTime" : 2,
+        "Content" : "",
+        "Choice" : [
+            {   "ID" : "001",
+                "Path": "สบายดีไหม ",
+                "LinkType": "chat",
+                "FileName": "Route1/story1-4-1"
+            },
+            {   "ID" : "001",
+                "Path": "ชวนมางานวันเกิดแม่",
+                "LinkType": "chat",
+                "FileName": "Route1/story1-4-2"
+            },
+            {   "ID" : "001",
+                "Path": "ถามหา\nกระเป๋าที่จะ\nซื้อเป็น\nของขวัญ\nให้แม่",
+                "LinkType": "chat",
+                "FileName": "Route1/story1-4-3"
+            }
+        ],
+        "PostImage" : "",
+
+        "LinkToPageName" : "",
+        "LinkType": "",
+        "FileName": ""
+    }
+    ]
+}

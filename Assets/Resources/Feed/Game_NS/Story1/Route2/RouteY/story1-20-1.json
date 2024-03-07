@@ -1,0 +1,108 @@
+{
+    "ID": "chat-01",
+    "ChatName": "แก๊งเด็กหลังห้อง นัดเทียว",
+    "Icon": [
+        "Image/Story1/profileJ",
+        "Image/Story1/profileP"
+    ],
+    "DataDetail": [
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "",
+            "PostImage": "Image/Story1/sticker1",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ภู",
+            "Icon": "Image/Story1/profileP",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เป็นอะไร",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "แฟนไม่ตอบแชทเลย",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "จอม",
+            "Icon": "Image/Story1/profileJ",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "อ้าวทะเลาะกันหรอ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "แฟนไม่ตอบแชทเลย",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ไม่รู้ว่าเป็นอะไร",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },{
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "แต่สงสัยงอน เพราะไม่ยอมรับของ\nที่เขาส่งมาให้",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },{
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "หนักขวามาก",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },{
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "รู้งี้รับของไว้ดีกว่า",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },{
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "อยากคุยด้วย คิดถึง <sprite=1>",
+            "PostImage": "",
+            "LinkToPageName": "",
+            "LinkType": "chat",
+            "FileName": "Route2/RouteY/story1-21"
+        }
+    ]
+}

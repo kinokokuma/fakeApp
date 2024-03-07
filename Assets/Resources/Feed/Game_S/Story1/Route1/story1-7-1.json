@@ -1,0 +1,22 @@
+{    
+    "ID": "chat-03",
+    "ChatName": "ForyoBag",
+    "Icon": [
+        "Image/Story1/ForYouBAG"
+    ],
+    "DataDetail": [
+
+        {
+            "ID": "chat-03",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "กระเป๋าใบนี้ที่ร้านขายราคาเท่าไรคะ",
+            "PostImage": "",
+            "LinkToPageName": "Route1/story1-8",
+            "LinkType": "chat",
+            "FileName": "Route1/story1-8"
+        }
+    ]
+}

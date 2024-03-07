@@ -23,6 +23,8 @@ public class UserData : MonoBehaviour
     public TMP_InputField inputName;
     public TMP_Dropdown dropdownSex;
 
+    public TMP_Text type;
+
     public GameObject User;
     public void Start()
     {
@@ -31,7 +33,8 @@ public class UserData : MonoBehaviour
 
     public void Update()
     {
-        if(inputID.text == string.Empty)
+
+        if (inputID.text == string.Empty)
         {
             next.interactable = false;
         }
@@ -42,7 +45,7 @@ public class UserData : MonoBehaviour
         UserID = inputID.text;
         Solution = dropdownSolution.captionText.text;
         Story = dropdownStory.captionText.text;
-
+        type.text = Solution.Split('_')[1];
         if (inputName.text == string.Empty)
         {
             nextPage.interactable = false;

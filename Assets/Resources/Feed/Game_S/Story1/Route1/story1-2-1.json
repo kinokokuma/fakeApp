@@ -1,0 +1,16 @@
+{
+    "DataDetail": [
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เขาขายหมดแล้ว",
+            "PostImage": "",
+            "LinkToPageName": "Route1/story1-3",
+            "LinkType": "chat",
+            "FileName": "Route1/story1-3"
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "ID": "chat-01",
+    "ChatName": "แก๊งเด็กหลังห้อง นัดเทียว",
+    "Icon": [
+        "Image/Story1/profileJ",
+        "Image/Story1/profileP"
+    ],
+    "DataDetail": [
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ได้กระเป๋าให้แม่แล้วววว",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 2,
+            "Content": "{0}",
+            "Choice": [
+                {
+                    "ID": "001",
+                    "Path": "ร้านนี้ไม่โกง\nแน่นอน ร้านชื่อ ForyouBAG ",
+                    "LinkType": "chat",
+                    "FileName": "Route1/RouteN/story1-18"
+                },
+                {
+                    "ID": "001",
+                    "Path": "ForyouBAG ร้านนี้ส่งไว\nมาก",
+                    "LinkType": "chat",
+                    "FileName": "Route1/RouteN/story1-18"
+                },
+                {
+                    "ID": "001",
+                    "Path": "ForyouBAG ร้านนี้ดีหมด\nเลย พูดจาดี ส่งไว",
+                    "LinkType": "chat",
+                    "FileName": "Route1/RouteN/story1-18"
+                }
+            ],
+            "PostImage": "",
+            "LinkToPageName": "",
+            "LinkType": "",
+            "FileName": ""
+        }
+    ]
+}

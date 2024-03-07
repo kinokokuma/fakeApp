@@ -1,0 +1,30 @@
+{
+    "ID": "chat-02",
+    "ChatName": "BAGSHOP",
+    "Icon": [
+        "Image/Story1/Bagshop"
+    ],"Header":"Image/Story1/Head1",
+    "DataDetail": [
+        {
+            "ID": "chat-04",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Time",
+            "DelayTime": 0,
+            "Content": "7 เม.ย. 2024 16:40",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-02",
+            "OnwerName": "BAGSHOP",
+            "Icon": "Image/Story1/Bagshop",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "5900 ครับ",
+            "PostImage": "",
+            "LinkType": "chat",
+            "FileName": "Route1/story1-10"
+        }
+    ]
+}

@@ -1,0 +1,578 @@
+{
+    "ID": "chat-04",
+    "ChatName": "ซี",
+    "Icon": [
+        "Image/Story1/profileC"
+    ],
+    "DataDetail" :[
+        {
+        "ID": "chat-04",
+        "OnwerName": "my",
+        "Icon": "",
+        "ChatType": "Time",
+        "DelayTime": 0,
+        "Content": "8 ก.พ. 2024 07:30",
+        "PostImage": "",
+        "LinkToPageName": ""
+    },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "สุขสันต์ครบรอบ2เดือนนะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "รักมากๆนะคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "",
+       "PostImage" : "Image/Story1/sticker2",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "รักมากเหมือนกัน<sprite=4>",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "",
+       "PostImage" : "Image/Story1/sticker4",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "",
+       "PostImage" : "Image/Story1/sticker2",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "มอนิ่ง แบบเวลาประเทศไทย<sprite=5>",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "สวัสดีตอนดึกแบบเวลาอังกฤษ5555",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "ไปเรียนก่อนนะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "อีกละ ไม่ค่อยได้คุยกันเลย",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "จะรีบเรียนจบแล้วไปหาเธอไง",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "ไปละ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "",
+       "PostImage" : "Image/Story1/sticker3",
+       "LinkToPageName" : ""
+   },
+   {
+    "ID": "chat-04",
+    "OnwerName": "my",
+    "Icon": "",
+    "ChatType": "Time",
+    "DelayTime": 0,
+    "Content": "5 มี.ค. 2024 12:04",
+    "PostImage": "",
+    "LinkToPageName": ""
+},
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "เธอ ช่วยด้วยยยย <sprite=4>",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "เราทำกระเป๋าหาย",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "เอ้า แล้วอะไรหายบ้าง",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "ก็เงินส่วนหนึ่ง ยังดีที่ไม่ได้พกเงินออกมาเยอะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "เรายืมเงินเธอก่อนได้ไหม",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "เราต้องนั่งบัสกลับหอ ไม่มีเงินเลยตอนนี้",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "โอนไปต่างประเทศหรอ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "ทำยังไง?",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "โอนเข้าบัญชีไทยแล้วเดี๋ยวเราจัดการต่อเองแล้วกัน",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "ขอยืมก่อน5000นะ เดี๋ยวเราโอนคืนให้",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "โอเคขอเลขบัญชีเธอหน่อย",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "037-7-456245 ธ.กุ้งไทย ชล ชลกาล",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },{
+    "ID": "chat-04",
+    "OnwerName": "my",
+    "Icon": "",
+    "ChatType": "Time",
+    "DelayTime": 0,
+    "Content": "7 มี.ค. 2024 16:21",
+    "PostImage": "",
+    "LinkToPageName": ""
+},
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "",
+       "PostImage" : "Image/Story1/prawnthai1",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "โอนให้แล้วนะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "คืนทางนี้นะ 037-7-566234 ธ.กรุงไทย จรินทร ศรประสงค์",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+    "ID": "chat-04",
+    "OnwerName": "my",
+    "Icon": "",
+    "ChatType": "Time",
+    "DelayTime": 0,
+    "Content": "15 มี.ค. 2024 19:16",
+    "PostImage": "",
+    "LinkToPageName": ""
+},
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "",
+       "PostImage" : "Image/Story1/prawnthai2",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "คืนเงินที่เคยยืมเธอนะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "ขอบคุณที่ให้ยืมนะ <sprite=5>",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "ไม่เป็นไรเรื่องแค่นี้เอง",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "เป็นไงบ้าง",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "วันนี้อากาศแปรปรวนมาก",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "เดี๋ยวฝนตกแดดออก",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "ทำอะไรอยู่",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "กำลังจะเข้าเรียนตอนบ่าย",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "เธอล่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "ที่นี่หนึ่งทุ่มแล้ว เพิ่งถึงบ้าน",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "งั้นฝันดีล่วงหน้านะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "กว่าเราจะเลิกเรียนเธอก็หลับแล้วแหละ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "Ok <sprite=4>",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },{
+    "ID": "chat-04",
+    "OnwerName": "my",
+    "Icon": "",
+    "ChatType": "Time",
+    "DelayTime": 0,
+    "Content": "25 มี.ค. 2024 13:04",
+    "PostImage": "",
+    "LinkToPageName": ""
+},
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "เธอเรายืมเงินได้ไหม",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "5000",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "ได้ๆ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "ธนาคารเดิมค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "",
+       "PostImage" : "Image/Story1/prawnthai3",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "เรียบร้อย",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },{
+    "ID": "chat-04",
+    "OnwerName": "my",
+    "Icon": "",
+    "ChatType": "Time",
+    "DelayTime": 0,
+    "Content": "28 มี.ค. 2024 10:50",
+    "PostImage": "",
+    "LinkToPageName": ""
+},
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "เธอเรายืมเงินหน่อยเดี๋ยวเราคืนพร้อมกับที่ยืมครั้งที่แล้ว",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "ซี",
+       "Icon" : "Image/Story1/profileC",
+       "ChatType" : "Normal",
+       "DelayTime" : 0,
+       "Content" : "5000 บาท",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "ad",
+       "DelayTime" : 0,
+       "Content" : "คืนด้วยนะ",
+       "PostImage" : "",
+       "LinkType": "chat",
+                "FileName": "story1-1"
+   }
+    ]
+}

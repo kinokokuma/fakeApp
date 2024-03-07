@@ -1,0 +1,52 @@
+{
+    "ID": "chat-01",
+    "ChatName": "แก๊งเด็กหลังห้อง นัดเทียว",
+    "Icon": [
+        "Image/Story1/profileJ",
+        "Image/Story1/profileP"
+    ],
+    "DataDetail": [
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "รุ่นนี้จะซื้อเป็นของขวัญให้แม่",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "หายากมาก แต่แม่อยากได้",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "<sprite=1><sprite=1><sprite=1><sprite=1>",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ภู",
+            "Icon": "Image/Story1/profileP",
+            "ChatType": "Button",
+            "DelayTime": 1,
+            "Content": "ลองไปดูเว็บของแบรนด์รึยัง เผื่อเขาผลิตเพิ่ม www.katespade.com",
+            "PostImage": "Image/Story1/LinkKatespade",
+            "LinkToPageName": "ไปเว็ป www.katespade.com",
+            "LinkType": "web",
+            "FileName": "web-1"
+        }
+    ]
+}

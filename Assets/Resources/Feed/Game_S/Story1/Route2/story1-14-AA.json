@@ -1,0 +1,79 @@
+{"ID": "chat-05",
+"ChatName": "monobag",
+"Icon": [
+    "Image/Story1/Monobag"
+],
+"Header":"Image/Story1/Head3",
+    "DataDetail" :[
+    {
+       "ID" : "chat-05",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "กระเป๋าใบนี้ที่ร้านขายราคาเท่าไรคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+    },
+    {
+        "ID" : "chat-05",
+        "OnwerName" : "my",
+        "Icon" : "",
+        "ChatType" : "Normal",
+        "DelayTime" : 2,
+        "Content" : "",
+        "ChoiceImage" : [
+            {   "ID" : "001",
+                "CanClick" : true,
+                "Path": "Image/Story1/bag9",
+                "LinkType": "chat",
+                "FileName": "Route2/story1-14-AA-1"
+            },
+            {   "ID" : "001",
+                "CanClick" : false,
+                "Path": "Image/Story1/prawnthai5"
+            },
+            {   "ID" : "001",
+                "CanClick" : false,
+                "Path": "Image/Story1/prawnthai4"
+            },
+            {   "ID" : "001",
+                "CanClick" : false,
+                "Path": "Image/Story1/bag1"
+            },
+            {   "ID" : "001",
+                "CanClick" : false,
+                "Path": "Image/Story1/bag2"
+            },
+            {   "ID" : "001",
+                "CanClick" : false,
+                "Path": "Image/Story1/bag3"
+            },
+            {   "ID" : "001",
+                "CanClick" : false,
+                "Path": "Image/Story1/bag4"
+            },
+            {   "ID" : "001",
+                "CanClick" : false,
+                "Path": "Image/Story1/bag5"
+            },
+            {   "ID" : "001",
+                "CanClick" : false,
+                "Path": "Image/Story1/bag6"
+            },
+            {   "ID" : "001",
+                "CanClick" : false,
+                "Path": "Image/Story1/bag7"
+            },
+            {   "ID" : "001",
+                "CanClick" : false,
+                "Path": "Image/Story1/bag8"
+            }
+        ],
+        "PostImage" : "Image/Story1/bag9",
+
+        "LinkToPageName" : ""
+    
+    }
+    ]
+}

@@ -33,7 +33,6 @@ public class SoundManager : MonoSingleton<SoundManager>
 
     public void PlaySound(SoundID ID,float volume = 1)
     {
-        print(soundDic[ID]);
 
         source.PlayOneShot(soundDic[ID], volume);
         

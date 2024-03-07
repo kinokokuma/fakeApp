@@ -1,0 +1,49 @@
+{"ID": "chat-02",
+"ChatName": "BAGSHOP",
+"Icon": [
+    "Image/Story1/Bagshop"
+],
+    "DataDetail": [{
+        "ID": "chat-04",
+        "OnwerName": "my",
+        "Icon": "",
+        "ChatType": "Time",
+        "DelayTime": 0,
+        "Content": "8 เม.ย. 2024 10:30",
+        "PostImage": "",
+        "LinkToPageName": ""
+    },
+        {
+            "ID": "chat-02",
+            "OnwerName": "BAGSHOP",
+            "Icon": "Image/Story1/Bagshop",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "สวัสดีครับ ลูกค้า",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-02",
+            "OnwerName": "BAGSHOP",
+            "Icon": "Image/Story1/Bagshop",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เลขแทรคของคุณลูกค้า ED225154865",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-02",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ขอบคุณค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+            "LinkType": "chat",
+            "FileName": "Route1/RouteN/story1-16-A-1"
+        }
+    ]
+}

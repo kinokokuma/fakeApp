@@ -15,11 +15,11 @@ D:/work/freelance/fakeApp
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64933
+51663
 Successfully changed project path to: D:/work/freelance/fakeApp
 D:/work/freelance/fakeApp
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 43.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path D:/unity/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,72 +35,72 @@ Initialize mono
 Mono path[0] = 'D:/unity/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/unity/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001249 seconds.
+Registered in 0.001151 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.630 seconds
+- Completed reload, in  0.623 seconds
 Domain Reload Profiling:
-	ReloadAssembly (630ms)
-		BeginReloadAssembly (58ms)
+	ReloadAssembly (623ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (492ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (494ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (162ms)
+			SetupTypeCache (161ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (192ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (195ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (44ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (94ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (21ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004110 seconds.
+Registered in 0.003478 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 42.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 43.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.129 seconds
+- Completed reload, in  1.109 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1130ms)
-		BeginReloadAssembly (153ms)
+	ReloadAssembly (1110ms)
+		BeginReloadAssembly (152ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (910ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (896ms)
 			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (317ms)
+			SetupTypeCache (303ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (331ms)
+			SetupLoadedEditorAssemblies (330ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (43ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (196ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (197ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 79.0 MB.
 System memory in use after: 79.0 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2094.
-Total: 3.776500 ms (FindLiveObjects: 0.324700 ms CreateObjectMapping: 0.044800 ms MarkObjects: 3.302100 ms  DeleteObjects: 0.102500 ms)
+Total: 4.285100 ms (FindLiveObjects: 0.236900 ms CreateObjectMapping: 0.043600 ms MarkObjects: 3.915700 ms  DeleteObjects: 0.086800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,65 +131,513 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Resources/Feed/Story1/Route1/RouteY/story1-19-1.json
-  artifactKey: Guid(a8e8f05073316504eb38841a6a23c9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Feed/Story1/Route1/RouteY/story1-19-1.json using Guid(a8e8f05073316504eb38841a6a23c9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93530ae716e2067b9e7d3ff5711fc9e') in 0.065299 seconds 
-  Import took 0.080286 seconds .
+  path: Assets/Image/facebook/bank/Bill2 (2).png
+  artifactKey: Guid(418779e94bd25de4bb50636d631e514c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/facebook/bank/Bill2 (2).png using Guid(418779e94bd25de4bb50636d631e514c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74aa91564718269fcd3518d8e9b1c86f') in 0.091420 seconds 
+  Import took 0.094436 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.708041 seconds.
-  path: Assets/Resources/Feed/Story1/Route1/story1-15-B.json
-  artifactKey: Guid(a598363c36511744a9ace66fe22551f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Feed/Story1/Route1/story1-15-B.json using Guid(a598363c36511744a9ace66fe22551f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50d8cddfcb5a918a530b4744ca32949') in 0.009096 seconds 
-  Import took 0.028937 seconds .
+  Time since last request: 16.389571 seconds.
+  path: Assets/Image/facebook/bank/Bill2 (2).png
+  artifactKey: Guid(418779e94bd25de4bb50636d631e514c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/facebook/bank/Bill2 (2).png using Guid(418779e94bd25de4bb50636d631e514c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ea26308885d5089d3d89a75f888769') in 0.079175 seconds 
+  Import took 0.082106 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 181.799489 seconds.
-  path: Assets/Resources/Feed/Story1/Route1/RouteY/story1-19-1.json
-  artifactKey: Guid(a8e8f05073316504eb38841a6a23c9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Feed/Story1/Route1/RouteY/story1-19-1.json using Guid(a8e8f05073316504eb38841a6a23c9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb87ec58084e5f82c4110640de5e2d44') in 0.002341 seconds 
-  Import took 0.012689 seconds .
+  Time since last request: 579.557645 seconds.
+  path: Assets/Image/facebook/bank/Bill2 (2) 1.png
+  artifactKey: Guid(d7cbc35d6f5a762438a113192441f7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/facebook/bank/Bill2 (2) 1.png using Guid(d7cbc35d6f5a762438a113192441f7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d17fbd6b86808c7d95e5292b01d8a6') in 0.024081 seconds 
+  Import took 0.027197 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 58.880046 seconds.
-  path: Assets/Resources/Feed/Story1/Route2/RouteY/story1-19-1.json
-  artifactKey: Guid(0988ceab7954b024ba9f372685f0f96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Feed/Story1/Route2/RouteY/story1-19-1.json using Guid(0988ceab7954b024ba9f372685f0f96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f8051f352a35086937b09bc749e088') in 0.002863 seconds 
-  Import took 0.015288 seconds .
+  Time since last request: 9.466679 seconds.
+  path: Assets/Image/facebook/bank/Bill2 (2).png
+  artifactKey: Guid(418779e94bd25de4bb50636d631e514c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/facebook/bank/Bill2 (2).png using Guid(418779e94bd25de4bb50636d631e514c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671ebac08b818d1a06792c9de950082d') in 0.007291 seconds 
+  Import took 0.010008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.563833 seconds.
+  path: Assets/Image/facebook/bank/Bill2 (2).png
+  artifactKey: Guid(418779e94bd25de4bb50636d631e514c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/facebook/bank/Bill2 (2).png using Guid(418779e94bd25de4bb50636d631e514c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41be6a1fd3613c8a8606403218be0870') in 0.052439 seconds 
+  Import took 0.056086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.811331 seconds.
+  path: Assets/Image/facebook/bank/Bill2 (3).png
+  artifactKey: Guid(1945eecd040919644ad8590baf335b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/facebook/bank/Bill2 (3).png using Guid(1945eecd040919644ad8590baf335b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a44a13680c686613df050d67df4927f') in 0.016270 seconds 
+  Import took 0.020356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.806804 seconds.
+  path: Assets/Image/facebook/bank/Bill2 (3).png
+  artifactKey: Guid(1945eecd040919644ad8590baf335b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/facebook/bank/Bill2 (3).png using Guid(1945eecd040919644ad8590baf335b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e9d89044e1eb063d7a01b8ae30ca6f') in 0.007973 seconds 
+  Import took 0.032007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.302808 seconds.
+  path: Assets/Image/facebook/bank/Bill2 (3).png
+  artifactKey: Guid(1945eecd040919644ad8590baf335b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/facebook/bank/Bill2 (3).png using Guid(1945eecd040919644ad8590baf335b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4ac8c0631a491931c3c8f908817519') in 0.007353 seconds 
+  Import took 0.010237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.774909 seconds.
+  path: Assets/Image/facebook/bank/Bill2 (3).png
+  artifactKey: Guid(1945eecd040919644ad8590baf335b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/facebook/bank/Bill2 (3).png using Guid(1945eecd040919644ad8590baf335b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42a46cd8538d1fb17f0fc39204925a7') in 0.023036 seconds 
+  Import took 0.026271 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004169 seconds.
+Registered in 0.003821 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.121 seconds
+- Completed reload, in  1.088 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1122ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (1089ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (942ms)
-			LoadAssemblies (117ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (900ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (366ms)
+			SetupTypeCache (332ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (312ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (325ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.0 MB.
+System memory in use after: 80.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2104.
+Total: 3.248400 ms (FindLiveObjects: 0.212100 ms CreateObjectMapping: 0.039200 ms MarkObjects: 2.976500 ms  DeleteObjects: 0.018800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 400.852594 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/storyc.json
+  artifactKey: Guid(4f62505f581a76445b3856234b732a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/storyc.json using Guid(4f62505f581a76445b3856234b732a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62696cbb25498fde428fdab79b835f7') in 0.054548 seconds 
+  Import took 0.057693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.643139 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/storyc.json
+  artifactKey: Guid(50525ab83a7c797489572b1f7b3f7178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/storyc.json using Guid(50525ab83a7c797489572b1f7b3f7178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6342eebcacb2de1506a881e2e5677fd8') in 0.003282 seconds 
+  Import took 0.006267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.341282 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/storyc.json
+  artifactKey: Guid(4f62505f581a76445b3856234b732a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/storyc.json using Guid(4f62505f581a76445b3856234b732a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e0aaf3ce374271ced5805ecd9dc85c') in 0.002842 seconds 
+  Import took 0.006641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.533828 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/storyc.json
+  artifactKey: Guid(50525ab83a7c797489572b1f7b3f7178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/storyc.json using Guid(50525ab83a7c797489572b1f7b3f7178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabad11d57094701600ae91a205faeed') in 0.002988 seconds 
+  Import took 0.006060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29833.246496 seconds.
+  path: Assets/Scenes/Home.unity
+  artifactKey: Guid(fc62145fca70454409c7d1e2ae611eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Home.unity using Guid(fc62145fca70454409c7d1e2ae611eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c314bff4dc9b12a7c2b132b86efd3729') in 0.017538 seconds 
+  Import took 0.065015 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004018 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.256 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1260ms)
+		BeginReloadAssembly (259ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (125ms)
+		EndReloadAssembly (925ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (351ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (314ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.0 MB.
+System memory in use after: 80.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2106.
+Total: 3.164100 ms (FindLiveObjects: 0.364500 ms CreateObjectMapping: 0.041300 ms MarkObjects: 2.739100 ms  DeleteObjects: 0.017600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1046.662194 seconds.
+  path: Assets/Image/facebook/FG4-1.png
+  artifactKey: Guid(d37fbbf110995c24b9be72b82874d472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/facebook/FG4-1.png using Guid(d37fbbf110995c24b9be72b82874d472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4bec8b7888a941a8ecbabf7feb09d9') in 0.121779 seconds 
+  Import took 0.143461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.274114 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2
+  artifactKey: Guid(1cd4c4d1c8cfbfb4c95f307d1c38f096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2 using Guid(1cd4c4d1c8cfbfb4c95f307d1c38f096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bc37c7198c81840ce6460ddef9141a') in 0.007847 seconds 
+  Import took 0.010564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.219681 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/story1-10-A.json
+  artifactKey: Guid(c90a4a7298dd04649919f0d60207d937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/story1-10-A.json using Guid(c90a4a7298dd04649919f0d60207d937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92966eb683de220f467328db974d643d') in 0.008860 seconds 
+  Import took 0.031364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.306807 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/story1-10-A.json
+  artifactKey: Guid(b87b6ce2517d5fa4ba72614302f2c78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/story1-10-A.json using Guid(b87b6ce2517d5fa4ba72614302f2c78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc8dbe7300eec10a8225858e6ce33e2') in 0.003107 seconds 
+  Import took 0.006430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.871593 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/story1-10-A.json
+  artifactKey: Guid(cc7bbeb2e66fea147ab9d41e238c181c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/story1-10-A.json using Guid(cc7bbeb2e66fea147ab9d41e238c181c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc486d4a9bad0283c2e040d8e4bfb22') in 0.002446 seconds 
+  Import took 0.005593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.933791 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/story1-10-A.json
+  artifactKey: Guid(ec013dc0c26635c43b1816c1caa234e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/story1-10-A.json using Guid(ec013dc0c26635c43b1816c1caa234e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd471b0f7b58b8ad4db0357082802592d') in 0.003867 seconds 
+  Import took 0.006974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.079297 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/story1-10-A-1.json
+  artifactKey: Guid(7fd9398da6a18f74f8c0f99854894e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/story1-10-A-1.json using Guid(7fd9398da6a18f74f8c0f99854894e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98713ed5995870f61f0e10d7d29b5476') in 0.008342 seconds 
+  Import took 0.011080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.702129 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/story1-10-A-1.json
+  artifactKey: Guid(05b32d43d1d96dd4786e67b4f6e63324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/story1-10-A-1.json using Guid(05b32d43d1d96dd4786e67b4f6e63324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51aede7df9f1b1fe94bc649c9e3abbd6') in 0.004217 seconds 
+  Import took 0.007862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.470598 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/story1-10-A.json
+  artifactKey: Guid(ec013dc0c26635c43b1816c1caa234e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/story1-10-A.json using Guid(ec013dc0c26635c43b1816c1caa234e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191d6459778ae35c56a2438190bb0688') in 0.003589 seconds 
+  Import took 0.007750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.375053 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/story1-10-A-1.json
+  artifactKey: Guid(2fd96e8a93b98834891583d3741a879f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/story1-10-A-1.json using Guid(2fd96e8a93b98834891583d3741a879f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2399189ea885a8bd61f84a37237e29e0') in 0.003159 seconds 
+  Import took 0.007427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.476175 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/story1-10-A-1.json
+  artifactKey: Guid(5a1c08f391b4b044ca81687bb79f540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/story1-10-A-1.json using Guid(5a1c08f391b4b044ca81687bb79f540f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2434ee2ff73c1ba51b6d5bca96f23e5') in 0.002947 seconds 
+  Import took 0.005954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.813875 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/story1-10-B.json
+  artifactKey: Guid(672191c332bc32448ab23ba15828d8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/story1-10-B.json using Guid(672191c332bc32448ab23ba15828d8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb8e8c9dd5a2aed00d8b0a03b67a035') in 0.011371 seconds 
+  Import took 0.014447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.441159 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/story1-10-B.json
+  artifactKey: Guid(4197895bf7604784e9ea8de1ab99d0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/story1-10-B.json using Guid(4197895bf7604784e9ea8de1ab99d0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b49cd110bd9e4a952458e7893d8e787') in 0.002601 seconds 
+  Import took 0.005428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.521235 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/story1-10-B.json
+  artifactKey: Guid(fe466fd2c5fed794fa7a6176485318d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/story1-10-B.json using Guid(fe466fd2c5fed794fa7a6176485318d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038d85251e6641a7d8ff49b2bbfc04fd') in 0.002629 seconds 
+  Import took 0.006115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.469231 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/story1-10-B.json
+  artifactKey: Guid(b80f7f0ec1f80774c9830ce2d81f13e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/story1-10-B.json using Guid(b80f7f0ec1f80774c9830ce2d81f13e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f493411d43e8edfa21719e616e5965b1') in 0.002507 seconds 
+  Import took 0.005268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.456111 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/story1-10-B.json
+  artifactKey: Guid(b80f7f0ec1f80774c9830ce2d81f13e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/story1-10-B.json using Guid(b80f7f0ec1f80774c9830ce2d81f13e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed22f3e2a58d2e9c69a535459602b1e3') in 0.004718 seconds 
+  Import took 0.009059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.106366 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/story1-10-B-1.json
+  artifactKey: Guid(0bf6e23d5fed64247a462a62b0788bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/story1-10-B-1.json using Guid(0bf6e23d5fed64247a462a62b0788bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2347e47f8df976275de81963e27f1eec') in 0.009858 seconds 
+  Import took 0.012929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.687556 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/story1-10-B-1.json
+  artifactKey: Guid(83008d7acd7e95b409ef6e2e2b989479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/story1-10-B-1.json using Guid(83008d7acd7e95b409ef6e2e2b989479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a23f519801942f3eb5dbdcb48145a2e') in 0.002852 seconds 
+  Import took 0.006228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.627161 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/story1-10-B-1.json
+  artifactKey: Guid(fe7f4ff88cf3a7447abbb48cf67f9d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/story1-10-B-1.json using Guid(fe7f4ff88cf3a7447abbb48cf67f9d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dca892e2ff9a9a44ff7781154ca31c5') in 0.003142 seconds 
+  Import took 0.007027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.310876 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/story1-10-B-1.json
+  artifactKey: Guid(af437c3f0b570584faba19242c82bb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/story1-10-B-1.json using Guid(af437c3f0b570584faba19242c82bb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb2dd3e34f86d711f5f609d19bc3d5f') in 0.002656 seconds 
+  Import took 0.005583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 272.627518 seconds.
+  path: Assets/Resources/Image/Story1/LinkKatespade.png
+  artifactKey: Guid(8e90bf84b6de34646a6edb3e69d59ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Story1/LinkKatespade.png using Guid(8e90bf84b6de34646a6edb3e69d59ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f373c87b2a81919ad2bdf688c0048110') in 0.029280 seconds 
+  Import took 0.033635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.706824 seconds.
+  path: Assets/Resources/Image/Story1/cybertiplink.png
+  artifactKey: Guid(ebc552e51c7c42e4d84a921d4656ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Story1/cybertiplink.png using Guid(ebc552e51c7c42e4d84a921d4656ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e874167125aba96db0da11a23288a277') in 0.031422 seconds 
+  Import took 0.034851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.968259 seconds.
+  path: Assets/Resources/Image/Story1/LinkBagGroup.png
+  artifactKey: Guid(d9b9a238273b01742b92df694104593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Story1/LinkBagGroup.png using Guid(d9b9a238273b01742b92df694104593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b9086faf243b78c383f02bc867e08e') in 0.042402 seconds 
+  Import took 0.045528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Resources/Image/Story1/LinkKatespade.png
+  artifactKey: Guid(8e90bf84b6de34646a6edb3e69d59ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Story1/LinkKatespade.png using Guid(8e90bf84b6de34646a6edb3e69d59ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173c272a39a54fe016008ddbe8c030cf') in 0.013424 seconds 
+  Import took 0.016373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Resources/Image/Story1/LinkBagGroup2.png
+  artifactKey: Guid(c635e9a7fcb3cd941b1ff61200c6ac60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Story1/LinkBagGroup2.png using Guid(c635e9a7fcb3cd941b1ff61200c6ac60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7432e01eebf3bdcbeeecbd6d6c5f90d7') in 0.028140 seconds 
+  Import took 0.030977 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003782 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.117 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1118ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (916ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (327ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.1 MB.
+System memory in use after: 80.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2114.
+Total: 3.678000 ms (FindLiveObjects: 0.286600 ms CreateObjectMapping: 0.044400 ms MarkObjects: 3.325300 ms  DeleteObjects: 0.020200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003311 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.059 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1060ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (865ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (313ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
 				ProcessInitializeOnLoadAttributes (212ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (3ms)
@@ -197,14 +645,14 @@ Domain Reload Profiling:
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.9 MB.
-System memory in use after: 77.0 MB.
+System memory in use before: 80.1 MB.
+System memory in use after: 80.2 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2096.
-Total: 3.986000 ms (FindLiveObjects: 0.277200 ms CreateObjectMapping: 0.042600 ms MarkObjects: 3.624500 ms  DeleteObjects: 0.039400 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2116.
+Total: 3.210200 ms (FindLiveObjects: 0.178300 ms CreateObjectMapping: 0.039100 ms MarkObjects: 2.967400 ms  DeleteObjects: 0.024000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -217,90 +665,50 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 89.642323 seconds.
-  path: Assets/Resources/Feed/Story1/Route1/RouteY/story1-19.json
-  artifactKey: Guid(92d338d3b198ad8409fc2fae0aea15d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Feed/Story1/Route1/RouteY/story1-19.json using Guid(92d338d3b198ad8409fc2fae0aea15d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680b248a7feea1e62cbd1f67832bb443') in 0.024191 seconds 
-  Import took 0.028999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.171211 seconds.
-  path: Assets/Resources/Feed/Story1/Route2/RouteY/story1-19.json
-  artifactKey: Guid(233aeede0d2987e4d85726498e51d8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Feed/Story1/Route2/RouteY/story1-19.json using Guid(233aeede0d2987e4d85726498e51d8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4057f5e9e86417920172dce08fcf852c') in 0.003341 seconds 
-  Import took 0.019583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 162.783045 seconds.
-  path: Assets/Resources/Feed/Story1/Route1/story1-7.json
-  artifactKey: Guid(0153a1bd766edfb4b8ca3232b5c9555e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Feed/Story1/Route1/story1-7.json using Guid(0153a1bd766edfb4b8ca3232b5c9555e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da9fc9d40b3672d57624239b78bef8f') in 0.012872 seconds 
-  Import took 0.035599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.982855 seconds.
-  path: Assets/Chat.prefab
-  artifactKey: Guid(db137bc573b816c4483088e9504a985e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chat.prefab using Guid(db137bc573b816c4483088e9504a985e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6188c38f79cdcf9bcb11b83a2cc5c06') in 0.125537 seconds 
-  Import took 0.129456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.025752 seconds.
-  path: Assets/Script/ChatObject/ChatNormal.cs
-  artifactKey: Guid(315c829acd7217f49a26a1cb5ab13a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/ChatObject/ChatNormal.cs using Guid(315c829acd7217f49a26a1cb5ab13a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35db30c81edc212dd6755f971c508d18') in 0.021045 seconds 
-  Import took 0.028441 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004525 seconds.
+Registered in 0.003636 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.193 seconds
+- Completed reload, in  1.153 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1194ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (1153ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (983ms)
-			LoadAssemblies (135ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (930ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (372ms)
+			SetupTypeCache (314ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (324ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (337ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (228ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.1 MB.
-System memory in use after: 77.2 MB.
+System memory in use before: 80.1 MB.
+System memory in use after: 80.2 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2098.
-Total: 4.062900 ms (FindLiveObjects: 0.294400 ms CreateObjectMapping: 0.048900 ms MarkObjects: 3.681600 ms  DeleteObjects: 0.035800 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2118.
+Total: 6.621000 ms (FindLiveObjects: 0.443700 ms CreateObjectMapping: 0.108900 ms MarkObjects: 6.031800 ms  DeleteObjects: 0.034900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -314,66 +722,594 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 85.310318 seconds.
-  path: Assets/Script/ChatObject/ChatNormal.cs
-  artifactKey: Guid(315c829acd7217f49a26a1cb5ab13a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/ChatObject/ChatNormal.cs using Guid(315c829acd7217f49a26a1cb5ab13a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96957f557a4d87f922c9ebf6bbcf5e21') in 0.005390 seconds 
-  Import took 0.034516 seconds .
+  Time since last request: 2547.562009 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteN/story1-17-B.json
+  artifactKey: Guid(27f1bb948243ffb479cb213ab652aae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteN/story1-17-B.json using Guid(27f1bb948243ffb479cb213ab652aae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b16f7bd45628843e55b84b12772d92') in 0.032251 seconds 
+  Import took 0.035336 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004171 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.158 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1158ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (958ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (369ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (326ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (225ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.1 MB.
-System memory in use after: 77.3 MB.
+Received Import Request.
+  Time since last request: 4.685783 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteN/story1-17-A.json
+  artifactKey: Guid(ed6d4c2db2ac15e49877b1424a772768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteN/story1-17-A.json using Guid(ed6d4c2db2ac15e49877b1424a772768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e86e29bf3ea5e1d19fdf7cef6d6ca7') in 0.008511 seconds 
+  Import took 0.011662 seconds .
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2100.
-Total: 3.057900 ms (FindLiveObjects: 0.179400 ms CreateObjectMapping: 0.039600 ms MarkObjects: 2.819900 ms  DeleteObjects: 0.017400 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 1.029550 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteN/story1-16-B.json
+  artifactKey: Guid(1f554260073f8e84682f519d23b1fbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteN/story1-16-B.json using Guid(1f554260073f8e84682f519d23b1fbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729739b76a1a3e6633ccb1dd844f2729') in 0.008293 seconds 
+  Import took 0.010996 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.525992 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteN/story1-16-B-1.json
+  artifactKey: Guid(9e8640276da7d374f8d415cfae159710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteN/story1-16-B-1.json using Guid(9e8640276da7d374f8d415cfae159710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6430cf3731ef3af88fb3a58a8c989360') in 0.008661 seconds 
+  Import took 0.011687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.175049 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteN/story1-16-A.json
+  artifactKey: Guid(5ecefb5216cb9fe4d9956641e4123aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteN/story1-16-A.json using Guid(5ecefb5216cb9fe4d9956641e4123aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bebfa90689fa01d7c254f0cafacd3d') in 0.008587 seconds 
+  Import took 0.011498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.215541 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteN/story1-15-BB.json
+  artifactKey: Guid(4f5febef246a1b64d82685235049c85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteN/story1-15-BB.json using Guid(4f5febef246a1b64d82685235049c85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f778d26f5ca20a20cfd48018d9841a52') in 0.010401 seconds 
+  Import took 0.013339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.601899 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteN/story1-15-AA.json
+  artifactKey: Guid(bc13a5ef380169b478cd985de7b1260a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteN/story1-15-AA.json using Guid(bc13a5ef380169b478cd985de7b1260a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bba31322c909bb70d458ce48ab726df') in 0.008643 seconds 
+  Import took 0.012147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.519627 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteN/story1-15-BB.json
+  artifactKey: Guid(4f5febef246a1b64d82685235049c85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteN/story1-15-BB.json using Guid(4f5febef246a1b64d82685235049c85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c68a50b9e39e11f0aaff0888c0a319') in 0.002664 seconds 
+  Import took 0.005374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.085159 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/story1-15-A.json
+  artifactKey: Guid(7b54a6465c958ba4c8dcdaeb767a246f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/story1-15-A.json using Guid(7b54a6465c958ba4c8dcdaeb767a246f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10ea21621ed17f865113fc7fa028ca7') in 0.011747 seconds 
+  Import took 0.014600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.670074 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/story1-15-A.json
+  artifactKey: Guid(c85dd0bdc078bbd43b62d4840d04eeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/story1-15-A.json using Guid(c85dd0bdc078bbd43b62d4840d04eeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8eab25c7067993bae55887f001d333d') in 0.002995 seconds 
+  Import took 0.005677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.187408 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/story1-15-A.json
+  artifactKey: Guid(806bda317c14983408fc7f151d32651c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/story1-15-A.json using Guid(806bda317c14983408fc7f151d32651c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597e831d6fcc1f720af9cbb367ed4bdb') in 0.002420 seconds 
+  Import took 0.005164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.863538 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/story1-15-A.json
+  artifactKey: Guid(80e9903ea27f4474e8415a25f980ecb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/story1-15-A.json using Guid(80e9903ea27f4474e8415a25f980ecb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbca417a09ca54a311721ff2344f8d74') in 0.002434 seconds 
+  Import took 0.005205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.902989 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-15-A-1.json
+  artifactKey: Guid(6a253363615ffad4ebb12ed444133fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-15-A-1.json using Guid(6a253363615ffad4ebb12ed444133fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cfe93de787085d7ddeec422184ae7d') in 0.008735 seconds 
+  Import took 0.011744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.157348 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-A-1.json
+  artifactKey: Guid(98fe71af7a053ae4ab869d2bed0bb27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-A-1.json using Guid(98fe71af7a053ae4ab869d2bed0bb27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76de0e4e92e9189f4e540f438c839c55') in 0.002414 seconds 
+  Import took 0.005155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.763624 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-15-A-1.json
+  artifactKey: Guid(c2ec1c85ee07c7b42a52e0da29ffcfe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-15-A-1.json using Guid(c2ec1c85ee07c7b42a52e0da29ffcfe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e219736e756a59663b434908fc9bda76') in 0.002402 seconds 
+  Import took 0.005047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.863506 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-A-1.json
+  artifactKey: Guid(6558624927e883342b0c50b63fac7ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-A-1.json using Guid(6558624927e883342b0c50b63fac7ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670ad43af92cd8ee6cbe48f588694d15') in 0.002531 seconds 
+  Import took 0.005167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.375929 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-A-2.json
+  artifactKey: Guid(c2804b43ed4454d4c88fb9edc2243b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-A-2.json using Guid(c2804b43ed4454d4c88fb9edc2243b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9f157b6a0cff530ce90904ea35d901') in 0.008043 seconds 
+  Import took 0.010635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.323521 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-A-2.json
+  artifactKey: Guid(fe07b6e60aa1cf446ae9880b1dff9772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-A-2.json using Guid(fe07b6e60aa1cf446ae9880b1dff9772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c18af85bdfdaeb4978c6091e49e02fa') in 0.002342 seconds 
+  Import took 0.005028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.614007 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-15-A-2.json
+  artifactKey: Guid(f89eff65d49701042af5283d6677d0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-15-A-2.json using Guid(f89eff65d49701042af5283d6677d0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231d6971358ee9aee73dfc5b9a57524c') in 0.003743 seconds 
+  Import took 0.006825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.982955 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-15-A-2.json
+  artifactKey: Guid(dedfbd4c89d85864b9214daaf64ab5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-15-A-2.json using Guid(dedfbd4c89d85864b9214daaf64ab5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083079906e0d67619714beef7bd97825') in 0.003853 seconds 
+  Import took 0.006578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.598814 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-A-2-1.json
+  artifactKey: Guid(8ea97c7141c22d04a9b478aa2890a059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-A-2-1.json using Guid(8ea97c7141c22d04a9b478aa2890a059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755060491b8fb169cba3cb876ec6a9d4') in 0.009893 seconds 
+  Import took 0.013444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.946686 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-15-A-2-1.json
+  artifactKey: Guid(7cf7f0977f337ea419d2f84232cd7a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-15-A-2-1.json using Guid(7cf7f0977f337ea419d2f84232cd7a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e09c934117be52a96ab551cce24bc8') in 0.002703 seconds 
+  Import took 0.005729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.811515 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-A-2-1.json
+  artifactKey: Guid(8ea97c7141c22d04a9b478aa2890a059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-A-2-1.json using Guid(8ea97c7141c22d04a9b478aa2890a059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7216a8fefe2d1baa927b937df728c3d7') in 0.003128 seconds 
+  Import took 0.007271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.921485 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-15-A-2-1.json
+  artifactKey: Guid(7cf7f0977f337ea419d2f84232cd7a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-15-A-2-1.json using Guid(7cf7f0977f337ea419d2f84232cd7a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01422e87260d183cf6369ec9d2147aaf') in 0.002455 seconds 
+  Import took 0.015648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021702 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-A-2-1.json
+  artifactKey: Guid(8ea97c7141c22d04a9b478aa2890a059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-A-2-1.json using Guid(8ea97c7141c22d04a9b478aa2890a059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4c17ae856c8acad0c6fe43877140b2') in 0.003220 seconds 
+  Import took 0.006379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.669404 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-15-A-2-1.json
+  artifactKey: Guid(dd5142df031b47243ac4e6fa873f09ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-15-A-2-1.json using Guid(dd5142df031b47243ac4e6fa873f09ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d18ba8ac1124f13cc559e3d0d45ddb') in 0.002883 seconds 
+  Import took 0.005939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.475341 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-15-A-2-1.json
+  artifactKey: Guid(dd5142df031b47243ac4e6fa873f09ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-15-A-2-1.json using Guid(dd5142df031b47243ac4e6fa873f09ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c0dceeb20d57bb9d88c8f6a20feacf') in 0.003040 seconds 
+  Import took 0.006494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034807 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-A-2-1.json
+  artifactKey: Guid(1b9e8c49f68b423408cf72b8223a430b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-A-2-1.json using Guid(1b9e8c49f68b423408cf72b8223a430b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b88f8f05b47c875731e30755349bd8') in 0.002605 seconds 
+  Import took 0.005635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.018220 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-A-2-1.json
+  artifactKey: Guid(1b9e8c49f68b423408cf72b8223a430b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-A-2-1.json using Guid(1b9e8c49f68b423408cf72b8223a430b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fac2c1ef90c2dae348abe71c4f8956') in 0.003287 seconds 
+  Import took 0.006917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.873943 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-A-1.json
+  artifactKey: Guid(98fe71af7a053ae4ab869d2bed0bb27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-A-1.json using Guid(98fe71af7a053ae4ab869d2bed0bb27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cc22ad7c9a6702093c9628518b66f6') in 0.002755 seconds 
+  Import took 0.005745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.704890 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-A-1.json
+  artifactKey: Guid(6558624927e883342b0c50b63fac7ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-A-1.json using Guid(6558624927e883342b0c50b63fac7ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b832ce4fdc39dd82fc2274b1ca4a593d') in 0.002815 seconds 
+  Import took 0.005789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.009840 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-A-2.json
+  artifactKey: Guid(c2804b43ed4454d4c88fb9edc2243b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-A-2.json using Guid(c2804b43ed4454d4c88fb9edc2243b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d29d4bba05b02a64d6cd5d1fedf8237') in 0.003282 seconds 
+  Import took 0.006957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.447465 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-A-2.json
+  artifactKey: Guid(fe07b6e60aa1cf446ae9880b1dff9772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-A-2.json using Guid(fe07b6e60aa1cf446ae9880b1dff9772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab8f8d161fb7e14fe7dc44b5be15092') in 0.003290 seconds 
+  Import took 0.007201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.713783 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-15-A-2.json
+  artifactKey: Guid(f89eff65d49701042af5283d6677d0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-15-A-2.json using Guid(f89eff65d49701042af5283d6677d0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db02f1b580ae135470a0ca13e08058a') in 0.002823 seconds 
+  Import took 0.006004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.390658 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-15-A-2.json
+  artifactKey: Guid(dedfbd4c89d85864b9214daaf64ab5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-15-A-2.json using Guid(dedfbd4c89d85864b9214daaf64ab5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0621e89e38e1fc0cf95762747b1a0d69') in 0.002516 seconds 
+  Import took 0.005214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.941136 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-A-2-1.json
+  artifactKey: Guid(8ea97c7141c22d04a9b478aa2890a059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-A-2-1.json using Guid(8ea97c7141c22d04a9b478aa2890a059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a311b65eaff6d09351fa8a1dcd59246c') in 0.002573 seconds 
+  Import took 0.005443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.861790 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/story1-15-A2.json
+  artifactKey: Guid(3ccae09429509b744b2708e0e46b49b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/story1-15-A2.json using Guid(3ccae09429509b744b2708e0e46b49b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0653d8fa134c5d78f1ae44e8fa22e66f') in 0.009293 seconds 
+  Import took 0.013096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.063280 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/story1-15-A2.json
+  artifactKey: Guid(689c632ae30eff44aad30826b1ce5395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/story1-15-A2.json using Guid(689c632ae30eff44aad30826b1ce5395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4806df59e0fbfe5b2d9891c7495e30') in 0.002880 seconds 
+  Import took 0.006219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.514459 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/RouteN/story1-15-AA.json
+  artifactKey: Guid(e9b54b190838a2845845be425a867dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/RouteN/story1-15-AA.json using Guid(e9b54b190838a2845845be425a867dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f9b3cd5a1694f7e39b7c85f98b6e9a') in 0.007826 seconds 
+  Import took 0.010529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.336783 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/RouteN/story1-15-AA.json
+  artifactKey: Guid(bd8c28b6b7e292f4ca40012e2d5c71ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/RouteN/story1-15-AA.json using Guid(bd8c28b6b7e292f4ca40012e2d5c71ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bbc13f63830fbd308fc463418cc7e8') in 0.002322 seconds 
+  Import took 0.005012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.404152 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/RouteN/story1-15-AA.json
+  artifactKey: Guid(93a5c65f3b4fdbb4b951fade4b2e0ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/RouteN/story1-15-AA.json using Guid(93a5c65f3b4fdbb4b951fade4b2e0ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51e129963e4a86361c1e4a31df5fca4') in 0.003140 seconds 
+  Import took 0.006579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.762543 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/story1-15-B.json
+  artifactKey: Guid(d626da5a1968c4b4f871ec18b3ccd791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/story1-15-B.json using Guid(d626da5a1968c4b4f871ec18b3ccd791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805d53817d7a20102e21f481d05256c3') in 0.009046 seconds 
+  Import took 0.012261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.303706 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/story1-15-B.json
+  artifactKey: Guid(6e98792448282e64397cb1b222600fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/story1-15-B.json using Guid(6e98792448282e64397cb1b222600fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5f4b936f74c85f53e9272b7ac4b231') in 0.003144 seconds 
+  Import took 0.006268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.690745 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/story1-15-B.json
+  artifactKey: Guid(76979fef25e1f0244a129bde2a927473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/story1-15-B.json using Guid(76979fef25e1f0244a129bde2a927473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d505567559b1452c24fd74211737863') in 0.002968 seconds 
+  Import took 0.006221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.625986 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/story1-15-B.json
+  artifactKey: Guid(c33aeb1a72a182341b818dcaf70ab17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/story1-15-B.json using Guid(c33aeb1a72a182341b818dcaf70ab17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4dd6b31a594a1996d66cc4900de10a9') in 0.002314 seconds 
+  Import took 0.005136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.594372 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-15-B-1.json
+  artifactKey: Guid(55c87878b57b48d488a54455e0b5c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-15-B-1.json using Guid(55c87878b57b48d488a54455e0b5c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d996dd8ff766fe5da1f701b22e1d6ef') in 0.009208 seconds 
+  Import took 0.012573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.328772 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-B-1.json
+  artifactKey: Guid(a15c9ec8829aaeb42a13489659cdc0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-B-1.json using Guid(a15c9ec8829aaeb42a13489659cdc0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa34e48dfb0d95968a64bfa7ca987f02') in 0.003077 seconds 
+  Import took 0.006749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.730779 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-B-1.json
+  artifactKey: Guid(d85e736276988e947aa4d55076cd33d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-B-1.json using Guid(d85e736276988e947aa4d55076cd33d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37d345c6ab7f420f9c55af485eaa501') in 0.003441 seconds 
+  Import took 0.006652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.749406 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-15-B-1.json
+  artifactKey: Guid(c82e6321b77a5bd448271d05e5e1ab96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-15-B-1.json using Guid(c82e6321b77a5bd448271d05e5e1ab96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab24cb5433435acf8b7a7cc7be0f89ae') in 0.002455 seconds 
+  Import took 0.005202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.521577 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-B-2.json
+  artifactKey: Guid(f0cc3d7815f054241b50df4509b2490c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-B-2.json using Guid(f0cc3d7815f054241b50df4509b2490c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e27d255c367ea01a68927b2689a753') in 0.007947 seconds 
+  Import took 0.010612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.894368 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-B-2.json
+  artifactKey: Guid(481bd9bb956233a4bb07b670ea3a598f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-B-2.json using Guid(481bd9bb956233a4bb07b670ea3a598f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711b84a9d11bcb837888cec5d92c5399') in 0.002315 seconds 
+  Import took 0.004951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.756105 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-15-B-2.json
+  artifactKey: Guid(8989e9322f7b2064ab15bd8175ebfe80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-15-B-2.json using Guid(8989e9322f7b2064ab15bd8175ebfe80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fad691182539b2d00112745474f0fd6') in 0.002471 seconds 
+  Import took 0.005265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.487328 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-15-B-2.json
+  artifactKey: Guid(40936833004836149b14a4ae7a527fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-15-B-2.json using Guid(40936833004836149b14a4ae7a527fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60034399d94d6cb8dcfe737e5a624ba') in 0.002293 seconds 
+  Import took 0.005111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.798446 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-B-2-1.json
+  artifactKey: Guid(7ca22265c81d72a4789e9274b88b2847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-B-2-1.json using Guid(7ca22265c81d72a4789e9274b88b2847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07241cfb6c1b4139a5eee4b92eaaf94') in 0.012690 seconds 
+  Import took 0.016726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.080840 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-B-2-1.json
+  artifactKey: Guid(7ca22265c81d72a4789e9274b88b2847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteY/story1-15-B-2-1.json using Guid(7ca22265c81d72a4789e9274b88b2847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed54e023ec54bb366d090daf5897c29') in 0.003717 seconds 
+  Import took 0.007347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.264849 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-15-B-2-1.json
+  artifactKey: Guid(cdad40e3e01b5e44d8543801cc9b1579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-15-B-2-1.json using Guid(cdad40e3e01b5e44d8543801cc9b1579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd28a53133bd96a2ee3a0777a36d5a9e') in 0.002615 seconds 
+  Import took 0.005957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.037916 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-15-B-2-1.json
+  artifactKey: Guid(cdad40e3e01b5e44d8543801cc9b1579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-15-B-2-1.json using Guid(cdad40e3e01b5e44d8543801cc9b1579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36198fc0931c8522ce67db788c3abd8d') in 0.003692 seconds 
+  Import took 0.007913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.708175 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-B-2-1.json
+  artifactKey: Guid(2a7b8fda05a68fa48b7e694b3ee657e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-B-2-1.json using Guid(2a7b8fda05a68fa48b7e694b3ee657e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abb0ae9588a6101ceccb5d31f8f9c26') in 0.002469 seconds 
+  Import took 0.005196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.484502 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-B-2-1.json
+  artifactKey: Guid(2a7b8fda05a68fa48b7e694b3ee657e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-15-B-2-1.json using Guid(2a7b8fda05a68fa48b7e694b3ee657e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fc1ed4a4be94513aaaeba8af342c9f') in 0.003260 seconds 
+  Import took 0.007059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.716799 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-15-B-2-1.json
+  artifactKey: Guid(4031d630dd23a5e468b2107210ac66ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-15-B-2-1.json using Guid(4031d630dd23a5e468b2107210ac66ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9418b8a8442b94e04b0dcdce5b53246a') in 0.002690 seconds 
+  Import took 0.005838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.146607 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-15-B-2-1.json
+  artifactKey: Guid(4031d630dd23a5e468b2107210ac66ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-15-B-2-1.json using Guid(4031d630dd23a5e468b2107210ac66ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4818cc988efc92697f3d6403e3df72f') in 0.003053 seconds 
+  Import took 0.006406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.001135 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/RouteN/story1-15-BB.json
+  artifactKey: Guid(4f2cba323de457244a94229dcf393eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/RouteN/story1-15-BB.json using Guid(4f2cba323de457244a94229dcf393eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429b3027ed18d2b9345d8c7066b36327') in 0.002281 seconds 
+  Import took 0.005015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.767689 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/RouteN/story1-15-BB.json
+  artifactKey: Guid(9cbdef49dcc53634188f764e71f65b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/RouteN/story1-15-BB.json using Guid(9cbdef49dcc53634188f764e71f65b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74be34ffb988aa8980936a1771afd492') in 0.002546 seconds 
+  Import took 0.005221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.742545 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/RouteN/story1-15-BB.json
+  artifactKey: Guid(4f2cba323de457244a94229dcf393eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/RouteN/story1-15-BB.json using Guid(4f2cba323de457244a94229dcf393eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078907defd00329c9e50d31d05335351') in 0.002483 seconds 
+  Import took 0.005430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.174913 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/RouteN/story1-15-BB.json
+  artifactKey: Guid(9235d04e8c648434ca27bec44eb17ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/RouteN/story1-15-BB.json using Guid(9235d04e8c648434ca27bec44eb17ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f899357377cf01625c3e3548ef986760') in 0.002823 seconds 
+  Import took 0.005619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 221.825116 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/RouteN/story1-19-1.json
+  artifactKey: Guid(e0de94e369de1894abba2a8b5cf78351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/RouteN/story1-19-1.json using Guid(e0de94e369de1894abba2a8b5cf78351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ace448efa7b04d3dfb7d7951c33d5d6') in 0.009316 seconds 
+  Import took 0.012460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.009252 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-19-2.json
+  artifactKey: Guid(cf35ee59f9c3d0441831e84a343ec7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/RouteY/story1-19-2.json using Guid(cf35ee59f9c3d0441831e84a343ec7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c7d4da64b48530fc49a49a74cba5a6') in 0.007980 seconds 
+  Import took 0.017891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.962785 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route1/RouteN/story1-19.json
+  artifactKey: Guid(f2a070b870c004c4aa98b7014f45867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route1/RouteN/story1-19.json using Guid(f2a070b870c004c4aa98b7014f45867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9185c29e40c227424e8d5a84babf2a7d') in 0.008746 seconds 
+  Import took 0.011733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.273425 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-19-2.json
+  artifactKey: Guid(300b10dae97932749ae162b073848b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-19-2.json using Guid(300b10dae97932749ae162b073848b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cb0ee65339b252def399259b77ca25') in 0.002778 seconds 
+  Import took 0.005754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.548258 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-19-2.json
+  artifactKey: Guid(e258cbf4e0da3e841b6b9a198354c411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-19-2.json using Guid(e258cbf4e0da3e841b6b9a198354c411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de101261766ba655be8e43c00157c928') in 0.003296 seconds 
+  Import took 0.006182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.928863 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route1/RouteN/story1-19-1.json
+  artifactKey: Guid(87f287e06843ce94eb38350d27fd3c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route1/RouteN/story1-19-1.json using Guid(87f287e06843ce94eb38350d27fd3c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e7a7c7befcdf46de6fb12fea7a79ba') in 0.003089 seconds 
+  Import took 0.006580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.742671 seconds.
+  path: Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-19-1.json
+  artifactKey: Guid(4079f9b1cb1aee543ba5d772cd3b9a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_NS/Story1/Route2/RouteY/story1-19-1.json using Guid(4079f9b1cb1aee543ba5d772cd3b9a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a943203a7fbe0742d6020ab98c6b5878') in 0.003092 seconds 
+  Import took 0.013078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.558829 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-19-1.json
+  artifactKey: Guid(97f92bf1611f4b3429d97e75ffb9dab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/RouteY/story1-19-1.json using Guid(97f92bf1611f4b3429d97e75ffb9dab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b55fe8ef00a74cbe988c2c143e7e65') in 0.003907 seconds 
+  Import took 0.007165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.599986 seconds.
+  path: Assets/Resources/Feed/Game_S/Story1/Route2/RouteN/story1-19.json
+  artifactKey: Guid(76ccd55ecb9ad864e8305bf08d92a361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Game_S/Story1/Route2/RouteN/story1-19.json using Guid(76ccd55ecb9ad864e8305bf08d92a361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f3343bafdc2339615872836953d247') in 0.003064 seconds 
+  Import took 0.006899 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

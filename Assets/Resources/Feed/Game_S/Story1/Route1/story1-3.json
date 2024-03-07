@@ -1,0 +1,53 @@
+{
+    
+    "ID": "chat-01",
+    "ChatName": "แก๊งเด็กหลังห้อง นัดเทียว",
+    "Icon": [
+        "Image/Story1/profileJ",
+        "Image/Story1/profileP"
+    ],
+    "DataDetail": [
+        {
+            "ID": "chat-01",
+            "OnwerName": "ภู",
+            "Icon": "Image/Story1/profileP",
+            "ChatType": "Normal",
+            "DelayTime" : 3,
+            "Content": "หรือลองดูในกลุ่มขายกระเป๋าในเฟซบุ๊คดูไหม",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime" : 3,
+            "Content": "มีกลุ่มแนะนำไหม",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+
+        {
+            "ID" : "chat-01",
+           "OnwerName" : "ภู",
+           "Icon" : "Image/Story1/profileP",
+           "ChatType" : "Normal",
+           "DelayTime" : 1,
+           "Content" : "กลุ่มรวมคนขายกระเป๋า",
+           "PostImage" : "",
+           "LinkToPageName" : ""
+       },
+       {
+        "ID" : "chat-01",
+       "OnwerName" : "ภู",
+       "Icon" : "Image/Story1/profileP",
+       "ChatType" : "Button",
+       "DelayTime" : 1,
+       "Content" : "https://www.facebook.com/groups/194",
+       "PostImage" : "Image/Story1/LinkBagGroup",
+       "LinkType": "group",
+       "FileName": "group-1"
+    }
+    ]
+}

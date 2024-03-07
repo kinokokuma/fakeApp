@@ -1,0 +1,51 @@
+{"ID": "chat-03",
+"ChatName": "ForyouBag",
+"Icon": [
+    "Image/Story1/ForYouBAG"
+],
+    "DataDetail": [
+        
+        {
+            "ID": "chat-03",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เรียบร้อยค่ะ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-03",
+            "OnwerName": "ForyouBAG",
+            "Icon": "Image/Story1/ForYouBAG",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ครับ จะจัดส่งในวันพรุ่งนี้นะครับ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-03",
+            "OnwerName": "ForyouBAG",
+            "Icon": "Image/Story1/ForYouBAG",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "จะแจ้งเลขแทรคให้ช่วงเย็นพรุ่งนี้นะครับ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-03",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ค่ะ ขอบคุณค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+            "LinkType": "chat",
+            "FileName": "Route1/story1-13-B"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{"ID": "chat-03",
+"ChatName": "ForyouBag",
+"Icon": [
+    "Image/Story1/ForYouBAG"
+],"Header":"Image/Story1/Head2",
+    "DataDetail": [{
+        "ID": "chat-04",
+        "OnwerName": "my",
+        "Icon": "",
+        "ChatType": "Time",
+        "DelayTime": 0,
+        "Content": "7 เม.ย. 2024 16:45",
+        "PostImage": "",
+        "LinkToPageName": ""
+    },
+        {
+            "ID": "chat-03",
+            "OnwerName": "ForyouBAG",
+            "Icon": "Image/Story1/ForYouBAG",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "5000 ครับ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-03",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 2,
+            "Content": "",
+            "PostImage": "",
+            "LinkToPageName": "",
+            "LinkType": "group",
+            "FileName": "select-bag"
+        }
+    ]
+}

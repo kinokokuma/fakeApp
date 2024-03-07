@@ -1,0 +1,141 @@
+{"ID": "chat-01",
+"ChatName": "แก๊งเด็กหลังห้อง นัดเทียว",
+"Icon": [
+    "Image/Story1/profileJ",
+    "Image/Story1/profileP"
+],
+    "DataDetail" :[
+        {
+            "ID": "chat-04",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Time",
+            "DelayTime": 0,
+            "Content": "7 เม.ย. 2024 16:50",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+   {
+       "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ได้กระเป๋าแล้วนะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-01",
+       "OnwerName" : "จอม",
+       "Icon" : "Image/Story1/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "{Player}เข้าไปในกลุ่มแล้วใช่ไหม",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-01",
+       "OnwerName" : "จอม",
+       "Icon" : "Image/Story1/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เห็นคนขายกระเป๋าใบนี้ไหม",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-01",
+       "OnwerName" : "จอม",
+       "Icon" : "Image/Story1/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "",
+       "PostImage" : "Image/Story1/bag9",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-01",
+       "OnwerName" : "จอม",
+       "Icon" : "Image/Story1/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เขาขายสองใบลดราคา",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-01",
+       "OnwerName" : "จอม",
+       "Icon" : "Image/Story1/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ซื้อมาใช้ด้วยกันไหม{Player} หารกัน",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-01",
+       "OnwerName" : "จอม",
+       "Icon" : "Image/Story1/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "แต่ออกเงินให้ก่อนได้ป่ะ ยังไม่สิ้นเดือน TT",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เอาๆ เดี๋ยวติดต่อให้ๆ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+    },
+    {
+       "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เช็คแล้วใช่ไหมว่าเชื่อถือได้",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+    },
+    {
+       "ID" : "chat-01",
+       "OnwerName" : "จอม",
+       "Icon" : "Image/Story1/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เคยซื้อกับร้านนี้แล้วนะ monobag",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+       "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ขอลิงค์",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+    },
+    {
+       "ID" : "chat-01",
+       "OnwerName" : "จอม",
+       "Icon" : "Image/Story1/profileJ",
+       "ChatType" : "Button",
+       "DelayTime" : 1,
+       "Content" : "https://www.facebook.com/groups/155",
+       "PostImage" : "Image/Story1/LinkBagGroup2",
+       "LinkToPageName" : "",
+       "LinkType": "group",
+        "FileName": "group-4-2"
+   }
+    ]
+}

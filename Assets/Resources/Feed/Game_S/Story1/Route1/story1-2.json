@@ -1,0 +1,138 @@
+{
+    "ID": "chat-01",
+    "ChatName": "แก๊งเด็กหลังห้อง นัดเทียว",
+    "Icon": [
+        "Image/Story1/profileJ",
+        "Image/Story1/profileP"
+    ],
+    "DataDetail": [
+        {
+            "ID": "chat-01",
+            "OnwerName": "จอม",
+            "Icon": "Image/Story1/profileJ",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ดีเลย กำลังอยากไป",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "แต่ไม่ได้ไปด้วยนะ เลือกให้เฉยๆ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ภู",
+            "Icon": "Image/Story1/profileP",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "อ้าว ทำไมอ่ะ <sprite=2>",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ตรงวันเกิดแม่พอดี",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "แต่ว่ามีใครรู้จักร้านกระเป๋าที่มีกระเป๋า\nหายากบ้างไหม",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "จอม",
+            "Icon": "Image/Story1/profileJ",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ยี่ห้ออะไร",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 2,
+            "Content": "",
+            "ChoiceImage": [
+                {
+                    "ID": "question_108",
+                    "CanClick": true,
+                    "Path": "Image/Story1/bag1",
+                    "LinkType": "chat",
+                    "FileName": "Route1/story1-2-f"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/Story1/bag2",
+                    "LinkType": "chat",
+                    "FileName": "Route1/story1-2-f"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/Story1/bag3",
+                    "LinkType": "chat",
+                    "FileName": "Route1/story1-2-f"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/Story1/bag4",
+                    "LinkType": "chat",
+                    "FileName": "Route1/story1-2-f"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/Story1/bag5",
+                    "LinkType": "chat",
+                    "FileName": "Route1/story1-2-f"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/Story1/bag6",
+                    "LinkType": "chat",
+                    "FileName": "Route1/story1-2-f"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/Story1/bag7",
+                    "LinkType": "chat",
+                    "FileName": "Route1/story1-2-f"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/Story1/bag8",
+                    "LinkType": "chat",
+                    "FileName": "Route1/story1-2-f"
+                }
+            ],
+            "PostImage": "Image/Story1/bag1",
+            "LinkToPageName": ""
+        }
+    ]
+}

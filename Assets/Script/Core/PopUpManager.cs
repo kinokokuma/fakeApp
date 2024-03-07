@@ -131,7 +131,7 @@ public class PopUpManager : MonoBehaviour
 
     public void OpenChat(string path,bool muteSound = false)
     {
-        ChatData newData = ReadChatData($"Feed/Story1/{path}");
+        ChatData newData = ReadChatData($"Feed/{UserData.Solution}/{UserData.Story}/{path}");
         print(newData.ID);
         string id = newData.ID;
 
@@ -171,7 +171,7 @@ public class PopUpManager : MonoBehaviour
     public void ShowAllChat( )
     {
         timeToClickChat = Time.time;
-        ChatData data = ReadChatData($"Feed/Story1/{NextFileName}");
+        ChatData data = ReadChatData($"Feed/{UserData.Solution}/{UserData.Story}/{NextFileName}");
         allChat.SetActive(true);
         foreach (var button in allChatButtonList)
         {

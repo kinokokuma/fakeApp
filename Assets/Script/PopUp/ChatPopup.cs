@@ -270,7 +270,7 @@ public class ChatPopup : BasePopUp
             manager.NextFileName = data.DataDetail[data.DataDetail.Length - 1].FileName;
             if (data.DataDetail[chatIndex - 1].LinkType == "chat")
             {
-                ChatData newData = manager.ReadChatData($"Feed/Story1/{data.DataDetail[data.DataDetail.Length - 1].FileName}");
+                ChatData newData = manager.ReadChatData($"Feed/{UserData.Solution}/{UserData.Story}/{data.DataDetail[data.DataDetail.Length - 1].FileName}");
                 print("check ID : "+ID + " " + newData.ID);
                 if (newData.ID != ID)
                 {

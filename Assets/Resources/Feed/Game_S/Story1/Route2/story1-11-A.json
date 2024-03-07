@@ -1,0 +1,41 @@
+{
+     "ID": "chat-02",
+"ChatName": "BAGSHOP",
+"Icon": [
+    "Image/Story1/Bagshop"
+],
+    "DataDetail": [
+        {
+            "ID": "chat-02",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "โอเคค่ะ รับค่ะ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-02",
+            "OnwerName": "BAGSHOP",
+            "Icon": "Image/Story1/Bagshop",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ขอสรุปยอดนะครับสินค้าราคา 5900 บาท ค่าส่ง 60 บาทนะครับรวมยอด 5960 บาทครับ",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+        {
+            "ID": "chat-02",
+            "OnwerName": "BAGSHOP",
+            "Icon": "Image/Story1/Bagshop",
+            "ChatType": "Normal",
+            "DelayTime": 3,
+            "Content": "โอนเงินค่าสินค้าได้ที่ ธนาคารกุ้งไทย 036-8-456732 ชื่อบัญชี : BAGSHOP ครับ",
+            "PostImage": "",
+            "LinkToPageName": "ไปหน้าแอปธนาคาร",
+            "LinkType": "bank",
+            "FileName": "bank-2-2"
+        }
+    ]
+}

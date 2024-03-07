@@ -1,0 +1,21 @@
+{"ID": "chat-05",
+"ChatName": "monobag",
+"Icon": [
+    "Image/Story1/monobag"
+],
+    "DataDetail": [
+        
+        {
+            "ID": "chat-05",
+            "OnwerName": "monobag",
+            "Icon": "Image/Story1/monobag",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "จัดส่งให้พรุ่งนี้นะคะ",
+            "PostImage": "",
+            "LinkToPageName": "Route1/RouteY/story1-16-B",
+            "LinkType": "chat",
+            "FileName": "Route1/RouteY/story1-16-B"
+        }
+    ]
+}

@@ -1297,6 +1297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: group-3
+  startTime: 0
   name: Route1/story1-7
   comment: {fileID: 955341054431700905}
   page1: {fileID: 4345331203751511843}
