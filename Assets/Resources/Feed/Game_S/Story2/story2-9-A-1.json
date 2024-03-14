@@ -1,0 +1,26 @@
+{
+    "DataDetail" :[
+    {
+        "ID" : "chat-04",
+       "OnwerName" : "phoneyshop",
+       "Icon" : "Image/Story2/phoneyshop",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "รบกวนนขอที่อยู่ด้วยค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "{address}",
+       "PostImage" : "",
+       "LinkToPageName" : "",
+       "LinkType": "chat",
+       "FileName": "story2-10"
+   }
+    ]
+}

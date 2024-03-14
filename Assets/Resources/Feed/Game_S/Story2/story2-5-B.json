@@ -1,0 +1,84 @@
+{
+    "DataDetail" :[
+    {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "หาร้านได้ยัง",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ได้แล้ว",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เป็นไงบ้าง",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ลืมบอกให้เลือกร้านดีๆ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เดี๋ยวนี้มีพวกโกงเยอะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+        "OnwerName" : "my",
+        "Icon" : "",
+        "ChatType" : "Normal",
+        "DelayTime" : 2,
+        "Content" : "ไม่ได้ทำเพราะ {0}",
+        "Choice" : [
+            {   "ID" : "001",
+                "Path": "มีค่าสมัคร",
+                "LinkType": "chat",
+                "FileName": "story2-6"
+            },
+            {   "ID" : "001",
+                "Path": "ได้เงินไม่เยอะ",
+                "LinkType": "chat",
+                "FileName": "story2-6"
+            },
+            {   "ID" : "001",
+                "Path": "ร้านไม่น่าเชื่อถือ",
+                "LinkType": "chat",
+                "FileName": "story2-6"
+            }
+        ],
+        "PostImage" : "",
+
+        "LinkToPageName" : "",
+        "LinkType": "",
+        "FileName": ""
+    }
+    ]
+}

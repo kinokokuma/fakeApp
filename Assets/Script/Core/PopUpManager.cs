@@ -78,13 +78,17 @@ public class PopUpManager : MonoBehaviour
 
     IEnumerator StartChatStory()
     {
-        OpenChat("storyc",true);
+        if (UserData.Story == "Story1")
+        {
+            OpenChat("storyc", true);
+        }
         while (NextFileName != "")
         {
 
         }
         yield return new WaitForEndOfFrame();
-        OpenChat("story1-1");
+
+        OpenChat($"{UserData.Story.ToLower()}-1");
 
         startObj.SetActive(false);
     }

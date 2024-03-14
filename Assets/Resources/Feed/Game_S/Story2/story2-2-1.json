@@ -1,0 +1,56 @@
+{
+    "DataDetail" :[
+    {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ลองทำละ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เป็นไงบ้าง",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ก็ได้เงินจริงนะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "แต่ได้น้อยมากเลย แบบสอบถามฉบับนึงได้แค่7บาทเอง ทำมาหลายฉบับแล้วยังถอนเงินไม่ได้เลย",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ก็ถูกแล้วเงินมันหายาก เป็นเรื่องปกติ",
+       "PostImage" : "",
+       "LinkToPageName" : "",
+       "LinkType": "chat",
+       "FileName": "story2-3"
+   }
+    ]
+}

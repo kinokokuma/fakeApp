@@ -398,9 +398,26 @@ public class ChatPopup : BasePopUp
         }
         Canvas.ForceUpdateCanvases();
         print(dataDetail.FileName);
+        manager.NextFileName = dataDetail.FileName;
         if (choiceText.LinkType == "chat")
         {
-            manager.OpenChat(dataDetail.FileName);
+            ChatData newData = manager.ReadChatData($"Feed/{UserData.Solution}/{UserData.Story}/{dataDetail.FileName}");
+            print("check ID : " + ID + " " + newData.ID);
+            if (newData.ID != ID)
+            {
+                manager.timeToClickChat = Time.time;
+                allChatButton.interactable = true;
+                allChatGuildlind.SetActive(true);
+                print(data.ID);
+                manager.NextChatID = data.ID;
+                SoundManager.Instance.PlaySound(SoundID.newChat);
+                
+            }
+            else
+            {
+                print(dataDetail.FileName);
+                manager.OpenChat(dataDetail.FileName);
+            }
         }
         else if(choiceText.LinkType != null)
         {

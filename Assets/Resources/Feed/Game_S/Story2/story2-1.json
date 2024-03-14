@@ -1,0 +1,231 @@
+{"ID": "chat-01",
+"ChatName": "เพื่อน(ลงทุน)",
+"Icon": [
+    "Image/Story2/profileN",
+    "Image/Story2/profileJ"
+],
+    "DataDetail" :[
+    {
+        "ID": "chat-01",
+        "OnwerName": "my",
+        "Icon": "",
+        "ChatType": "Time",
+        "DelayTime": 0,
+        "Content": "25 ก.ย. 2024 14:30",
+        "PostImage": "",
+        "LinkToPageName": ""
+    },
+    {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ทุกคน มีโรงงานที่ดีลไว้เขาเร่งมาเรื่องเงิน",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ให้เราจ่ายค่าเสื้อผ้าล๊อตนี้ภายในอาทิตย์นี้",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "โอเคเดี๋ยวโอนเงินให้ หาร3เท่าเดิมใช่ไหม",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ใช่",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "@{Player} ทางนี้เงียบเลย",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ยังไม่มีเงินเลย ;-;",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "โทรศัพท์ก็จะพัง",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เมื่อวานพอไลฟ์ขายของเสร็จก็หน่วงมาก",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เลื่อนไม่ค่อยไป",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "อ้าว แล้วยังไงดี",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "@นัด สัปดาห์นี้ใช้โทรศัพท์ตัวเองไลฟ์ไปก่อนได้ไหม",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เดี่ยวทางนี้จะใช้โทรศัพท์ตัวเองดูคอมเม้นให้",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "โอเค",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "แล้วเรื่องค่าของล๊อตนี้จะติดไว้ก่อนหรอ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เรื่องของยังพอมีเวลานะ เรื่องโทรศัพท์น่าจะต้องมาก่อน",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "อีก3วันต้องไลฟ์ขายของด้วย ใช้โทรศัพท์เครื่องเดียวตอบลูกค้าไม่น่าทัน",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "Ipad ก็ต้องเอาไว้ดูยอดขาย",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เงินไม่พอซื้อโทรศัพท์ด้วยดิ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "นี่มีร้านนี้เขาแจกไอโฟน ลองไปลุ้นๆดูไหม ไม่เสียค่าใช้จ่ายอะไรด้วย",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "",
+       "PostImage" : "Image/Story2/PageLink1",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "โอเค",
+       "PostImage" : "",
+       "LinkToPageName" : "",
+       "LinkType": "group",
+       "FileName": "2page-1"
+   }
+    ]
+}

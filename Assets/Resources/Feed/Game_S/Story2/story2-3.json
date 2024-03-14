@@ -1,0 +1,56 @@
+{
+    "DataDetail" :[
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เห็นมีเพจทำงานออนไลน์เปิดเยอะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ลองหางานออนไลน์ในเฟซบุ๊คดูไหม",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "น่าสนใจนะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ใช่ๆ น่าจะมีงานให้เลือกเยอะกว่าในเว็บที่ส่งให้",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "อยากทำอะไรก็เลือกเอา",
+       "PostImage" : "",
+       "LinkToPageName" : "",
+       "LinkType": "group",
+       "FileName": "2page-3"
+   }
+    ]
+}

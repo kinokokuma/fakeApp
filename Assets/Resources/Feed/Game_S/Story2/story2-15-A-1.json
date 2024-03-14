@@ -1,0 +1,66 @@
+{
+    "DataDetail" :[
+   {
+        "ID" : "chat-05",
+       "OnwerName" : "knock knock",
+       "Icon" : "Image/Story2/knock_knock",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "รบกวนขอรูปถ่ายบัตรประชาชนและกรอกข้อมูลตามนี้นะคะ\n1.ชื่อ-นามสกุล\n2.เลขประจำตัวบัตรประชาชน\n3.ชื่อบัญชี\n4.เลขบัญชี\n5.ธนาคาร\n\n**กรุณาตรวจสอบความถูกต้องของข้อมูลก่อนส่งให้แอดมิน**",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-05",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "",
+       "PostImage" : "Image/Story2/IDcard",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-05",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "1.วรินทร ไมตรีมิตร\n2.1 2345 67890 12 3\n3.วรินทร ไมตรีมิตร\n4.36-5-413185\n5.ธนาคารกุ้งไทย",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+    {
+        "ID" : "chat-05",
+       "OnwerName" : "knock knock",
+       "Icon" : "Image/Story2/knock_knock",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "แอดมินของแจ้งในส่วนที่ลูกค้าต้องทำนะคะ\nเมื่อเลือกจำนวนเงินกู้แล้วจะต้องโอนเงินฝากค้ำประกันเงินกู้ 10% จากจำนวนเงินที่กู้นะคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-05",
+       "OnwerName" : "knock knock",
+       "Icon" : "Image/Story2/knock_knock",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "โอนเข้ามาที่บัญชีนี้นะคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-05",
+       "OnwerName" : "knock knock",
+       "Icon" : "Image/Story2/knock_knock",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "",
+       "PostImage" : "Image/Story2/DataBank",
+       "LinkToPageName" : "",
+       "LinkType": "bank",
+       "FileName": "2bank-4"
+   }
+    ]
+}

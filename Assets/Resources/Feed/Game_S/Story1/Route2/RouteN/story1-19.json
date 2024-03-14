@@ -11,25 +11,25 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 2,
-            "Content": "ไม่ได้โอน {0}",
+            "Content": "",
             "Choice": [
                 {
-                    "ID": "001",
+                    "ID": "chat-01",
                     "Path": "ลายน้ำใน\nภาพไม่ใช่\nชื่อร้าน",
                     "LinkType": "chat",
-                "FileName": "Route2/RouteN/story1-19-1"
+                "FileName": "Route1/RouteN/story1-19C-1"
                 },
                 {
-                    "ID": "001",
+                    "ID": "chat-01",
                     "Path": "ดูคอมเม้น\nแล้วในโพสมี\nคนกดโกรธ\nเยอะมาก",
                     "LinkType": "chat",
-                    "FileName": "Route2/RouteN/story1-19-1"
+                    "FileName": "Route1/RouteN/story1-19C-2"
                 },
                 {
-                    "ID": "001",
+                    "ID": "chat-01",
                     "Path": "ราคาแพง"
                     ,"LinkType": "chat",
-                    "FileName": "Route2/RouteN/story1-19-1"
+                    "FileName": "Route1/RouteN/story1-19C-3"
                 }
             ],
             "PostImage": "",

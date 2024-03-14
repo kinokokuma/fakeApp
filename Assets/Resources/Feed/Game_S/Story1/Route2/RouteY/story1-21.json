@@ -62,7 +62,7 @@
             "Icon": "Image/Story1/profileP",
             "ChatType": "Button",
             "DelayTime": 5,
-            "Content": "",
+            "Content": "www.facebook.com/Cybertip",
             "PostImage": "Image/Story1/cybertiplink",
             "LinkToPageName": "www.facebook.com/Cybertip",
             "LinkType": "group",

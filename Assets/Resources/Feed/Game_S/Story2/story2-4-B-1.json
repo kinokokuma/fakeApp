@@ -1,0 +1,99 @@
+{
+    "DataDetail" :[
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "สวัสดีค่ะ แอดมินเอ ยินดีให้บริการค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ค่ะ สนใจทำงานกดไลค์โพสต์ค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ค่ะ ก่อนอื่น ตัวเองต้องสมัครสมาชิกเพื่อทำงานกับเราก่อนนะคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "หลังจากนั้นจะโอนเงินคืนให้เมื่อทำงานเสร็จแล้ว",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เพื่อยืนยันว่าตัวเองจะทำงานที่เบิกไปได้เสร็จเรียบร้อยนะคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ตัวเองสนใจงานกดไลก์กี่โพสต์คะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+        "OnwerName" : "my",
+        "Icon" : "",
+        "ChatType" : "Normal",
+        "DelayTime" : 2,
+        "Content" : "{0}",
+        "Choice" : [
+            {   "ID" : "001",
+                "Path": "ลอง10โพสต์ก่อนค่ะ",
+                "LinkType": "chat",
+                "FileName": "story2-4-B-2"
+            },
+            {   "ID" : "001",
+                "Path": "50โพสต์ค่ะ",
+                "LinkType": "chat",
+                "FileName": "story2-4-B-2"
+            }
+        ],
+        "PostImage" : "",
+
+        "LinkToPageName" : "",
+        "LinkType": "",
+        "FileName": ""
+    }
+    ]
+}
