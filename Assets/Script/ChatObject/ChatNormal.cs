@@ -83,12 +83,19 @@ public class ChatNormal : ChatObjectBase
         else
         {
             nameParent.SetActive(false);
+            iconMask.color = new Color32(0, 0, 0, 0);
         }
 
+        if(manager.OldChatname == data.OnwerName)
+        {
+            nameParent.SetActive(false);
+            iconMask.color = new Color32(0, 0, 0, 0);
+        }
       
 
-        if(data.ChatType == "Button")
+        if (data.ChatType == "Button")
         {
+            nameParent.SetActive(true);
             button.enabled = data.ChatType == "Button-N"? false:true;
             button.onClick.AddListener(() => ChatButton());
             guildLineTag.SetActive(true);
@@ -162,11 +169,13 @@ public class ChatNormal : ChatObjectBase
                     contentSize.horizontalFit = ContentSizeFitter.FitMode.Unconstrained;
                 }
                 string text = data.Content.Replace("{Player}", UserData.UserName);
+                text = text.Replace("{player}", UserData.UserName);
                 content.text = text;
             }
         }
 
         //StartCoroutine(UpdateLayoutGroup(,2));
+        manager.OldChatname = data.OnwerName;
     }
 
 

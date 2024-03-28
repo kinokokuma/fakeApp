@@ -27,7 +27,7 @@
    },
    {
         "ID" : "chat-01",
-       "OnwerName" : "นัด",
+       "OnwerName" : "",
        "Icon" : "Image/Story2/profileN",
        "ChatType" : "Normal",
        "DelayTime" : 1,
@@ -121,7 +121,7 @@
        "Icon" : "Image/Story2/profileJ",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "@นัด สัปดาห์นี้ใช้โทรศัพท์ตัวเองไลฟ์ไปก่อนได้ไหม",
+       "Content" : "@นัด สัปดาห์นี้ใช้โทรศัพท์ตัวเองไลฟ์ไป\nก่อนได้ไหม",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -209,20 +209,10 @@
         "ID" : "chat-01",
        "OnwerName" : "นัด",
        "Icon" : "Image/Story2/profileN",
-       "ChatType" : "Normal",
+       "ChatType" : "Button",
        "DelayTime" : 1,
-       "Content" : "",
+       "Content" : "www.facebook.com/group/\nphoneyshop",
        "PostImage" : "Image/Story2/PageLink1",
-       "LinkToPageName" : ""
-   },
-   {
-        "ID" : "chat-01",
-       "OnwerName" : "my",
-       "Icon" : "",
-       "ChatType" : "Normal",
-       "DelayTime" : 1,
-       "Content" : "โอเค",
-       "PostImage" : "",
        "LinkToPageName" : "",
        "LinkType": "group",
        "FileName": "2page-1"

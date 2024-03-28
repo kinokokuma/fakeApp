@@ -1,4 +1,8 @@
-{
+{"ID": "chat-03",
+"ChatName": "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ",
+"Icon": [
+    "Image/Story2/job2"
+],
     "DataDetail" :[
    {
         "ID" : "chat-03",
@@ -61,6 +65,16 @@
        "LinkToPageName" : ""
    },
    {
+    "ID" : "chat-02",
+   "OnwerName" : "my",
+   "Icon" : "",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "นี่ค่ะรูปอยู่ในไดร์ฟนะคะ ครบตามจำนวนเรียบร้อยค่ะ",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
+   {
         "ID" : "chat-03",
        "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
        "Icon" : "Image/Story2/job2",
@@ -90,7 +104,7 @@
        "PostImage" : "",
        "LinkToPageName" : "",
        "LinkType": "chat",
-       "FileName": "story2-5-B"
+       "FileName": "story2-5-BB"
    }
     ]
 }

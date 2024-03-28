@@ -34,7 +34,7 @@ public class ChatDataDetail
 public class ChoiceImage
 {
     public string ID;
-    public bool CanClick;
+    public bool CanClick = true;
     public string Path;
     public string LinkType;
     public string FileName;

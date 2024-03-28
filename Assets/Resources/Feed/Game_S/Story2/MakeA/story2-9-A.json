@@ -1,0 +1,30 @@
+{"ID": "chat-04",
+"ChatName": "phoneyshop",
+"Icon": [
+    "Image/Story2/phoneyshop"
+],
+    "DataDetail" :[
+    {
+        "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "รับค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-04",
+       "OnwerName" : "phoneyshop",
+       "Icon" : "Image/Story2/phoneyshop",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "โอนเงินทางช่องทางเดิมได้เลยนะคะ",
+       "PostImage" : "",
+       "LinkToPageName" : "",
+       "LinkType": "bank",
+       "FileName": "2bank-4A"
+   }
+    ]
+}

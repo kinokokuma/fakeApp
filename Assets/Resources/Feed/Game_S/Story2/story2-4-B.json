@@ -1,4 +1,9 @@
-{
+{"ID": "chat-03",
+"ChatName": "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ",
+"Header" : "Image/Story2/S2-HEAD-S2",
+"Icon": [
+    "Image/Story2/job2"
+],
     "DataDetail" :[
     {
         "ID" : "chat-03",
@@ -44,10 +49,10 @@
         "ID" : "chat-03",
         "OnwerName" : "my",
         "Icon" : "",
-        "ChatType" : "Normal",
+        "ChatType" : "SP2",
         "DelayTime" : 2,
         "Content" : "{0}",
-        "Choice" : [
+        "ChoiceImage" : [
             {   "ID" : "001",
                 "Path": "Image/Story2/sticker1",
                 "LinkType": "chat",

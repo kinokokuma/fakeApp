@@ -58,8 +58,8 @@ public class PopUpManager : MonoBehaviour
     public GameObject startObj;
     public float timeToClickChat;
     public GameObject gopageButton;
-    public GameObject SP1Button;
-
+    public GameObject SP1Button, SP2Button;
+    public string OldChatname;
     public void SetPhase(QuestionPhase phase)
     {
         this.phase = phase;
@@ -88,8 +88,8 @@ public class PopUpManager : MonoBehaviour
         }
         yield return new WaitForEndOfFrame();
 
-        OpenChat($"{UserData.Story.ToLower()}-1");
-
+         OpenChat($"{UserData.Story.ToLower()}-1");
+        //OpenChat($"story2-7");
         startObj.SetActive(false);
     }
 

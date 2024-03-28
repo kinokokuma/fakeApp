@@ -57,6 +57,8 @@ public class ChatPopup : BasePopUp
     public GameObject blockText;
     public Image header;
     public Image headerImage;
+    public AspectRatioFitter headerFitter;
+
     public void Start()
     {
         allChatButton.interactable = false;
@@ -103,7 +105,7 @@ public class ChatPopup : BasePopUp
             {
                 headerImage.sprite = ImageManager.Instance.LoadImage(data.Header);
                 header.gameObject.SetActive(true);
-
+                headerFitter.aspectRatio = (float)headerImage.sprite.texture.width / (float)headerImage.sprite.texture.height;
             }
 
             isFirstTime = false;
@@ -122,9 +124,13 @@ public class ChatPopup : BasePopUp
                         for (int i = 0; i < data.DataDetail[chatIndex].ChoiceImage.Length; i++)
                         {
                             timeToShowQuestion = Time.time;
-                            imageGuild.SetActive(true);
                             ChatChoice choice = Instantiate(imageChoice, imageChoiceParent);
                             choice.gameObject.SetActive(true);
+                            if(data.DataDetail[chatIndex].ChoiceImage[i].CanClick == false)
+                            {
+                                imageGuild.SetActive(true);
+                            }
+
                             choice.InitializedImage(i, ChoiceType.Image, data.DataDetail[chatIndex].ChoiceImage[i]);
                             choice.Button.onClick.AddListener(() => OnClickImageChoice(choice.DataImage));
                             choiceList.Add(choice);
@@ -290,6 +296,13 @@ public class ChatPopup : BasePopUp
                 }
             }
             else if (!haveQuestion && data.DataDetail[chatIndex - 1].LinkType == "SP1")
+            {
+                manager.SP1Button.SetActive(true);
+                Button b = manager.SP1Button.GetComponent<Button>();
+                b.onClick.RemoveAllListeners();
+                b.onClick.AddListener(() => manager.OnclickOgpage(manager.SP1Button, (data.DataDetail[data.DataDetail.Length - 1].FileName)));
+            }
+            else if (!haveQuestion && data.DataDetail[chatIndex - 1].LinkType == "SP2")
             {
                 manager.SP1Button.SetActive(true);
                 Button b = manager.SP1Button.GetComponent<Button>();

@@ -1,0 +1,7 @@
+Date,TimeFromStartQuestTion,ID,AnsTime,Ans,IsSignificant
+1710741620835,31.04706,chat-01,15.29452,go to ID : 2page-1,False
+1710741625366,49.34213,2page-1,1.534077,เลือก Choice No:3,False
+1710741630950,53.8812,2page-1,2.563114,กลับแชท,False
+1710741640231,63.64553,chat-01,2.093391,go to ID : 2page-2,False
+1710741717048,68.7405,2page-2,60.67347,เลือก Choice No:1,False
+1710741722167,132.4168,2page-2,2.104263,กลับแชท,False

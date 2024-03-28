@@ -1,4 +1,9 @@
-{
+{"ID": "chat-06",
+"ChatName": "Bmoney",
+"Icon": [
+    "Image/Story2/bmoney"
+],
+   
     "DataDetail" :[
     {
         "ID" : "chat-06",
@@ -26,7 +31,7 @@
         "Icon" : "",
         "ChatType" : "Normal",
         "DelayTime" : 2,
-        "Content" : "",
+        "Content" : "{0} บาทค่ะ",
         "Choice" : [
             {   "ID" : "001",
                 "Path": "40000",

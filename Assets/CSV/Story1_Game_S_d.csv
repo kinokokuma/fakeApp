@@ -1,2 +1,3 @@
-Date,TimeFromStartQuestTion,ID,AnsTime,Ans
-1708617433966,17.39896,001,5.155117,เขาใหญ่
+Date,TimeFromStartQuestTion,ID,AnsTime,Ans,IsSignificant
+1710741541706,16.87182,001,3.94478,เขาใหญ่,False
+1710741558147,32.18876,question_108,4.801994,bag1,False

@@ -1,4 +1,9 @@
-{
+{"ID": "chat-01",
+"ChatName": "เพื่อน(ลงทุน)",
+"Icon": [
+    "Image/Story2/profileN",
+    "Image/Story2/profileJ"
+],
     "DataDetail" :[
     {
         "ID" : "chat-01",
@@ -74,12 +79,12 @@
                 "FileName": "story2-11"
             },
             {   "ID" : "001",
-                "Path": "ทำบุญที่อยุธยา",
+                "Path": "ทำบุญที่ อยุธยา",
                 "LinkType": "chat",
                 "FileName": "story2-11"
             },
             {   "ID" : "001",
-                "Path": "ไปทะเลที่ชลบุรี",
+                "Path": "ไปทะเลที่ ชลบุรี",
                 "LinkType": "chat",
                 "FileName": "story2-11"
             }

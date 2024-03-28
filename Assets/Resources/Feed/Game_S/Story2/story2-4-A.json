@@ -1,4 +1,9 @@
-{
+{"ID": "chat-02",
+"ChatName": "งานออนไลน์ได้เงินจริง",
+"Header" : "Image/Story2/S2-HEAD-S1",
+"Icon": [
+    "Image/Story2/job1"
+],
     "DataDetail" :[
     {
         "ID" : "chat-02",
@@ -44,10 +49,10 @@
         "ID" : "chat-02",
         "OnwerName" : "my",
         "Icon" : "",
-        "ChatType" : "Normal",
+        "ChatType" : "SP2",
         "DelayTime" : 2,
         "Content" : "{0}",
-        "Choice" : [
+        "ChoiceImage" : [
             {   "ID" : "001",
                 "Path": "Image/Story2/sticker1",
                 "LinkType": "chat",

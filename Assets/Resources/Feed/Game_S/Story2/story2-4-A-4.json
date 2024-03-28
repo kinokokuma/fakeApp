@@ -1,4 +1,8 @@
-{
+{"ID": "chat-02",
+"ChatName": "งานออนไลน์ได้เงินจริง",
+"Icon": [
+    "Image/Story2/job1"
+],
     "DataDetail" :[
    {
         "ID" : "chat-02",
@@ -69,14 +73,14 @@
         "Content" : "",
         "Choice" : [
             {   "ID" : "001",
-                "Path": "โอน",
+                "Path": "ไม่โอน",
                 "LinkType": "chat",
-                "FileName": "story2-4-A-5"
+                "FileName": "story2-5-B"
             },
             {   "ID" : "001",
-                "Path": "ไม่โอน",
+                "Path": "โอน",
                 "LinkType": "bank",
-                "FileName": "bank-2"
+                "FileName": "2bank-2"
             }
         ],
         "PostImage" : "",

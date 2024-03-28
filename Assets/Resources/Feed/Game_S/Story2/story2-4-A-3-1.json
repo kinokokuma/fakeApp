@@ -1,4 +1,8 @@
-{
+{"ID": "chat-02",
+"ChatName": "งานออนไลน์ได้เงินจริง",
+"Icon": [
+    "Image/Story2/job1"
+],
     "DataDetail" :[
         {
             "ID" : "chat-02",
@@ -72,6 +76,16 @@
        },
        {
             "ID" : "chat-02",
+           "OnwerName" : "my",
+           "Icon" : "",
+           "ChatType" : "Normal",
+           "DelayTime" : 1,
+           "Content" : "นี่ค่ะรูปอยู่ในไดร์ฟนะคะ ครบตามจำนวนเรียบร้อยค่ะ",
+           "PostImage" : "",
+           "LinkToPageName" : ""
+       },
+       {
+            "ID" : "chat-02",
            "OnwerName" : "งานออนไลน์ได้เงินจริง",
            "Icon" : "Image/Story2/job1",
            "ChatType" : "Normal",
@@ -126,7 +140,7 @@
            "Icon" : "Image/Story2/job1",
            "ChatType" : "Normal",
            "DelayTime" : 1,
-           "Content" : "ของเลขบัญชีด้วยนะคะ",
+           "Content" : "ขอเลขบัญชีด้วยนะคะ",
            "PostImage" : "",
            "LinkToPageName" : ""
        },
@@ -136,7 +150,7 @@
            "Icon" : "",
            "ChatType" : "Normal",
            "DelayTime" : 1,
-           "Content" : "36-5-893452 ธ.กรุงไทย",
+           "Content" : "036-5-893452 ธ.กุ้งไทย",
            "PostImage" : "",
            "LinkToPageName" : ""
        },

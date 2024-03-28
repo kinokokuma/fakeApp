@@ -38,13 +38,17 @@ public class ChatChoice : MonoBehaviour
         {
             image.sprite = ImageManager.Instance.LoadImage(data.Path);
         }
-
+        print(data.CanClick);
         if(data.CanClick != null)
         {
             if (!data.CanClick)
             {
                 button.interactable = false;
             }
+        }
+        else
+        {
+            button.interactable = true;
         }
     }
 

@@ -1,4 +1,9 @@
-{
+{"ID": "chat-01",
+"ChatName": "เพื่อน(ลงทุน)",
+"Icon": [
+    "Image/Story2/profileN",
+    "Image/Story2/profileJ"
+],
     "DataDetail" :[
    {
         "ID" : "chat-01",
@@ -37,8 +42,11 @@
        "ChatType" : "Normal",
        "DelayTime" : 1,
        "Content" : "เลือกร้านดีๆก่อนกู้แล้วกัน",
-       "PostImage" : "group",
-       "LinkToPageName" : "end-2"
+       "PostImage" : "",
+       "LinkToPageName" : "end-2",
+       "LinkType":"group",
+       "FileName": "end-2"
+
    }
     ]
 }
