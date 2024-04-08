@@ -1,0 +1,40 @@
+{"ID": "chat-02",
+"ChatName": "ตรี",
+"Icon": [
+    "Image/Story3/profileT"
+],
+    "DataDetail" :[
+    {
+        "ID" : "chat-02",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ได้",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-02",
+       "OnwerName" : "ตรี",
+       "Icon" : "Image/Story3/profileT",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "กสิกร 036-456-452212 ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-02",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เรียบร้อย",
+       "PostImage" : "",
+       "LinkToPageName" : "",
+       "LinkType": "bank",
+        "FileName": "3Bank1-3000-1-1-1"
+   }
+    ]
+}

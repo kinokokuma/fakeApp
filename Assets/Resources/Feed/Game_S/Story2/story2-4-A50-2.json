@@ -1,0 +1,20 @@
+{"ID": "chat-02",
+"ChatName": "งานออนไลน์ได้เงินจริง",
+"Icon": [
+    "Image/Story2/job1"
+],
+    "DataDetail" :[
+   {
+        "ID" : "chat-02",
+       "OnwerName" : "งานออนไลน์ได้เงินจริง",
+       "Icon" : "Image/Story2/job1",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ค่ะ รบกวนโอนเงินค่าสมัคร 200 บาท เข้ามาที่\nบัญชี นางสาวกรกนก แสงคำ ธ.กุ้งไทย\n036-7-564521",
+       "PostImage" : "",
+       "LinkToPageName" : "",
+       "LinkType": "bank",
+       "FileName": "2bank50-1"
+   }
+    ]
+}

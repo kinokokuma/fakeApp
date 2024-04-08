@@ -1,0 +1,203 @@
+{"ID": "chat-02",
+"ChatName": "ตรี",
+"Icon": [
+    "Image/Story3/profileT"
+],
+    "DataDetail" :[
+    {
+        "ID": "chat-02",
+        "OnwerName": "my",
+        "Icon": "",
+        "ChatType": "Time",
+        "DelayTime": 0,
+        "Content": "30 มี.ค. เวลา 16:00 น.",
+        "PostImage": "",
+        "LinkToPageName": ""
+    },
+    {
+        "ID" : "chat-02",
+       "OnwerName" : "ตรี",
+       "Icon" : "Image/Story3/profileT",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "สวัสดี",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+    {
+        "ID" : "chat-02",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "อ้าวไง มีอะไร ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-02",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ไม่เกี่ยวกับทริปทำบุญหรอถึงทักแยก ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-02",
+       "OnwerName" : "ตรี",
+       "Icon" : "Image/Story3/profileT",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ไม่เกี่ยวๆ ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-02",
+       "OnwerName" : "ตรี",
+       "Icon" : "Image/Story3/profileT",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "คือว่าจะมาขอยืมเงินหน่อยได้ไหม",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-02",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "โห้ เชื่อแล้วว่าไม่มีเงินจริง",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-02",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "แล้วจะเอาเงินไปทำอะไร ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-02",
+       "OnwerName" : "ตรี",
+       "Icon" : "Image/Story3/profileT",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ก็ใช้ชีวิตทั่วไปเนี่ยแหละ ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-02",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "หรือยกเลิกทริปไหม",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-02",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ไว้ไปทำวันหลัง ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-02",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ทำบุญแบบลำบากตัวเองมันก็ไม่ควรนะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-02",
+       "OnwerName" : "ตรี",
+       "Icon" : "Image/Story3/profileT",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ไม่เป็นไร โอนมาเถอะๆ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-02",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เท่าไรอ่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-02",
+       "OnwerName" : "ตรี",
+       "Icon" : "Image/Story3/profileT",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "3000 ได้ไหม",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-02",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ต้องเยอะขนาดนั้นเลยหรอ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-02",
+       "OnwerName" : "ตรี",
+       "Icon" : "Image/Story3/profileT",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "สะดวกไหมล่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+        "OnwerName" : "my",
+        "Icon" : "",
+        "ChatType" : "Normal",
+        "DelayTime" : 2,
+        "Content" : "",
+        "Choice" : [
+            {   "ID" : "001",
+                "Path": "โอน",
+                "LinkType": "chat",
+                "FileName": "story3-11-2-2-1"
+            },
+            {   "ID" : "001",
+                "Path": "ไม่โอน",
+                "LinkType": "chat",
+                "FileName": "story3-11-2-2-2"
+            }
+        ],
+        "PostImage" : "",
+
+        "LinkToPageName" : "",
+        "LinkType": "",
+        "FileName": ""
+    }
+    ]
+}

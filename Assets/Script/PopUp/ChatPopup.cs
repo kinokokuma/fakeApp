@@ -222,6 +222,7 @@ public class ChatPopup : BasePopUp
 
                             ChatObjectBase chat = Instantiate(chatobject);
                             chat.gameObject.SetActive(true);
+                            chat.isSingle = data.Icon.Length >= 2 ? false : true;
                             chat.Initialized(data.DataDetail[chatIndex], this, manager, muteSound);
                             chatObject.Add(chat);
                             chat.gameObject.transform.SetParent(chatParent);
@@ -239,7 +240,7 @@ public class ChatPopup : BasePopUp
                         }
                         ChatObjectBase chat = Instantiate(chatobject, chatParent);
                         chat.gameObject.SetActive(true);
-
+                        chat.isSingle = data.Icon.Length >= 2 ? false : true;
                         chat.Initialized(data.DataDetail[chatIndex], this, manager, muteSound);
                         chatObject.Add(chat);
                         oldIndex = chatIndex;
@@ -309,7 +310,7 @@ public class ChatPopup : BasePopUp
                 b.onClick.RemoveAllListeners();
                 b.onClick.AddListener(() => manager.OnclickOgpage(manager.SP1Button, (data.DataDetail[data.DataDetail.Length - 1].FileName)));
             }
-            else
+            else if(data.DataDetail[chatIndex - 1].LinkType != "" || data.DataDetail[chatIndex - 1].LinkType != null)
             {
                 manager.gopageButton.SetActive(true);
                 Button b = manager.gopageButton.GetComponent<Button>();
@@ -331,7 +332,7 @@ public class ChatPopup : BasePopUp
     {
         ChatObjectBase chat = Instantiate(chatobject);
         chat.gameObject.SetActive(true);
-
+        chat.isSingle = data.Icon.Length >= 2 ? false : true;
         ChatDataDetail dataDetail = new ChatDataDetail();
         chatObject.Add(chat);
         dataDetail.OnwerName = "my";
@@ -387,6 +388,7 @@ public class ChatPopup : BasePopUp
         HintChoice();
         ChatObjectBase chat = Instantiate(chatobject, chatParent);
         chat.gameObject.SetActive(true);
+        chat.isSingle = data.Icon.Length >= 2 ? false : true;
         ChatDataDetail dataDetail = new ChatDataDetail();
         chatObject.Add(chat);
         dataDetail.OnwerName = "my";
@@ -454,6 +456,7 @@ public class ChatPopup : BasePopUp
         HintChoice();
         ChatObjectBase chat = Instantiate(chatobject, chatParent);
         chat.gameObject.SetActive(true);
+        chat.isSingle = data.Icon.Length >= 2 ? false : true;
         ChatDataDetail dataDetail = new ChatDataDetail();
         chatObject.Add(chat);
         dataDetail.OnwerName = "my";

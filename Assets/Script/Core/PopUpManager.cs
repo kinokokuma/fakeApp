@@ -82,6 +82,11 @@ public class PopUpManager : MonoBehaviour
         {
             OpenChat("storyc", true);
         }
+        else if (UserData.Story == "Story3")
+        {
+            OpenChat("story3-0-2", true,true);
+            OpenChat("story3-0-3", true, true);
+        }
         while (NextFileName != "")
         {
 
@@ -89,7 +94,7 @@ public class PopUpManager : MonoBehaviour
         yield return new WaitForEndOfFrame();
 
          OpenChat($"{UserData.Story.ToLower()}-1");
-        //OpenChat($"story2-7");
+        //OpenChat($"story3-9-1-1");
         startObj.SetActive(false);
     }
 
@@ -133,12 +138,12 @@ public class PopUpManager : MonoBehaviour
         }
     }
 
-    public void OpenChat(string path,bool muteSound = false)
+    public void OpenChat(string path,bool muteSound = false,bool isOld =false)
     {
         ChatData newData = ReadChatData($"Feed/{UserData.Solution}/{UserData.Story}/{path}");
         print(newData.ID);
         string id = newData.ID;
-
+        TimeRecord.Instance.LogCheck(path);
         if (chatPopUpDic.ContainsKey(id))
         {
             foreach(BasePopUp popUp in chatPopUpDic.Values)
@@ -260,6 +265,7 @@ public class PopUpManager : MonoBehaviour
 
     public void CreatePopup(string id)
     {
+        TimeRecord.Instance.LogCheck(id);
         if (chatPopUpDic.ContainsKey(id))
         {
             foreach (BasePopUp popUp in popUpDic.Values)

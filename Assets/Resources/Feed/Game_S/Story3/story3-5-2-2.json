@@ -1,0 +1,40 @@
+{"ID": "chat-01",
+"ChatName": "ทริปทำบุญ",
+"Icon": [
+    "Image/Story3/profileA","Image/Story3/profileJ"
+],
+    "DataDetail" :[
+    {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ไปภาคเหนือ ไปเที่ยวด้วยไง ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "แล้วจะเลือกทำไมตั้งแต่แรก ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   }
+    {
+        "ID" : "chat-01",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "อ่ะๆ โหวตภาคเหนือด้วยคนจะได้จบไม่ต้องทะเลาะกัน",
+       "PostImage" : "",
+       "LinkToPageName" : "",
+        "LinkType": "chat",
+        "FileName": "story3-6-2-2"
+   }
+    ]
+}

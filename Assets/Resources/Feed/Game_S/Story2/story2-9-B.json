@@ -4,6 +4,16 @@
     "Image/Story2/phoneyshop"
 ],
     "DataDetail" :[
+        {
+            "ID" : "chat-04",
+           "OnwerName" : "my",
+           "Icon" : "",
+           "ChatType" : "Normal",
+           "DelayTime" : 1,
+           "Content" : "ไม่รับค่ะ",
+           "PostImage" : "",
+           "LinkToPageName" : ""
+       },
    {
         "ID" : "chat-04",
        "OnwerName" : "phoneyshop",
@@ -60,7 +70,7 @@
        "Icon" : "",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "รบกวนโอนเงินคืนด้วยค่ะครับ",
+       "Content" : "รบกวนโอนเงินคืนด้วยค่ะ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -70,7 +80,7 @@
        "Icon" : "",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "ไม่รับแล้วค่ะครับ",
+       "Content" : "ไม่รับแล้วค่ะ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },

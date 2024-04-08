@@ -1,0 +1,213 @@
+{"ID": "chat-03",
+"ChatName": "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ",
+"Icon": [
+    "Image/Story2/job2"
+],
+    "DataDetail" :[
+    {
+        "ID" : "chat-03",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เรียบร้อยค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เดี๋ยวแอดมินจะเบิกงานให้นะคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "รอสักครู่นะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ของตัวเองเข้าไปกดไลก์ที่\nเพจ : foryoubag",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เรียบร้อยแล้วแคปภาพที่กดไลก์โพสต์ส่งให้กับแอดมินนะคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "",
+       "PostImage" : "Image/Story2/Gdrive1",
+       "LinkToPageName" : ""
+   },
+   {
+    "ID" : "chat-02",
+   "OnwerName" : "my",
+   "Icon" : "",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "นี่ค่ะรูปอยู่ในไดร์ฟนะคะ ครบตามจำนวนเรียบร้อยค่ะ",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ตัวเองจะต้องเบิกเงินออกไปก่อนนะคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "แอดมินถึงจะสามารถคืนเงินค่าสมัครคืนได้",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "สามารถแจ้งเบิกเงินได้เลยนะคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เบิกเงินค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ของเลขบัญชีด้วยนะคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "36-5-893452 ธ.กรุงไทย",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "รอสักครู่นะคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "",
+       "PostImage" : "Image/Story2/prawnthai2-2",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "สนใจทำงานต่อไหมคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+        "OnwerName" : "my",
+        "Icon" : "",
+        "ChatType" : "Normal",
+        "DelayTime" : 2,
+        "Content" : "{0}ค่ะ",
+        "Choice" : [
+            {   "ID" : "001",
+                "Path": "สนใจ",
+                "LinkType": "chat",
+                "FileName": "story2-4-B-4"
+            },
+            {   "ID" : "001",
+                "Path": "ไม่สนใจ",
+                "LinkType": "chat",
+                "FileName": "story2-5-B"
+            }
+        ],
+        "PostImage" : "",
+
+        "LinkToPageName" : "",
+        "LinkType": "",
+        "FileName": ""
+    }
+    ]
+}

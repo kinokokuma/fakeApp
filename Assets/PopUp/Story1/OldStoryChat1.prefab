@@ -168,10 +168,10 @@ RectTransform:
   m_Father: {fileID: 3274681599416166353}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681599190012031
 GameObject:
@@ -491,10 +491,10 @@ RectTransform:
   m_Father: {fileID: 3274681600900315966}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681599202753772
 GameObject:
@@ -604,10 +604,10 @@ RectTransform:
   m_Father: {fileID: 3274681599701888633}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681599205343668
 GameObject:
@@ -2656,6 +2656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599404699737}
   iconMask: {fileID: 3274681599796306168}
   postImage: {fileID: 3274681600679306582}
@@ -2669,6 +2670,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599413319901}
   guildLineTag: {fileID: 3274681599190012031}
   time: {fileID: 3274681599601976226}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681599267425584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4197,7 +4202,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681599312104189
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4215,10 +4220,10 @@ RectTransform:
   m_Father: {fileID: 3274681599267425591}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681599313278374
 GameObject:
@@ -5002,6 +5007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600840686758}
   iconMask: {fileID: 3274681599959011949}
   postImage: {fileID: 3274681600893645572}
@@ -5015,6 +5021,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600823461096}
   guildLineTag: {fileID: 3274681600260998250}
   time: {fileID: 3274681599289392323}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681599323903058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5912,6 +5922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681601113333889}
   iconMask: {fileID: 3274681600535778910}
   postImage: {fileID: 3274681601243759760}
@@ -5925,6 +5936,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599428364077}
   guildLineTag: {fileID: 3274681599256012067}
   time: {fileID: 3274681601191767167}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681599335642158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7562,10 +7577,10 @@ RectTransform:
   m_Father: {fileID: 3274681600727843128}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681599370523405
 GameObject:
@@ -8424,7 +8439,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681599383149240
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8442,10 +8457,10 @@ RectTransform:
   m_Father: {fileID: 3274681599848499919}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681599385734136
 GameObject:
@@ -10372,6 +10387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600519370322}
   iconMask: {fileID: 3274681600734853278}
   postImage: {fileID: 3274681600067115276}
@@ -10385,6 +10401,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600169986306}
   guildLineTag: {fileID: 3274681599420137819}
   time: {fileID: 3274681599309193293}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681599416166354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10484,7 +10504,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681599417635314
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10502,10 +10522,10 @@ RectTransform:
   m_Father: {fileID: 3274681600182216467}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681599417744235
 GameObject:
@@ -11183,6 +11203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599450237383}
   iconMask: {fileID: 3274681599789850551}
   postImage: {fileID: 3274681600764844146}
@@ -11196,6 +11217,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600164021730}
   guildLineTag: {fileID: 3274681600131650333}
   time: {fileID: 3274681601295007839}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681599431008611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12242,7 +12267,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681599451965951
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12260,10 +12285,10 @@ RectTransform:
   m_Father: {fileID: 3274681600463820446}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681599452323477
 GameObject:
@@ -12280,7 +12305,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681599452323476
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12298,10 +12323,10 @@ RectTransform:
   m_Father: {fileID: 3274681601138963065}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681599452842592
 GameObject:
@@ -13965,7 +13990,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 795.9066, y: 0}
+  m_AnchoredPosition: {x: 795.9166, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &3274681599499542512
@@ -15296,10 +15321,10 @@ RectTransform:
   m_Father: {fileID: 3274681600442999235}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681599535382161
 GameObject:
@@ -15316,7 +15341,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681599535382160
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15334,10 +15359,10 @@ RectTransform:
   m_Father: {fileID: 3274681600258633476}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681599537950036
 GameObject:
@@ -16249,10 +16274,10 @@ RectTransform:
   m_Father: {fileID: 3274681599834306746}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681599561385633
 GameObject:
@@ -18299,10 +18324,10 @@ RectTransform:
   m_Father: {fileID: 3274681600704686042}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681599601976224
 GameObject:
@@ -19181,6 +19206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599873569824}
   iconMask: {fileID: 3274681600739975729}
   postImage: {fileID: 3274681601134435448}
@@ -19194,6 +19220,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600414193243}
   guildLineTag: {fileID: 3274681601300944026}
   time: {fileID: 3274681599336550247}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681599620644253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20010,7 +20040,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681599633931628
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20028,10 +20058,10 @@ RectTransform:
   m_Father: {fileID: 3274681600193809496}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681599634818851
 GameObject:
@@ -21884,6 +21914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599562304345}
   iconMask: {fileID: 3274681599401266106}
   postImage: {fileID: 3274681600408323663}
@@ -21897,6 +21928,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681601306955391}
   guildLineTag: {fileID: 3274681600264894696}
   time: {fileID: 3274681599971560496}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681599697069491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22075,6 +22110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600001890658}
   iconMask: {fileID: 3274681600610598668}
   postImage: {fileID: 3274681599445856465}
@@ -22088,6 +22124,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599603420404}
   guildLineTag: {fileID: 3274681600327020039}
   time: {fileID: 3274681600435275938}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681599701888634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22833,7 +22873,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681599715102669
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22851,10 +22891,10 @@ RectTransform:
   m_Father: {fileID: 3274681599781801558}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681599715213876
 GameObject:
@@ -24154,7 +24194,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681599749806593
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24172,10 +24212,10 @@ RectTransform:
   m_Father: {fileID: 3274681599697069494}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681599749849011
 GameObject:
@@ -24271,6 +24311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600725741253}
   iconMask: {fileID: 3274681599328598011}
   postImage: {fileID: 3274681599719971632}
@@ -24284,6 +24325,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600188773334}
   guildLineTag: {fileID: 3274681600687471116}
   time: {fileID: 3274681599692230198}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681599749849039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24974,6 +25019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599282087927}
   iconMask: {fileID: 3274681600091373540}
   postImage: {fileID: 3274681600183706241}
@@ -24987,6 +25033,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599272355385}
   guildLineTag: {fileID: 3274681600498270434}
   time: {fileID: 3274681600490200254}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681599767014653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25330,7 +25380,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681599779396316
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25348,10 +25398,10 @@ RectTransform:
   m_Father: {fileID: 3274681600291684614}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681599781801559
 GameObject:
@@ -25447,6 +25497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681601102674716}
   iconMask: {fileID: 3274681601268219197}
   postImage: {fileID: 3274681600384645648}
@@ -25460,6 +25511,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600449037818}
   guildLineTag: {fileID: 3274681600024187388}
   time: {fileID: 3274681600932475685}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681599781801555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26872,7 +26927,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 807.1366, y: 0}
+  m_AnchoredPosition: {x: 807.1466, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &3274681599813435967
@@ -27837,6 +27892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600456127334}
   iconMask: {fileID: 3274681600886749435}
   postImage: {fileID: 3274681600909320782}
@@ -27850,6 +27906,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600033030729}
   guildLineTag: {fileID: 3274681600349728758}
   time: {fileID: 3274681600629051815}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681599834306743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28372,6 +28432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681601124990204}
   iconMask: {fileID: 3274681600568203657}
   postImage: {fileID: 3274681599848409847}
@@ -28385,6 +28446,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599364525197}
   guildLineTag: {fileID: 3274681600249331518}
   time: {fileID: 3274681600467587411}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681599848499912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29762,7 +29827,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681599879285750
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29780,10 +29845,10 @@ RectTransform:
   m_Father: {fileID: 3274681600348860714}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681599881727526
 GameObject:
@@ -29989,6 +30054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600295273576}
   iconMask: {fileID: 3274681600964495505}
   postImage: {fileID: 3274681601060179211}
@@ -30002,6 +30068,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681601277030081}
   guildLineTag: {fileID: 3274681599476061593}
   time: {fileID: 3274681601202588877}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681599883285682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31072,6 +31142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600725857450}
   iconMask: {fileID: 3274681599461410475}
   postImage: {fileID: 3274681599463657361}
@@ -31085,6 +31156,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681601215365801}
   guildLineTag: {fileID: 3274681600215342002}
   time: {fileID: 3274681600994313508}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681599909667419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33547,7 +33622,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 676.3866, y: 0}
+  m_AnchoredPosition: {x: 676.3966, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &3274681599988898502
@@ -34466,6 +34541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600789640086}
   iconMask: {fileID: 3274681599893096691}
   postImage: {fileID: 3274681599941913990}
@@ -34479,6 +34555,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599797214830}
   guildLineTag: {fileID: 3274681599809502706}
   time: {fileID: 3274681600211907692}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600007926164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37381,7 +37461,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600083675794
 RectTransform:
   m_ObjectHideFlags: 0
@@ -37399,10 +37479,10 @@ RectTransform:
   m_Father: {fileID: 3274681599335642157}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600084369022
 GameObject:
@@ -37853,7 +37933,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600095706050
 RectTransform:
   m_ObjectHideFlags: 0
@@ -37871,10 +37951,10 @@ RectTransform:
   m_Father: {fileID: 3274681600007926171}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600096645564
 GameObject:
@@ -38140,6 +38220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600481410885}
   iconMask: {fileID: 3274681601212723980}
   postImage: {fileID: 3274681600291569139}
@@ -38153,6 +38234,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600302900975}
   guildLineTag: {fileID: 3274681599464178469}
   time: {fileID: 3274681599575813182}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600099870437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38810,7 +38895,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600130894172
 RectTransform:
   m_ObjectHideFlags: 0
@@ -38828,10 +38913,10 @@ RectTransform:
   m_Father: {fileID: 3274681599883285681}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600131650333
 GameObject:
@@ -38946,7 +39031,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 687.3866, y: 0}
+  m_AnchoredPosition: {x: 687.4066, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &3274681600132576821
@@ -39121,6 +39206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599313278368}
   iconMask: {fileID: 3274681599650419070}
   postImage: {fileID: 3274681600630956713}
@@ -39134,6 +39220,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599634818876}
   guildLineTag: {fileID: 3274681600203136794}
   time: {fileID: 3274681599911802840}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600138213062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39601,7 +39691,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600152015184
 RectTransform:
   m_ObjectHideFlags: 0
@@ -39619,10 +39709,10 @@ RectTransform:
   m_Father: {fileID: 3274681600413368706}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600153777270
 GameObject:
@@ -40447,7 +40537,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600170602230
 RectTransform:
   m_ObjectHideFlags: 0
@@ -40465,10 +40555,10 @@ RectTransform:
   m_Father: {fileID: 3274681600944900590}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600175316624
 GameObject:
@@ -40485,7 +40575,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600175316627
 RectTransform:
   m_ObjectHideFlags: 0
@@ -40503,10 +40593,10 @@ RectTransform:
   m_Father: {fileID: 3274681600927581646}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600176828167
 GameObject:
@@ -40523,7 +40613,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600176828166
 RectTransform:
   m_ObjectHideFlags: 0
@@ -40541,10 +40631,10 @@ RectTransform:
   m_Father: {fileID: 3274681600481915396}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600178020241
 GameObject:
@@ -40654,10 +40744,10 @@ RectTransform:
   m_Father: {fileID: 3274681600603084593}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600180076028
 GameObject:
@@ -40903,6 +40993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599889998467}
   iconMask: {fileID: 3274681601068826213}
   postImage: {fileID: 3274681601036687201}
@@ -40916,6 +41007,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599598204097}
   guildLineTag: {fileID: 3274681600510671073}
   time: {fileID: 3274681599585937304}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600182216492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41206,10 +41301,10 @@ RectTransform:
   m_Father: {fileID: 3274681600463191521}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600186958154
 GameObject:
@@ -41305,6 +41400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600365236252}
   iconMask: {fileID: 3274681599408345950}
   postImage: {fileID: 3274681599927736737}
@@ -41318,6 +41414,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600226739784}
   guildLineTag: {fileID: 3274681600386811458}
   time: {fileID: 3274681600479794329}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600186958150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41690,10 +41790,10 @@ RectTransform:
   m_Father: {fileID: 3274681600328892558}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600193224119
 GameObject:
@@ -41909,6 +42009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599440171538}
   iconMask: {fileID: 3274681599869936394}
   postImage: {fileID: 3274681599414173468}
@@ -41922,6 +42023,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599677152425}
   guildLineTag: {fileID: 3274681601205925479}
   time: {fileID: 3274681599243460120}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600193809493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43108,10 +43213,10 @@ RectTransform:
   m_Father: {fileID: 3274681599620644224}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600224788100
 GameObject:
@@ -43383,7 +43488,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600230213802
 RectTransform:
   m_ObjectHideFlags: 0
@@ -43401,10 +43506,10 @@ RectTransform:
   m_Father: {fileID: 3274681599431008614}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600240115920
 GameObject:
@@ -43969,6 +44074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600569499709}
   iconMask: {fileID: 3274681599924817316}
   postImage: {fileID: 3274681600332948193}
@@ -43982,6 +44088,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600700933528}
   guildLineTag: {fileID: 3274681601183676200}
   time: {fileID: 3274681600601684811}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600251489993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44412,6 +44522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681601089089204}
   iconMask: {fileID: 3274681599331666790}
   postImage: {fileID: 3274681599506741329}
@@ -44425,6 +44536,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599553788006}
   guildLineTag: {fileID: 3274681600485941298}
   time: {fileID: 3274681599770806191}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600258633473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45215,10 +45330,10 @@ RectTransform:
   m_Father: {fileID: 3274681600401518754}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600279162716
 GameObject:
@@ -46068,6 +46183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600892863309}
   iconMask: {fileID: 3274681599675166180}
   postImage: {fileID: 3274681600423308342}
@@ -46081,6 +46197,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681601235851168}
   guildLineTag: {fileID: 3274681600557881992}
   time: {fileID: 3274681599709450913}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600291684611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46259,6 +46379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681601041684102}
   iconMask: {fileID: 3274681600784672997}
   postImage: {fileID: 3274681601186991383}
@@ -46272,6 +46393,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599745314311}
   guildLineTag: {fileID: 3274681601291063331}
   time: {fileID: 3274681600257967835}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600294454001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47247,7 +47372,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600321965348
 RectTransform:
   m_ObjectHideFlags: 0
@@ -47265,10 +47390,10 @@ RectTransform:
   m_Father: {fileID: 3274681601091801670}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600325900994
 GameObject:
@@ -47475,6 +47600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600766319196}
   iconMask: {fileID: 3274681600985169751}
   postImage: {fileID: 3274681600224788096}
@@ -47488,6 +47614,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599688957250}
   guildLineTag: {fileID: 3274681601194260683}
   time: {fileID: 3274681599423510609}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600328892555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48182,7 +48312,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600335081767
 RectTransform:
   m_ObjectHideFlags: 0
@@ -48200,10 +48330,10 @@ RectTransform:
   m_Father: {fileID: 3274681600519870204}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600336853380
 GameObject:
@@ -48472,7 +48602,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600347530856
 RectTransform:
   m_ObjectHideFlags: 0
@@ -48490,10 +48620,10 @@ RectTransform:
   m_Father: {fileID: 3274681600791801980}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600348860715
 GameObject:
@@ -48589,6 +48719,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599205360925}
   iconMask: {fileID: 3274681599439958739}
   postImage: {fileID: 3274681600936513635}
@@ -48602,6 +48733,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599490817781}
   guildLineTag: {fileID: 3274681601084446176}
   time: {fileID: 3274681600428762714}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600348860711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50510,6 +50645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599435466747}
   iconMask: {fileID: 3274681599604090686}
   postImage: {fileID: 3274681599266265643}
@@ -50523,6 +50659,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600933825730}
   guildLineTag: {fileID: 3274681599370688199}
   time: {fileID: 3274681600923859714}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600401518783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50791,6 +50931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599831387807}
   iconMask: {fileID: 3274681599958234071}
   postImage: {fileID: 3274681600803837144}
@@ -50804,6 +50945,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681601281402298}
   guildLineTag: {fileID: 3274681600170579825}
   time: {fileID: 3274681601266452907}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600406209540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50982,6 +51127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600108516758}
   iconMask: {fileID: 3274681600850129886}
   postImage: {fileID: 3274681600998308724}
@@ -50995,6 +51141,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681601088698020}
   guildLineTag: {fileID: 3274681601061961793}
   time: {fileID: 3274681600640785189}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600406708713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51442,6 +51592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600896122396}
   iconMask: {fileID: 3274681600478685883}
   postImage: {fileID: 3274681601121039953}
@@ -51455,6 +51606,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599447200720}
   guildLineTag: {fileID: 3274681599352514075}
   time: {fileID: 3274681600240115922}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600413368735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52069,6 +52224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600504346416}
   iconMask: {fileID: 3274681601153723324}
   postImage: {fileID: 3274681600028946738}
@@ -52082,6 +52238,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600462903948}
   guildLineTag: {fileID: 3274681599591592829}
   time: {fileID: 3274681599596650721}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600418882170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52981,7 +53141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600440976335
 RectTransform:
   m_ObjectHideFlags: 0
@@ -52999,10 +53159,10 @@ RectTransform:
   m_Father: {fileID: 3274681599323903057}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600441557181
 GameObject:
@@ -53019,7 +53179,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600441557180
 RectTransform:
   m_ObjectHideFlags: 0
@@ -53037,10 +53197,10 @@ RectTransform:
   m_Father: {fileID: 3274681600640594205}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600442308623
 GameObject:
@@ -53136,6 +53296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599289561020}
   iconMask: {fileID: 3274681600244820734}
   postImage: {fileID: 3274681599728386820}
@@ -53149,6 +53310,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681601047880338}
   guildLineTag: {fileID: 3274681601297070584}
   time: {fileID: 3274681601094807065}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600442308619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53327,6 +53492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600833823775}
   iconMask: {fileID: 3274681601071205580}
   postImage: {fileID: 3274681599618851823}
@@ -53340,6 +53506,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681601077290653}
   guildLineTag: {fileID: 3274681600931669784}
   time: {fileID: 3274681600195479482}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600442999260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54192,6 +54362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600716532434}
   iconMask: {fileID: 3274681600291023914}
   postImage: {fileID: 3274681600816032387}
@@ -54205,6 +54376,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599322992343}
   guildLineTag: {fileID: 3274681600639931937}
   time: {fileID: 3274681599374303283}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600463191522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54383,6 +54558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599816634142}
   iconMask: {fileID: 3274681600957755929}
   postImage: {fileID: 3274681599628673292}
@@ -54396,6 +54572,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599524801417}
   guildLineTag: {fileID: 3274681600652885095}
   time: {fileID: 3274681600708552626}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600463820443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54954,10 +55134,10 @@ RectTransform:
   m_Father: {fileID: 3274681601114025156}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600478685886
 GameObject:
@@ -55657,6 +55837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681601153606751}
   iconMask: {fileID: 3274681599826075858}
   postImage: {fileID: 3274681600357767450}
@@ -55670,6 +55851,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599529649823}
   guildLineTag: {fileID: 3274681601281344662}
   time: {fileID: 3274681600246377295}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600481915393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57058,6 +57243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599310951107}
   iconMask: {fileID: 3274681599824928296}
   postImage: {fileID: 3274681600585361573}
@@ -57071,6 +57257,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599743746685}
   guildLineTag: {fileID: 3274681599357198853}
   time: {fileID: 3274681600541803323}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600519870201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57324,6 +57514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600671248791}
   iconMask: {fileID: 3274681599989401910}
   postImage: {fileID: 3274681601066656021}
@@ -57337,6 +57528,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600331786188}
   guildLineTag: {fileID: 3274681601189160976}
   time: {fileID: 3274681599394707798}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600523424945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57604,10 +57799,10 @@ RectTransform:
   m_Father: {fileID: 3274681600737916274}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600533998232
 GameObject:
@@ -57624,7 +57819,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600533998235
 RectTransform:
   m_ObjectHideFlags: 0
@@ -57642,10 +57837,10 @@ RectTransform:
   m_Father: {fileID: 3274681601053742215}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600534958061
 GameObject:
@@ -59075,7 +59270,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600573705998
 RectTransform:
   m_ObjectHideFlags: 0
@@ -59342,7 +59537,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 643.2766, y: 0}
+  m_AnchoredPosition: {x: 643.2866, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &3274681600587006571
@@ -59861,6 +60056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599395593651}
   iconMask: {fileID: 3274681600966715997}
   postImage: {fileID: 3274681600443556644}
@@ -59874,6 +60070,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600103628598}
   guildLineTag: {fileID: 3274681600040258439}
   time: {fileID: 3274681600461536380}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600603084594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61281,10 +61481,10 @@ RectTransform:
   m_Father: {fileID: 3274681601009437669}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600640594178
 GameObject:
@@ -61380,6 +61580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599703988802}
   iconMask: {fileID: 3274681599244610086}
   postImage: {fileID: 3274681599823507026}
@@ -61393,6 +61594,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600216515976}
   guildLineTag: {fileID: 3274681600499613465}
   time: {fileID: 3274681599714677183}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600640594206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62544,7 +62749,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: -5916}
+  m_AnchoredPosition: {x: 0, y: -5084.786}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &3274681600686739761
@@ -63275,10 +63480,10 @@ RectTransform:
   m_Father: {fileID: 3274681601118250841}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600696646705
 GameObject:
@@ -63928,6 +64133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600380178601}
   iconMask: {fileID: 3274681599276197606}
   postImage: {fileID: 3274681599392698627}
@@ -63941,6 +64147,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600572684791}
   guildLineTag: {fileID: 3274681599483641696}
   time: {fileID: 3274681600279162718}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600704686039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65093,6 +65303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600351292522}
   iconMask: {fileID: 3274681599546383246}
   postImage: {fileID: 3274681600901532850}
@@ -65106,6 +65317,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600144007631}
   guildLineTag: {fileID: 3274681601270104041}
   time: {fileID: 3274681599664764541}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600727843125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65323,7 +65538,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600730476050
 RectTransform:
   m_ObjectHideFlags: 0
@@ -65341,10 +65556,10 @@ RectTransform:
   m_Father: {fileID: 3274681599767014624}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600733176735
 GameObject:
@@ -66007,6 +66222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599239636429}
   iconMask: {fileID: 3274681600148344153}
   postImage: {fileID: 3274681601212045480}
@@ -66020,6 +66236,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600835522659}
   guildLineTag: {fileID: 3274681599727597353}
   time: {fileID: 3274681599854014557}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600737916303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67269,10 +67489,10 @@ RectTransform:
   m_Father: {fileID: 3274681600251489996}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600781761773
 GameObject:
@@ -67307,10 +67527,10 @@ RectTransform:
   m_Father: {fileID: 3274681601285604769}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600784673000
 GameObject:
@@ -67496,6 +67716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600638256956}
   iconMask: {fileID: 3274681601049000970}
   postImage: {fileID: 3274681599186894605}
@@ -67509,6 +67730,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599798963921}
   guildLineTag: {fileID: 3274681600619716597}
   time: {fileID: 3274681599320756046}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600784905412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68141,6 +68366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600531957705}
   iconMask: {fileID: 3274681601275476089}
   postImage: {fileID: 3274681600258735783}
@@ -68154,6 +68380,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599377339206}
   guildLineTag: {fileID: 3274681600049417249}
   time: {fileID: 3274681601170230590}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600791801977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68253,7 +68483,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600792901734
 RectTransform:
   m_ObjectHideFlags: 0
@@ -68271,10 +68501,10 @@ RectTransform:
   m_Father: {fileID: 3274681599909667422}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600802396740
 GameObject:
@@ -68673,7 +68903,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600808514819
 RectTransform:
   m_ObjectHideFlags: 0
@@ -68691,10 +68921,10 @@ RectTransform:
   m_Father: {fileID: 3274681600406708716}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600816032391
 GameObject:
@@ -69059,10 +69289,10 @@ RectTransform:
   m_Father: {fileID: 3274681600294454004}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600828917789
 GameObject:
@@ -70087,10 +70317,10 @@ RectTransform:
   m_Father: {fileID: 3274681600784905419}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600846513365
 GameObject:
@@ -71957,6 +72187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599329024896}
   iconMask: {fileID: 3274681599849248077}
   postImage: {fileID: 3274681601288834053}
@@ -71970,6 +72201,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599687675483}
   guildLineTag: {fileID: 3274681599454266489}
   time: {fileID: 3274681600513203372}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600900315963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73519,6 +73754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599574244277}
   iconMask: {fileID: 3274681599670255406}
   postImage: {fileID: 3274681599908373757}
@@ -73532,6 +73768,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681601143487279}
   guildLineTag: {fileID: 3274681601225191336}
   time: {fileID: 3274681601175112743}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600927581643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73975,7 +74215,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681600933744323
 RectTransform:
   m_ObjectHideFlags: 0
@@ -73993,10 +74233,10 @@ RectTransform:
   m_Father: {fileID: 3274681601072788292}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600933825729
 GameObject:
@@ -74751,6 +74991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599205665754}
   iconMask: {fileID: 3274681599466222577}
   postImage: {fileID: 3274681599373805291}
@@ -74764,6 +75005,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600193224112}
   guildLineTag: {fileID: 3274681599673126952}
   time: {fileID: 3274681601172928057}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681600944900587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74881,10 +75126,10 @@ RectTransform:
   m_Father: {fileID: 3274681601166855739}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681600949319185
 GameObject:
@@ -76396,6 +76641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599769983041}
   iconMask: {fileID: 3274681600552547118}
   postImage: {fileID: 3274681600906971943}
@@ -76409,6 +76655,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600899262722}
   guildLineTag: {fileID: 3274681600904718770}
   time: {fileID: 3274681599753418483}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681601009437670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78118,6 +78368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600080964310}
   iconMask: {fileID: 3274681600456291389}
   postImage: {fileID: 3274681599456943811}
@@ -78131,6 +78382,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600697467981}
   guildLineTag: {fileID: 3274681599866084663}
   time: {fileID: 3274681599260426972}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681601053742208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78767,7 +79022,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 642.8866, y: 0}
+  m_AnchoredPosition: {x: 642.8966, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &3274681601066607348
@@ -79367,6 +79622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599974242597}
   iconMask: {fileID: 3274681599487025388}
   postImage: {fileID: 3274681600187644598}
@@ -79380,6 +79636,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600942316620}
   guildLineTag: {fileID: 3274681600841558641}
   time: {fileID: 3274681600735103157}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681601072788289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79770,7 +80030,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681601078308318
 RectTransform:
   m_ObjectHideFlags: 0
@@ -79788,10 +80048,10 @@ RectTransform:
   m_Father: {fileID: 3274681600442308622}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681601084442840
 GameObject:
@@ -80466,6 +80726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600540093415}
   iconMask: {fileID: 3274681601232259455}
   postImage: {fileID: 3274681601133650766}
@@ -80479,6 +80740,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600084369019}
   guildLineTag: {fileID: 3274681600613227202}
   time: {fileID: 3274681600790967407}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681601091801667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81618,6 +81883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599940343699}
   iconMask: {fileID: 3274681600405861205}
   postImage: {fileID: 3274681599561385661}
@@ -81631,6 +81897,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681599243106532}
   guildLineTag: {fileID: 3274681600392292370}
   time: {fileID: 3274681600725521171}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681601114025153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81809,6 +82079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600417544092}
   iconMask: {fileID: 3274681600010080214}
   postImage: {fileID: 3274681599305530561}
@@ -81822,6 +82093,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681601156471301}
   guildLineTag: {fileID: 3274681600369840852}
   time: {fileID: 3274681600696646707}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681601118250842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82936,10 +83211,10 @@ RectTransform:
   m_Father: {fileID: 3274681600523424948}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681601135343328
 GameObject:
@@ -83340,6 +83615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599687753664}
   iconMask: {fileID: 3274681600045706939}
   postImage: {fileID: 3274681600835988941}
@@ -83353,6 +83629,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681601091517962}
   guildLineTag: {fileID: 3274681599951968029}
   time: {fileID: 3274681601032551254}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681601138963066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84421,6 +84701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681600217769020}
   iconMask: {fileID: 3274681599621538280}
   postImage: {fileID: 3274681599693730673}
@@ -84434,6 +84715,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681600611207301}
   guildLineTag: {fileID: 3274681600600432280}
   time: {fileID: 3274681600033189145}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681601166855732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85813,10 +86098,10 @@ RectTransform:
   m_Father: {fileID: 3274681600406209547}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681601196228642
 GameObject:
@@ -85851,10 +86136,10 @@ RectTransform:
   m_Father: {fileID: 3274681599749849010}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681601196243218
 GameObject:
@@ -86364,10 +86649,10 @@ RectTransform:
   m_Father: {fileID: 3274681600138213061}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681601211054961
 GameObject:
@@ -86402,10 +86687,10 @@ RectTransform:
   m_Father: {fileID: 3274681600186958149}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681601212045484
 GameObject:
@@ -87458,7 +87743,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3274681601240800107
 RectTransform:
   m_ObjectHideFlags: 0
@@ -87476,10 +87761,10 @@ RectTransform:
   m_Father: {fileID: 3274681600418882169}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 472.2383, y: -25}
+  m_SizeDelta: {x: 944.4766, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3274681601242280936
 GameObject:
@@ -89229,6 +89514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315c829acd7217f49a26a1cb5ab13a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isSingle: 0
   icon: {fileID: 3274681599314535770}
   iconMask: {fileID: 3274681600860690003}
   postImage: {fileID: 3274681599433044069}
@@ -89242,6 +89528,10 @@ MonoBehaviour:
   layOutGroup: {fileID: 3274681601196666038}
   guildLineTag: {fileID: 3274681600379290128}
   time: {fileID: 3274681601136093623}
+  textImage: {fileID: 0}
+  URLText: {fileID: 0}
+  URLImage: {fileID: 0}
+  URLImageRatio: {fileID: 0}
 --- !u!114 &3274681601285604770
 MonoBehaviour:
   m_ObjectHideFlags: 0

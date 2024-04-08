@@ -1,0 +1,159 @@
+{"ID": "chat-01",
+"ChatName": "ทริปทำบุญ",
+"Header" : "Image/Story3/S3-HEAD-G1",
+"Icon": [
+    "Image/Story3/profileA","Image/Story3/profileJ"
+],
+    "DataDetail" :[
+    {
+        "ID": "chat-01",
+        "OnwerName": "my",
+        "Icon": "",
+        "ChatType": "Time",
+        "DelayTime": 0,
+        "Content": "25 มี.ค. เวลา 14:30 น.",
+        "PostImage": "",
+        "LinkToPageName": ""
+    },
+    {
+        "ID" : "chat-01",
+       "OnwerName" : "ตรี",
+       "Icon" : "Image/Story3/profileT",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ดีจ้า",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "ตรี",
+       "Icon" : "Image/Story3/profileT",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "สรุปมีกันแค่นี้หรอ มีใครชวนเพื่อนมาเพิ่มอีกไหม",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+    {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เซ โน กันหมด ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "มีแค่พวกเราสินะที่ใจบุญ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "พูดแล้วก็ดูเป็นคนดีขึ้นมาทันที5555 ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "ตรี",
+       "Icon" : "Image/Story3/profileT",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "แล้วใครอยากไปที่ไหน",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "ตรี",
+       "Icon" : "Image/Story3/profileT",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "วัดไหนว่ามา ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ไปที่ไกลๆหน่อยไหม ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ถือโอกาสไปเที่ยวด้วย",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ภาคเหนือไหม ไปรับลมเย็นหน่อย ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "กรุงเทพร้อนเกิน ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+        "OnwerName" : "my",
+        "Icon" : "",
+        "ChatType" : "Normal",
+        "DelayTime" : 2,
+        "Content" : "{0} ไหม เห็นคนอื่นไปวิวสวยมาก",
+        "Choice" : [
+            {   "ID" : "001",
+                "Path": "วัดพระธาตุ เขาน้อย จ.น่าน",
+                "LinkType": "chat",
+                "FileName": "story3-2"
+            },
+            {   "ID" : "001",
+                "Path": "วัดพระธาตุ ดอยสุเทพ ราชวรวิหาร จ.เชียงใหม่",
+                "LinkType": "chat",
+                "FileName": "story3-2"
+            },
+            {   "ID" : "001",
+                "Path": "วัดร่องขุน จ.เชียงราย",
+                "LinkType": "chat",
+                "FileName": "story3-2"
+            }
+        ],
+        "PostImage" : "",
+
+        "LinkToPageName" : "",
+        "LinkType": "",
+        "FileName": ""
+    }
+    ]
+}

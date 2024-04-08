@@ -65,6 +65,31 @@
        "LinkToPageName" : "",
        "LinkType": "bank",
        "FileName": "2bank-5-1"
-   }
+   },
+   {
+    "ID" : "chat-05",
+    "OnwerName" : "my",
+    "Icon" : "",
+    "ChatType" : "Normal",
+    "DelayTime" : 2,
+    "Content" : "",
+    "Choice" : [
+        {   "ID" : "001",
+            "Path": "โอน",
+            "LinkType": "bank",
+            "FileName": "2bank-5-1"
+        },
+        {   "ID" : "001",
+            "Path": "ไม่โอน",
+            "LinkType": "chat",
+            "FileName": "story2-15-A-1-1-1"
+        }
+    ],
+    "PostImage" : "",
+
+    "LinkToPageName" : "",
+    "LinkType": "",
+    "FileName": ""
+}
     ]
 }

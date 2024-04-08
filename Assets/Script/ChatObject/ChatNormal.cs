@@ -86,7 +86,12 @@ public class ChatNormal : ChatObjectBase
             iconMask.color = new Color32(0, 0, 0, 0);
         }
 
-        if(manager.OldChatname == data.OnwerName)
+        if (isSingle)
+        {
+            nameParent.SetActive(false);
+        }
+
+        if (manager.OldChatname == data.OnwerName)
         {
             nameParent.SetActive(false);
             iconMask.color = new Color32(0, 0, 0, 0);

@@ -14,7 +14,7 @@ public class ImageManager : MonoSingleton<ImageManager>
     }
     public Sprite LoadImage(string path)
     {
-
+        print(path);
         if (!imageDic.ContainsKey(path))
         {
             var poseTexture = Resources.Load<Texture2D>(path);

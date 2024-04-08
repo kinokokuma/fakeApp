@@ -8,7 +8,8 @@ public class ChatObjectBase : MonoBehaviour
     protected ChatPopup chatPopup;
     protected PopUpManager manager;
     protected float timeFromStart;
-    public virtual void Initialized(ChatDataDetail data, ChatPopup chatPopup, PopUpManager manager,bool muteSound = false)
+    public bool isSingle;
+    public virtual void Initialized(ChatDataDetail data, ChatPopup chatPopup, PopUpManager manager, bool muteSound = false)
     {
         timeFromStart = Time.time;
         this.manager = manager;

@@ -12,8 +12,7 @@ public class TimeRecord : MonoSingleton<TimeRecord>
     private int taskNumber = 1;
     private string id = "1";
     private List<string[]> rowData = new List<string[]>();
-
-    public PopUpManager manager;
+    private List<string[]> logData = new List<string[]>();
 
     public void Start()
     {
@@ -72,7 +71,7 @@ public class TimeRecord : MonoSingleton<TimeRecord>
 
         string filePath = Application.dataPath + "/CSV/" + UserData.Story + "_" + UserData.Solution+ "_" + UserData.UserID + ".csv";
 
-        StreamWriter outStream = System.IO.File.CreateText(filePath);
+        StreamWriter outStream = System.IO.File.CreateText(getPath());
         outStream.Write(sb);
         outStream.Close();
 
@@ -114,10 +113,41 @@ public class TimeRecord : MonoSingleton<TimeRecord>
 
         string filePath = Application.dataPath + "/CSV/" + UserData.Story+"_"+UserData.Solution+ "_" + UserData.UserID + ".csv";
 
-        StreamWriter outStream = System.IO.File.AppendText(filePath);
+        StreamWriter outStream = System.IO.File.AppendText(getPath());
         outStream.Write(sb);
         outStream.Close();
 
+    }
+    string[] LogDataTemp = new string[1];
+
+    public void LogCheck(string ID)
+    {
+        logData = new List<string[]>();
+
+
+        LogDataTemp[0] = ID;
+        logData.Add(LogDataTemp);
+
+        string[][] output = new string[logData.Count][];
+
+        for (int i = 0; i < output.Length; i++)
+        {
+            output[i] = logData[i];
+        }
+
+        int length = output.GetLength(0);
+        string delimiter = ",";
+
+        StringBuilder sb = new StringBuilder();
+
+        for (int index = 0; index < length; index++)
+            sb.AppendLine(string.Join(delimiter, output[index]));
+
+        string filePath = Application.dataPath + "/CSV/" + UserData.Story + "_" + UserData.Solution + "_" + UserData.UserID + "_Log.csv";
+
+        StreamWriter outStream = System.IO.File.AppendText(filePath);
+        outStream.Write(sb);
+        outStream.Close();
     }
 
     void Update()

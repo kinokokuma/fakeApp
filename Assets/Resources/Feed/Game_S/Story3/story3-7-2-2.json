@@ -1,0 +1,38 @@
+{"ID": "chat-01",
+"ChatName": "ทริปทำบุญ",
+"Icon": [
+    "Image/Story3/profileA","Image/Story3/profileJ"
+],
+    "DataDetail" :[
+   {
+        "ID" : "chat-01",
+        "OnwerName" : "my",
+        "Icon" : "",
+        "ChatType" : "Normal",
+        "DelayTime" : 2,
+        "Content" : "",
+        "Choice" : [
+            {   "ID" : "001",
+                "Path": "300",
+                "LinkType": "bank",
+                "FileName": "3Bank1-300-2-2"
+            },
+            {   "ID" : "001",
+                "Path": "400",
+                "LinkType": "bank",
+                "FileName": "3Bank1-400-2-2"
+            },
+            {   "ID" : "001",
+                "Path": "500",
+                "LinkType": "bank",
+                "FileName": "3Bank1-500-2-2"
+            }
+        ],
+        "PostImage" : "",
+
+        "LinkToPageName" : "",
+        "LinkType": "",
+        "FileName": ""
+    }
+    ]
+}
