@@ -79,7 +79,7 @@
        "Icon" : "",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "ไม่รับแล้วค่ะ",
+       "Content" : "ไม่รับโทรศัพท์แล้วค่ะ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -134,7 +134,7 @@
             "FileName": "MakeB/story2-9-B-2"
         },
         {   "ID" : "001",
-            "Path": "ทำใจ",
+            "Path": "ทำใจ ไม่ทวงเงินคืน และไม่โอนเพิ่ม",
             "LinkType": "chat",
             "FileName": "MakeB/story2-10"
         }
