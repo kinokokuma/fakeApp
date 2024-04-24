@@ -121,7 +121,7 @@
        "Icon" : "Image/Story2/profileJ",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "@นัด สัปดาห์นี้ใช้โทรศัพท์ตัวเองไลฟ์ไป\nก่อนได้ไหม",
+       "Content" : "@นัด สัปดาห์นี้ใช้โทรศัพท์ตัวเองไลฟ์ไป ก่อนได้ไหม",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -161,7 +161,7 @@
        "Icon" : "Image/Story2/profileJ",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "เรื่องของยังพอมีเวลานะ เรื่องโทรศัพท์น่าจะต้องมาก่อน",
+       "Content" : "เรื่องของยังพอมีเวลานะ เรื่องโทรศัพท์น่า จะต้องมาก่อน",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -171,7 +171,7 @@
        "Icon" : "Image/Story2/profileJ",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "อีก3วันต้องไลฟ์ขายของด้วย ใช้โทรศัพท์เครื่องเดียวตอบลูกค้าไม่น่าทัน",
+       "Content" : "อีก3วันต้องไลฟ์ขายของด้วย ใช้โทรศัพท์ เครื่องเดียวตอบลูกค้าไม่น่าทัน",
        "PostImage" : "",
        "LinkToPageName" : ""
    },

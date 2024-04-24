@@ -4,6 +4,16 @@
     "Image/Story3/profileA","Image/Story3/profileJ"
 ],
     "DataDetail" :[
+        {
+            "ID" : "chat-01",
+           "OnwerName" : "my",
+           "Icon" : "",
+           "ChatType" : "Normal",
+           "DelayTime" : 1,
+           "Content" : "นี่ทำแล้ว @ตรี ไปทำบุญด้วยเลย ",
+           "PostImage" : "",
+           "LinkToPageName" : ""
+       },
     {
         "ID" : "chat-01",
        "OnwerName" : "ตรี",
@@ -100,7 +110,7 @@
        "Icon" : "Image/Story3/profileA",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "จริงๆแล้วจุ๊บเหม่งพูดได้ ไม่รับความเห็นต่าง",
+       "Content" : "จริงๆแล้วจุ๊บเหม่งพูดได้ ไม่รับความเห็น ต่าง",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -135,52 +145,52 @@
                 {
                     "ID": "001",
                     "CanClick": true,
-                    "Path": "Image/story3/pat1",
+                    "Path": "Image/Story3/pat1",
                     "LinkType": "chat",
                 "FileName": "story3-9-2-2"
                 },
                 {
                     "ID": "001",
                     "CanClick": false,
-                    "Path": "Image/story3/pat2"
+                    "Path": "Image/Story3/pat2"
                 },
                 {
                     "ID": "001",
                     "CanClick": false,
-                    "Path": "Image/story3/pat3"
+                    "Path": "Image/Story3/pat3"
                 },
                 {
                     "ID": "001",
                     "CanClick": false,
-                    "Path": "Image/story3/pat4"
+                    "Path": "Image/Story3/pat4"
                 },
                 {
                     "ID": "001",
                     "CanClick": false,
-                    "Path": "Image/story3/pat5"
+                    "Path": "Image/Story3/pat5"
                 },
                 {
                     "ID": "001",
                     "CanClick": false,
-                    "Path": "Image/story3/pat6"
+                    "Path": "Image/Story3/pat6"
                 },
                 {
                     "ID": "001",
                     "CanClick": false,
-                    "Path": "Image/story3/pat7"
+                    "Path": "Image/Story3/pat7"
                 },
                 {
                     "ID": "001",
                     "CanClick": false,
-                    "Path": "Image/story3/pat8"
+                    "Path": "Image/Story3/pat8"
                 },
                 {
                     "ID": "001",
                     "CanClick": false,
-                    "Path": "Image/story3/pat9"
+                    "Path": "Image/Story3/pat9"
                 }
             ],
-            "PostImage": "Image/story3/pat1",
+            "PostImage": "Image/Story3/pat1",
             "LinkToPageName": ""
         }
     ]

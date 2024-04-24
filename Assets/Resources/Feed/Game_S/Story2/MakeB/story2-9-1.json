@@ -84,12 +84,12 @@
         "Content" : "",
         "Choice" : [
             {   "ID" : "001",
-                "Path": "รับ",
+                "Path": "รับสายชาร์จ",
                 "LinkType": "chat",
                 "FileName": "MakeB/story2-9-A"
             },
             {   "ID" : "001",
-                "Path": "ไม่รับ",
+                "Path": "ไม่รับสาย ชาร์จ",
                 "LinkType": "chat",
                 "FileName": "MakeB/story2-9-B"
             }

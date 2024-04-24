@@ -40,7 +40,7 @@
        "Icon" : "Image/Story2/job2",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "ค่ะ ก่อนอื่น ตัวเองต้องสมัครสมาชิกเพื่อทำงานกับเราก่อนนะคะ",
+       "Content" : "ค่ะ ก่อนอื่น ตัวเองต้องสมัครสมาชิกเพื่อ ทำงานกับเราก่อนนะคะ ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -50,7 +50,7 @@
        "Icon" : "Image/Story2/job2",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "หลังจากนั้นจะโอนเงินคืนให้เมื่อทำงานเสร็จแล้ว",
+       "Content" : "หลังจากนั้นจะโอนเงินคืนให้เมื่อทำงาน เสร็จแล้ว",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -60,7 +60,7 @@
        "Icon" : "Image/Story2/job2",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "เพื่อยืนยันว่าตัวเองจะทำงานที่เบิกไปได้เสร็จเรียบร้อยนะคะ",
+       "Content" : "เพื่อยืนยันว่าตัวเองจะทำงานที่เบิกไปได้ เสร็จเรียบร้อยนะคะ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },

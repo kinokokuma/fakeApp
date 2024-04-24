@@ -4,18 +4,6 @@
     "Image/Story3/profileA"
 ],
     "DataDetail" :[
-   {
-        "ID" : "chat-01",
-        "OnwerName" : "my",
-        "Icon" : "",
-        "ChatType" : "Normal",
-        "DelayTime" : 0,
-        "Content" : "ตรี",
-        "PostImage" : "",
 
-        "LinkToPageName" : "",
-        "LinkType": "",
-        "FileName": ""
-    }
     ]
 }

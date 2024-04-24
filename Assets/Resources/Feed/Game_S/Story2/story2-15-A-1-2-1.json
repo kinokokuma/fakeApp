@@ -41,7 +41,7 @@
        "Icon" : "Image/Story2/knock_knock",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "ไม่เป็นไรค่ะ knock knock ยินดีให้บริการค่ะ",
+       "Content" : "ไม่เป็นไรค่ะ \nknock knock ยินดีให้บริการค่ะ",
        "PostImage" : "",
        "LinkToPageName" : "",
        "LinkType": "chat",

@@ -77,6 +77,7 @@
      <Compile Include="Assets\Script\Setup\OpenPage.cs" />
      <Compile Include="Assets\Script\PopUp\ReadPopup.cs" />
      <Compile Include="Assets\Script\Core\PopUpManager.cs" />
+     <Compile Include="Assets\Script\PopUp\S3\S3_5_day.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\Script\PopUp\S1\OldStoryChat.cs" />
      <Compile Include="Assets\Script\PopUp\S1\Group1Popup.cs" />

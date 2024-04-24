@@ -50,7 +50,7 @@
        "Icon" : "Image/Story3/profileA",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "ไม่หรอก ก็มีสัญลักษณ์การไฟฟ้าอยู่นี่ในภาพนี้",
+       "Content" : "ไม่หรอก ก็มีสัญลักษณ์การไฟฟ้าอยู่นี่ใน ภาพนี้",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -68,10 +68,10 @@
         "ID" : "chat-01",
        "OnwerName" : "เอ",
        "Icon" : "Image/Story3/profileA",
-       "ChatType" : "Button",
+       "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "https://www.facebook.com/photo/?fbid=",
-       "PostImage" : "Image/Story3/PageLink2",
+       "Content" : "เดี๋ยวลองลงทะเบียนก็รู้เองแหละ",
+       "PostImage" : "",
        "LinkToPageName" : "",
         "LinkType": "group",
         "FileName": "3Page-FG2"

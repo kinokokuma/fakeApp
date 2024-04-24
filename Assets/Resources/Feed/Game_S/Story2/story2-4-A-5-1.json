@@ -30,7 +30,7 @@
        "Icon" : "Image/Story2/job1",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "กดไลก์ที่\nเพจ : Bagshop\n100 โพสต์ล่าสุดค่ะ",
+       "Content" : "กดไลก์ที่ \nเพจ : Bagshop \n100 โพสต์ล่าสุดค่ะ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -70,7 +70,7 @@
    "Icon" : "",
    "ChatType" : "Normal",
    "DelayTime" : 1,
-   "Content" : "นี่ค่ะรูปอยู่ในไดร์ฟนะคะ ครบตามจำนวนเรียบร้อยค่ะ",
+   "Content" : "กดไลก์เสร็จแล้วค่ะ รูปอยู่ในไดร์ฟที่ส่งให้ค่ะ",
    "PostImage" : "",
    "LinkToPageName" : ""
 },

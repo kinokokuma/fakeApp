@@ -80,7 +80,7 @@
        "Icon" : "",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "เออ แต่ว่าที่เราจะไปทำบุญนี่จะเจอกันที่ไหน ไปยังไง รถใคร ",
+       "Content" : "เออ แต่ว่าที่เราจะไปทำบุญนี่จะเจอกัน ที่ไหน ไปยังไง รถใคร",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -110,7 +110,7 @@
        "Icon" : "Image/Story3/profileA",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "เราเลือกให้แล้วกัน5555 เดี๋ยววางแผนให้หมดเลย ",
+       "Content" : "เราเลือกให้แล้วกัน5555 เดี๋ยววางแผนให้ หมดเลย",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -123,8 +123,8 @@
        "Content" : "โอเค ",
        "PostImage" : "",
        "LinkToPageName" : "",
-       "LinkType": "chat",
-        "FileName": "story3-10-1-1"
+       "LinkType": "group",
+        "FileName": "day5-1-1"
    }
     ]
 }

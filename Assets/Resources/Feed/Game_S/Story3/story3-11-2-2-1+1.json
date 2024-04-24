@@ -17,12 +17,12 @@
                     "CanClick": true,
                     "Path": "Image/story3/prawnthai2",
                     "LinkType": "chat",
-                "FileName": "story3-12-2-2-1"
+                "FileName": "story3-11-2-2-1"
                 },
                 {
                     "ID": "001",
                     "CanClick": false,
-                    "Path": "Image/story3/pat1",
+                    "Path": "Image/story3/pat1"
                 },
                 {
                     "ID": "001",

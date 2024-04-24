@@ -86,16 +86,6 @@
    },
    {
         "ID" : "chat-02",
-       "OnwerName" : "ตรี",
-       "Icon" : "Image/Story3/profileT",
-       "ChatType" : "Normal",
-       "DelayTime" : 1,
-       "Content" : "ก็ใช้ชีวิตทั่วไปเนี่ยแหละ ",
-       "PostImage" : "",
-       "LinkToPageName" : ""
-   },
-   {
-        "ID" : "chat-02",
        "OnwerName" : "my",
        "Icon" : "",
        "ChatType" : "Normal",
@@ -130,7 +120,7 @@
        "Icon" : "Image/Story3/profileT",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "ไม่เป็นไร โอนมาเถอะๆ",
+       "Content" : "ติดเงินน้าไว้",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -140,40 +130,41 @@
        "Icon" : "",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "เท่าไรอ่ะ",
+       "Content" : "จริงๆมีเงินคืนนะ แต่แอพธนาคารกรุงเทพ มันล่ม",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
+
+   {
+    "ID" : "chat-02",
+   "OnwerName" : "ตรี",
+   "Icon" : "Image/Story3/profileT",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "จะขอให้โอนคืนน้าไปก่อนได้ไหม　3000 บาท",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
    {
         "ID" : "chat-02",
        "OnwerName" : "ตรี",
        "Icon" : "Image/Story3/profileT",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "3000 ได้ไหม",
+       "Content" : "บัญชีนี้ \nคณิศร์ วรรณวดี กสิกร 036-456-2212 ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
    {
-        "ID" : "chat-02",
-       "OnwerName" : "my",
-       "Icon" : "",
-       "ChatType" : "Normal",
-       "DelayTime" : 1,
-       "Content" : "ต้องเยอะขนาดนั้นเลยหรอ",
-       "PostImage" : "",
-       "LinkToPageName" : ""
-   },
-   {
-        "ID" : "chat-02",
-       "OnwerName" : "ตรี",
-       "Icon" : "Image/Story3/profileT",
-       "ChatType" : "Normal",
-       "DelayTime" : 1,
-       "Content" : "สะดวกไหมล่ะ",
-       "PostImage" : "",
-       "LinkToPageName" : ""
-   },
+    "ID" : "chat-02",
+   "OnwerName" : "ตรี",
+   "Icon" : "Image/Story3/profileT",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "สะดวกไหม ",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
    {
         "ID" : "chat-01",
         "OnwerName" : "my",
@@ -184,8 +175,8 @@
         "Choice" : [
             {   "ID" : "001",
                 "Path": "โอน",
-                "LinkType": "chat",
-                "FileName": "story3-11-1-2-1"
+                "LinkType": "bank",
+                "FileName": "3Bank1-3000-1-2-1"
             },
             {   "ID" : "001",
                 "Path": "ไม่โอน",

@@ -34,6 +34,7 @@ public class ChatNormal : ChatObjectBase
     [SerializeField]
     private TMP_Text time;
 
+    public GameObject video;
     public GameObject textImage;
     public TMP_Text URLText;
     public Image URLImage;
@@ -108,7 +109,10 @@ public class ChatNormal : ChatObjectBase
             contentParent.gameObject.SetActive(false);
             textImage.SetActive(true);
             URLText.text = data.Content;
-            URLImage.sprite = ImageManager.Instance.LoadImage(data.PostImage);
+            if (data.PostImage != "Image/Story3/videoPet")
+            {
+                URLImage.sprite = ImageManager.Instance.LoadImage(data.PostImage);
+            }
             if ((float)URLImage.sprite.texture.width / URLImage.sprite.texture.height > 0)
             {
 
@@ -120,7 +124,10 @@ public class ChatNormal : ChatObjectBase
         {
             textImage.SetActive(true);
             URLText.text = data.Content;
-            URLImage.sprite = ImageManager.Instance.LoadImage(data.PostImage);
+            if (data.PostImage != "Image/Story3/videoPet")
+            {
+                URLImage.sprite = ImageManager.Instance.LoadImage(data.PostImage);
+            }
             if ((float)URLImage.sprite.texture.width / URLImage.sprite.texture.height > 0)
             {
                 print((float)URLImage.sprite.texture.width / (float)URLImage.sprite.texture.height);
@@ -138,7 +145,7 @@ public class ChatNormal : ChatObjectBase
         }
         else
         {
-            if (data.PostImage != string.Empty)
+            if (data.PostImage != string.Empty && data.PostImage != "Image/Story3/videoPet")
             {
                 postImage.gameObject.SetActive(true);
                 postImage.sprite = ImageManager.Instance.LoadImage(data.PostImage);
@@ -152,6 +159,10 @@ public class ChatNormal : ChatObjectBase
                 {
                     postImage.rectTransform.sizeDelta = postImage.rectTransform.sizeDelta / 3.0f;
                 }
+            }
+            else if(data.PostImage == "Image/Story3/videoPet")
+            {
+                video.SetActive(true);
             }
             else
             {

@@ -47,7 +47,7 @@ public class ChatPopup : BasePopUp
     public List<ChatObjectBase> chatObject;
     public GameObject allChatGuildlind;
     private bool isReload;
-
+    public GameObject video;
     private List<ChatChoice> choiceList = new List<ChatChoice>();
     private float timeToShowQuestion;
     private bool isFirstTime = true;

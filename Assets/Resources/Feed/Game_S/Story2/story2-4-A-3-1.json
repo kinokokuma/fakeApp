@@ -40,7 +40,7 @@
            "Icon" : "Image/Story2/job1",
            "ChatType" : "Normal",
            "DelayTime" : 1,
-           "Content" : "ของตัวเองเข้าไปกดไลก์ที่\nเพจ : foryoubag",
+           "Content" : "ของตัวเองเข้าไปกดไลก์ที่ \nเพจ : foryoubag",
            "PostImage" : "",
            "LinkToPageName" : ""
        },
@@ -110,7 +110,7 @@
            "Icon" : "Image/Story2/job1",
            "ChatType" : "Normal",
            "DelayTime" : 1,
-           "Content" : "แอดมินถึงจะสามารถคืนเงินค่าสมัครคืนได้",
+           "Content" : "แอดมินถึงจะสามารถคืนเงินค่าสมัครคืน ได้",
            "PostImage" : "",
            "LinkToPageName" : ""
        },

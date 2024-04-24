@@ -61,7 +61,7 @@
        "Icon" : "Image/Story3/profileA",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "พูดแล้วก็ดูเป็นคนดีขึ้นมาทันที5555 ",
+       "Content" : "พูดแล้วก็ดูเป็นคนดีขึ้นมาทันที 5555",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -139,7 +139,7 @@
                 "FileName": "story3-2"
             },
             {   "ID" : "001",
-                "Path": "วัดพระธาตุ ดอยสุเทพ ราชวรวิหาร จ.เชียงใหม่",
+                "Path": "วัดพระธาตุ ดอยสุเทพราชวรวิหาร จ.เชียงใหม",
                 "LinkType": "chat",
                 "FileName": "story3-2"
             },

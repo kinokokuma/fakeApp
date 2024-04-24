@@ -1,7 +1,7 @@
 {"ID": "chat-03",
 "ChatName": "เอ",
 "Icon": [
-    "Image/Story3/profileA",
+    "Image/Story3/profileA"
 ],
     "DataDetail" :[
     {
@@ -44,6 +44,26 @@
        "PostImage" : "",
        "LinkToPageName" : ""
    },
+   {
+    "ID" : "chat-03",
+   "OnwerName" : "เอ",
+   "Icon" : "Image/Story3/profileA",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "รีบโอนเลย",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
+{
+    "ID" : "chat-03",
+   "OnwerName" : "เอ",
+   "Icon" : "Image/Story3/profileA",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "จะได้ไปบอกตรี",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
    {
         "ID" : "chat-03",
         "OnwerName" : "my",

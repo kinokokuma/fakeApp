@@ -21,7 +21,7 @@
        "Icon" : "Image/Story2/bmoney",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "สวัสดีค่ะ ร้าน Bmoney ยินดีให้บริการค่ะ\nทางเราเป็นบริการเงินกู้ดอกเบี้ย ร้อยละ 15 ต่อปี ไม่ต้องฝากค้ำประกันค่ะ",
+       "Content" : "สวัสดีค่ะ ร้าน Bmoney ยินดีให้บริการค่ะ ทางเราเป็นบริการเงินกู้ดอกเบี้ย \nร้อยละ 15 ต่อปี ไม่มีค้ำประกันค่ะ ",
        "PostImage" : "",
        "LinkToPageName" : "2page-select",
        "LinkType": "group",

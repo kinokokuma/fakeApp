@@ -175,6 +175,16 @@
        "LinkToPageName" : ""
    },
    {
+    "ID" : "chat-01",
+   "OnwerName" : "my",
+   "Icon" : "",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : " ยังไม่ได้โอนเหมือนกัน เกือบละ",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
+   {
         "ID" : "chat-01",
        "OnwerName" : "my",
        "Icon" : "",
@@ -190,17 +200,27 @@
        "Icon" : "",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "โอนค่าบริจาคให้หมาแล้วไปแล้วด้วยนะ ",
+       "Content" : "โอนค่าบริจาคให้หมาแมวแล้วไปแล้ว ด้วยนะ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
+   {
+    "ID" : "chat-01",
+   "OnwerName" : "ตรีของแทร่",
+   "Icon" : "Image/Story3/profileT2",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "เพิ่งกลับจากบันทึกประจำวันมาเนี่ย",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
    {
         "ID" : "chat-01",
        "OnwerName" : "ตรีของแทร่",
        "Icon" : "Image/Story3/profileT2",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "ทริปล่มหรอ",
+       "Content" : "สรุปทริปล่มแล้วหรอ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },

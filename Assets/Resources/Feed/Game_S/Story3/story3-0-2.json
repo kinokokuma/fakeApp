@@ -5,19 +5,5 @@
 ],
     "DataDetail" :[
     
-   {
-        "ID" : "chat-01",
-        "OnwerName" : "my",
-        "Icon" : "",
-        "ChatType" : "Normal",
-        "DelayTime" : 2,
-        "Content" : "ไง",
-
-        "PostImage" : "",
-
-        "LinkToPageName" : "",
-        "LinkType": "",
-        "FileName": ""
-    }
     ]
 }

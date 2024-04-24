@@ -61,7 +61,7 @@
        "Icon" : "Image/Story2/phoneyshop",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "ใช่ค่ะ แต่ทางร้านต้องรบกวนลูกค้าโอนเงินค่าภาษี7%ของสินค้าด้วยสะดวกไหมคะ",
+       "Content" : "ใช่ค่ะ แต่ทางร้านต้องรบกวนลูกค้าโอนเงิน ค่าภาษี7%ของสินค้าตามกฎหมายด้วย สะดวกไหมคะ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -94,7 +94,16 @@
        "Content" : "",
        "PostImage" : "Image/Story2/bank",
        "LinkToPageName" : ""
-   },
+   },   {
+    "ID" : "chat-04",
+   "OnwerName" : "phoneyshop",
+   "Icon" : "Image/Story2/phoneyshop",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "ทางเราแพคของไว้แล้วถ้าลูกค้าโอนเรา พร้อมส่งเลยค่ะ ",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
    {
         "ID" : "chat-04",
         "OnwerName" : "my",

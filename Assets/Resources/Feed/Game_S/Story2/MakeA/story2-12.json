@@ -40,7 +40,7 @@
        "Icon" : "Image/Story2/profileN",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "@{Player} พอเอาเงินที่ทำงานออนไลน์มาใช้ก่อนได้ไหม",
+       "Content" : "@{Player}\nพอเอาเงินที่ทำงานออนไลน์มาใช้ก่อนได้ ไหม",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -100,7 +100,7 @@
        "Icon" : "",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "เอาทางนี้ไปก่อนเนี่ยแหละ เดี๋ยวเงินเดือนออก ก็มีเงินไปจ่ายหนี้ละ",
+       "Content" : "เอาทางนี้ไปก่อนเนี่ยแหละ เดี๋ยวเงินเดือน ออก ก็มีเงินไปจ่ายหนี้ละ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
