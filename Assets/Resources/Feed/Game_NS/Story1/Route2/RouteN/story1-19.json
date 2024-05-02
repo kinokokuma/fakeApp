@@ -11,7 +11,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 2,
-            "Content": "ไม่ได้โอน {0}",
+            "Content": "",
             "Choice": [
                 {
                     "ID": "001",

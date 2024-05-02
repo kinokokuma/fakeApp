@@ -7,7 +7,7 @@
         {
             "ID": "block",
             "OnwerName": "monobag",
-            "Icon": "Image/Story1/profileJ",
+            "Icon": "Image/Story1/monobag",
             "ChatType": "Normal",
             "DelayTime": 5,
             "Content": "",

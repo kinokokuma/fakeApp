@@ -50,7 +50,7 @@
        "Icon" : "Image/Story2/job2",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "เรียบร้อยแล้วแคปภาพที่กดไลก์โพสต์ส่งให้กับแอดมินนะคะ",
+       "Content" : "เรียบร้อยแล้วแคปภาพที่กดไลก์โพสต์ส่ง\nให้กับแอดมินนะคะ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },

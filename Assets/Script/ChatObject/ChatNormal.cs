@@ -194,6 +194,12 @@ public class ChatNormal : ChatObjectBase
         manager.OldChatname = data.OnwerName;
     }
 
+    void Update()
+    {
+        print(gameObject.transform.localScale);
+        if(gameObject.transform.localScale != Vector3.one)
+        gameObject.transform.localScale = Vector3.one;
+    }
 
     private void ChatButton()
     {
