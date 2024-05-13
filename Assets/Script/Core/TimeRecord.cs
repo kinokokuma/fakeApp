@@ -24,22 +24,6 @@ public class TimeRecord : MonoSingleton<TimeRecord>
         taskNumber++;
     }
 
-   /* void Confirm()
-    {
-        seen.SetActive(false);
-        Back(true);
-        taskNumber++;
-        manager.Confirm();
-        manager.SetPhase(QuestionPhase.Is_Fake);
-    }
-
-    void Back(bool ok)
-    {
-        select.SetActive(ok);
-        
-        score.SetActive(!ok);
-    }*/
-
     public void CreatePlayerCsv(string name)
     {
         List<string[]> rowData = new List<string[]>();

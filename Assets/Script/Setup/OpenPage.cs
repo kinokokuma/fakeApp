@@ -12,6 +12,7 @@ public class OpenPage : MonoBehaviour
 
     public void OpenScene(int index)
     {
+        if(UserData.UserPass)
         SceneManager.LoadScene(index);
     }
 }

@@ -78,6 +78,7 @@
      <Compile Include="Assets\Script\PopUp\ReadPopup.cs" />
      <Compile Include="Assets\Script\Core\PopUpManager.cs" />
      <Compile Include="Assets\Script\PopUp\S3\S3_5_day.cs" />
+     <Compile Include="Assets\Script\MakeAllUseResourcesPath.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\Script\PopUp\S1\OldStoryChat.cs" />
      <Compile Include="Assets\Script\PopUp\S1\Group1Popup.cs" />
@@ -102,6 +103,7 @@
      <Compile Include="Assets\Script\PopUp\S2\Selectlone.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\Script\PopUp\CommentPopUp.cs" />
+     <Compile Include="Assets\Script\Core\LoadData.cs" />
      <Compile Include="Assets\Script\PopUp\S1\Group4Popup.cs" />
      <Compile Include="Assets\Script\ChatObject\ChatNormal.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />

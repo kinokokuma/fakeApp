@@ -1,8 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO.Compression;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Globalization;
+using UnityEngine.Networking;
 
 public class UserData : MonoBehaviour
 {
@@ -11,7 +15,8 @@ public class UserData : MonoBehaviour
     public static string Solution;
     public static string UserName;
     public static string UserSex;
-
+    public static bool UserPass =false;
+    //public static ImageUrl data;
     public static int Story1PostIndex;
 
     public Button next;
@@ -22,7 +27,6 @@ public class UserData : MonoBehaviour
     public Button nextPage;
     public TMP_InputField inputName;
     public TMP_Dropdown dropdownSex;
-
     public TMP_Text type;
 
     public GameObject User;
@@ -75,6 +79,38 @@ public class UserData : MonoBehaviour
         else if (Story == "Story3")
         {
             des.text = story3Des;
+        }
+    }
+
+    void extract(string zipPath)
+    {
+        using (FileStream zipFileToOpen = new FileStream(zipPath, FileMode.OpenOrCreate))
+        {
+            using (ZipArchive archive = new ZipArchive(zipFileToOpen, ZipArchiveMode.Create))
+            {
+                archive.CreateEntryFromFile(@"D:\Example\file1.pdf", "file1.pdf");
+                archive.CreateEntryFromFile(@"D:\Example\file2.pdf", "file2.pdf");
+            }
+        }
+        UserPass = true;
+    }
+
+    IEnumerator GetText(string file_name)
+    {
+        string url = "https://drive.google.com/file/d/1CBmLGUoZCs7L4AdeQKpOSx84Kwa3ssru/view?usp=drive_link";
+        using (UnityWebRequest www = UnityWebRequest.Get(url))
+        {
+            yield return www.Send();
+            if (www.isNetworkError || www.isHttpError)
+            {
+                Debug.Log(www.error);
+            }
+            else
+            {
+
+                string savePath = string.Format("{0}/{1}.zip", Application.persistentDataPath, file_name);
+                System.IO.File.WriteAllText(savePath, www.downloadHandler.text);
+            }
         }
     }
 }
