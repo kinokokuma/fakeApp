@@ -11,7 +11,7 @@
        "Icon" : "Image/Story2/bmoney",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "รบกวรขอชื่อผู้กู้ยืมและชื่อบัญชีพร้อมเลขบัญชีธนาคารด้วยนะคะ",
+       "Content" : "รบกวนขอชื่อผู้กู้ยืมและชื่อบัญชีพร้อมเลขบัญชีธนาคารด้วยนะคะ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },

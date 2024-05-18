@@ -40,4 +40,9 @@ public class Bank2Popup : BasePopUp
         TimeRecord.Instance.SaveRecord(ID, "กลับแชท", startTime, false);
         gameObject.SetActive(false);
     }
+
+    public void Story2()
+    {
+        UserData.S2Pass = true;
+    }
 }

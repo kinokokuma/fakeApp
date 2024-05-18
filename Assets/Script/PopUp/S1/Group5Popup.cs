@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Group5Popup : BasePopUp
 {
-    public GameObject end;
+    public GameObject end1, end2;
     public Button[] fake;
     public Button[] real;
     void Start()
@@ -38,9 +38,16 @@ public class Group5Popup : BasePopUp
         startTime = Time.time;
     }
 
-    public void End()
+    public void End(bool isReal)
     {
-        end.SetActive(true);
+        if (isReal)
+        {
+            end2.SetActive(true);
+        }
+        else
+        {
+            end1.SetActive(true);
+        }
 
     }
 }

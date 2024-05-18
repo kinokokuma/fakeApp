@@ -90,8 +90,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae518bcc1b6784741b320492721eea36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: day5-1-1
+  ID: day5-2-1
   startTime: 0
+  nextId: 
 --- !u!1 &4210960872635210255
 GameObject:
   m_ObjectHideFlags: 0

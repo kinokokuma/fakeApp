@@ -94,12 +94,12 @@
         "Content" : "{0}",
         "Choice" : [
             {   "ID" : "001",
-                "Path": "รอของมาส่งอยู่",
+                "Path": "รอของ มาส่งอยู่",
                 "LinkType": "chat",
                 "FileName": "MakeB/story2-12"
             },
             {   "ID" : "001",
-                "Path": "มีเสียค่าภาษีแพงมากเลย",
+                "Path": "มีเสียค่าภาษี แพงมากเลย",
                 "LinkType": "chat",
                 "FileName": "MakeB/story2-12"
             },

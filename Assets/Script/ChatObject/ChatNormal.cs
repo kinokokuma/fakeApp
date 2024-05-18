@@ -46,7 +46,6 @@ public class ChatNormal : ChatObjectBase
         if (data.Icon != string.Empty)
         {
             iconMask.color = new Color32(255,255,255,255);
-            print(data.Icon);
             icon.sprite = ImageManager.Instance.LoadImage(data.Icon);
         }
         else
@@ -116,7 +115,6 @@ public class ChatNormal : ChatObjectBase
             if ((float)URLImage.sprite.texture.width / URLImage.sprite.texture.height > 0)
             {
 
-                print((float)URLImage.sprite.texture.width / (float)URLImage.sprite.texture.height);
                 URLImageRatio.aspectRatio = (float)URLImage.sprite.texture.width / (float)URLImage.sprite.texture.height;
             }
         }
@@ -196,7 +194,6 @@ public class ChatNormal : ChatObjectBase
 
     void Update()
     {
-        print(gameObject.transform.localScale);
         if(gameObject.transform.localScale != Vector3.one)
         gameObject.transform.localScale = Vector3.one;
     }

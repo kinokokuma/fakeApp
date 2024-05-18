@@ -21,7 +21,7 @@
        "Icon" : "Image/Story2/profileN",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "ค่าของก็เหลืออีกแต่4วันต้องจ่ายแล้วด้วยนะ",
+       "Content" : "ค่าของก็เหลืออีกแค่4วันต้องจ่ายแล้วด้วยนะ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -41,7 +41,7 @@
        "Icon" : "Image/Story2/profileN",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "@{Player}\nพอเอาเงินที่ทำงานออนไลน์มาใช้ก่อนได้ ไหม",
+       "Content" : "@{Player}\nพอเอาเงินที่ทำงานออนไลน์มาใช้ก่อนได้\nไหม",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -61,7 +61,7 @@
        "Icon" : "",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "ร้านนั้นก็โกงเหมือนกัน",
+       "Content" : "ร้านนั้นโกง",
        "PostImage" : "",
        "LinkToPageName" : ""
    },

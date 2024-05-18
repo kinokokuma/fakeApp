@@ -18,7 +18,6 @@ public class ImageManager : MonoSingleton<ImageManager>
     public Sprite LoadImage(string path)
     {
 
-        print(path);
         if (!imageDic.ContainsKey(path))
         {
             // byte[] bytes = File.ReadAllBytes(path);

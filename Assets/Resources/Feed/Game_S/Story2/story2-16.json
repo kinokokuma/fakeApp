@@ -1,52 +1,39 @@
-{"ID": "chat-01",
-"ChatName": "เพื่อน(ลงทุน)",
+{"ID": "chat-04",
+"ChatName": "phoneyshop",
 "Icon": [
-    "Image/Story2/profileN",
-    "Image/Story2/profileJ"
+    "Image/Story2/phoneyshop"
 ],
     "DataDetail" :[
    {
         "ID" : "chat-01",
-       "OnwerName" : "เจ",
-       "Icon" : "Image/Story2/profileJ",
+       "OnwerName" : "my",
+       "Icon" : "",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "เฮ้ย กู้เงินไปรึยัง",
+       "Content" : "เฮ้ย สวัสดีค่ะ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
    {
-        "ID" : "chat-01",
-       "OnwerName" : "เจ",
-       "Icon" : "Image/Story2/profileJ",
-       "ChatType" : "Normal",
-       "DelayTime" : 1,
-       "Content" : "ไปเจอข่าวมา เป็นร้านกู้ที่โกงอ่ะ",
-       "PostImage" : "",
-       "LinkToPageName" : ""
-   },
-   {
-        "ID" : "chat-01",
-       "OnwerName" : "เจ",
-       "Icon" : "Image/Story2/profileJ",
-       "ChatType" : "Normal",
-       "DelayTime" : 1,
-       "Content" : "ชื่อร้าน knock knock\nถ้าร้านกู้จริงๆเขาจะไม่มีให้โอนเงินไปก่อน",
-       "PostImage" : "",
-       "LinkToPageName" : ""
-   },
-   {
-        "ID" : "chat-01",
-       "OnwerName" : "เจ",
-       "Icon" : "Image/Story2/profileJ",
-       "ChatType" : "Normal",
-       "DelayTime" : 1,
-       "Content" : "เลือกร้านดีๆก่อนกู้แล้วกัน",
-       "PostImage" : "",
-       "LinkToPageName" : "end-2",
-       "LinkType":"group",
-       "FileName": "end-2"
-
-   }
+    "ID" : "chat-01",
+   "OnwerName" : "my",
+   "Icon" : "",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "ขอเลขแทรคหน่อยได้ไหมคะ",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},{
+    "ID" : "block",
+   "OnwerName" : "my",
+   "Icon" : "",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "พอดีนานแล้วแต่ของยังไม่มาส่งเลย",
+   "PostImage" : "",
+   "LinkToPageName" : "",
+   "LinkType": "chat",
+   "FileName": "story2-16-1"
+}
     ]
 }

@@ -10,7 +10,7 @@
        "Icon" : "Image/Story2/job1",
        "ChatType" : "Normal",
        "DelayTime" : 1,
-       "Content" : "โอเค ค่ะ",
+       "Content" : "โอเคค่ะ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
@@ -49,11 +49,21 @@
        "OnwerName" : "my",
        "Icon" : "",
        "ChatType" : "Normal",
-       "DelayTime" : 1,
+       "DelayTime" : 6,
        "Content" : "ค่ะ",
        "PostImage" : "",
        "LinkToPageName" : ""
    },
+   {
+    "ID": "chat-01",
+    "OnwerName": "my",
+    "Icon": "",
+    "ChatType": "Time",
+    "DelayTime": 0,
+    "Content": "25 ก.ย. 2024 19:24",
+    "PostImage": "",
+    "LinkToPageName": ""
+},
    {
         "ID" : "chat-02",
        "OnwerName" : "my",

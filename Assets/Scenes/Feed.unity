@@ -2269,6 +2269,8 @@ MonoBehaviour:
   - {fileID: 9156480536251115063, guid: 90e6f73b422b3fc4cadce3f4cd5a7514, type: 3}
   - {fileID: 3296337224217676515, guid: a27a14aefae824a4fa3f608321cc8308, type: 3}
   - {fileID: 4935140217669150831, guid: 757cae3620c1a1141b3d5d9e8d22f76b, type: 3}
+  - {fileID: 3873845224226295067, guid: d3b3dd1121612e64581e72cd9f6bc5a9, type: 3}
+  - {fileID: 7789077134958645629, guid: 5bb6be7c275fdba439d5bae7190ad1a0, type: 3}
   currentChatData:
     ID: 
     OnwerName: 
@@ -5973,6 +5975,10 @@ PrefabInstance:
     - target: {fileID: 4089669620349492988, guid: db137bc573b816c4483088e9504a985e, type: 3}
       propertyPath: m_Name
       value: Chat
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497506782626319936, guid: db137bc573b816c4483088e9504a985e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.049999237
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db137bc573b816c4483088e9504a985e, type: 3}

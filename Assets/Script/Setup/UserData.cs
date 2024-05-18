@@ -16,6 +16,7 @@ public class UserData : MonoBehaviour
     public static string UserName;
     public static string UserSex;
     public static bool UserPass =false;
+    public static bool S2Pass = false;
     //public static ImageUrl data;
     public static int Story1PostIndex;
 
@@ -66,7 +67,6 @@ public class UserData : MonoBehaviour
         }
         UserName = inputName.text;
         UserSex = dropdownSex.captionText.text;
-        print(UserData.Story + " " + UserData.Solution + " " + UserData.UserID + " " + UserData.UserSex);
 
         if (Story == "Story1")
         {

@@ -61,7 +61,7 @@
         "Icon" : "",
         "ChatType" : "Normal",
         "DelayTime" : 2,
-        "Content" : "ไม่ได้ทำเพราะ {0}",
+        "Content" : "ไม่ได้ทำต่อเพราะ {0}",
         "Choice" : [
             {   "ID" : "001",
                 "Path": "มีค่าสมัคร",

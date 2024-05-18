@@ -87,7 +87,7 @@ public class ChatPopup : BasePopUp
         ID = data.ID;
         if (isFirstTime)
         {
-            print("xxxxxx");
+
             headerName.text = data.ChatName;
             print(data.ChatName);
             if (data.Icon.Length >=2)
@@ -166,6 +166,10 @@ public class ChatPopup : BasePopUp
 
                     if (data.DataDetail[chatIndex].OnwerName == "my" && data.DataDetail[chatIndex].DelayTime !=0)
                     {
+                        if(data.DataDetail[chatIndex].DelayTime == 1)
+                        {
+                            data.DataDetail[chatIndex].DelayTime = 3;
+                        }
                         if(UserData.UserSex == "ชาย")
                         {
                             data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("ค่ะ", "ครับ");
@@ -258,10 +262,10 @@ public class ChatPopup : BasePopUp
 
             }
             if (haveQuestion) break;
-
-            yield return new WaitForSeconds(data.DataDetail[chatIndex++].DelayTime);
-
             
+            yield return new WaitForSeconds(data.DataDetail[chatIndex].DelayTime == 1?3: data.DataDetail[chatIndex].DelayTime);
+            chatIndex++;
+
 
         }
 
@@ -394,7 +398,11 @@ public class ChatPopup : BasePopUp
         dataDetail.OnwerName = "my";
         dataDetail.Icon = string.Empty;
         dataDetail.Content = data.Content.Replace("{0}", choiceText.Path);
-
+        if (UserData.UserSex == "ชาย")
+        {
+            dataDetail.Content = dataDetail.Content.Replace("ค่ะ", "ครับ");
+            dataDetail.Content = dataDetail.Content.Replace("คะ", "ครับ");
+        }
         dataDetail.PostImage = string.Empty;
         dataDetail.LinkType = choiceText.LinkType;
         dataDetail.FileName = choiceText.FileName;

@@ -93,7 +93,7 @@
         "Content" : "{0}",
         "Choice" : [
             {   "ID" : "001",
-                "Path": "ลอง10โพสต์ก่อนค่ะ",
+                "Path": "10โพสต์ค่ะ",
                 "LinkType": "chat",
                 "FileName": "story2-4-B-2"
             },

@@ -59,11 +59,21 @@
            "OnwerName" : "my",
            "Icon" : "",
            "ChatType" : "Normal",
-           "DelayTime" : 1,
+           "DelayTime" : 6,
            "Content" : "ค่ะ",
            "PostImage" : "",
            "LinkToPageName" : ""
        },
+       {
+        "ID": "chat-01",
+        "OnwerName": "my",
+        "Icon": "",
+        "ChatType": "Time",
+        "DelayTime": 0,
+        "Content": "25 ก.ย. 2024 16:35",
+        "PostImage": "",
+        "LinkToPageName": ""
+    },
        {
             "ID" : "chat-02",
            "OnwerName" : "my",
@@ -110,7 +120,7 @@
            "Icon" : "Image/Story2/job1",
            "ChatType" : "Normal",
            "DelayTime" : 1,
-           "Content" : "แอดมินถึงจะสามารถคืนเงินค่าสมัครคืน ได้",
+           "Content" : "แอดมินถึงจะสามารถคืนเงินค่าสมัครคืนได้",
            "PostImage" : "",
            "LinkToPageName" : ""
        },
@@ -150,7 +160,7 @@
            "Icon" : "",
            "ChatType" : "Normal",
            "DelayTime" : 1,
-           "Content" : "036-5-893452 ธ.กุ้งไทย",
+           "Content" : "037-7-566234 ธ.กุ้งไทย",
            "PostImage" : "",
            "LinkToPageName" : ""
        },

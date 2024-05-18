@@ -71,7 +71,7 @@ public class PopUpManager : MonoBehaviour
         popUpDic = new Dictionary<string, BasePopUp>();
         data = new FeedData();
         data = JsonUtility.FromJson<FeedData>(ReadFile("Feed/Class1").ToString());
-        // OpenChat("story1-1");
+
         timeToClickChat = Time.time;
         StartCoroutine(StartChatStory());
     }
@@ -94,7 +94,7 @@ public class PopUpManager : MonoBehaviour
         yield return new WaitForEndOfFrame();
 
         OpenChat($"{UserData.Story.ToLower()}-1");
-       // OpenChat($"story3-14-1-1-1");
+        //OpenChat($"story2-15-B-1");
         startObj.SetActive(false);
     }
 
@@ -140,7 +140,16 @@ public class PopUpManager : MonoBehaviour
 
     public void OpenChat(string path,bool muteSound = false,bool isOld =false)
     {
+        if (path == "story2-16")
+        {
+            if (!UserData.S2Pass)
+            {
+                path = "story2-16-1";
+            }
+        }
+
         ChatData newData = ReadChatData($"Feed/{UserData.Solution}/{UserData.Story}/{path}");
+
         print(newData.ID);
         string id = newData.ID;
         TimeRecord.Instance.LogCheck(path);
@@ -279,7 +288,6 @@ public class PopUpManager : MonoBehaviour
         else
         {
             print(id);
-            print(FindPopup(id).ID+"");
             BasePopUp popup = Instantiate(FindPopup(id), popupParent);
             popup.SetManager(this);
             popup.gameObject.SetActive(true);
