@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26a4fabf63ef3f34fb5cd8f9d0bff8e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 2bank-4N
+  ID: 2bank-4NN
   startTime: 0
   bank: {fileID: 3900980372714029592}
   home: {fileID: 9200740305500656546}
