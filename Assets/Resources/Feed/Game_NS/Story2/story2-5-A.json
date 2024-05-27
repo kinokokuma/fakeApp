@@ -1,0 +1,72 @@
+{"ID": "chat-01",
+"ChatName": "เพื่อน(ลงทุน)",
+"Icon": [
+    "Image/Story2/profileN",
+    "Image/Story2/profileJ"
+],
+    "DataDetail" :[
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "หาร้านได้ยัง",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ได้แล้ว",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เป็นไงบ้าง",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ลองทำแล้วเป็นงานกดไลค์",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "รอบแรกก็ได้เงินจริงนะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ถ้าได้ก็โอเคแล้ว",
+       "PostImage" : "",
+       "LinkToPageName" : "",
+       "LinkType": "chat",
+       "FileName": "MakeA/story2-6"
+   }
+    ]
+}

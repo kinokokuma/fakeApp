@@ -1,0 +1,109 @@
+{"ID": "chat-01",
+"ChatName": "เพื่อน(ลงทุน)",
+"Icon": [
+    "Image/Story2/profileN",
+    "Image/Story2/profileJ"
+],
+    "DataDetail" :[
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Time",
+            "DelayTime": 0,
+            "Content": "28 ก.ย. 2024 09:20",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+    {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "วันนี้แพคของที่ตกค้างของไลฟ์ที่แล้วไป แล้วนะ @เจ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+    {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เคๆ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เสาร์อาทิตย์นี้ไปเที่ยวกันไหม",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "@{player} ยิ่งไม่ค่อยมีเงินอยู่",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ไปได้นะๆ แต่ขอใกล้พอ แบบไม่แพงมาก",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เขาใหญ่ อยุธยา ชลบุรี ที่ไหนดี",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+        "OnwerName" : "my",
+        "Icon" : "",
+        "ChatType" : "Normal",
+        "DelayTime" : 2,
+        "Content" : "{0}",
+        "Choice" : [
+            {   "ID" : "001",
+                "Path": "เขาใหญ่",
+                "LinkType": "chat",
+                "FileName": "MakeA/story2-11"
+            },
+            {   "ID" : "001",
+                "Path": "ทำบุญที่ อยุธยา",
+                "LinkType": "chat",
+                "FileName": "MakeA/story2-11"
+            },
+            {   "ID" : "001",
+                "Path": "ไปทะเลที่ ชลบุรี",
+                "LinkType": "chat",
+                "FileName": "MakeA/story2-11"
+            }
+        ],
+        "PostImage" : "",
+
+        "LinkToPageName" : "",
+        "LinkType": "",
+        "FileName": ""
+    }
+    ]
+}

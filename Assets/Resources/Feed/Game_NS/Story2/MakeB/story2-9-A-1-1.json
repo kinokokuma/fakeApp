@@ -1,0 +1,41 @@
+{"ID": "chat-04",
+"ChatName": "phoneyshop",
+"Icon": [
+    "Image/Story2/phoneyshop"
+],
+    "DataDetail" :[
+    {
+        "ID" : "chat-04",
+       "OnwerName" : "phoneyshop",
+       "Icon" : "Image/Story2/phoneyshop",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "รบกวนขอที่อยู่ด้วยค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "วรินทร ไมตรีมิตร\n178/66 ตำบลท่าล้อ\nอําเภอบ้านทาน \nจังหวัดสมุทรสงคราม 75100",
+       "PostImage" : "",
+       "LinkToPageName" : "",
+       "LinkType": "chat",
+       "FileName": "MakeB/story2-10"
+   },{
+    "ID" : "chat-04",
+   "OnwerName" : "phoneyshop",
+   "Icon" : "Image/Story2/phoneyshop",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "ขอบคุณค่ะ ",
+   "PostImage" : "",
+   "LinkToPageName" : "",
+   "LinkType": "chat",
+   "FileName": "MakeB/story2-10-1"
+}
+    ]
+}

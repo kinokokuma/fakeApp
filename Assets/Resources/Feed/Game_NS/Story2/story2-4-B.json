@@ -1,0 +1,89 @@
+{"ID": "chat-03",
+"ChatName": "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ",
+"Header" : "Image/Story2/S2-HEAD-S2",
+"Icon": [
+    "Image/Story2/job2"
+],
+    "DataDetail" :[
+        {
+            "ID": "chat-03",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Time",
+            "DelayTime": 0,
+            "Content": "25 ก.ย. 2024 16:00",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+    {
+        "ID" : "chat-03",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "สวัสดีค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "สนใจทำงานค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "สวัสดีค่ะ นี่คือข้อความตอบกลับอัตโนมัติ ขอบคุณที่ให้ความสนใจทำงาน",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ระหว่างรอแอดมินตอบกลับสามารถ\nอ่านรายละเอียดงานก่อนได้ค่ะ\nค่าสมัคร 200 บาท\nกดไลก์ 10 โพสต์ กำไร 20\nกดไลก์ 50 โพสต์ กำไร 125\nกดไลก์ 100 โพสต์ กำไร 300\nหากมีความสนใจกรุณารอแอดมิน\nตอบกลับสักครู่ค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+        "OnwerName" : "my",
+        "Icon" : "",
+        "ChatType" : "SP2",
+        "DelayTime" : 2,
+        "Content" : "{0}",
+        "ChoiceImage" : [
+            {   "ID" : "001",
+                "Path": "Image/Story2/sticker1",
+                "LinkType": "chat",
+                "FileName": "story2-4-B-1"
+            },
+            {   "ID" : "001",
+                "Path": "Image/Story2/sticker2",
+                "LinkType": "chat",
+                "FileName": "story2-4-B-1"
+            },
+            {   "ID" : "001",
+                "Path": "Image/Story2/sticker3",
+                "LinkType": "chat",
+                "FileName": "story2-4-B-1"
+            }
+        ],
+        "PostImage" : "",
+
+        "LinkToPageName" : "",
+        "LinkType": "",
+        "FileName": ""
+    }
+    ]
+}

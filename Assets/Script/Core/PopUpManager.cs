@@ -52,6 +52,7 @@ public class PopUpManager : MonoBehaviour
     public ChatDataDetail currentChatData;
     public string NextFileName;
     public string NextChatID;
+    public string CurrentJsonName;
     public RectTransform GotoChatGuildLine;
     [SerializeField]
     private RectTransform bottomChat;
@@ -67,6 +68,7 @@ public class PopUpManager : MonoBehaviour
 
     public void Awake()
     {
+        TimeRecord.Instance.CreatePlayerCsv();
         chatPopUpDic = new Dictionary<string, ChatPopup>();
         popUpDic = new Dictionary<string, BasePopUp>();
         data = new FeedData();
@@ -138,7 +140,7 @@ public class PopUpManager : MonoBehaviour
         }
     }
 
-    public void OpenChat(string path,bool muteSound = false,bool isOld =false)
+    public string GetSpPath(string path)
     {
         if (path == "story2-16")
         {
@@ -147,6 +149,12 @@ public class PopUpManager : MonoBehaviour
                 path = "story2-16-1";
             }
         }
+        return path;
+    }
+    
+    public void OpenChat(string path,bool muteSound = false,bool isOld =false)
+    {
+        path = GetSpPath(path);
 
         ChatData newData = ReadChatData($"Feed/{UserData.Solution}/{UserData.Story}/{path}");
 
@@ -184,6 +192,8 @@ public class PopUpManager : MonoBehaviour
             butt.Initialized(newData, this);
             allChatButtonList.Add(butt);
         }
+
+        CurrentJsonName = path;
     }
 
     public void ShowAllChat( )

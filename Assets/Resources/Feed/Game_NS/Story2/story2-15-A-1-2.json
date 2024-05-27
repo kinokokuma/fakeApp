@@ -1,0 +1,95 @@
+{"ID": "chat-05",
+"ChatName": "knock knock",
+"Icon": [
+    "Image/Story2/knock_knock"
+],
+    "DataDetail" :[
+   {
+        "ID" : "chat-05",
+       "OnwerName" : "knock knock",
+       "Icon" : "Image/Story2/knock_knock",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "รบกวนขอรูปถ่ายบัตรประชาชนและ\nกรอกข้อมูลตามนี้นะคะ \n\n1.ชื่อ-นามสกุล \n2.เลขประจำตัวบัตรประชาชน \n3.ชื่อบัญชี \n4.เลขบัญชี \n5.ธนาคาร\n \nกรุณาตรวจสอบความถูกต้องของข้อมูล\nก่อนส่งให้แอดมิน",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-05",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "",
+       "PostImage" : "Image/Story2/IDcard",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-05",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "1.วรินทร ไมตรีมิตร\n2.1 2345 67890 12 3\n3.วรินทร ไมตรีมิตร\n4.037-7-566234\n5.ธนาคารกุ้งไทย",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+    {
+        "ID" : "chat-05",
+       "OnwerName" : "knock knock",
+       "Icon" : "Image/Story2/knock_knock",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "แอดมินของแจ้งในส่วนที่ลูกค้าต้องทำ นะคะ เมื่อเลือกจำนวนเงินกู้แล้วจะต้อง โอนเงินฝากค้ำประกันเงินกู้ 8% จาก จำนวนเงินที่กู้นะคะ ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-05",
+       "OnwerName" : "knock knock",
+       "Icon" : "Image/Story2/knock_knock",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "โอนเข้ามาที่บัญชีนี้นะคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-05",
+       "OnwerName" : "knock knock",
+       "Icon" : "Image/Story2/knock_knock",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "",
+       "PostImage" : "Image/Story2/DataBank",
+       "LinkToPageName" : "",
+       "LinkType": "bank",
+       "FileName": "2bank-5-2"
+   },
+   {
+    "ID" : "chat-05",
+    "OnwerName" : "my",
+    "Icon" : "",
+    "ChatType" : "Normal",
+    "DelayTime" : 2,
+    "Content" : "",
+    "Choice" : [
+        {   "ID" : "001",
+            "Path": "โอน",
+            "LinkType": "bank",
+            "FileName": "2bank-5-2"
+        },
+        {   "ID" : "001",
+            "Path": "ไม่โอน",
+            "LinkType": "chat",
+            "FileName": "story2-15-A-1-2-1"
+        }
+    ],
+    "PostImage" : "",
+
+    "LinkToPageName" : "",
+    "LinkType": "",
+    "FileName": ""
+}
+    ]
+}

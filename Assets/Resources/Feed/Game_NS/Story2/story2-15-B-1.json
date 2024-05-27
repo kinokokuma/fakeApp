@@ -1,0 +1,111 @@
+{"ID": "chat-06",
+"ChatName": "Bmoney",
+"Icon": [
+    "Image/Story2/bmoney"
+],
+   
+    "DataDetail" :[
+    {
+        "ID" : "chat-06",
+       "OnwerName" : "Bmoney",
+       "Icon" : "Image/Story2/bmoney",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "รบกวนขอชื่อผู้กู้ยืมและชื่อบัญชีพร้อมเลขบัญชีธนาคารด้วยนะคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-06",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ชื่อ วรินทร ไมตรีมิตร\nชื่อบัญชี: วรินทร ไมตรีมิตร\nเลขบัญชี: 037-7-566234\nธนาคารกุ้งไทย ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-06",
+       "OnwerName" : "Bmoney",
+       "Icon" : "Image/Story2/bmoney",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เนื่องจากเป็นจำนวนเงินที่มากกว่า 2,000 บาท ต้องมีหนังสือสัญญาตามกฎหมายเพื่อทางเราจะสามารถดำเนินการฟ้องร้องเมื่อผู้กู้ ยืมไม่ชำระเงินหนี้ได้ รบกวนผู้กู้ยืมลง ลายมือชื่อลงบนไฟล์สัญญาที่ส่งให้ ดังนี้ \n1.วันที่ที่ช่องวันที่ \n2.ลงชื่อที่ช่องชื่อผู้กู้ยืม \n3.ลงชื่อหรือลายเซ็นที่ท้ายกระดาษ ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-06",
+       "OnwerName" : "Bmoney",
+       "Icon" : "Image/Story2/bmoney",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "",
+       "PostImage" : "Image/Story2/pdf1",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-06",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "",
+       "PostImage" : "Image/Story2/pdf2",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-06",
+       "OnwerName" : "Bmoney",
+       "Icon" : "Image/Story2/bmoney",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "แอดมินได้ตรวจสอบเอกสารเรียบร้อยแล้ว รบกวนผู้กู้ยืมเก็บไฟล์สัญญานี้ไว้ตลอด การทำการกู้นะคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-06",
+       "OnwerName" : "Bmoney",
+       "Icon" : "Image/Story2/bmoney",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "แอดมินได้โอนเงินไปที่ธนาคารที่ผู้กู้ยืมได้แจ้งมาแล้วนะคะ กรุณาตรวจสอบจำนวน เงิน หากไม่ครบจำนวนกรุณาแจ้งแอดมิน ทันทีนะคะ ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-06",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ครบค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-06",
+       "OnwerName" : "Bmoney",
+       "Icon" : "Image/Story2/bmoney",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ค่ะ ผู้กู้ยืมสามารถชำระเงินกู้ก่อนวันครบ กำหนดชำระหนี้ได้ ทุกครั้งที่ต้องการชำระ หนี้ให้ทักหาแอดมินก่อนทำการโอนชำระ หนี้นะคะ ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-06",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ขอบคุณค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : "",
+       "LinkType":"group",
+       "FileName": "end-2"
+   }
+    ]
+}

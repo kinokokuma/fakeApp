@@ -1,0 +1,81 @@
+{"ID": "chat-03",
+"ChatName": "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ",
+"Icon": [
+    "Image/Story2/job2"
+],
+    "DataDetail" :[
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Time",
+            "DelayTime": 0,
+            "Content": "27 ก.ย. 2024 10:50",
+            "PostImage": "",
+            "LinkToPageName": ""
+        },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "สวัสดีค่ะ ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+    "ID" : "chat-01",
+   "OnwerName" : "my",
+   "Icon" : "",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "อยากจะสอบถามเรื่องเงินที่ทำงานไปค่ะ",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
+{
+    "ID" : "chat-01",
+   "OnwerName" : "my",
+   "Icon" : "",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "ทำงานไปตั้งแต่วันจันทร์ยังไม่ได้เงินเลย\nค่ะ ",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
+{
+    "ID" : "chat-01",
+   "OnwerName" : "my",
+   "Icon" : "",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "อีกนานไหมคะ กว่าจะได้เงิน ",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
+{
+    "ID" : "chat-01",
+   "OnwerName" : "my",
+   "Icon" : "",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "ไม่คิดว่าจะต้องใช้เวลาตรวจสอบนาน ขนาดนั้นนะคะ ",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
+   {
+    "ID" : "block",
+   "OnwerName" : "my",
+   "Icon" : "",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "ตอบด้วยค่ะ ",
+   "PostImage" : "",
+   "LinkToPageName" : "",
+   "LinkType": "chat",
+   "FileName": "MakeB/story2-10-1"
+    }
+    
+    ]
+}

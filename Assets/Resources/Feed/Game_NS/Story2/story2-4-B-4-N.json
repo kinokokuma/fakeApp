@@ -1,0 +1,21 @@
+{"ID": "chat-03",
+"ChatName": "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ",
+"Icon": [
+    "Image/Story2/job2"
+],
+    "DataDetail" :[
+
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ขอโทษนะคะ พอดีเปลี่ยนใจขอไม่ทำงานต่อแล้วนะคะ",
+       "PostImage" : "",
+       "LinkToPageName" : "",
+       "LinkType": "chat",
+       "FileName": "story2-5-B"
+   }
+    ]
+}

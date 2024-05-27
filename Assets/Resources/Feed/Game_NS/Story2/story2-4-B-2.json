@@ -1,0 +1,20 @@
+{"ID": "chat-03",
+"ChatName": "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ",
+"Icon": [
+    "Image/Story2/job2"
+],
+    "DataDetail" :[
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ค่ะ รบกวนโอนเงินค่าสมัครเข้ามาที่ \nบัญชี นางสาวกรกนก แสงคำ \nธ.กุ้งไทย \n036-7-564521 ",
+       "PostImage" : "",
+       "LinkToPageName" : "",
+       "LinkType": "bank",
+       "FileName": "2bank-6"
+   }
+    ]
+}

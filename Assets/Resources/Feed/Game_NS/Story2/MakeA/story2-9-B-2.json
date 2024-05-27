@@ -1,0 +1,51 @@
+{"ID": "chat-04",
+"ChatName": "phoneyshop",
+"Icon": [
+    "Image/Story2/phoneyshop"
+],
+    "DataDetail" :[
+   {
+        "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "จะโกงหรอคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "แปลกตั้งแต่โอนเงินคือไม่ได้แล้วนะคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ถ้าไม่โอนเงินคืนมาจะไปแจ้งความ ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ให้เวลาอีก1ชั่วโมง โอนเงินคืนมา ไม่งั้นแจ้งความแน่!! ",
+       "PostImage" : "",
+       "LinkToPageName" : "",            
+       "LinkType": "chat",
+       "FileName": "MakeA/story2-10-1"
+   }
+  
+    ]
+}

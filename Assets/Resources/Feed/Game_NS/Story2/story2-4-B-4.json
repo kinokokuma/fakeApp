@@ -1,0 +1,93 @@
+{"ID": "chat-03",
+"ChatName": "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ",
+"Icon": [
+    "Image/Story2/job2"
+],
+    "DataDetail" :[
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "สนใจทำเป็นกดไลก์เท่าไรดีคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "100ค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ถ้าเป็น100โพสต์จะต้องมีค่าสมัครทำงานก่อน500นะคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เพราะว่าเป็นงานใหญ่ค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ทางเราต้องคอนเฟิร์มว่าตัวเองจะไม่เทงาน",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "หารายได้เสริมออนไลน์ ไม่จำกัดอายุ ",
+       "Icon" : "Image/Story2/job2",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "แต่ได้คืนแน่นอนค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+        "OnwerName" : "my",
+        "Icon" : "",
+        "ChatType" : "Normal",
+        "DelayTime" : 2,
+        "Content" : "",
+        "Choice" : [
+            {   "ID" : "001",
+                "Path": "โอน",
+                "LinkType": "bank",
+                "FileName": "2bank-7"
+            },
+            {   "ID" : "001",
+                "Path": "ไม่โอน",
+                "LinkType": "chat",
+                "FileName": "story2-4-B-4-N"
+            }
+        ],
+        "PostImage" : "",
+
+        "LinkToPageName" : "",
+        "LinkType": "",
+        "FileName": ""
+    }
+    ]
+}

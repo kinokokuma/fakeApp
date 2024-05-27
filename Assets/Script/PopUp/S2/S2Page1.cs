@@ -11,7 +11,7 @@ public class S2Page1 : BasePopUp
     public void Start()
     {
         startTime = Time.time;
-        StartCoroutine(StartChoice());
+        //StartCoroutine(StartChoice());
     }
     
     IEnumerator StartChoice()

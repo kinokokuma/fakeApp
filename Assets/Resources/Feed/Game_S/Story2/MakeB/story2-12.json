@@ -25,16 +25,7 @@
        "PostImage" : "",
        "LinkToPageName" : ""
    },
-   {
-    "ID" : "chat-01",
-   "OnwerName" : "เจ",
-   "Icon" : "Image/Story2/profileJ",
-   "ChatType" : "Normal",
-   "DelayTime" : 1,
-   "Content" : "ชีวิตน่าสงสารสุดๆ",
-   "PostImage" : "",
-   "LinkToPageName" : ""
-},
+   
    {
         "ID" : "chat-01",
        "OnwerName" : "นัด",

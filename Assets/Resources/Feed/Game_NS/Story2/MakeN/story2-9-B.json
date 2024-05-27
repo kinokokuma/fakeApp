@@ -1,0 +1,79 @@
+{"ID": "chat-04",
+"ChatName": "phoneyshop",
+"Icon": [
+    "Image/Story2/phoneyshop"
+],
+    "DataDetail" :[{
+        "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ไม่รับค่ะ ไม่สะดวก",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-04",
+       "OnwerName" : "phoneyshop",
+       "Icon" : "Image/Story2/phoneyshop",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ทางเราไม่สามารถแพคใหม่ได้จริงๆค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-04",
+       "OnwerName" : "phoneyshop",
+       "Icon" : "Image/Story2/phoneyshop",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เพราะเอามาแจกก็ขาดทุนแล้ว",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-04",
+       "OnwerName" : "phoneyshop",
+       "Icon" : "Image/Story2/phoneyshop",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "สะดวกจ่ายเท่าไรคะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-04",
+       "OnwerName" : "phoneyshop",
+       "Icon" : "Image/Story2/phoneyshop",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ทางเราขออภัยจริงๆค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-04",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ไม่สะดวกรับจริงๆค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+    "ID" : "chat-04",
+    "OnwerName" : "my",
+    "Icon" : "",
+    "ChatType" : "Normal",
+    "DelayTime" : 2,
+    "Content" : "ขอโทษด้วยค่ะ ส่งมาแล้วจะส่งกลับให้ค่ะ ",
+    "PostImage" : "",
+    "LinkToPageName" : "",
+    "LinkType": "chat",
+    "FileName": "MakeN/story2-10"
+}
+    ]
+}

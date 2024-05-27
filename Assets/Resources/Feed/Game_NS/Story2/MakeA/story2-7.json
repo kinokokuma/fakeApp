@@ -1,0 +1,101 @@
+{"ID": "chat-01",
+"ChatName": "เพื่อน(ลงทุน)",
+"Icon": [
+    "Image/Story2/profileN",
+    "Image/Story2/profileJ"
+],
+    "DataDetail" :[
+    {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "@นัด ชอบอันไหน จะได้ลองสั่งดู",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "อันแรกก็ดีนะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "วันนี้ก็ไปเจอร้านกระเป๋าเหมือนกัน แต่รอ ให้ @{Player} \nมีเงินอีกหน่อยดีกว่าค่อยสั่งมาขายเพิ่ม ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เครียดเหมือนกัน ไม่มีเงินเลยTT",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เห้ยยยยยยยยยยยยยย @{Player} ใช่ไหมๆคนที่5อ่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "",
+       "PostImage" : "Image/Story2/caption1",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ประกาศผู้โชคดี รับไอโฟน 5 ท่าน \n1. kotchakorn \n2.cherry \n3.Pat Pat \n4.Manut \n5.Warintorn",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ใช่จริงๆด้วย",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "รีบทักร้านไปเร็วๆ",
+       "PostImage" : "",
+       "LinkToPageName" : "",
+       "LinkType": "group",
+       "FileName": "2page-pA"
+   }
+    ]
+}

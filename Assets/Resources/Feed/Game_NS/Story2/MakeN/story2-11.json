@@ -1,0 +1,174 @@
+{"ID": "chat-01",
+"ChatName": "เพื่อน(ลงทุน)",
+"Icon": [
+    "Image/Story2/profileN",
+    "Image/Story2/profileJ"
+],
+    "DataDetail" :[
+    {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เห็นด้วยๆ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ดีๆปสจะไห้ดฟ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+    {
+        "ID" : "chat-01",
+       "OnwerName" : "เจ",
+       "Icon" : "Image/Story2/profileJ",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "??",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "แป้นรวน",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "วันนี้มาเดินห้าง",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ไอโฟน12รึเปล่าที่อยากได้",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "นัด",
+       "Icon" : "Image/Story2/profileN",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ถูกสุดมัน 24900 ไปซื้อกับร้านในเน็ตน่า จะถูกกว่า",
+       "PostImage" : "",
+       "LinkToPageName" : "",
+       "LinkType": "chat",
+       "FileName": "MakeN/story2-12"
+   },
+   {
+    "ID" : "chat-01",
+   "OnwerName" : "เจ",
+   "Icon" : "Image/Story2/profileJ",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "พรุ่งนี้จะไลฟ์กี่โมงดี",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
+{
+    "ID" : "chat-01",
+   "OnwerName" : "นัด",
+   "Icon" : "Image/Story2/profileN",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "4โมง มาจัดของจัดสถานที่ก่อน ",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
+
+{
+    "ID" : "chat-01",
+   "OnwerName" : "นัด",
+   "Icon" : "Image/Story2/profileN",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "ค่าของก็เหลืออีกแต่4วัน อย่าลืมจ่าย",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
+{
+    "ID" : "chat-01",
+   "OnwerName" : "my",
+   "Icon" : "",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "หมุนเงินจะไม่ทันแล้วววว ",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
+{
+"ID" : "chat-01",
+"OnwerName" : "เจ",
+"Icon" : "Image/Story2/profileJ",
+"ChatType" : "Normal",
+"DelayTime" : 1,
+"Content" : "ชีวิตน่าสงสารสุดๆ",
+"PostImage" : "",
+"LinkToPageName" : ""
+},
+{
+"ID" : "chat-01",
+"OnwerName" : "my",
+"Icon" : "",
+"ChatType" : "Normal",
+"DelayTime" : 1,
+"Content" : "เดี๋ยวเราไปกู้เงินมาจ่ายครั้งนี้ให้ก่อน",
+"PostImage" : "",
+"LinkToPageName" : ""
+},
+{
+"ID" : "chat-01",
+"OnwerName" : "นัด",
+"Icon" : "Image/Story2/profileN",
+"ChatType" : "Normal",
+"DelayTime" : 1,
+"Content" : "ยังพอมีเวลานะ ลองหาทางอื่นดูไหม",
+"PostImage" : "",
+"LinkToPageName" : ""
+},
+{
+"ID" : "chat-01",
+"OnwerName" : "my",
+"Icon" : "",
+"ChatType" : "Normal",
+"DelayTime" : 1,
+"Content" : "เอาทางนี้ไปก่อนเนี่ยแหละ เดี๋ยวเงินเดือน ออก ก็มีเงินไปจ่ายหนี้ละ",
+"PostImage" : "",
+"LinkToPageName" : ""
+},
+{
+"ID" : "chat-01",
+"OnwerName" : "เจ",
+"Icon" : "Image/Story2/profileJ",
+"ChatType" : "Normal",
+"DelayTime" : 1,
+"Content" : "15000 นะรอบนี้",
+"PostImage" : "",
+"LinkToPageName" : "",
+"LinkType": "group",
+"FileName": "2page-4"
+}
+    ]
+}

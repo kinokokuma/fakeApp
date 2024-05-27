@@ -1,0 +1,31 @@
+{"ID": "chat-05",
+"ChatName": "knock knock",
+"Icon": [
+    "Image/Story2/knock_knock"
+],
+    "DataDetail" :[
+
+   {
+        "ID" : "chat-05",
+       "OnwerName" : "knock knock",
+       "Icon" : "Image/Story2/knock_knock",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "กรุณารอแอดมินตรวจสอบข้อมูลสักครู่ หลังจากนั้นจึงจะสามารถโอนเงินที่บัญชี ของท่านได้",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-05",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ค่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : "",
+       "LinkType":"group",
+       "FileName": "end-2"
+   }
+    ]
+}

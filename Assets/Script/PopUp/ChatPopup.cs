@@ -70,7 +70,7 @@ public class ChatPopup : BasePopUp
 
     private void ShowChatList()
     {
-        TimeRecord.Instance.SaveRecord(ID, $"เปิดแชททั้งหมด", manager.timeToClickChat, false);
+        TimeRecord.Instance.SaveRecord(this.data.ID + "-" + manager.CurrentJsonName, $"เปิดแชททั้งหมด", manager.timeToClickChat, false);
         manager.ShowAllChat();
         allChatButton.interactable = false;
         allChatGuildlind.SetActive(false);
@@ -278,7 +278,7 @@ public class ChatPopup : BasePopUp
 
         if (!haveQuestion && data.DataDetail[chatIndex-1].ChatType == "Normal")
         {
-            manager.NextFileName = data.DataDetail[data.DataDetail.Length - 1].FileName;
+            manager.NextFileName = manager.GetSpPath(data.DataDetail[data.DataDetail.Length - 1].FileName);
             if (data.DataDetail[chatIndex - 1].LinkType == "chat")
             {
                 ChatData newData = manager.ReadChatData($"Feed/{UserData.Solution}/{UserData.Story}/{data.DataDetail[data.DataDetail.Length - 1].FileName}");
@@ -407,7 +407,7 @@ public class ChatPopup : BasePopUp
         dataDetail.LinkType = choiceText.LinkType;
         dataDetail.FileName = choiceText.FileName;
 
-        TimeRecord.Instance.SaveRecord(choiceText.ID, choiceText.Path, timeToShowQuestion, choiceText.IsSignificant);
+        TimeRecord.Instance.SaveRecord(this.data.ID+"-"+manager.CurrentJsonName, choiceText.Path, timeToShowQuestion, choiceText.IsSignificant);
 
         chat.Initialized(dataDetail, this, manager);
         QuestionObject.gameObject.SetActive(false);
@@ -476,7 +476,7 @@ public class ChatPopup : BasePopUp
         chat.Initialized(dataDetail, this, manager);
         QuestionObject.gameObject.SetActive(false);
 
-        TimeRecord.Instance.SaveRecord(choiceImage.ID, Path.GetFileName(choiceImage.Path), timeToShowQuestion, choiceImage.IsSignificant);
+        TimeRecord.Instance.SaveRecord(this.data.ID + "-" + manager.CurrentJsonName, Path.GetFileName(choiceImage.Path), timeToShowQuestion, choiceImage.IsSignificant);
 
         chatIndex = 0;
 
