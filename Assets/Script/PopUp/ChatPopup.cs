@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 
 public class ChatPopup : BasePopUp
 {
-    private const int chatSizeOffset = 285;
+    private const int chatSizeOffset = 385; //285+70
     private ChatData data;
     private int chatIndex;
     private string[] emoji = { "<sprite=0>", "<sprite=1>", "<sprite=2>", "<sprite=3>", "<sprite=4>", "<sprite=5>" };
@@ -132,7 +132,7 @@ public class ChatPopup : BasePopUp
                             }
 
                             choice.InitializedImage(i, ChoiceType.Image, data.DataDetail[chatIndex].ChoiceImage[i]);
-                            choice.Button.onClick.AddListener(() => OnClickImageChoice(choice.DataImage));
+                            choice.Button.onClick.AddListener(() => StartCoroutine(OnClickImageChoice(choice.DataImage)));
                             choiceList.Add(choice);
                         }
                         QuestionObject.gameObject.SetActive(true);
@@ -152,7 +152,7 @@ public class ChatPopup : BasePopUp
                             ChatChoice choice = Instantiate(imageChoice, imageChoiceParent);
                             choice.gameObject.SetActive(true);
                             choice.InitializedText(i, ChoiceType.String, data.DataDetail[chatIndex].Choice[i]);
-                            choice.Button.onClick.AddListener(() => OnClickTextChoice(choice.DataText, data.DataDetail[data.DataDetail.Length - 1]));
+                            choice.Button.onClick.AddListener(() => StartCoroutine(OnClickTextChoice(choice.DataText, data.DataDetail[data.DataDetail.Length - 1])));
 
                             choiceList.Add(choice);
                         }
@@ -387,7 +387,7 @@ public class ChatPopup : BasePopUp
         }
     }
 
-    private void OnClickTextChoice(ChoiceText choiceText, ChatDataDetail data)
+    private IEnumerator OnClickTextChoice(ChoiceText choiceText, ChatDataDetail data)
     {
         HintChoice();
         ChatObjectBase chat = Instantiate(chatobject, chatParent);
@@ -439,6 +439,7 @@ public class ChatPopup : BasePopUp
             else
             {
                 print(dataDetail.FileName);
+                yield return new WaitForSeconds(3);
                 manager.OpenChat(dataDetail.FileName);
             }
         }
@@ -459,7 +460,7 @@ public class ChatPopup : BasePopUp
         }
     }
 
-    private void OnClickImageChoice(ChoiceImage choiceImage)
+    private IEnumerator OnClickImageChoice(ChoiceImage choiceImage)
     {
         HintChoice();
         ChatObjectBase chat = Instantiate(chatobject, chatParent);
@@ -487,6 +488,7 @@ public class ChatPopup : BasePopUp
             isReload = true;
         }
         Canvas.ForceUpdateCanvases();
+        yield return new WaitForSeconds(3);
         manager.OpenChat(choiceImage.FileName);
         manager.NextFileName = choiceImage.FileName;
         StartCoroutine(UpdateLayoutGroup(reloadObj));

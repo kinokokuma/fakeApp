@@ -1,0 +1,8 @@
+Date,TimeFromStartQuestTion,ID,AnsTime,Ans,IsSignificant
+1717867548993,33.53148,choice-chat-01-story1-1,8.133087,เกาะล้าน,False
+1717867657816,65.05821,choice-chat-01-Route1/story1-2,85.431,bag1,False
+1717867671804,162.5304,choice-chat-01,1.946823,go to ID : web-1,False
+1717867724575,169.4783,choice-web-1,47.76082,ออกจากเว็บ,False
+1717867747695,227.0502,choice-chat-01,12.34457,go to ID : group-1,False
+1717867748932,239.3947,choice-Group-1,1.239182,กดเพื่อโพสต์,False
+1717867751843,240.6339,choice-Group-1,2.910477,มีร้านไหนขายกระเป๋ารุ่นนี้บ้างคะ ต้องการมือ1ค่ะ,False

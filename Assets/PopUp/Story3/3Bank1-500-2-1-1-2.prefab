@@ -639,7 +639,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.428, y: -526.428}
+  m_AnchoredPosition: {x: 1.428, y: -564.428}
   m_SizeDelta: {x: 909.0287, y: 132.4625}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5986127391928060941
@@ -761,7 +761,7 @@ GameObject:
   - component: {fileID: 5986127391994225375}
   - component: {fileID: 5986127391994225372}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ButtonHome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -783,7 +783,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16, y: 479.82593}
+  m_AnchoredPosition: {x: 16, y: 520}
   m_SizeDelta: {x: 160, y: 114.348}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5986127391994225374

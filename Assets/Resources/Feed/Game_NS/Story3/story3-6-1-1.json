@@ -1,0 +1,253 @@
+{"ID": "chat-01",
+"ChatName": "ทริปทำบุญ",
+"Icon": [
+    "Image/Story3/profileA","Image/Story3/profileJ"
+],
+    "DataDetail" :[
+    {
+        "ID" : "chat-01",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ถ้าเถียงกันเยอะกว่านี้ทริปบุญเกือบเป็น ทริปบาปละ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "ตรี",
+       "Icon" : "Image/Story3/profileT",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ไม่เป็นไรเดี๋ยวทะเลาะกันใหม่คราวหน้า",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "5555555555555555 ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "งั้นเลือกวันต่อเลย",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "5555",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ไปวันไหนอ่ะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เสาร์นี้ไหม ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "ตรี",
+       "Icon" : "Image/Story3/profileT",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "คนรวยของจริง",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "ตรี",
+       "Icon" : "Image/Story3/profileT",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "พร้อมเที่ยวเลยดิ ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "อ้าว",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "ตรี",
+       "Icon" : "Image/Story3/profileT",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "อีก2อาทิตย์ดีกว่า",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "มีแววทะเลาะกันอีกแล้ว",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "อาทิตย์หน้าจบ คนละครึ่งทาง ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "โอเค ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "ตรี",
+       "Icon" : "Image/Story3/profileT",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ก็ได้",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ไม่ใช่ไปเที่ยวแล้วทะเลาะกันอีกนะ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "นี่ไปทำบุญทำทานกลบบาปที่ทำมาเลย ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "มันกลบกันได้หรอ5555",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "สบายใจทำไปก่อน ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "นี่ไปช่วยน้องหมาน้องแมว",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Button-N",
+       "DelayTime" : 1,
+       "Content" : "https://www.facebook.com/photo/",
+       "PostImage" : "Image/Story3/PageLink3",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "",
+       "PostImage" : "Image/Story3/caption2",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-01",
+        "OnwerName" : "my",
+        "Icon" : "",
+        "ChatType" : "Normal",
+        "DelayTime" : 2,
+        "Content" : "",
+        "Choice" : [
+            {   "ID" : "001",
+                "Path": "ทำบุญ",
+                "LinkType": "chat",
+                "FileName": "story3-7-1-1"
+            },
+            {   "ID" : "001",
+                "Path": "ไม่ทำ",
+                "LinkType": "chat",
+                "FileName": "story3-8-1-1"
+            }
+        ],
+        "PostImage" : "",
+
+        "LinkToPageName" : "",
+        "LinkType": "",
+        "FileName": ""
+    }
+    ]
+}

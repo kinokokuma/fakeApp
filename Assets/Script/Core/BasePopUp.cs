@@ -21,9 +21,10 @@ public class BasePopUp : MonoBehaviour
     {
         for (int i = 0; i < count; i++)
         {
-            reloadObject.SetActive(false);
+         //   reloadObject.SetActive(false);
             yield return new WaitForEndOfFrame();
-            reloadObject.SetActive(true);
+
+           // reloadObject.SetActive(true);
             yield return new WaitForEndOfFrame();
         }
         yield return new WaitForEndOfFrame();

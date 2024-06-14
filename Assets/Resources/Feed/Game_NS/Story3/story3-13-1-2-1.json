@@ -1,0 +1,83 @@
+{"ID": "chat-03",
+"ChatName": "เอ",
+"Icon": [
+    "Image/Story3/profileA"
+],
+    "DataDetail" :[
+    {
+        "ID": "chat-03",
+        "OnwerName": "my",
+        "Icon": "",
+        "ChatType": "Time",
+        "DelayTime": 0,
+        "Content": "30 มี.ค. เวลา 19:00 น.",
+        "PostImage": "",
+        "LinkToPageName": ""
+    },
+    {
+        "ID" : "chat-03",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เอ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ว่ายังไง",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ได้แผนไปทำบุญบ้างรึยัง",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "คิดไว้บ้างแล้ว",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+        "OnwerName" : "my",
+        "Icon" : "",
+        "ChatType" : "Normal",
+        "DelayTime" : 2,
+        "Content" : "{0}",
+        "Choice" : [
+            {   "ID" : "001",
+                "Path": "เราเปลี่ยนมาทำบุญใน กรุงเทพดีไหม",
+                "LinkType": "chat",
+                "FileName": "story3-14-1-2-1"
+            },
+            {   "ID" : "001",
+                "Path": "เรายกเลิกทำบุญดีไหม",
+                "LinkType": "chat",
+                "FileName": "story3-14-1-2-1"
+            }
+        ],
+        "PostImage" : "",
+
+        "LinkToPageName" : "",
+        "LinkType": "",
+        "FileName": ""
+    }
+    ]
+}

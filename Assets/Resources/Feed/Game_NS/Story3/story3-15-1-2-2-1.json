@@ -1,0 +1,98 @@
+{"ID": "chat-03",
+"ChatName": "เอ",
+"Icon": [
+    "Image/Story3/profileA"
+],
+    "DataDetail" :[
+    {
+        "ID" : "chat-03",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "อันนี้แหละ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "เราชิงบริจาคก่อนเลย ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "my",
+       "Icon" : "",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ตรีจะได้บริจาคตาม  ",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+        "ID" : "chat-03",
+       "OnwerName" : "เอ",
+       "Icon" : "Image/Story3/profileA",
+       "ChatType" : "Normal",
+       "DelayTime" : 1,
+       "Content" : "ได้เลย",
+       "PostImage" : "",
+       "LinkToPageName" : ""
+   },
+   {
+    "ID" : "chat-03",
+   "OnwerName" : "เอ",
+   "Icon" : "Image/Story3/profileA",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "รีบโอนเลย",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
+{
+    "ID" : "chat-03",
+   "OnwerName" : "เอ",
+   "Icon" : "Image/Story3/profileA",
+   "ChatType" : "Normal",
+   "DelayTime" : 1,
+   "Content" : "จะได้ไปบอกตรี",
+   "PostImage" : "",
+   "LinkToPageName" : ""
+},
+   {
+        "ID" : "chat-03",
+        "OnwerName" : "my",
+        "Icon" : "",
+        "ChatType" : "Normal",
+        "DelayTime" : 2,
+        "Content" : "",
+        "Choice" : [
+            {   "ID" : "001",
+                "Path": "100",
+                "LinkType": "bank",
+                "FileName": "3Bank1-100-1-2-2-1"
+            },
+            {   "ID" : "001",
+                "Path": "500",
+                "LinkType": "bank",
+                "FileName": "3Bank1-500-1-2-2-1"
+            },
+            {   "ID" : "001",
+                "Path": "1000",
+                "LinkType": "bank",
+                "FileName": "3Bank1-1000-1-2-2-1"
+            }
+        ],
+        "PostImage" : "",
+
+        "LinkToPageName" : "",
+        "LinkType": "",
+        "FileName": ""
+    }
+    ]
+}

@@ -1,0 +1,10 @@
+Date,TimeFromStartQuestTion,ID,AnsTime,Ans,IsSignificant
+1718014790754,22.57524,choice-chat-01-story1-1,7.07091,กาญจนบุรี,False
+1718014853432,55.97393,choice-chat-01-Route1/story1-2,36.32502,bag1,False
+1718014890518,107.3296,choice-chat-01,22.03941,go to ID : web-1,False
+1718014896961,134.3749,choice-web-1,1.390915,ออกจากเว็บ,False
+1718014960114,145.5961,choice-chat-01,53.37341,go to ID : group-1,False
+1718014961090,198.9695,choice-Group-1,0.9660645,กดเพื่อโพสต์,False
+1718014962131,199.9356,choice-Group-1,0.9133606,ตามหากระเป๋ารุ่นนี้ค่ะ ราคาบวกเพิ่มจากราคาจริงที่ official ขายได้ค่ะ,False
+1718014982519,219.7921,choice-oldchat,1.596909,เล่นแชทแฟน,False
+1718014992418,227.5517,choice-chat-04-Route1/story1-4,3.733749,สบายดีไหม ,False

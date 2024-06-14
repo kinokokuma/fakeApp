@@ -1,0 +1,18 @@
+Date,TimeFromStartQuestTion,ID,AnsTime,Ans,IsSignificant
+1717865710801,16.61011,choice-chat-01-story1-1,4.283655,เกาะล้าน,False
+1717865744816,44.42165,choice-chat-01-Route1/story1-2,10.41705,bag1,False
+1717865789464,66.9045,choice-chat-01,32.57232,go to ID : web-1,False
+1717865798084,104.4834,choice-web-1,3.579582,ออกจากเว็บ,False
+1717865809302,117.882,choice-chat-01,1.442268,go to ID : group-1,False
+1717865810273,119.3243,choice-Group-1,0.9375458,กดเพื่อโพสต์,False
+1717865811650,120.2618,choice-Group-1,1.343834,ตามหากระเป๋ารุ่นนี้ค่ะ ราคาบวกเพิ่มจากราคาจริงที่ official ขายได้ค่ะ,False
+1717865831513,139.9738,choice-oldchat,1.56424,เล่นแชทแฟน,False
+1717865839147,147.7195,choice-chat-04-Route1/story1-4,1.450531,ชวนมางานวันเกิดแม่,False
+1717865881222,0,choice-group-2,191.2235,ดูเพจร้านที่1,False
+1717865909179,196.2294,choice-group-2,22.36223,แชทกับร้านที่1,False
+1717865913304,218.7585,choice-chat-02-Route1/story1-6,4.094818,bag1,False
+1717865928054,0,choice-group-2,237.523,ดูเพจร้านที่2,False
+1717865934535,242.5252,choice-group-2,1.440826,แชทกับร้านที่2,False
+1717865938663,244.1027,choice-chat-03-Route1/story1-7,4.108276,bag1,False
+1717865950018,258.1525,choice-chat-03-Route1/story1-7-1,1.417389,เปิดแชททั้งหมด,False
+1717865952643,259.5699,choice-chat-04,2.623596,เปิดแชทchat-04,False

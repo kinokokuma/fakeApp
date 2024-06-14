@@ -46,7 +46,7 @@ public class PopUpManager : MonoBehaviour
     public GoToChatButton chatButton;
     public List<GoToChatButton> allChatButtonList;
     [SerializeField]
-    private List<BasePopUp> allPopUpList;
+   // private List<BasePopUp> allPopUpList;
     public QuestionPhase Phase => phase;
     public  PostData CurrentPostPopupData => currentPostPopupData;
     public ChatDataDetail currentChatData;
@@ -271,7 +271,7 @@ public class PopUpManager : MonoBehaviour
 
     public BasePopUp FindPopup(string id)
     {
-        foreach(var popUp in allPopUpList)
+        foreach(var popUp in PopUpData.Instance.allPopUpList)
         {
             if(id == popUp.ID)
             {

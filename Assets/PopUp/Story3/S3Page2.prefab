@@ -111,7 +111,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -317}
+  m_AnchoredPosition: {x: 0, y: -345}
   m_SizeDelta: {x: 241.83, y: 66.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4639925836649292206
@@ -650,8 +650,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.4809, y: -392.585}
-  m_SizeDelta: {x: 675.3403, y: 66.83}
+  m_AnchoredPosition: {x: -8.084306, y: -338.585}
+  m_SizeDelta: {x: 694.4708, y: 66.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5435289043799116090
 CanvasRenderer:
@@ -871,7 +871,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 163.52051, y: -324}
+  m_AnchoredPosition: {x: 163.52051, y: -342}
   m_SizeDelta: {x: 541.439, y: 99.06}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5435289044510537823
@@ -1232,8 +1232,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.4809, y: -537}
-  m_SizeDelta: {x: 675.3403, y: 66.83}
+  m_AnchoredPosition: {x: -8.084306, y: -483}
+  m_SizeDelta: {x: 694.4708, y: 66.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5435289045358192040
 CanvasRenderer:
@@ -1376,8 +1376,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.4809, y: -463}
-  m_SizeDelta: {x: 675.3403, y: 66.83}
+  m_AnchoredPosition: {x: -8.084306, y: -409}
+  m_SizeDelta: {x: 694.4708, y: 66.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5435289045543893411
 CanvasRenderer:
@@ -1643,7 +1643,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5984401533680032625}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

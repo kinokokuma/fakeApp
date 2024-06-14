@@ -172,6 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: web-1
+  startTime: 0
   backButton: {fileID: 2324714559373816057}
 --- !u!222 &7270082409641938428
 CanvasRenderer:
@@ -201,7 +202,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0195eddaf357d4b459cd2d4c0ced159d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d9dc81dc14787874487df749631a3fba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

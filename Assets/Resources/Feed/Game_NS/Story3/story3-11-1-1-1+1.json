@@ -1,0 +1,72 @@
+{"ID": "chat-02",
+"ChatName": "ตรี",
+"Icon": [
+    "Image/Story3/profileT"
+],
+    "DataDetail" :[
+    {
+            "ID": "chat-03",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 2,
+            "Content": "",
+            "ChoiceImage": [
+            {
+                    "ID": "001",
+                    "CanClick": true,
+                    "Path": "Image/story3/prawnthai2",
+                    "LinkType": "chat",
+                "FileName": "story3-11-1-1-1"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/story3/pat1"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/story3/pat2"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/story3/pat3"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/story3/pat4"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/story3/pat5"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/story3/pat6"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/story3/pat7"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/story3/pat8"
+                },
+                {
+                    "ID": "001",
+                    "CanClick": false,
+                    "Path": "Image/story3/pat9"
+                }
+            ],
+            "PostImage": "Image/story3/prawnthai2",
+            "LinkToPageName": ""
+        }
+    ]
+}

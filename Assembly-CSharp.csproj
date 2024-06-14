@@ -66,6 +66,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\Script\PopUp\S1\Group5Popup.cs" />
      <Compile Include="Assets\Script\Core\TimeRecord.cs" />
+     <Compile Include="Assets\Script\Core\PopUpData.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\Script\PopUp\ChatPopup.cs" />
      <Compile Include="Assets\Script\Core\MonoSingleton.cs" />
