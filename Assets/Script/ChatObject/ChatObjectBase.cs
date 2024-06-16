@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using System.IO;
+using TMPro;
 
 public class ChatObjectBase : MonoBehaviour
 {
@@ -17,17 +20,14 @@ public class ChatObjectBase : MonoBehaviour
         this.data = data;
     }
 
-    protected IEnumerator UpdateLayoutGroup(GameObject reloadObject, int count = 1)
+    protected IEnumerator UpdateLayoutGroup()
     {
-        for (int i = 0; i < count; i++)
-        {
-            reloadObject.SetActive(false);
-            yield return new WaitForEndOfFrame();
-            reloadObject.SetActive(true);
-            yield return new WaitForEndOfFrame();
-        }
-        Canvas.ForceUpdateCanvases();
         yield return new WaitForEndOfFrame();
+        /*Canvas.ForceUpdateCanvases();
+        yield return new WaitForEndOfFrame();
+        gameObject.GetComponent<VerticalLayoutGroup>().enabled = false; // **
+        gameObject.GetComponent<VerticalLayoutGroup>().enabled = true;*/
+
 
     }
 }

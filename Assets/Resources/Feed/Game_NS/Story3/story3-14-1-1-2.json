@@ -166,17 +166,20 @@
             {   "ID" : "001",
                 "Path": "โครงการ บริจาค มูลนิธิบ้าน สงเคราะห์ สัตว์พิการ",
                 "LinkType": "chat",
-                "FileName": "story3-15-1-1-2-1"
+                "FileName": "story3-15-1-1-2-1",
+                "IsSignificant":true
             },
             {   "ID" : "001",
                 "Path": "โครงการเพื่อ โรงพยาบาล สัตว์ จ.นครพนม ",
                 "LinkType": "chat",
-                "FileName": "story3-15-1-1-2-2"
+                "FileName": "story3-15-1-1-2-2",
+                "IsSignificant":true
             },
             {   "ID" : "001",
                 "Path": "บริจาคค่า รักษาให้ ถุงทอง",
                 "LinkType": "chat",
-                "FileName": "story3-15-1-1-2-3"
+                "FileName": "story3-15-1-1-2-3",
+                "IsSignificant":true
             }
         ],
         "PostImage" : "",

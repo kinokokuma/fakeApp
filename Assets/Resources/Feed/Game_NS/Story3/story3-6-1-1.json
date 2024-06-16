@@ -235,12 +235,14 @@
             {   "ID" : "001",
                 "Path": "ทำบุญ",
                 "LinkType": "chat",
-                "FileName": "story3-7-1-1"
+                "FileName": "story3-7-1-1",
+                "IsSignificant":true
             },
             {   "ID" : "001",
                 "Path": "ไม่ทำ",
                 "LinkType": "chat",
-                "FileName": "story3-8-1-1"
+                "FileName": "story3-8-1-1",
+                "IsSignificant":true
             }
         ],
         "PostImage" : "",

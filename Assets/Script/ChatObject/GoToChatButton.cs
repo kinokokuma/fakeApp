@@ -24,7 +24,14 @@ public class GoToChatButton : MonoBehaviour
         this.manager = manager;
         ID = data.ID;
         text.text = data.ChatName;
-        image.sprite = ImageManager.Instance.LoadImage(data.Icon[0]);
+        if (data.Icon.Length == 1)
+        {
+            image.sprite = ImageManager.Instance.LoadImage(data.Icon[0]);
+        }
+        else
+        {
+            image.sprite = ImageManager.Instance.LoadImage($"Image/{UserData.Story}/GP");
+        }
         button.onClick.AddListener(click);
     }
 

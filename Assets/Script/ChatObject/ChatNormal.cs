@@ -188,7 +188,7 @@ public class ChatNormal : ChatObjectBase
             }
         }
 
-        //StartCoroutine(UpdateLayoutGroup(,2));
+        //StartCoroutine(UpdateLayoutGroup());
         manager.OldChatname = data.OnwerName;
     }
 

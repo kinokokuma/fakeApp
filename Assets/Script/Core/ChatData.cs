@@ -48,6 +48,6 @@ public class ChoiceText
     public string Path;
     public string LinkType;
     public string FileName;
-        public bool IsSignificant;
+    public bool IsSignificant;
 }
 

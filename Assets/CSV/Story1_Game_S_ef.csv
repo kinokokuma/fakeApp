@@ -1,8 +1,0 @@
-Date,TimeFromStartQuestTion,ID,AnsTime,Ans,IsSignificant
-1717868187876,20.9764,choice-chat-01-story1-1,2.518713,เกาะล้าน,False
-1717868212516,46.86533,choice-chat-01-Route1/story1-2,1.267872,bag1,False
-1717868225906,60.16388,choice-chat-01,1.36174,go to ID : web-1,False
-1717868233001,66.52639,choice-web-1,2.085205,ออกจากเว็บ,False
-1717868268990,78.41665,choice-chat-01,26.19374,go to ID : group-1,False
-1717868269890,104.6104,choice-Group-1,0.9011765,กดเพื่อโพสต์,False
-1717868272697,105.5116,choice-Group-1,2.806915,มีร้านไหนขายกระเป๋ารุ่นนี้บ้างคะ ต้องการมือ1ค่ะ,False

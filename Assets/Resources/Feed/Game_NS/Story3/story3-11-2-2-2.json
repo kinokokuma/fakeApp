@@ -15,17 +15,20 @@
             {   "ID" : "001",
                 "Path": "เยอะไปอ่ะ เราเองก็ ลำบาก",
                 "LinkType": "chat",
-                "FileName": "story3-12-2-2-2"
+                "FileName": "story3-12-2-2-2",
+                "IsSignificant":true
             },
             {   "ID" : "001",
                 "Path": "ไม่สะดวก",
                 "LinkType": "chat",
-                "FileName": "story3-12-2-2-2"
+                "FileName": "story3-12-2-2-2",
+                "IsSignificant":true
             },
             {   "ID" : "001",
                 "Path": "กลัวไม่คืนเงิน ขอไม่ให้นะ เงินจำนวน เยอะ",
                 "LinkType": "chat",
-                "FileName": "story3-12-2-2-2"
+                "FileName": "story3-12-2-2-2",
+                "IsSignificant":true
             }
         ],
         "PostImage" : "",

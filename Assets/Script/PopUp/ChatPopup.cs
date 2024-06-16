@@ -59,6 +59,9 @@ public class ChatPopup : BasePopUp
     public Image headerImage;
     public AspectRatioFitter headerFitter;
 
+    [SerializeField]
+    private GameObject mockReload;
+
     public void Start()
     {
         allChatButton.interactable = false;
@@ -262,17 +265,22 @@ public class ChatPopup : BasePopUp
 
             }
             if (haveQuestion) break;
-            
+
+            yield return new WaitForEndOfFrame();
+            LayoutRebuilder.ForceRebuildLayoutImmediate(chatParent);
+            yield return new WaitForEndOfFrame();
+            if (mockReload!=null)
+            {
+                Destroy(mockReload);
+            }
+            mockReload = Instantiate(reloadObj, chatParent);
+            yield return new WaitForEndOfFrame();
+            LayoutRebuilder.ForceRebuildLayoutImmediate(chatParent);
+
             yield return new WaitForSeconds(data.DataDetail[chatIndex].DelayTime == 1?3: data.DataDetail[chatIndex].DelayTime);
             chatIndex++;
 
-
         }
-
-        yield return new WaitForEndOfFrame();
-       // Canvas.ForceUpdateCanvases();
-        Canvas.ForceUpdateCanvases();
-        StartCoroutine(UpdateLayoutGroup(reloadObj,2));
 
         yield return new WaitForSeconds(5);
 
@@ -419,8 +427,9 @@ public class ChatPopup : BasePopUp
         {
             isReload = true;
         }
-        Canvas.ForceUpdateCanvases();
-        print(dataDetail.FileName);
+        yield return new WaitForEndOfFrame();
+        LayoutRebuilder.ForceRebuildLayoutImmediate(chatParent);
+
         manager.NextFileName = dataDetail.FileName;
         if (choiceText.LinkType == "chat")
         {
@@ -447,7 +456,9 @@ public class ChatPopup : BasePopUp
         {
             manager.CreatePopup(choiceText.FileName);
         }
-        StartCoroutine(UpdateLayoutGroup(reloadObj));
+        yield return new WaitForEndOfFrame();
+        LayoutRebuilder.ForceRebuildLayoutImmediate(chatParent);
+        //StartCoroutine(UpdateLayoutGroup(reloadObj));
     }
 
     private void HintChoice()
@@ -487,11 +498,12 @@ public class ChatPopup : BasePopUp
         {
             isReload = true;
         }
-        Canvas.ForceUpdateCanvases();
+        yield return new WaitForEndOfFrame();
+        LayoutRebuilder.ForceRebuildLayoutImmediate(chatParent);
         yield return new WaitForSeconds(3);
         manager.OpenChat(choiceImage.FileName);
         manager.NextFileName = choiceImage.FileName;
-        StartCoroutine(UpdateLayoutGroup(reloadObj));
+        
     }
 
     public void ClearChat()

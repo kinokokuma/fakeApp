@@ -1,9 +1,0 @@
-Date,TimeFromStartQuestTion,ID,AnsTime,Ans,IsSignificant
-1716833095519,17.68655,choice-chat-01-story1-1,13.13475,เกาะล้าน,False
-1716833123188,54.69835,choice-chat-01-Route1/story1-2,1.4072,bag1,False
-1716833136580,68.08523,choice-chat-01,1.411171,go to ID : web-1,False
-1716833142605,74.50289,choice-web-1,0.968811,ออกจากเว็บ,False
-1716833159444,85.27225,choice-chat-01,7.088013,go to ID : group-1,False
-1716833160362,92.36027,choice-Group-1,0.9202957,กดเพื่อโพสต์,False
-1716833162421,93.28056,choice-Group-1,2.058411,ตามหากระเป๋ารุ่นนี้ค่ะ ราคาบวกเพิ่มจากราคาจริงที่ official ขายได้ค่ะ,False
-1716833177213,109.1224,choice-oldchat,1.008492,เล่นแชทแฟน,False

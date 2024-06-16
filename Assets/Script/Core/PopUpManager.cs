@@ -86,8 +86,8 @@ public class PopUpManager : MonoBehaviour
         }
         else if (UserData.Story == "Story3")
         {
-            OpenChat("story3-0-2", true,true);
             OpenChat("story3-0-3", true, true);
+            OpenChat("story3-0-2", true,true);
         }
         while (NextFileName != "")
         {
@@ -96,7 +96,7 @@ public class PopUpManager : MonoBehaviour
         yield return new WaitForEndOfFrame();
 
         OpenChat($"{UserData.Story.ToLower()}-1");
-        //OpenChat($"story2-15-B-1");
+        //OpenChat($"story3-14-2-2-2");
         startObj.SetActive(false);
     }
 
@@ -201,6 +201,7 @@ public class PopUpManager : MonoBehaviour
         timeToClickChat = Time.time;
         ChatData data = ReadChatData($"Feed/{UserData.Solution}/{UserData.Story}/{NextFileName}");
         allChat.SetActive(true);
+
         foreach (var button in allChatButtonList)
         {
             if(button.ID == data.ID)
@@ -208,12 +209,16 @@ public class PopUpManager : MonoBehaviour
                 button.button.interactable = true;
                 GotoChatGuildLine.gameObject.SetActive(true);
                 GotoChatGuildLine.position = new Vector2(GotoChatGuildLine.position.x, button.t.position.y);
+
             }
             else
             {
                 button.button.interactable = false;
             }
+
+
         }
+
     }
 
     public void HindAllChat( )

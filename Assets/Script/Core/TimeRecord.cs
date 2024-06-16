@@ -128,7 +128,7 @@ public class TimeRecord : MonoSingleton<TimeRecord>
             sb.AppendLine(string.Join(delimiter, output[index]));
 
         string filePath = Application.dataPath + "/CSV/" + UserData.Story + "_" + UserData.Solution + "_" + UserData.UserID + "_Log.csv";
-
+       // File.WriteAllBytes(filePath, download.bytes);
         StreamWriter outStream = System.IO.File.AppendText(filePath);
         outStream.Write(sb);
         outStream.Close();

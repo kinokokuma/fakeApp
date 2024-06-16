@@ -23,7 +23,7 @@ public class S3page2 : BasePopUp
 
     public void ClickChoice(int index)
     {
-        TimeRecord.Instance.SaveRecord(ID, "เลือก Choice No:" + index, startTime);
+        TimeRecord.Instance.SaveRecord(ID, "เลือก Choice No:" + index, startTime,true);
     }
 
     public void Back(string chatID)
