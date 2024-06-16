@@ -42,7 +42,7 @@ public class PopUpManager : MonoBehaviour
     public void Awake()
     {
         data = new FeedData();
-        var jsonTextFile = Resources.Load<TextAsset>("Feed/Class1");
+        var jsonTextFile = Resources.Load<TextAsset>("Feed/NewS1");
         print(jsonTextFile);
         data = JsonUtility.FromJson<FeedData>(jsonTextFile.ToString());
     }
