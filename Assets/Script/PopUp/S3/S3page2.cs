@@ -33,6 +33,12 @@ public class S3page2 : BasePopUp
         gameObject.SetActive(false);
     }
 
+    public void BackCancle()
+    {
+        TimeRecord.Instance.SaveRecord(ID, "ไม่ตกลง", startTime,true);
+
+    }
+
 
     IEnumerator ShowBack()
     {

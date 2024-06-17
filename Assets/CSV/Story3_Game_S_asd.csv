@@ -1,0 +1,8 @@
+Date,TimeFromStartQuestTion,ID,AnsTime,Ans,IsSignificant
+1718608384679,46.45381,choice-chat-01-story3-1,19.14009,วัดพระธาตุ ดอยสุเทพราชวรวิหาร จ.เชียงใหม,False
+1718608452221,127.3634,choice-chat-01,5.7714,go to ID : 3Page-FG,False
+1718608459510,138.1391,choice-page1,2.276718,ออกจากเว็บ,False
+1718608498601,175.2943,choice-3Page-FG2,4.220367,เลือก Choice No:1,True
+1718608842128,175.2943,choice-story3-4-1,342.1167,กลับแชท,False
+1718608844015,138.1391,choice-page1,381.1711,ออกจากเว็บ,False
+1718608921100,532.7771,choice-chat-01-story3-3,59.47833,ไม่ยอม,False
