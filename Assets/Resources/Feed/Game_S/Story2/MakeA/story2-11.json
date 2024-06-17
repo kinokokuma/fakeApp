@@ -96,17 +96,20 @@
             {   "ID" : "001",
                 "Path": "รอของ มาส่งอยู่",
                 "LinkType": "chat",
-                "FileName": "MakeA/story2-12"
+                "FileName": "MakeA/story2-12",
+                "IsSignificant":true
             },
             {   "ID" : "001",
                 "Path": "มีเสียค่าภาษี แพงมากเลย",
                 "LinkType": "chat",
-                "FileName": "MakeA/story2-12"
+                "FileName": "MakeA/story2-12",
+                "IsSignificant":true
             },
             {   "ID" : "001",
                 "Path": "จะให้โอนเพิ่มค่าสายชาร์จ เลยไม่เอาอ่ะ",
                 "LinkType": "chat",
-                "FileName": "MakeA/story2-12"
+                "FileName": "MakeA/story2-12",
+                "IsSignificant":true
             }
         ],
         "PostImage" : "",

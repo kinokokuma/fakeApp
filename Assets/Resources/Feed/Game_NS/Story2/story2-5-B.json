@@ -47,17 +47,20 @@
             {   "ID" : "001",
                 "Path": "มีค่าสมัคร",
                 "LinkType": "chat",
-                "FileName": "MakeN/story2-6"
+                "FileName": "MakeN/story2-6",
+                "IsSignificant":true
             },
             {   "ID" : "001",
                 "Path": "ได้เงินไม่เยอะ",
                 "LinkType": "chat",
-                "FileName": "MakeN/story2-6"
+                "FileName": "MakeN/story2-6",
+                "IsSignificant":true
             },
             {   "ID" : "001",
                 "Path": "ร้านไม่น่าเชื่อถือ",
                 "LinkType": "chat",
-                "FileName": "MakeN/story2-6"
+                "FileName": "MakeN/story2-6",
+                "IsSignificant":true
             }
         ],
         "PostImage" : "",

@@ -115,12 +115,14 @@
             {   "ID" : "001",
                 "Path": "โอน",
                 "LinkType": "bank",
-                "FileName": "2bank-3B"
+                "FileName": "2bank-3B",
+                "IsSignificant":true
             },
             {   "ID" : "001",
                 "Path": "ไม่โอน",
                 "LinkType": "chat",
-                "FileName": "MakeB/story2-8-1"
+                "FileName": "MakeB/story2-8-1",
+                "IsSignificant":true
             }
         ],
         "PostImage" : "",

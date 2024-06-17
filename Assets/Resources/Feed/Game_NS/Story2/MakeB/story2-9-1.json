@@ -86,12 +86,14 @@
             {   "ID" : "001",
                 "Path": "รับสายชาร์จ",
                 "LinkType": "chat",
-                "FileName": "MakeB/story2-9-A"
+                "FileName": "MakeB/story2-9-A",
+                "IsSignificant":true
             },
             {   "ID" : "001",
                 "Path": "ไม่รับสาย ชาร์จ",
                 "LinkType": "chat",
-                "FileName": "MakeB/story2-9-B"
+                "FileName": "MakeB/story2-9-B",
+                "IsSignificant":true
             }
         ],
         "PostImage" : "",

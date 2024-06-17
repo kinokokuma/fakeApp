@@ -126,17 +126,20 @@
         {   "ID" : "001",
             "Path": "ยอมโอนเงิน",
             "LinkType": "chat",
-            "FileName": "MakeN/story2-9-B-1"
+            "FileName": "MakeN/story2-9-B-1",
+            "IsSignificant":true
         },
         {   "ID" : "001",
             "Path": "ขู่แจ้งความ",
             "LinkType": "chat",
-            "FileName": "MakeN/story2-9-B-2"
+            "FileName": "MakeN/story2-9-B-2",
+            "IsSignificant":true
         },
         {   "ID" : "001",
             "Path": "ทำใจ ไม่ทวงเงินคืน และไม่โอน\nเพิ่ม",
             "LinkType": "chat",
-            "FileName": "MakeN/story2-10"
+            "FileName": "MakeN/story2-10",
+            "IsSignificant":true
         }
     ],
     "PostImage" : "",

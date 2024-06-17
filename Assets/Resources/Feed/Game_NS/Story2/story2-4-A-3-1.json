@@ -205,12 +205,14 @@
                 {   "ID" : "001",
                     "Path": "สนใจ",
                     "LinkType": "chat",
-                    "FileName": "story2-4-A-4"
+                    "FileName": "story2-4-A-4",
+                    "IsSignificant":true
                 },
                 {   "ID" : "001",
                     "Path": "ไม่สนใจ",
                     "LinkType": "chat",
-                    "FileName": "story2-5-B"
+                    "FileName": "story2-5-B",
+                    "IsSignificant":true
                 }
             ],
             "PostImage" : "",

@@ -17,19 +17,22 @@
                     "ID": "chat-01",
                     "Path": "ลายน้ำใน\nภาพไม่ใช่\nชื่อร้าน",
                     "LinkType": "chat",
-                "FileName": "Route2/RouteN/story1-19C-1"
+                "FileName": "Route2/RouteN/story1-19C-1",
+                "IsSignificant":true
                 },
                 {
                     "ID": "chat-01",
                     "Path": "ดูคอมเม้น\nแล้วในโพสมี\nคนกดโกรธ\nเยอะมาก",
                     "LinkType": "chat",
-                    "FileName": "Route2/RouteN/story1-19C-2"
+                    "FileName": "Route2/RouteN/story1-19C-2",
+                    "IsSignificant":true
                 },
                 {
                     "ID": "chat-01",
                     "Path": "ราคาแพง"
                     ,"LinkType": "chat",
-                    "FileName": "Route2/RouteN/story1-19C-3"
+                    "FileName": "Route2/RouteN/story1-19C-3",
+                    "IsSignificant":true
                 }
             ],
             "PostImage": "",
