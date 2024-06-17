@@ -1,9 +1,1 @@
 Date,TimeFromStart,TaskNumber,PostID,ClickTarget,QuestionType,TestType,,
-1718571695895,11.39306,1,,fake,Is_Fake,PreTest
-1718571696628,12.12511,1,,level_of_confident_5,Level_Of_Confident,PreTest
-1718571697171,12.66976,1,,go_to_have_seen,Level_Of_Confident,PreTest
-1718571697702,13.19992,1,,no,Have_seen,PreTest
-1718571709393,24.88813,2,,fake,Is_Fake,PreTest
-1718571710274,25.77182,2,,level_of_confident_3,Level_Of_Confident,PreTest
-1718571710744,26.24204,2,,go_to_have_seen,Level_Of_Confident,PreTest
-1718571712140,27.63815,2,,yes,Have_seen,PreTest

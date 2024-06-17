@@ -1871,7 +1871,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: -70}
-  m_SizeDelta: {x: 1024, y: 1227.565}
+  m_SizeDelta: {x: 1024, y: 1335.8481}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &416246671
 MonoBehaviour:
@@ -5961,6 +5961,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631526818}
   m_CullTransparentMesh: 1
+--- !u!1 &1633458624 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1862029073078355964, guid: 21d94bac44c8db64cbacf962ec75bbaa, type: 3}
+  m_PrefabInstance: {fileID: 1862029073516705923}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1633458628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633458624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AspectMode: 1
+  m_AspectRatio: 1
 --- !u!1 &1679855518
 GameObject:
   m_ObjectHideFlags: 0
@@ -6228,6 +6247,7 @@ MonoBehaviour:
   scrollRectTransform: {fileID: 1334086270}
   pop: {fileID: 1862029074457884491}
   reloadObject: {fileID: 1862029074045092004}
+  imageRatio: {fileID: 1862029073202314128}
 --- !u!1 &1801262670
 GameObject:
   m_ObjectHideFlags: 0
@@ -8452,7 +8472,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 376, y: -438.83002}
+  m_AnchoredPosition: {x: 376, y: -401.107}
   m_SizeDelta: {x: 752, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1862029073202314097
@@ -8504,6 +8524,7 @@ GameObject:
   - component: {fileID: 1862029073202314096}
   - component: {fileID: 1862029073202314098}
   - component: {fileID: 1862029073202314097}
+  - component: {fileID: 1862029073202314128}
   m_Layer: 5
   m_Name: PostImage
   m_TagString: Untagged
@@ -8511,6 +8532,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!114 &1862029073202314128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862029073202314127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AspectMode: 1
+  m_AspectRatio: 1
 --- !u!1 &1862029073226010230
 GameObject:
   m_ObjectHideFlags: 0
@@ -9557,6 +9592,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1862029074372201276, guid: 21d94bac44c8db64cbacf962ec75bbaa, type: 3}
+      propertyPath: imageRatio
+      value: 
+      objectReference: {fileID: 1633458628}
+    - target: {fileID: 1862029074372201276, guid: 21d94bac44c8db64cbacf962ec75bbaa, type: 3}
       propertyPath: scrollRectTransform
       value: 
       objectReference: {fileID: 933937059}
@@ -10287,6 +10326,7 @@ MonoBehaviour:
   scrollRectTransform: {fileID: 0}
   click: {fileID: 0}
   layout: {fileID: 0}
+  imageRatio: {fileID: 0}
 --- !u!114 &1862029073637983125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10919,6 +10959,7 @@ MonoBehaviour:
   scrollRectTransform: {fileID: 933937059}
   click: {fileID: 1862029073519614028}
   layout: {fileID: 1862029074045092004}
+  imageRatio: {fileID: 0}
 --- !u!1 &1862029074472315428
 GameObject:
   m_ObjectHideFlags: 0

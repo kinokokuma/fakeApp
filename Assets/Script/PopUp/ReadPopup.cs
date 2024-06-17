@@ -33,6 +33,8 @@ public class ReadPopup : BasePopUp
     private PostPopup pop;
     [SerializeField]
     private GameObject reloadObject;
+    [SerializeField]
+    private AspectRatioFitter imageRatio;
 
     public void Initialized(PostData data, PopUpManager json)
     {
@@ -48,10 +50,10 @@ public class ReadPopup : BasePopUp
 
         if (data.PostImage != string.Empty)
         {
-            print(data.PostImage);
             postImage.gameObject.SetActive(true);
             var poseTexture = Resources.Load<Texture2D>($"Image/PostImage/{data.PostImage}");
             postImage.sprite = Sprite.Create(poseTexture, new Rect(0.0f, 0.0f, poseTexture.width, poseTexture.height), new Vector2(0.5f, 0.5f), 100.0f);
+            imageRatio.aspectRatio = (float)poseTexture.width / poseTexture.height;
         }
         
         if (postData.CommentData != null)

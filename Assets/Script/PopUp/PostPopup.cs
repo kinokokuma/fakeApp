@@ -36,6 +36,8 @@ public class PostPopup : BasePopUp
     private Button click;
     [SerializeField]
     private GameObject layout;
+    [SerializeField]
+    private AspectRatioFitter imageRatio;
 
     public Image Icon => icon;
     public Image BG => bg;
@@ -73,6 +75,8 @@ public class PostPopup : BasePopUp
             var poseTexture = Resources.Load<Texture2D>($"Image/PostImage/{data.PostImage}");
             postImage.gameObject.SetActive(true);
             postImage.sprite = Sprite.Create(poseTexture, new Rect(0.0f, 0.0f, poseTexture.width, poseTexture.height), new Vector2(0.5f, 0.5f), 100.0f);
+            print(poseTexture.width / poseTexture.height);
+            imageRatio.aspectRatio = (float)poseTexture.width/poseTexture.height;
         }
         else
         {
