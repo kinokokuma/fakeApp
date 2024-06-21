@@ -1,29 +1,21 @@
-{"ID": "chat-02",
-"ChatName": "ตรี",
-"Icon": [
-    "Image/Story3/profileT"
-],
-    "DataDetail" :[
-    {
-        "ID" : "chat-02",
-       "OnwerName" : "my",
-       "Icon" : "",
-       "ChatType" : "Normal",
-       "DelayTime" : 1,
-       "Content" : "ได้",
-       "PostImage" : ""
-   },
-   {
-    "ID" : "chat-02",
-   "OnwerName" : "my",
-   "Icon" : "",
-   "ChatType" : "Normal",
-   "DelayTime" : 1,
-   "Content" : "โอนแล้วนะ ลองเช็คดู",
-   "PostImage" : "",
-   "LinkToPageName" : "",
-   "LinkType": "chat",
-   "FileName": "story3-12-1-2-1"
-}
+{
+    "ID": "chat-02",
+    "ChatName": "ตรี",
+    "Icon": [
+        "Image/Story3/profileT"
+    ],
+    "DataDetail": [
+        {
+            "ID": "chat-02",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "โอนแล้วนะ ลองเช็คดู",
+            "PostImage": "",
+            "LinkToPageName": "",
+            "LinkType": "chat",
+            "FileName": "story3-12-1-2-1"
+        }
     ]
 }

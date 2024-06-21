@@ -9,6 +9,7 @@ public class S3_5_day : BasePopUp
 
     public void Awake()
     {
+        startTime = Time.time;
         StartCoroutine(Wait());
     }
 

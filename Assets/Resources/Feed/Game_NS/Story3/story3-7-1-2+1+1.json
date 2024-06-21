@@ -1,0 +1,21 @@
+{
+    "ID": "chat-01",
+    "ChatName": "ทริปทำบุญ",
+    "Icon": [
+        "Image/Story3/profileA",
+        "Image/Story3/profileJ"
+    ],
+    "DataDetail": [
+        {
+            "ID": "chat-03",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 2,
+            "Content": "นี่ทำแล้ว @ตรี ไปทำบุญด้วยเลย",
+            "PostImage": "",
+            "LinkType": "chat",
+            "FileName": "story3-8-1-2"
+        }
+    ]
+}
