@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class S3Page3_1 : BasePopUp
 {
     public RectTransform pos;
@@ -48,5 +49,10 @@ public class S3Page3_1 : BasePopUp
     {
         TimeRecord.Instance.SaveRecord(ID, "จบเกม", startTime);
         obj.SetActive(true);
+    }
+
+    public void BackHome()
+    {
+        SceneManager.LoadScene(1);
     }
 }

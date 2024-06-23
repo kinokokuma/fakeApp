@@ -300,3 +300,11 @@ D:\work\freelance\fakeApp\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cac
 D:\work\freelance\fakeApp\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\work\freelance\fakeApp\obj\Debug\Assembly-CSharp.dll
 D:\work\freelance\fakeApp\obj\Debug\Assembly-CSharp.pdb
+D:\work\freelance\fakeApp\Temp\Bin\Debug\Unity.InternalAPIEditorBridge.003.dll
+D:\work\freelance\fakeApp\Temp\Bin\Debug\Unity.InternalAPIEngineBridge.003.dll
+D:\work\freelance\fakeApp\Temp\Bin\Debug\Unity.VectorGraphics.dll
+D:\work\freelance\fakeApp\Temp\Bin\Debug\Unity.VectorGraphics.Editor.dll
+D:\work\freelance\fakeApp\Temp\Bin\Debug\Unity.InternalAPIEditorBridge.003.pdb
+D:\work\freelance\fakeApp\Temp\Bin\Debug\Unity.VectorGraphics.Editor.pdb
+D:\work\freelance\fakeApp\Temp\Bin\Debug\Unity.InternalAPIEngineBridge.003.pdb
+D:\work\freelance\fakeApp\Temp\Bin\Debug\Unity.VectorGraphics.pdb

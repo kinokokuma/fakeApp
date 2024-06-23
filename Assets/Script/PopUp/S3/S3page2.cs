@@ -33,9 +33,16 @@ public class S3page2 : BasePopUp
         gameObject.SetActive(false);
     }
 
-    public void BackCancle()
+    public void BackCancle(bool isCancle)
     {
-        TimeRecord.Instance.SaveRecord(ID, "ไม่ตกลง", startTime,true);
+        if (isCancle)
+        {
+            TimeRecord.Instance.SaveRecord(ID, "ไม่ตกลง", startTime, true);
+        }
+        else
+        {
+            TimeRecord.Instance.SaveRecord(ID, "ตกลง", startTime, true);
+        }
 
     }
 
