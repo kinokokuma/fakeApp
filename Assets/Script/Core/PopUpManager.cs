@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public enum QuestionPhase
 {
@@ -28,11 +29,14 @@ public class PopUpManager : MonoBehaviour
     private VerticalLayoutGroup layoutGroup;
     [SerializeField]
     private QuestPopUp question;
+    [SerializeField]
+    private GameObject endPopup;
     private QuestionPhase phase;
     private PostData currentPostPopupData;
+    private int currentIndex;
 
     public QuestionPhase Phase => phase;
-    public  PostData CurrentPostPopupData => currentPostPopupData;
+    public PostData CurrentPostPopupData => currentPostPopupData;
 
     public void SetPhase(QuestionPhase phase)
     {
@@ -41,10 +45,26 @@ public class PopUpManager : MonoBehaviour
 
     public void Awake()
     {
-        data = new FeedData();
-        var jsonTextFile = Resources.Load<TextAsset>("Feed/NewS1");
-        print(jsonTextFile);
+        currentIndex = 0;
+        var jsonTextFile = new TextAsset();
+        if (UserData.Instance.IsTutorial)
+        {
+            jsonTextFile = Resources.Load<TextAsset>("Feed/tutorial");
+        }
+        else
+        {
+            if (UserData.Instance.TaskIndex == "game_1")
+            {
+                jsonTextFile = Resources.Load<TextAsset>("Feed/NewS1");
+            }
+            else
+            {
+                jsonTextFile = Resources.Load<TextAsset>("Feed/NewS2");
+
+            }
+        }
         data = JsonUtility.FromJson<FeedData>(jsonTextFile.ToString());
+        data.PostData = Shuffle(data.PostData);
     }
     private void Start()
     {
@@ -75,10 +95,15 @@ public class PopUpManager : MonoBehaviour
         }
     }
 
+    public void Back()
+    {
+        SceneManager.LoadScene(1);
+    }
+
     public void click()
     {
         readPopup.gameObject.SetActive(true);
-        readPopup.Initialized(currentPostPopupData,this);
+        readPopup.Initialized(currentPostPopupData, this);
         StartCoroutine(CountToStartQuestion());
         //currentPostPopupData.IsTask = false;
     }
@@ -87,6 +112,17 @@ public class PopUpManager : MonoBehaviour
         currentPostPopupData.IsTask = false;
         question.gameObject.SetActive(false);
         readPopup.gameObject.SetActive(false);
+        currentIndex++;
+        if (currentIndex >= data.PostData.Length)
+        {
+            StartCoroutine(CountToEnd());
+        }
+    }
+
+    private IEnumerator CountToEnd()
+    {
+        yield return new WaitForSeconds(5);
+        endPopup.SetActive(true);
     }
 
     private IEnumerator CountToStartQuestion()
@@ -103,6 +139,23 @@ public class PopUpManager : MonoBehaviour
         layoutGroup.enabled = true;
     }
 
+    public PostData[] Shuffle(PostData[] data)
+    {
+        PostData[] newData = new PostData[data.Length];
+        List<int> index = new List<int>();
+        for (int i = 0; i < data.Length; i++)
+        {
+            index.Add(i);
+        }
+
+        for (int i = 0; i < data.Length; i++)
+        {
+            int ranIndex = Random.Range(0, index.Count);
+            newData[i] = data[index[ranIndex]];
+            index.RemoveAt(ranIndex);
+        }
+        return newData;
+    }
 }
 [System.Serializable]
 public class FeedData

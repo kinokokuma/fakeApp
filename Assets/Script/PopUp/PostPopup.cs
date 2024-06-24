@@ -116,10 +116,10 @@ public class PostPopup : BasePopUp
 
     public void Update()
     {
-
+        print(scrollRectTransform.anchoredPosition.y + rectTransform.anchoredPosition.y);
         if (rectTransform != null && postData!=null)
         {
-            if (scrollRectTransform.anchoredPosition.y + rectTransform.anchoredPosition.y >= -60 && scrollRectTransform.anchoredPosition.y + rectTransform.anchoredPosition.y < rectTransform.sizeDelta.y - 40)
+            if (scrollRectTransform.anchoredPosition.y + rectTransform.anchoredPosition.y >= -600 && scrollRectTransform.anchoredPosition.y + rectTransform.anchoredPosition.y < rectTransform.sizeDelta.y - 40)
             {
                 //read
                 //BG.color = Color.red;

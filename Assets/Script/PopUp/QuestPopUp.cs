@@ -76,7 +76,7 @@ public class QuestPopUp : BasePopUp
     {
         confirm.interactable = true;
         print(button.Index);
-        TimeRecord.Instance.SaveRecord($"level_of_confident_{button.Index + 1}");
+        TimeRecord.Instance.SaveRecord($"{button.Index + 1}");
         for(int i=0; i < levelOfConfidentButton.Length; i++)
         {
             if (levelOfConfidentButton[i].Index <= button.Index)
@@ -103,7 +103,7 @@ public class QuestPopUp : BasePopUp
     private void Confirm()
     {
         Back(true);
-        viewPoint.sizeDelta = new Vector2(1024, 1227);
+        viewPoint.sizeDelta = new Vector2(1024, 1326);
         seen.gameObject.SetActive(false);
         TimeRecord.Instance.AddTaskNumber();
         manager.Confirm();

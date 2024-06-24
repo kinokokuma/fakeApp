@@ -10,7 +10,7 @@
 			"LikeCount" : 100,
 			"CommentCount" : 23,
 			"ShereCount" : 48,
-			"IsTask" : false,
+			"IsTask" : true,
 			"PostImage" : "post1"
 			
 		},
@@ -23,7 +23,7 @@
 			"LikeCount" : 100,
 			"CommentCount" : 23,
 			"ShereCount" : 48,
-			"IsTask" : false,
+			"IsTask" : true,
 			"PostImage" : "post2"
 			
 		},
@@ -49,7 +49,7 @@
 			"LikeCount" : 100,
 			"CommentCount" : 23,
 			"ShereCount" : 48,
-			"IsTask" : false,
+			"IsTask" : true,
 			"PostImage" : "post4"
 			
 		},
@@ -75,7 +75,7 @@
 			"LikeCount" : 100,
 			"CommentCount" : 23,
 			"ShereCount" : 48,
-			"IsTask" : false,
+			"IsTask" : true,
 			"PostImage" : "post6"
 			
 		},
@@ -88,7 +88,7 @@
 			"LikeCount" : 100,
 			"CommentCount" : 23,
 			"ShereCount" : 48,
-			"IsTask" : false,
+			"IsTask" : true,
 			"PostImage" : "post7"
 			
 		},
@@ -101,7 +101,7 @@
 			"LikeCount" : 100,
 			"CommentCount" : 23,
 			"ShereCount" : 48,
-			"IsTask" : false,
+			"IsTask" : true,
 			"PostImage" : "post8"
 			
 		},
@@ -114,7 +114,7 @@
 			"LikeCount" : 100,
 			"CommentCount" : 23,
 			"ShereCount" : 48,
-			"IsTask" : false,
+			"IsTask" : true,
 			"PostImage" : "post9"
 			
 		},
@@ -127,7 +127,7 @@
 			"LikeCount" : 100,
 			"CommentCount" : 23,
 			"ShereCount" : 48,
-			"IsTask" : false,
+			"IsTask" : true,
 			"PostImage" : "post10"
 			
 		},
@@ -140,7 +140,7 @@
 			"LikeCount" : 100,
 			"CommentCount" : 23,
 			"ShereCount" : 48,
-			"IsTask" : false,
+			"IsTask" : true,
 			"PostImage" : "post11"
 			
 		},
@@ -153,7 +153,7 @@
 			"LikeCount" : 100,
 			"CommentCount" : 23,
 			"ShereCount" : 48,
-			"IsTask" : false,
+			"IsTask" : true,
 			"PostImage" : "post12"
 			
 		},
@@ -166,7 +166,7 @@
 			"LikeCount" : 100,
 			"CommentCount" : 23,
 			"ShereCount" : 48,
-			"IsTask" : false,
+			"IsTask" : true,
 			"PostImage" : "post13"
 			
 		},
@@ -179,8 +179,21 @@
 			"LikeCount" : 100,
 			"CommentCount" : 23,
 			"ShereCount" : 48,
-			"IsTask" : false,
+			"IsTask" : true,
 			"PostImage" : "post14"
+			
+		},
+		{
+			"Name" : "To DAY NEWS",
+			"Icon" : "profile",
+			"Icon2" : "",
+			"Time" : "1 ชม.",
+			"Description" : "การโกหกบ่อย ๆ ส่งผลเสียต่อสมอง โกหกมากสมองส่วน amygdala ยิ่งทำงานน้อยลง\n\nใครที่ชอบโกหกบ่อย ๆ มีผลต่อสมอง ยิ่งโกหกมาก สมองส่วน อะมิกดาลา (amygdala) ที่ทำหน้าที่เกี่ยว กับอารณ์ยิ่งแย่ลง การโกหกยังทำให้เกิดภาวะหลงผิดอีกด้วย เพราะการโกหกบ่อย ๆ ส่งผลเสียต่อสมองโกหกมากสมองส่วน อะมิกดาลา(amygdala ซึ่งเป็นส่วนของสมองที่ทำหน้าที่รับผิดชอบเกี่ยวกับอารมณ์ สัญชาตญาณ ความจำของเหตุการณ์และอารมณ์ต่าง ๆ  ยิ่งทำงานน้อยลง\n\n <color=#2960B8> #โกหก #สมอง #ToDayNews </color>",
+			"LikeCount" : 100,
+			"CommentCount" : 23,
+			"ShereCount" : 48,
+			"IsTask" : true,
+			"PostImage" : "post29"
 			
 		}
 		
