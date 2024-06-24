@@ -1,0 +1,17 @@
+Date,TimeFromStart,TaskNumber,PostID,QuestionType,ClickTarget
+1719252773074,19.30981,1,post9,Start,start
+1719252774901,21.13708,1,post9,Start,not_fake
+1719252776221,22.45661,1,post9,Level_Of_Confident,3
+1719252778719,24.95511,1,post9,Level_Of_Confident,go_to_have_seen
+1719252780039,26.27511,1,post9,Have_seen,no
+1719252792558,38.79468,2,post13,Start,start
+1719252794393,40.62901,2,post13,Start,not_fake
+1719252795210,41.44567,2,post13,Level_Of_Confident,3
+1719252795660,41.89678,2,post13,Level_Of_Confident,go_to_have_seen
+1719252796665,42.90201,2,post13,Have_seen,no
+1719252801472,47.70824,3,post8,Start,start
+1719252802669,48.90461,3,post8,Start,fake
+1719252803457,49.69223,3,post8,Level_Of_Confident,3
+1719252803725,49.96158,3,post8,Level_Of_Confident,4
+1719252803992,50.22891,3,post8,Level_Of_Confident,go_to_have_seen
+1719252804989,51.22463,3,post8,Have_seen,no

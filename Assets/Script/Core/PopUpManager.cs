@@ -1,11 +1,13 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public enum QuestionPhase
 {
+    Start,
     Is_Fake,
     Level_Of_Confident,
     Have_seen,
@@ -31,6 +33,9 @@ public class PopUpManager : MonoBehaviour
     private QuestPopUp question;
     [SerializeField]
     private GameObject endPopup;
+    [SerializeField]
+    private TMP_Text endText;
+
     private QuestionPhase phase;
     private PostData currentPostPopupData;
     private int currentIndex;
@@ -45,6 +50,7 @@ public class PopUpManager : MonoBehaviour
 
     public void Awake()
     {
+        endText.text = UserData.Instance.IsTutorial ? "จบการทดลองเล่น" : "ขอบคุณ";
         currentIndex = 0;
         var jsonTextFile = new TextAsset();
         if (UserData.Instance.IsTutorial)
@@ -127,9 +133,11 @@ public class PopUpManager : MonoBehaviour
 
     private IEnumerator CountToStartQuestion()
     {
-        yield return new WaitForSeconds(5);
-        question.gameObject.SetActive(true);
         question.viewPoint.sizeDelta = new Vector2(1024, 1366) - new Vector2(0, question.select.sizeDelta.y + 20);
+        question.gameObject.SetActive(true);
+        yield return new WaitForSeconds(0.1f);
+        //question.gameObject.SetActive(true);
+       // question.viewPoint.sizeDelta = new Vector2(1024, 1366) - new Vector2(0, question.select.sizeDelta.y + 20);
     }
 
     public IEnumerator UpdateLayoutGroup()

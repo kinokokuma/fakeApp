@@ -6,10 +6,12 @@ using UnityEngine.UI;
 public class QuestPopUp : BasePopUp
 {
     public Button back;
+    public Button start;
     public Button[] go;
     public LevelOfConfidentButton[] levelOfConfidentButton;
     public Button[] seenButton;
     public Button confirm;
+    public RectTransform first;
     public RectTransform score;
     public RectTransform select;
     public RectTransform seen;
@@ -19,6 +21,38 @@ public class QuestPopUp : BasePopUp
     public void Start()
     {
         confirm.interactable = false;
+        start.onClick.AddListener(() =>
+        {
+            TimeRecord.Instance.SaveRecord("question");
+            Back(true);
+            manager.SetPhase(QuestionPhase.Start);
+            if (Random.value < 0.5f)
+            {
+                print(1);
+                go[1].gameObject.SetActive(true);
+                go[2].gameObject.SetActive(false);
+            }
+            else
+            {
+                print(2);
+                go[1].gameObject.SetActive(false);
+                go[2].gameObject.SetActive(true);
+            }
+
+            if (Random.value < 0.5f)
+            {
+                print(1);
+                seenButton[1].gameObject.SetActive(true);
+                seenButton[2].gameObject.SetActive(false);
+            }
+            else
+            {
+                print(2);
+                seenButton[1].gameObject.SetActive(false);
+                seenButton[2].gameObject.SetActive(true);
+            }
+        });
+
         back.onClick.AddListener(() => 
         {
             TimeRecord.Instance.SaveRecord("back_to_is_fake");
@@ -41,6 +75,13 @@ public class QuestPopUp : BasePopUp
             manager.SetPhase(QuestionPhase.Level_Of_Confident);
         });
 
+        go[2].onClick.AddListener(() =>
+        {
+            TimeRecord.Instance.SaveRecord("fake");
+            Back(false);
+            manager.SetPhase(QuestionPhase.Level_Of_Confident);
+        });
+
         seenButton[0].onClick.AddListener(() =>
         {
             ResetConfidentButton();
@@ -49,6 +90,13 @@ public class QuestPopUp : BasePopUp
         });
 
         seenButton[1].onClick.AddListener(() =>
+        {
+            ResetConfidentButton();
+            TimeRecord.Instance.SaveRecord("no");
+            Confirm();
+        });
+
+        seenButton[2].onClick.AddListener(() =>
         {
             ResetConfidentButton();
             TimeRecord.Instance.SaveRecord("no");
@@ -75,7 +123,6 @@ public class QuestPopUp : BasePopUp
     private void ConfidentButton(LevelOfConfidentButton button)
     {
         confirm.interactable = true;
-        print(button.Index);
         TimeRecord.Instance.SaveRecord($"{button.Index + 1}");
         for(int i=0; i < levelOfConfidentButton.Length; i++)
         {
@@ -96,7 +143,7 @@ public class QuestPopUp : BasePopUp
         confirm.interactable = false;
         for (int i = 0; i < levelOfConfidentButton.Length; i++)
         {
-                levelOfConfidentButton[i].Image.color = Color.white;
+            levelOfConfidentButton[i].Image.color = Color.white;
         }
     }
 
@@ -105,9 +152,11 @@ public class QuestPopUp : BasePopUp
         Back(true);
         viewPoint.sizeDelta = new Vector2(1024, 1326);
         seen.gameObject.SetActive(false);
+        select.gameObject.SetActive(false);
         TimeRecord.Instance.AddTaskNumber();
         manager.Confirm();
-        manager.SetPhase(QuestionPhase.Is_Fake);
+        manager.SetPhase(QuestionPhase.Start);
+        
     }
 
     private void Back(bool ok)

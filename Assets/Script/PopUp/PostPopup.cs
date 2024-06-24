@@ -95,8 +95,11 @@ public class PostPopup : BasePopUp
 
         if (click != null)
         {
-            print("yyyy");
-            click.onClick.AddListener(json.click);
+            click.onClick.AddListener(() => 
+            {
+                json.click();
+                TimeRecord.Instance.SaveRecord("readnews");
+            });
         }
 
         StartCoroutine(json.UpdateLayoutGroup());
@@ -116,17 +119,13 @@ public class PostPopup : BasePopUp
 
     public void Update()
     {
-        print(scrollRectTransform.anchoredPosition.y + rectTransform.anchoredPosition.y);
         if (rectTransform != null && postData!=null)
         {
-            if (scrollRectTransform.anchoredPosition.y + rectTransform.anchoredPosition.y >= -600 && scrollRectTransform.anchoredPosition.y + rectTransform.anchoredPosition.y < rectTransform.sizeDelta.y - 40)
+            if (scrollRectTransform.anchoredPosition.y + rectTransform.anchoredPosition.y >= -600 && scrollRectTransform.anchoredPosition.y + rectTransform.anchoredPosition.y < rectTransform.sizeDelta.y - 30)
             {
-                //read
-                //BG.color = Color.red;
                 if (postData != null)
                 {
                     json.SetCurrentData(postData);
-                    print("save");
                 }
 
                 if (click != null)
