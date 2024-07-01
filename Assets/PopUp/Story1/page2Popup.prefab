@@ -2593,6 +2593,7 @@ MonoBehaviour:
   startTime: 0
   end1: {fileID: 5005928397372349618}
   end2: {fileID: 7527611030868987346}
+  endNS: {fileID: 4775940698306740528}
   fake:
   - {fileID: 4775940696899560908}
   real:
@@ -2812,6 +2813,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7620364390943044283}
     m_Modifications:
+    - target: {fileID: 7049588694607228042, guid: 5bb6be7c275fdba439d5bae7190ad1a0, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 8785247803785516044}
+    - target: {fileID: 7049588694607228042, guid: 5bb6be7c275fdba439d5bae7190ad1a0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5005928397372349620}
     - target: {fileID: 7789077134958645630, guid: 5bb6be7c275fdba439d5bae7190ad1a0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2923,6 +2932,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7620364390943044283}
     m_Modifications:
+    - target: {fileID: 1545536528957790552, guid: d3b3dd1121612e64581e72cd9f6bc5a9, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 8785247803785516044}
+    - target: {fileID: 1545536528957790552, guid: d3b3dd1121612e64581e72cd9f6bc5a9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5005928397372349620}
     - target: {fileID: 3873845224226295066, guid: d3b3dd1121612e64581e72cd9f6bc5a9, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

@@ -1,0 +1,31 @@
+Date,TimeFromStartQuestTion,ID,AnsTime,Ans,IsSignificant
+1719778054175,29.00918,choice-chat-01,342.365,go to ID : 2page-1,False
+1719778058575,371.3741,choice-2page-1,4.403778,เลือก Choice No:1,False
+1719778063252,378.7866,choice-2page-1,1.658661,กลับแชท,False
+1719778073859,387.9422,choice-chat-01,3.115845,go to ID : 2page-2,False
+1719778140309,391.058,choice-2page-2,66.37381,กลับแชท,False
+1719778262587,493.3253,choice-2page-3,86.32547,กลับแชท,False
+1719778273783,587.2401,choice-chat-02-story2-4-A,3.74408,sticker2,False
+1719778293924,602.2116,choice-chat-02-story2-4-A-1,8.913696,50โพสต์,False
+1719778328103,644.1232,choice-2bank50-1,1.182983,เปิดธนาคาร,False
+1719778336131,648.3137,choice-2bank50-1,4.390808,กลับแชท,False
+1719778337431,652.7045,choice-chat-02-story2-4-A50-3,1.582031,prawnthai1,False
+1719778397393,682.26,choice-chat-02-story2-4-A50-3-1,31.98981,ไม่สนใจ,False
+1719778399721,714.2498,choice-chat-02-story2-4-A50-3-1,2.32959,เปิดแชททั้งหมด,False
+1719778402771,716.5794,choice-chat-01,3.049133,เปิดแชทchat-01,False
+1719778434950,723.5174,choice-chat-01-story2-5-B,28.28815,ได้เงินไม่เยอะ,True
+1719778463971,759.2465,choice-chat-01-MakeN/story2-6,21.57855,ชอบอันที่2นะ,False
+1719778489242,802.6323,choice-2page-pN,3.348877,กลับแชท,False
+1719778545981,821.6151,choice-chat-04-MakeN/story2-8,41.22247,โอน,True
+1719778547168,862.8601,choice-2bank-3N,1.165955,เปิดธนาคาร,False
+1719778554264,867.0297,choice-2bank-3N,3.832214,กลับแชท,False
+1719778557870,870.8619,choice-chat-04-MakeN/story2-9,3.863464,prawnthai4,False
+1719778590245,886.061,choice-chat-04-MakeN/story2-9-1,21.03857,รับสายชาร์จ,True
+1719778605675,921.4349,choice-2bank-4N,1.0979,เปิดธนาคาร,False
+1719778633936,925.5338,choice-2bank-4N,25.12775,กลับแชท,False
+1719778635199,950.6615,choice-chat-04-MakeN/story2-9-A-1,1.392395,prawnthai5,False
+1719778695434,967.379,choice-chat-04-MakeN/story2-9-A-1-1,44.91296,เปิดแชททั้งหมด,False
+1719778786774,925.5338,choice-2bank-4N,177.8416,กลับแชท,False
+1719778788929,1103.375,choice-chat-04-MakeN/story2-9-A-1,2.190552,prawnthai5,False
+1719778806422,1121.078,choice-chat-04-MakeN/story2-9-A-1-1,1.983765,เปิดแชททั้งหมด,False
+1719778808120,1123.061,choice-chat-01,1.698242,เปิดแชทchat-01,False

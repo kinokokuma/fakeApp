@@ -86,8 +86,8 @@ public class PopUpManager : MonoBehaviour
         }
         else if (UserData.Story == "Story3")
         {
+            OpenChat("story3-0-2", true, true);
             OpenChat("story3-0-3", true, true);
-            OpenChat("story3-0-2", true,true);
         }
         while (NextFileName != "")
         {
@@ -96,7 +96,8 @@ public class PopUpManager : MonoBehaviour
         yield return new WaitForEndOfFrame();
 
         //OpenChat($"{UserData.Story.ToLower()}-1");
-        OpenChat($"story3-16-2-2-2-3");
+       //OpenChat($"story1-10");
+        OpenChat($"Route2/story1-10");
         startObj.SetActive(false);
     }
 
@@ -157,7 +158,7 @@ public class PopUpManager : MonoBehaviour
         path = GetSpPath(path);
 
         ChatData newData = ReadChatData($"Feed/{UserData.Solution}/{UserData.Story}/{path}");
-
+        print(path);
         print(newData.ID);
         string id = newData.ID;
         TimeRecord.Instance.LogCheck(path);
@@ -206,9 +207,7 @@ public class PopUpManager : MonoBehaviour
         {
             if(button.ID == data.ID)
             {
-                button.button.interactable = true;
-                GotoChatGuildLine.gameObject.SetActive(true);
-                GotoChatGuildLine.position = new Vector2(GotoChatGuildLine.position.x, button.t.position.y);
+                StartCoroutine(ShowAllChatGuide(button));
 
             }
             else
@@ -219,6 +218,15 @@ public class PopUpManager : MonoBehaviour
 
         }
 
+    }
+
+    private IEnumerator ShowAllChatGuide(GoToChatButton button)
+    {
+        yield return new WaitForEndOfFrame();
+
+        button.button.interactable = true;
+        GotoChatGuildLine.gameObject.SetActive(true);
+        GotoChatGuildLine.position = new Vector2(GotoChatGuildLine.position.x, button.t.position.y);
     }
 
     public void HindAllChat( )

@@ -277,7 +277,7 @@ public class ChatPopup : BasePopUp
             yield return new WaitForEndOfFrame();
             LayoutRebuilder.ForceRebuildLayoutImmediate(chatParent);
 
-            yield return new WaitForSeconds(data.DataDetail[chatIndex].DelayTime == 1?3: data.DataDetail[chatIndex].DelayTime);
+            yield return new WaitForSeconds(data.DataDetail[chatIndex].DelayTime == 1?0: data.DataDetail[chatIndex].DelayTime);
             chatIndex++;
 
         }

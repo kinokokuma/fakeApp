@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -64,6 +64,7 @@ public class ChatNormal : ChatObjectBase
             {
                 SoundManager.Instance.PlaySound(SoundID.chatPop, 0.5f);
             }
+            
         }
         else
         {
@@ -184,6 +185,14 @@ public class ChatNormal : ChatObjectBase
                 }
                 string text = data.Content.Replace("{Player}", UserData.UserName);
                 text = text.Replace("{player}", UserData.UserName);
+                if (data.OnwerName == "my")
+                {
+                    if (UserData.UserSex == "ชาย")
+                    {
+                        text = text.Replace("ค่ะ", "ครับ");
+                        text = text.Replace("คะ", "ครับ");
+                    }
+                }
                 content.text = text;
             }
         }

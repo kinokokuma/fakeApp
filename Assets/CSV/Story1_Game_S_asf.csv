@@ -1,0 +1,4 @@
+Date,TimeFromStartQuestTion,ID,AnsTime,Ans,IsSignificant
+1719782435872,14.31372,choice-chat-01,4.55239,go to ID : page-2,False
+1719782437460,18.86611,choice-page-2,1.595606,ดูคอมเม้น,False
+1719782439085,20.46171,choice-page-2,1.624527,กดลิ้งค์ปลอม,True

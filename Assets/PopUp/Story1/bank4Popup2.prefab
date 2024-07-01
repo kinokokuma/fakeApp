@@ -751,11 +751,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2144087711326203620}
         m_TargetAssemblyTypeName: Bank2Popup, Assembly-CSharp
-        m_MethodName: back
-        m_Mode: 5
+        m_MethodName: go
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 8340415418672106353}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Route2/RouteY/story1-15-A-2
