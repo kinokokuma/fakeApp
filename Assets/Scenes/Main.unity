@@ -7762,7 +7762,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0E42\u0E1E\u0E2A\u0E15\u0E4C\u0E02\u0E2D\u0E07 To DAY NEWS"
+  m_text: "\u0E42\u0E1E\u0E2A\u0E15\u0E4C\u0E02\u0E2D\u0E07 ToDAY NEWS"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 961e4199e883bfa4083730538a0e1719, type: 2}
   m_sharedMaterial: {fileID: 796241788375675253, guid: 961e4199e883bfa4083730538a0e1719, type: 2}

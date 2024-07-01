@@ -25,7 +25,7 @@ public class QuestPopUp : BasePopUp
         {
             TimeRecord.Instance.SaveRecord("question");
             Back(true);
-            manager.SetPhase(QuestionPhase.Start);
+            manager.SetPhase(QuestionPhase.Is_Fake);
             if (Random.value < 0.5f)
             {
                 print(1);
